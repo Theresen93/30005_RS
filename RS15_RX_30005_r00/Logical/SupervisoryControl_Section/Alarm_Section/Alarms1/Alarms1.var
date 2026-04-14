@@ -1,0 +1,121 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: Alarms1
+ * File: Alarms1.var
+ * Author: pkiel
+ * Created: September 22, 2009
+ ********************************************************************
+ * Local variables of program Alarms1
+ ********************************************************************)
+VAR CONSTANT
+  C_iMaxAlmIO_E1      : INT := 20 ; (*Max number of modules on the remote IO device*)
+  C_iNumBefFirstIO_E1 : INT := 2 ;  (*Number of modules before the first IO module = network + alim modules*)
+  C_iNumDI_E1 : INT := 3 ;  (*Number of Digital Input modules*)
+  C_iNumAI_E1 : INT := 1 ;  (*Number of Anologe Input modules*)
+  C_iNumDO_E1 : INT := 2 ;  (*Number of Digital Output modules*)
+  C_iNumAO_E1 : INT := 1 ;  (*Number of Anologe Output modules*)
+  
+  C_iMaxAlmIO_L3      : INT := 20 ;
+  C_iNumBefFirstIO_L3 : INT := 1 ;  
+  C_iNumDI_L3 : INT := 4 ;
+  C_iNumAI_L3 : INT := 0 ;
+  C_iNumDO_L3 : INT := 1 ;
+  C_iNumAO_L3 : INT := 1 ;
+  C_iX2XExt_L3 : INT := 0 ; 
+  
+  C_iMaxAlmIO_L9      : INT := 20 ;
+  C_iNumBefFirstIO_L9 : INT := 1 ;  
+  C_iNumDI_L9 : INT := 5 ;
+  C_iNumAI_L9 : INT := 1 ;
+  C_iNumDO_L9 : INT := 4 ;
+  C_iNumAO_L9 : INT := 0 ;
+  C_iX2XExt_L9 : INT := 0 ; 
+  
+  C_iMaxAlmIO_L15      : INT := 20 ;
+  C_iNumBefFirstIO_L15 : INT := 1 ;  
+  C_iNumDI_L15 : INT := 5 ;
+  C_iNumAI_L15 : INT := 0 ;
+  C_iNumDO_L15 : INT := 1 ;
+  C_iNumAO_L15 : INT := 0 ;
+  C_iX2XExt_L15 : INT := 0 ; 
+END_VAR
+VAR
+  Alarm1 : ARRAY[0..200] OF BOOL := [200(FALSE)];
+  BagMachineBitmap1_Ind : UINT;
+  bAlarmIO_E1 : ARRAY[0..C_iMaxAlmIO_E1] OF BOOL := [C_iMaxAlmIO_E1(FALSE)];
+  bAlarmGenIO_E1 : BOOL ;
+  bAlarmIO_L3 : ARRAY[0..C_iMaxAlmIO_L3] OF BOOL := [C_iMaxAlmIO_L3(FALSE)];
+  bAlarmGenIO_L3 : BOOL ;
+  bAlarmIO_L9 : ARRAY[0..C_iMaxAlmIO_L9] OF BOOL := [C_iMaxAlmIO_L9(FALSE)];
+  bAlarmGenIO_L9 : BOOL ;
+  bAlarmIO_L15 : ARRAY[0..C_iMaxAlmIO_L15] OF BOOL := [C_iMaxAlmIO_L15(FALSE)];
+  bAlarmGenIO_L15 : BOOL ;
+  iIndex : INT := 0 ;
+  bActOut : BOOL ;
+  bBagMachineBitmap1_Ind : UINT;
+  BagMachineVisibility1_Ind : UINT;
+  EstopString1 : BOOL;
+  EstopString2 : BOOL;
+  EstopString3 : BOOL;
+  GuardAlarmEnable : BOOL;
+  HGW_2StateIND1_0 : HGW_2StateIND1;
+  IO_String1 : BOOL;
+  IO_String2 : BOOL;
+  IO_String3 : BOOL;
+  IO_String4 : BOOL;
+  IO_String5 : BOOL;
+  IO_String6 : BOOL;
+  
+  stModuleOK_IO_E1_Slot  : ARRAY[0..C_iMaxAlmIO_E1] OF stIO_Alarm ; 
+  stModuleOK_IO_L3_Slot  : ARRAY[0..C_iMaxAlmIO_L3] OF stIO_Alarm ;
+  stModuleOK_IO_L9_Slot  : ARRAY[0..C_iMaxAlmIO_L9] OF stIO_Alarm ;
+  stModuleOK_IO_L15_Slot : ARRAY[0..C_iMaxAlmIO_L9] OF stIO_Alarm ;
+  MotorString1  : BOOL;
+  MotorString2  : BOOL;
+  MotorString3  : BOOL;
+  MotorString4  : BOOL;
+  MotorString5  : BOOL;
+  MotorString6  : BOOL;
+  MotorString7  : BOOL;
+  MotorString8  : BOOL;
+  bGuardString1 : BOOL;
+  bGuardString2 : BOOL;
+  TON_1 : TON;
+  TON_2 : TON;
+  TON_3 : TON;
+  TON_4 : TON;
+  TON_5 : TON;
+  TON_6 : TON;
+  TON_7 : TON;
+  TON_8 : TON;
+  TON_12 : TON;
+  TON_13 : TON;
+  TON_15 : TON;
+  TON_30 : TON;
+  TON_31 : TON;
+  TON_32 : TON;
+  GuardAlarmEnable1 : BOOL;
+  
+  iVisiblES_BP1 : INT ;
+  iVisiblES_BP2 : INT ;
+  iVisiblES_BP3 : INT ;
+  iVisiblES_BP4 : INT ;
+  iVisiblES_BP5 : INT ;
+  iVisiblES_BP6 : INT ;
+  iVisiblES_BP7 : INT ;
+  iVisiblES_BP8 : INT ;
+  iVisiblES_BP9 : INT ;
+  iVisiblES_BP10 : INT ;
+  
+  iVisiblSG1 : INT ;
+  iVisiblSG2 : INT ;
+  iVisiblSG3 : INT ;
+  iVisiblSG4 : INT ;
+  iVisiblSG5 : INT ;
+  iVisiblSG6 : INT ;
+  
+  H_FB_Flash_0 : H_FB_Flash ;
+  
+  bTest : BOOL := 0 ;
+END_VAR

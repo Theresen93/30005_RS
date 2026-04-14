@@ -1,0 +1,20 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=ColdGlue 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=11 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                 Glue_On                                     BOOL    0 "                                                            TRUE"    0    1    1    2    1    0         
+                          HGW_2StatePB_0                             HGW_2StatePB    0 "                                                               *"    0   24    1    0    1    1         
+                                      PB                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                   Reset                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                        BackColor_State0                                     UINT    0 "                                                               1"    1    6    1   10    0    0         
+                        ForeColor_State0                                     UINT    0 "                                                              15"    1    6    1   10    0    0         
+                        BackColor_State1                                     UINT    0 "                                                              10"    1    6    1   10    0    0         
+                        ForeColor_State1                                     UINT    0 "                                                               0"    1    6    1   10    0    0         
+                                Text_Ind                                     UINT    0 "                                                              30"    1    6    1   10    0    0         
+                               Color_Ind                                     UINT    0 "                                                            3841"    1    6    1   10    0    0         
+                                  State0                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                  State1                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                 R_Trig1                                   r_trig    0 "                                                               *"    1   24    1    0    0    1         
+                                     CLK                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                                       Q                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                                       M                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                                 Glue_PB                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         

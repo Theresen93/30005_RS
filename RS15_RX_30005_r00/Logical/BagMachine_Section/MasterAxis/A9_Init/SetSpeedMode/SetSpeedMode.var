@@ -1,0 +1,18 @@
+(********************************************************************
+ * COPYRIGHT -- .
+ ********************************************************************
+ * Program: SetSpeedMode
+ * File: SetSpeedMode.var
+ * Author: dominique
+ * Created: September 29, 2011
+ ********************************************************************
+ * Local variables of program SetSpeedMode
+ ********************************************************************)
+
+VAR
+  HMI_uiConfirmSetSpeedVisibl : UINT ;
+  HMI_bSetSpeed_PB : BOOL ;
+END_VAR
+
+VAR RETAIN
+END_VAR

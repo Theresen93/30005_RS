@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="3.0.90.22 SP04"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="ZZZ">
+  <Property Name="BackColor" Value="15"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="None"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="640"/>
+  <TextGroup>
+    <TextLayer LanguageId="en">
+      <Text ID="373567" Value="STOP"/>
+    </TextLayer>
+    <TextLayer LanguageId="de">
+      <Text ID="373567" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fr-FR">
+      <Text ID="373567" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fi-FI">
+      <Text ID="373567" Value="Stop"/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="373567" Value="0"/>
+    </IndexMap>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001002" Name="Button_19">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="BackColor" Value="51"/>
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="None"/>
+      <Property Name="Border" Value="Source[local].Border[Button1_Active]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial_26b_Bold]"/>
+      <Property Name="ForeColor" Value="0"/>
+      <Property Name="Height" Value="75"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="525"/>
+      <Property Name="Multiline" Value="Automatic"/>
+      <Property Name="PressedBackColor" Value="46"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedBorder" Value="Source[local].Border[Button1_Pressed]"/>
+      <Property Name="PressedForeColor" Value="0"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndex" Value="0"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="401"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[Stop_PB]"/>
+      <Property Name="Width" Value="110"/>
+    </Control>
+  </Controls>
+  <KeyMapping/>
+</Layer>

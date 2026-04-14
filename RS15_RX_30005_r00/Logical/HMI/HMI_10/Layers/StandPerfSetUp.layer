@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="3.0.90.22 SP04"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="StandPerfSetUp">
+  <Property Name="BackColor" Value="251"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.Perf.Perf_Gen.HMI_iPerfSetUpVisible]"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="640"/>
+  <TextGroup>
+    <TextLayer LanguageId="en"/>
+    <TextLayer LanguageId="de"/>
+    <TextLayer LanguageId="fr-FR"/>
+    <TextLayer LanguageId="fi-FI"/>
+    <IndexMap/>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001007" Name="Numeric_11">
+      <Property Name="Border" Value="Source[local].Border[Sunken]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial_8_Bold]"/>
+      <Property Name="ForeColor" Value="0"/>
+      <Property Name="Height" Value="18"/>
+      <Property Name="Input" Value="True"/>
+      <Property Name="InputCancel" Value="Lost Focus"/>
+      <Property Name="InputComma" Value="Explicit"/>
+      <Property Name="InputConfirm" Value="Enter"/>
+      <Property Name="InputMinus" Value="Normal"/>
+      <Property Name="InputNext" Value="Enter"/>
+      <Property Name="InputStart" Value="Any Key"/>
+      <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+      <Property Name="InputUpDown" Value="Disabled"/>
+      <Property Name="Left" Value="323"/>
+      <Property Name="Locking" Value="Datapoint = 0"/>
+      <Property Name="LockingDatapoint" Value="Source[global].Variable[Local.gNever]"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="360"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.HMI.Password.DataLock_2]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="153"/>
+      <Property Name="UnitText" Value="Abbreviation"/>
+      <Property Name="UnitTextAlignment" Value="Left"/>
+      <Property Name="UnitTextPosition" Value="Right"/>
+      <Property Name="UnitTextWidth" Value="0"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gSP_StandPerf.HomeOffset]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="82"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_24">
+      <Property Name="Border" Value="Source[local].Border[Sunken]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial_8_Bold]"/>
+      <Property Name="ForeColor" Value="0"/>
+      <Property Name="Height" Value="18"/>
+      <Property Name="Input" Value="True"/>
+      <Property Name="InputCancel" Value="Lost Focus"/>
+      <Property Name="InputComma" Value="Explicit"/>
+      <Property Name="InputConfirm" Value="Enter"/>
+      <Property Name="InputMinus" Value="Normal"/>
+      <Property Name="InputNext" Value="Enter"/>
+      <Property Name="InputStart" Value="Any Key"/>
+      <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+      <Property Name="InputUpDown" Value="Disabled"/>
+      <Property Name="Left" Value="323"/>
+      <Property Name="Locking" Value="Datapoint = 0"/>
+      <Property Name="LockingDatapoint" Value="Source[global].Variable[Local.gNever]"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="30"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.HMI.Password.DataLock_2]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="183"/>
+      <Property Name="UnitText" Value="Abbreviation"/>
+      <Property Name="UnitTextAlignment" Value="Left"/>
+      <Property Name="UnitTextPosition" Value="Right"/>
+      <Property Name="UnitTextWidth" Value="0"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gSP_StandPerf.ParkPosition]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="82"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_12">
+      <Property Name="Border" Value="Source[local].Border[Sunken]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial_8_Bold]"/>
+      <Property Name="ForeColor" Value="0"/>
+      <Property Name="Height" Value="18"/>
+      <Property Name="Input" Value="True"/>
+      <Property Name="InputCancel" Value="Lost Focus"/>
+      <Property Name="InputComma" Value="Explicit"/>
+      <Property Name="InputConfirm" Value="Enter"/>
+      <Property Name="InputMinus" Value="Normal"/>
+      <Property Name="InputNext" Value="Enter"/>
+      <Property Name="InputStart" Value="Any Key"/>
+      <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+      <Property Name="InputUpDown" Value="Disabled"/>
+      <Property Name="Left" Value="441"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="5"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="0"/>
+      <Property Name="SimulationValue" Value="3.421"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.HMI.Password.DataLock_2]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="248"/>
+      <Property Name="UnitText" Value="Abbreviation"/>
+      <Property Name="UnitTextAlignment" Value="Left"/>
+      <Property Name="UnitTextPosition" Value="Right"/>
+      <Property Name="UnitTextWidth" Value="0"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gSP_StandPerf.rZoneBefPerf_in]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="82"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_13">
+      <Property Name="Border" Value="Source[local].Border[Sunken]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial_8_Bold]"/>
+      <Property Name="ForeColor" Value="0"/>
+      <Property Name="Height" Value="18"/>
+      <Property Name="Input" Value="True"/>
+      <Property Name="InputCancel" Value="Lost Focus"/>
+      <Property Name="InputComma" Value="Explicit"/>
+      <Property Name="InputConfirm" Value="Enter"/>
+      <Property Name="InputMinus" Value="Normal"/>
+      <Property Name="InputNext" Value="Enter"/>
+      <Property Name="InputStart" Value="Any Key"/>
+      <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+      <Property Name="InputUpDown" Value="Disabled"/>
+      <Property Name="Left" Value="440"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="5"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="0"/>
+      <Property Name="SimulationValue" Value="3.421"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.HMI.Password.DataLock_2]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="214"/>
+      <Property Name="UnitText" Value="Abbreviation"/>
+      <Property Name="UnitTextAlignment" Value="Left"/>
+      <Property Name="UnitTextPosition" Value="Right"/>
+      <Property Name="UnitTextWidth" Value="0"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gSP_StandPerf.rZoneAftPerf_in]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="82"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_1">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[PerfLarge_DepZSynchro_70x60]"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Height" Value="60"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="550"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="129"/>
+      <Property Name="Width" Value="70"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_3">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[PerfLarge_FinZSynchro_70x60]"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Height" Value="60"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="553"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="218"/>
+      <Property Name="Width" Value="70"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_4">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[ZoneApSynchroPerf_49x30]"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Height" Value="30"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="541"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="222"/>
+      <Property Name="Width" Value="49"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_2">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[ZoneAvSynchroPerf_49x30]"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Height" Value="30"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="537"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="155"/>
+      <Property Name="Width" Value="49"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_7">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="539"/>
+      <Property Name="EndY" Value="176"/>
+      <Property Name="StartX" Value="520"/>
+      <Property Name="StartY" Value="225"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_8">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="540"/>
+      <Property Name="EndY" Value="238"/>
+      <Property Name="StartX" Value="521"/>
+      <Property Name="StartY" Value="259"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_5">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[PerfLargeVertical_42x70]"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Height" Value="70"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="253"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="137"/>
+      <Property Name="Width" Value="42"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_10">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="331"/>
+      <Property Name="EndY" Value="192"/>
+      <Property Name="StartX" Value="298"/>
+      <Property Name="StartY" Value="179"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_9">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="332"/>
+      <Property Name="EndY" Value="164"/>
+      <Property Name="StartX" Value="299"/>
+      <Property Name="StartY" Value="167"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_6">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[PosHomePerf_51x77]"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Height" Value="77"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="225"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="124"/>
+      <Property Name="Width" Value="51"/>
+    </Control>
+  </Controls>
+  <KeyMapping/>
+</Layer>

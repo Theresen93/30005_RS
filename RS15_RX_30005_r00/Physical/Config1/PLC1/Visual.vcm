@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.90.27 SP09?>
+<VcMapping>
+  <Row Address="IF8.ST1" Master="DS1" Description="VNC-Viewer-XGA" />
+  <Row Address="DS1" ObjectName="HMI_10" KeyPriority="Lower Cyclic #8" Description="PP420" />
+</VcMapping>

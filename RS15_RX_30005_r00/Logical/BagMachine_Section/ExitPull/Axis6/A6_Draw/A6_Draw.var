@@ -1,0 +1,16 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Program: A6_Draw
+ * File: A6_Draw.var
+ * Author: pkiel
+ * Created: July 13, 2011
+ ********************************************************************
+ * Local variables of program A6_Draw
+ ********************************************************************)
+VAR
+	Draw_Old : REAL;
+	First : BOOL;
+  rSizeExitPullRol_In  : REAL ; 
+  rSizeEntryPullRol_In : REAL ; 
+END_VAR

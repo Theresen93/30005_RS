@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="3.0.90.22 SP04"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="PerfSpeedCurve_RS26_Perfo1_IF">
+  <Property Name="BackColor" Value="249"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.HMI.HMI_Control.HMI_uiCurvVisibl]"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="640"/>
+  <TextGroup>
+    <TextLayer LanguageId="en">
+      <Text ID="406091" Value="Bags/min"/>
+      <Text ID="406092" Value="Tube size"/>
+      <Text ID="406093" Value="         : FLEXO PRESS"/>
+      <Text ID="406094" Value="         : PERF"/>
+      <Text ID="406095" Value="Max machine speed according to the Perf or Flexo Press"/>
+    </TextLayer>
+    <TextLayer LanguageId="de">
+      <Text ID="406091" Value=""/>
+      <Text ID="406092" Value=""/>
+      <Text ID="406093" Value=""/>
+      <Text ID="406094" Value=""/>
+      <Text ID="406095" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fr-FR">
+      <Text ID="406091" Value=""/>
+      <Text ID="406092" Value=""/>
+      <Text ID="406093" Value=""/>
+      <Text ID="406094" Value=""/>
+      <Text ID="406095" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fi-FI">
+      <Text ID="406091" Value="pussia/min"/>
+      <Text ID="406092" Value="Tube size"/>
+      <Text ID="406093" Value="         :painokone"/>
+      <Text ID="406094" Value="         :perf"/>
+      <Text ID="406095" Value="Maks. nopeus perforoinnin tai painokoneen mukaan"/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="406091" Value="0"/>
+      <Index ID="406092" Value="1"/>
+      <Index ID="406093" Value="2"/>
+      <Index ID="406094" Value="3"/>
+      <Index ID="406095" Value="4"/>
+    </IndexMap>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001005" Name="CadMaxPerfCurves">
+      <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[CadMaxPerf_RS26_Perfo1]"/>
+      <Property Name="BitmapIndex" Value="0"/>
+      <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+      <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Height" Value="224"/>
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[Local.HMI.HMI_Control.HMI_iSelCurvMaxSpeedPerf]"/>
+      <Property Name="Left" Value="157"/>
+      <Property Name="SimulationValue" Value="2"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="61"/>
+      <Property Name="Width" Value="469"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_1">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="BackColor" Value="250"/>
+      <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Font" Value="Source[local].Font[Arial_8_Bold]"/>
+      <Property Name="ForeColor" Value="1"/>
+      <Property Name="Height" Value="18"/>
+      <Property Name="Left" Value="187"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="0"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="61"/>
+      <Property Name="Width" Value="59"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_3">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="BackColor" Value="250"/>
+      <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Font" Value="Source[local].Font[Arial_8_Bold]"/>
+      <Property Name="ForeColor" Value="1"/>
+      <Property Name="Height" Value="18"/>
+      <Property Name="Left" Value="452"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="1"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="233"/>
+      <Property Name="Width" Value="65"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_6">
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="BackColor" Value="250"/>
+      <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Font" Value="Source[local].Font[Arial_8_Bold]"/>
+      <Property Name="ForeColor" Value="1"/>
+      <Property Name="Height" Value="18"/>
+      <Property Name="Left" Value="500"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="2"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="191"/>
+      <Property Name="Width" Value="111"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_8">
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="BackColor" Value="250"/>
+      <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Font" Value="Source[local].Font[Arial_8_Bold]"/>
+      <Property Name="ForeColor" Value="1"/>
+      <Property Name="Height" Value="18"/>
+      <Property Name="Left" Value="367"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="3"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="125"/>
+      <Property Name="Width" Value="68"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_9">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="BackColor" Value="250"/>
+      <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Font" Value="Source[local].Font[Arial_8_Bold]"/>
+      <Property Name="ForeColor" Value="1"/>
+      <Property Name="Height" Value="18"/>
+      <Property Name="Left" Value="264"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="4"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="61"/>
+      <Property Name="Width" Value="325"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_7">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="507"/>
+      <Property Name="EndY" Value="200"/>
+      <Property Name="ForeColor" Value="222"/>
+      <Property Name="LineWidth" Value="5"/>
+      <Property Name="StartX" Value="523"/>
+      <Property Name="StartY" Value="200"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_8">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="375"/>
+      <Property Name="EndY" Value="134"/>
+      <Property Name="ForeColor" Value="51"/>
+      <Property Name="LineWidth" Value="5"/>
+      <Property Name="StartX" Value="391"/>
+      <Property Name="StartY" Value="134"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+  </Controls>
+  <KeyMapping/>
+</Layer>

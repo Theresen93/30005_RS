@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="3.0.90.22 SP04"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="DeflectorFan_Ind">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="38"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="431198" Value="DEFLECT. FAN OFF"/>
+    <Text ID="431199" Value="DEFLECT. FAN ON"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="431198" Value=""/>
+    <Text ID="431199" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="431198" Value=""/>
+    <Text ID="431199" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="431198" Value="DEFLECT. FAN OFF"/>
+    <Text ID="431199" Value="DEFLECT. FAN ON"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="431198" Value="0"/>
+    <Index ID="431199" Value="1"/>
+  </IndexMap>
+</TextGroup>

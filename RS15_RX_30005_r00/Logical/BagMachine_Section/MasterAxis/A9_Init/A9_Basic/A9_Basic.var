@@ -1,0 +1,56 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Program: A9_Basic
+ * File: A9_Basic.var
+ * Author: pkiel
+ * Created: July 12, 2011
+ ********************************************************************
+ * Local variables of program A9_Basic
+ ********************************************************************)
+VAR
+	AutoAck : BOOL;
+	AxisErrorNcAccess : UINT;
+	DriveStatus : MC_DRIVESTATUS_TYP;
+	ErrorID : UINT;
+	HomeRestore : BOOL;
+	InitEndlessPosition : BOOL;
+	InitModPos_Done : BOOL;
+	InitModPosition : BOOL;
+	MC_BR_InitEndlessPosition_0 : MC_BR_InitEndlessPosition;
+	MC_BR_InitModPos_0 : MC_BR_InitModPos;
+	MC_BR_ReadDriveStatus_0 : MC_BR_ReadDriveStatus;
+	MC_Home_0 : MC_Home;
+	MC_Home_1 : MC_Home;
+	MC_MoveAbsolute_0 : MC_MoveAbsolute;
+	MC_MoveVelocity_0 : MC_MoveVelocity;
+	MC_ReadActualPosition_0 : MC_ReadActualPosition;
+	MC_ReadActualVelocity_0 : MC_ReadActualVelocity;
+	MC_ReadAxisError_0 : MC_ReadAxisError;
+	MC_ReadStatus_0 : MC_ReadStatus;
+	MC_Reset_0 : MC_Reset;
+  MC_Stop_0 : MC_Stop;
+  uiStop_0_ErrorID : UINT ;
+  iStop_0_ErrorCout : INT ;
+  MC_Halt_0 : MC_Halt;
+  uiHalt_0_ErrorID : UINT ;
+  iHalt_0_ErrorCout : INT ; 
+  rDecelStop     : REAL ;
+  rMemoDecelStop : REAL ;
+	ResetError : BOOL;
+  rPosMaPerfPark : REAL ; (*Pos on Master Perf in park position, in Deg*)
+  rPosMaTearInContactZ_Beg : REAL ; (*Pos on Master beginning of the tearing contact zone, in Deg*)
+  rPosMaTearInContactZ_End : REAL ; (*Pos on Master end of the tearing contact zone, in Deg*)
+  rTravelMaEndContactZ : REAL ;
+  rTempCalc_ : ARRAY[0..9] OF REAL ;
+  bAxisStop : BOOL ;
+  bAxisStopPos : BOOL ;  
+  bTest_ : ARRAY[0..9] OF BOOL; 
+  iTest_ : ARRAY[0..9] OF INT; 
+  iTestTrac : INT ;
+  stTON_0 : TON ;
+  stTON_1 : TON ;
+  
+  
+  
+END_VAR

@@ -1,0 +1,19 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Program: Vacuum
+ * File: Vacuum.var
+ * Author: pkiel
+ * Created: July 19, 2011
+ ********************************************************************
+ * Local variables of program Vacuum
+ ********************************************************************)
+VAR RETAIN
+	HGW_2StatePB_0 : HGW_2StatePB;
+END_VAR
+VAR
+	Vacuum_On : BOOL;
+	Vacuum_PB : BOOL;
+	VacuumColor_Ind : UINT;
+	VacuumText_Ind : UINT;
+END_VAR

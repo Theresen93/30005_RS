@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="3.0.90.22 SP04"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="CadMaxPerf_RS15_Perfo1_2_IF">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="34"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="21262" Value="None"/>
+    <BitmapRef ID="21263" Value="Source[local].Bitmap[CrbCadMax_RS15_PerfoT1_2_IF_In]"/>
+    <BitmapRef ID="21264" Value="Source[local].Bitmap[CrbCadMax_RS15_PerfoT1_2_IF_mm]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="21262" Value="0"/>
+    <Index ID="21263" Value="1"/>
+    <Index ID="21264" Value="2"/>
+  </IndexMap>
+</BitmapGroup>

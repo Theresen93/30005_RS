@@ -1,0 +1,32 @@
+(********************************************************************
+ * COPYRIGHT -- .
+ ********************************************************************
+ * Program: Unwinder
+ * File: Unwinder.var
+ * Author: dominique
+ * Created: August 10, 2011
+ ********************************************************************
+ * Local variables of program Unwinder
+ ********************************************************************)
+
+VAR    
+  bImQ_CR_UNW_ForkUp    : BOOL ;
+  bImQ_CR_UNW_ForkDown  : BOOL ;
+  bImQ_CR_UNW_Brake     : BOOL ;
+  bImQ_CR_UNW_HydroPump : BOOL ;
+  stTOF_ActHydroPump    : TOF ;
+  stTON_DelayActFork    : TON ;
+  tTimActPump           : TIME := T#1s ; 
+  tDelayActFork         : TIME := T#0.5s ; 
+  bForkUpReq            : BOOL ;  
+  bForkDownReq          : BOOL ;  
+  bForkRequest          : BOOL ;
+  
+  bTemp     : BOOL ;
+  bPIDRegul : BOOL ;
+  bLock     : BOOL ;
+  bTest     : BOOL := 0 ; 
+END_VAR
+
+VAR CONSTANT
+END_VAR

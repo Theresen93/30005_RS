@@ -1,0 +1,67 @@
+(********************************************************************
+ * COPYRIGHT -- .
+ ********************************************************************
+ * Program: Separator
+ * File: Separator.var
+ * Author: dominique
+ * Created: August 15, 2011
+ ********************************************************************
+ * Local variables of program Separator
+ ********************************************************************)
+
+VAR
+  stCycBundSep        : CycGen ;
+  bQ_Bund_SOL_14C1Out : BOOL;
+  bQ_Bund_SOL_14C2Out : BOOL;
+  bQ_Bund_SOL_PresSelect : BOOL;
+  
+  
+  stTON_RetCyl14C1 : TON ; 
+  tTpRetCyl14C1    : TIME ;
+  bInitSepCycl     : BOOL ;        
+  stTON_WatchCyc   : TON ; 
+  tTpWatchCyc      : TIME ;  
+  iMemoStepCyc     : INT ;    
+  stTON_SelPres    : TON ;   
+     
+  bHMI_BundMan_14C1P_PB   : BOOL ;
+  bHMI_BundMan_14C1M_PB   : BOOL ;
+  iHMI_Bund_14C1In_State  : INT ;
+  iHMI_Bund_14C1Out_State : INT ;
+  bHMI_BundMan_14C2P_PB   : BOOL ;
+  bHMI_BundMan_14C2M_PB   : BOOL ;
+  iHMI_Bund_14C2In_State  : INT ;
+  iHMI_Bund_14C2Out_State : INT ;
+  bHMI_BundMan_PresSelect_PB : BOOL ;
+  iHMI_Bund_S101 : INT ;
+  iHMI_Bund_S102 : INT ; 
+  iHMI_Bund_S103 : INT ; 
+  iHMI_Bund_S109 : INT ; 
+  
+  bS101_FaultIn  : BOOL ;
+  bS101_FaultOut : BOOL ;
+  bS101_Fault    : BOOL ;
+  bS102_FaultIn  : BOOL ;
+  bS102_FaultOut : BOOL ;
+  bS102_Fault    : BOOL ;
+
+  H_FB_WS_14C1 : H_FB_WatchSensor ;
+  H_FB_WS_14C2 : H_FB_WatchSensor ;
+  
+  H_FB_Flash_0 : H_FB_Flash ;
+  bFlash : BOOL ;
+  
+  HGW_2StatePB_0 : HGW_2StatePB ;
+  uiPresSelPBTxt_Id : UINT ;
+  uiPresSelPBCol_Id : UINT ;
+  
+  
+    
+  iTest : INT ;  
+  stCycBundTilt : CycGen;
+  tTpSelPres : TIME;
+END_VAR
+
+VAR CONSTANT
+
+END_VAR

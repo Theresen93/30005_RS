@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="3.0.90.22 SP04"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="DropDown_StatusScreen">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="8"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="196179" Value="STATUS: SERVO POWER SUPPLY (A0)"/>
+    <Text ID="348917" Value="STATUS: PERF (A1)"/>
+    <Text ID="348918" Value="STATUS: HOLDING (A3)"/>
+    <Text ID="348919" Value="STATUS: TEARING (A4)"/>
+    <Text ID="348920" Value="STATUS: ENTRY PULL (A5)"/>
+    <Text ID="348921" Value="STATUS: EXIT PULL (A6)"/>
+    <Text ID="348922" Value="STATUS: DRUM (A7)"/>
+    <Text ID="401212" Value="STATUS: FLEXO PRESS (A2)"/>
+    <Text ID="414562" Value="STATUS: VIRTUAL MASTER (A9)"/>
+    <Text ID="416078" Value="STATUS: VIRTUAL PERF (A11)"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="196179" Value=""/>
+    <Text ID="348917" Value=""/>
+    <Text ID="348918" Value=""/>
+    <Text ID="348919" Value=""/>
+    <Text ID="348920" Value=""/>
+    <Text ID="348921" Value=""/>
+    <Text ID="348922" Value=""/>
+    <Text ID="401212" Value=""/>
+    <Text ID="414562" Value=""/>
+    <Text ID="416078" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="196179" Value=""/>
+    <Text ID="348917" Value=""/>
+    <Text ID="348918" Value=""/>
+    <Text ID="348919" Value=""/>
+    <Text ID="348920" Value=""/>
+    <Text ID="348921" Value=""/>
+    <Text ID="348922" Value=""/>
+    <Text ID="401212" Value=""/>
+    <Text ID="414562" Value=""/>
+    <Text ID="416078" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="196179" Value="TILA: Servo Virran syöttö (A0)"/>
+    <Text ID="348917" Value="TILA: PERF (A1)"/>
+    <Text ID="348918" Value="TILA: PIDÄTYS (A3)"/>
+    <Text ID="348919" Value="TILA: REPÄISY (A4)"/>
+    <Text ID="348920" Value="TILA: SISÄÄNVETO (A5)"/>
+    <Text ID="348921" Value="TILA: ULOSVETO (A6)"/>
+    <Text ID="348922" Value="TILA: RUMPU (A7)"/>
+    <Text ID="401212" Value="TILA: FLEXOPAINO (A2)"/>
+    <Text ID="414562" Value="TILA: VIRTUAALIKAÄYTTÄJÄ (A9)"/>
+    <Text ID="416078" Value="TILA: VIRTUAALI PERF (A11)"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="196179" Value="0"/>
+    <Index ID="348917" Value="1"/>
+    <Index ID="348918" Value="3"/>
+    <Index ID="348919" Value="4"/>
+    <Index ID="348920" Value="5"/>
+    <Index ID="348921" Value="6"/>
+    <Index ID="348922" Value="7"/>
+    <Index ID="401212" Value="2"/>
+    <Index ID="414562" Value="9"/>
+    <Index ID="416078" Value="11"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,5 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/Runtime/runtime.fun
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Global.typ
+$(AS_PROJECT_PATH)/Logical/BagMachine_Section/EntryPull/Axis5/A5_Control/A5_Control.var

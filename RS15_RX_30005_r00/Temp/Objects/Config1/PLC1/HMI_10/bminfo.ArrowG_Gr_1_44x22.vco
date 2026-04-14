@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="ArrowG_Gr_1_44x22" ClsId="0x306" Version="1" TargetIndex="199" Type="GFX" RefString="Source[local].Bitmap[ArrowG_Gr_1_44x22]">
+        <UInt16 Name="Width">44</UInt16>
+        <UInt16 Name="Height">22</UInt16>
+        <UInt32 Name="BitsPerPixel">8</UInt32>
+        <Byte Name="Transparency">1</Byte>
+        <Byte Name="TargetFormat">1</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">15</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">Dw8PDw8PDw8PDw8PDw8PDw8PDwAADw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8AAAAA4gAPDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDwAAAOLi4uLiAA8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8AAAAA4uLi4uLi4uIADw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDwAAAOLi4uLi4uLi4uLi4gAPDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8AAAAA4uLi4uLi4uLi4uLi4uLiAA8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PAOLi4uLi4uLi4uLi4uLi4uLi4uLiAA8PDw8PDw8PDw8PDw8PDw8PDw8PDw8AAOLi4uLi4uLi4uLi4uLi4uLi4uLiAAAAAA8PDw8PDw8PDw8PDw8PDw8PDw8PAOLi4uLi4uLi4uLi4uLi4uLi4uLi4uLiAAAAAA8PDw8PDw8PDw8PDw8PDw8PAOLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLiAAAAAA8PDw8PDw8PDw8PDw8PAADi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLiAAAAAA8PDw8PDw8PDw8PDwDi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLiAAAAAA8PDw8PDw8PDwAA4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLiAAAPDw8PDw8PDw8A4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLiAA8PDw8PDw8PDw8A4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uIADw8PDw8PDw8PDw8AAOLi4uLi4uIAAOLi4uLi4uLi4uLi4uLi4uLi4uLi4gAPDw8PDw8PDw8PDw8PAOLi4uLi4gAPAAAAAOLi4uLi4uLi4uLi4uLi4uLiAA8PDw8PDw8PDw8PDw8PAADi4uLiAA8PDw8PAAAAAOLi4uLi4uLi4uLi4uIADw8PDw8PDw8PDw8PDw8PDwDi4uIADw8PDw8PDw8PAAAAAOLi4uLi4uLi4gAPDw8PDw8PDw8PDw8PDw8PDwDi4gAPDw8PDw8PDw8PDw8PAAAAAOLi4uLiAA8PDw8PDw8PDw8PDw8PDw8PDwAAAA8PDw8PDw8PDw8PDw8PDw8PAAAAAOIADw8PDw8PDw8PDw8PDw8PDw8PDw8ADw8PDw8PDw8PDw8PDw8PDw8PDw8PAAA=</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

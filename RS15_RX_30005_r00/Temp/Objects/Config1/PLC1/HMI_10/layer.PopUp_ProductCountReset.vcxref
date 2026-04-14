@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <PopUp_ProductCountReset ReferenceString="Source[local].Layer[PopUp_ProductCountReset]">
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[PopUp_ProductCountReset].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.Count.HMI_ProductCountVisibility]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[PopUp_ProductCountReset].Control[Text_4].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.Count.HMI_CountSelect_Ind]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </PopUp_ProductCountReset>
+</VCXReferenceList>

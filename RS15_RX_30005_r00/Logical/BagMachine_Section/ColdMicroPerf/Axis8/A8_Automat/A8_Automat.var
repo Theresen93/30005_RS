@@ -1,0 +1,21 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Program: A8_Automat
+ * File: A8_Automat.var
+ * Author: dominique
+ * Created: November 03, 2011
+ ********************************************************************
+ * Local variables of program A8_Automat
+ ********************************************************************)
+VAR
+	AutData : MC_AUTDATA_TYP;
+	AutomatStart : BOOL;
+	ErrorID : UINT;
+	MasterParID : UINT;
+	MC_BR_AutControl_0 : MC_BR_AutControl;
+	MC_BR_InitAutState_0 : MC_BR_InitAutState;
+	MC_BR_InitMasterParIDTransfer_0 : MC_BR_InitMasterParIDTransfer;
+	ParID_Ready : BOOL;
+	Synch_Request : BOOL;
+END_VAR

@@ -1,0 +1,72 @@
+(********************************************************************
+ * COPYRIGHT -- .
+ ********************************************************************
+ * Program: FP_Heater
+ * File: FP_Heater.var
+ * Author: dominique
+ * Created: August 22, 2012
+ ********************************************************************
+ * Local variables of program FP_Heater
+ ********************************************************************)
+
+VAR CONSTANT
+  C_iNbrRegTempChauf : INT := 1 ;
+END_VAR
+
+VAR
+  bTest : BOOL ;
+           
+  bImpulsDemarSech           : BOOL ;
+  uiHeatHalfPowerOnPBTxt_Ind : UINT ; 
+  uiAutoOffDryOnPBTxt_Ind    : UINT ; 
+  
+  rPT1_t                   : REAL := 25 ; (* Constante de temps systeme regule pour filtrage erreur, en s *)
+  rDeltaTStopPicChauf      : REAL := 68 ; (* =68°F =20°C x 9/5 + 32 *)
+  rSeuilConsTempActBattTOR : REAL := 132.8 ; (* =132.8°F =56°C x 9/5 + 32 *)
+  
+  rPIDRegTChaufKP : ARRAY [1..C_iNbrRegTempChauf] OF REAL := [15] ; 
+  rPIDRegTChaufKI : ARRAY [1..C_iNbrRegTempChauf] OF REAL := [50] ; 
+  rPIDRegTChaufKD : ARRAY [1..C_iNbrRegTempChauf] OF REAL := [1] ;
+  	
+  LCRPWM_0 : ARRAY [1..C_iNbrRegTempChauf] OF LCRPWM ;	
+  
+  rBornSupConsTempChauf  : ARRAY [1..C_iNbrRegTempChauf] OF REAL := [230] ; (* Max Setpoint = 230°F = 110°C x 9/5 + 32 *)
+  rBornInfConsTempChauf  : ARRAY [1..C_iNbrRegTempChauf] OF REAL := [68] ;  (* Min Setpoint = 68°F = 20°C x 9/5 + 32 *)
+    
+  rConsTempTestRegTChauf : ARRAY [1..C_iNbrRegTempChauf] OF REAL ;
+  rConsTempRegTChauf     : ARRAY [1..C_iNbrRegTempChauf] OF REAL ;
+  
+  rSondeTempRegTDegC     : ARRAY [1..C_iNbrRegTempChauf] OF REAL ;
+  rSondeTempRegTDegF     : ARRAY [1..C_iNbrRegTempChauf] OF REAL ;
+ 
+  rMesTempRegTChauf      : ARRAY [1..C_iNbrRegTempChauf] OF REAL ;
+  bImdoPH_ActRegTChauf   : ARRAY [1..C_iNbrRegTempChauf] OF BOOL ;
+  bActRegTChaufTest      : ARRAY [1..C_iNbrRegTempChauf] OF BOOL ;
+
+  iCptAppelPID_RegTChauf   : ARRAY [1..C_iNbrRegTempChauf] OF INT ;  (* Compteur de cycle pour appel PID Regulation temperature *)    
+  iCptSeuilAppelRegTChauf  : ARRAY [1..C_iNbrRegTempChauf] OF INT ;
+  rMesureTempRegTChauf     : ARRAY [1..C_iNbrRegTempChauf] OF REAL ; (* Temperature de mesure temporaire *)
+  iSeuilAppelPID_RegTChauf : ARRAY [1..C_iNbrRegTempChauf] OF INT ;  (* Periode en nombre de cycle d'appel du PID *)      
+  bImdoRT_ActChauf         : ARRAY [1..C_iNbrRegTempChauf] OF BOOL ; (* Image sortie activation chauffe *) 
+  iiRegTChauf_TC           : ARRAY [1..C_iNbrRegTempChauf] OF DINT ; (* Temps de cycle tache cyclique appel regulateur, en ms *) 
+
+  (* Boucle PID *) 
+  rRegTChauf_Err    : ARRAY [1..C_iNbrRegTempChauf] OF REAL ; (* Erreur PID *) 
+  rRegTChauf_Err_1  : ARRAY [1..C_iNbrRegTempChauf] OF REAL ; (* Erreur PID au cycle precedent *)
+  rRegTChauf_ErrF   : ARRAY [1..C_iNbrRegTempChauf] OF REAL ; (* Erreur PID filtree *)
+  rRegTChauf_ErrF_1 : ARRAY [1..C_iNbrRegTempChauf] OF REAL ; (* Erreur PID filtree au cycle precedent *)
+  rDiff_ErrF        : ARRAY [1..C_iNbrRegTempChauf] OF REAL ;
+  rRegTChauf_T      : ARRAY [1..C_iNbrRegTempChauf] OF REAL ; (* Periode echantillonnage appel PID, en s *) 
+  rRegTChauf_TP     : ARRAY [1..C_iNbrRegTempChauf] OF REAL ; (* Terme Proportionnel PID*) 
+  rRegTChauf_TI     : ARRAY [1..C_iNbrRegTempChauf] OF REAL ; (* Terme Integral PID au cycle en cours, en s *)
+  rRegTChauf_TI_1   : ARRAY [1..C_iNbrRegTempChauf] OF REAL ; (* Terme Integral PID au cycle precedent, en s *)
+  rRegTChauf_TD     : ARRAY [1..C_iNbrRegTempChauf] OF REAL ; (* Terme Derive PID, en s *)
+  rRegTChauf_Y      : ARRAY [1..C_iNbrRegTempChauf] OF REAL ; (* Sortie PID, en °C *)   
+  rRegTChauf_YPC    : ARRAY [1..C_iNbrRegTempChauf] OF REAL ; (* Sortie PID, en % *)  
+  
+  (* Trend *)
+  rTrendActTempRegT   : ARRAY [1..C_iNbrRegTempChauf] OF REAL ;
+  rTrendSetPTempRegT  : ARRAY [1..C_iNbrRegTempChauf] OF REAL ;
+  rTrendRegTChauf_Err : ARRAY [1..C_iNbrRegTempChauf] OF REAL ; (* Erreur PID *) 
+END_VAR
+

@@ -1,0 +1,32 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Program: A5_Reg1
+ * File: A5_Reg1.var
+ * Author: pkiel
+ * Created: July 19, 2011
+ ********************************************************************
+ * Local variables of program A5_Reg1
+ ********************************************************************)
+VAR
+	ExpectedCapture : REAL;
+	FirstCapture : REAL;
+	HGW_RegCorrectABS_0 : HGW_RegCorrectABS;
+	MC_BR_Phasing_1 : MC_BR_Phasing;
+	MC_BR_TouchProbe_0 : MC_BR_TouchProbe;
+	MC_BR_TouchProbe_1 : MC_BR_TouchProbe;
+	MissedTrigger_Change : BOOL;
+	MissedTriggers_Old : UDINT;
+	Period : REAL;
+	ProbeCounter_Change : BOOL;
+	ProbeCounter0_Change : BOOL;
+	ProbeCounter0_Old : UDINT;
+	ProbeCounter1_Change : BOOL;
+	ProbeCounter1_Old : UDINT;
+	TriggerRef_0 : MC_BR_TRIGGER_REF;
+	TriggerRef_1 : MC_BR_TRIGGER_REF;
+  
+  bTest : BOOL ;
+  iCptFormat : INT ;
+  rRecordedPeriodicValue : ARRAY[0..9] OF REAL ;
+END_VAR

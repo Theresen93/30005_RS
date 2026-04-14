@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="3.0.90.22 SP04"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MovManuBundTilt">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="15"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="434" Value="Source[local].Bitmap[Arrow1H_Gr_1_41x31]"/>
+    <BitmapRef ID="435" Value="Source[local].Bitmap[Arrow1H_Gra_1_41x31]"/>
+    <BitmapRef ID="436" Value="None"/>
+    <BitmapRef ID="437" Value="Source[local].Bitmap[Arrow1H_Re_1_41x31]"/>
+    <BitmapRef ID="438" Value="Source[local].Bitmap[Arrow7H_Gra_1_43x33]"/>
+    <BitmapRef ID="439" Value="Source[local].Bitmap[Arrow7H_Gr_1_43x33]"/>
+    <BitmapRef ID="440" Value="Source[local].Bitmap[Arrow7H_Re_1_43x33]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="434" Value="1"/>
+    <Index ID="435" Value="3"/>
+    <Index ID="436" Value="0"/>
+    <Index ID="437" Value="2"/>
+    <Index ID="438" Value="6"/>
+    <Index ID="439" Value="4"/>
+    <Index ID="440" Value="5"/>
+  </IndexMap>
+</BitmapGroup>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="3.0.90.22 SP04"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="DropDown_StatusScreenV2">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="48"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="494123" Value="STATUS: SERVO POWER SUPPLY (A0)"/>
+    <Text ID="494124" Value="STATUS: PERF (A1)"/>
+    <Text ID="494125" Value="STATUS: HOLDING (A3)"/>
+    <Text ID="494126" Value="STATUS: TEARING (A4)"/>
+    <Text ID="494127" Value="STATUS: ENTRY PULL (A5)"/>
+    <Text ID="494128" Value="STATUS: EXIT PULL (A6)"/>
+    <Text ID="494129" Value="STATUS: DRUM (A7)"/>
+    <Text ID="494130" Value="STATUS: FLEXO PRESS (A2)"/>
+    <Text ID="494131" Value="STATUS: VIRTUAL MASTER (A9)"/>
+    <Text ID="494132" Value="STATUS: VIRTUAL PERF (A11)"/>
+    <Text ID="494133" Value="STATUS: ENVELOPE BAG (A12)"/>
+    <Text ID="494134" Value="STATUS: TEARING ENVELOPE BAG (A13)"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="494123" Value=""/>
+    <Text ID="494124" Value=""/>
+    <Text ID="494125" Value=""/>
+    <Text ID="494126" Value=""/>
+    <Text ID="494127" Value=""/>
+    <Text ID="494128" Value=""/>
+    <Text ID="494129" Value=""/>
+    <Text ID="494130" Value=""/>
+    <Text ID="494131" Value=""/>
+    <Text ID="494132" Value=""/>
+    <Text ID="494133" Value=""/>
+    <Text ID="494134" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="494123" Value=""/>
+    <Text ID="494124" Value=""/>
+    <Text ID="494125" Value=""/>
+    <Text ID="494126" Value=""/>
+    <Text ID="494127" Value=""/>
+    <Text ID="494128" Value=""/>
+    <Text ID="494129" Value=""/>
+    <Text ID="494130" Value=""/>
+    <Text ID="494131" Value=""/>
+    <Text ID="494132" Value=""/>
+    <Text ID="494133" Value=""/>
+    <Text ID="494134" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="494123" Value="TILA: Servo Virran syöttö (A0)"/>
+    <Text ID="494124" Value="TILA: PERF (A1)"/>
+    <Text ID="494125" Value="TILA: PIDÄTYS (A3)"/>
+    <Text ID="494126" Value="TILA: REPÄISY (A4)"/>
+    <Text ID="494127" Value="TILA: SISÄÄNVETO (A5)"/>
+    <Text ID="494128" Value="TILA: ULOSVETO (A6)"/>
+    <Text ID="494129" Value="TILA: RUMPU (A7)"/>
+    <Text ID="494130" Value="TILA: FLEXOPAINO (A2)"/>
+    <Text ID="494131" Value="TILA: VIRTUAALIKAÄYTTÄJÄ (A9)"/>
+    <Text ID="494132" Value="TILA: VIRTUAALI PERF (A11)"/>
+    <Text ID="494133" Value="STATUS: ENVELOPE BAG (A12)"/>
+    <Text ID="494134" Value="STATUS: TEARING ENVELOPE BAG (A13)"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="494123" Value="0"/>
+    <Index ID="494124" Value="1"/>
+    <Index ID="494125" Value="3"/>
+    <Index ID="494126" Value="4"/>
+    <Index ID="494127" Value="5"/>
+    <Index ID="494128" Value="6"/>
+    <Index ID="494129" Value="7"/>
+    <Index ID="494130" Value="2"/>
+    <Index ID="494131" Value="9"/>
+    <Index ID="494132" Value="11"/>
+    <Index ID="494133" Value="12"/>
+    <Index ID="494134" Value="13"/>
+  </IndexMap>
+</TextGroup>

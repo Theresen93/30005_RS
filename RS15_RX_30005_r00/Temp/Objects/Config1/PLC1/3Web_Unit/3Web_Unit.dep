@@ -1,0 +1,4 @@
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/BagMachine_Section/3Web_Unit/3Web_Unit.var
+$(AS_PROJECT_PATH)/Logical/Libraries/Runtime/runtime.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/HGWeber/HGWeber.fun

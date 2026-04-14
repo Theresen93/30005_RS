@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=?>
+<AcoposParameterConfiguration>
+  <Root Name="SL1.SS1.IF2.ST7" Description="Drum_8LSA73.EB030D100-0">
+    <Group Name="SS1" Description="8BAC0120.000-1" StructureEdit="FALSE" ModuleDisabled="FALSE">
+      <Parameter Name="ENCOD_TYPE" ID="97" Value="ncENDAT" />
+    </Group>
+  </Root>
+  <Root Name="SL1.SS1.IF2.ST2" Description="Printer" ModuleDisabled="FALSE">
+    <Group Name="SS1" Description="8BAC0120.000-1" StructureEdit="FALSE" ModuleDisabled="FALSE">
+      <Parameter Name="ENCOD_TYPE" ID="97" Value="ncENDAT" />
+    </Group>
+    <Group Name="M1" Description="A2_Par" ModuleDisabled="FALSE">
+      <Parameter Name="SGEN_SW_END_IGNORE" ID="128" Value="1" Description="SGEN_SW_END_IGNORE" />
+      <Group Name="Axis Parameter Identification Induction Motor">
+        <Group Name="General Parameters">
+          <Parameter Name="MOTOR_TYPE" ID="30" Value="1" />
+          <Parameter Name="MOTOR_COMPATIBILITY" ID="31" Value="515" />
+          <Parameter Name="MOTOR_WIND_CONNECT" ID="46" Value="1" />
+          <Parameter Name="MOTOR_INERTIA" ID="62" Value="0" Unit="kgm²" />
+          <Parameter Name="MOTOR_TAU_THERM" ID="849" Value="0" Unit="s" />
+        </Group>
+        <Group Name="Brake Parameters">
+          <Parameter Name="MOTOR_BRAKE_CURR_RATED" ID="42" Value="0" Unit="A" />
+          <Parameter Name="MOTOR_BRAKE_TORQ_RATED" ID="43" Value="0" Unit="Nm" />
+          <Parameter Name="MOTOR_BRAKE_ON_TIME" ID="44" Value="0" Unit="s" />
+          <Parameter Name="MOTOR_BRAKE_OFF_TIME" ID="45" Value="0" Unit="s" />
+        </Group>
+        <Group Name="Thermo Sensor Parameters">
+          <Parameter Name="MOTOR_TEMPSENS_PAR1" ID="64" Value="391" />
+          <Parameter Name="MOTOR_TEMPSENS_PAR2" ID="65" Value="1492" />
+          <Parameter Name="MOTOR_TEMPSENS_PAR3" ID="66" Value="-30" />
+          <Parameter Name="MOTOR_TEMPSENS_PAR4" ID="67" Value="12.01" />
+          <Parameter Name="MOTOR_TEMPSENS_PAR5" ID="68" Value="45.98" />
+          <Parameter Name="MOTOR_TEMPSENS_PAR6" ID="69" Value="75.71" />
+          <Parameter Name="MOTOR_TEMPSENS_PAR7" ID="70" Value="102.2" />
+          <Parameter Name="MOTOR_TEMPSENS_PAR8" ID="71" Value="126.41" />
+          <Parameter Name="MOTOR_TEMPSENS_PAR9" ID="72" Value="148.88" />
+          <Parameter Name="MOTOR_TEMPSENS_PAR10" ID="73" Value="170" />
+          <Parameter Name="MOTOR_WIND_TEMP_MAX" ID="74" Value="100" Unit="°C" />
+        </Group>
+        <Group Name="Result Parameters of Parameter Identification">
+          <Parameter Name="MOTOR_POLEPAIRS" ID="47" Value="2" />
+          <Parameter Name="MOTOR_VOLTAGE_RATED" ID="48" Value="322" Unit="V" />
+          <Parameter Name="MOTOR_VOLTAGE_CONST" ID="49" Value="0" Unit="mV*min" />
+          <Parameter Name="MOTOR_SPEED_RATED" ID="50" Value="1000" Unit="1/min" />
+          <Parameter Name="MOTOR_SPEED_MAX" ID="51" Value="8000" Unit="1/min" />
+          <Parameter Name="MOTOR_TORQ_STALL" ID="52" Value="162,34" Unit="Nm" />
+          <Parameter Name="MOTOR_TORQ_RATED" ID="53" Value="162.34" Unit="Nm" />
+          <Parameter Name="MOTOR_TORQ_MAX" ID="54" Value="577.34" Unit="Nm" />
+          <Parameter Name="MOTOR_TORQ_CONST" ID="55" Value="0" Unit="Nm/A" />
+          <Parameter Name="MOTOR_CURR_STALL" ID="56" Value="40.69" Unit="A" />
+          <Parameter Name="MOTOR_CURR_RATED" ID="57" Value="40.69" Unit="A" />
+          <Parameter Name="MOTOR_CURR_MAX" ID="58" Value="238.47" Unit="A" />
+          <Parameter Name="MOTOR_WIND_CROSS_SECT" ID="59" Value="0" Unit="mm²" />
+          <Parameter Name="MOTOR_STATOR_RESISTANCE" ID="60" Value="0.1542" Unit="Ohm" />
+          <Parameter Name="MOTOR_STATOR_INDUCTANCE" ID="61" Value="0.00180" Unit="Henry" />
+          <Parameter Name="MOTOR_COMMUT_OFFSET" ID="63" Value="0" Unit="rad" />
+          <Parameter Name="MOTOR_ROTOR_RESISTANCE" ID="76" Value="0.10915" Unit="Ohm" />
+          <Parameter Name="MOTOR_ROTOR_INDUCTANCE" ID="77" Value="0.00180" Unit="Henry" />
+          <Parameter Name="MOTOR_MUTUAL_INDUCTANCE" ID="78" Value="0.0527" Unit="Henry" />
+          <Parameter Name="MOTOR_MAGNETIZING_CURR" ID="79" Value="18.5" Unit="A" />
+        </Group>
+      </Group>
+    </Group>
+  </Root>
+  <Root Name="SL1.SS1.IF2.ST5" Description="EntryPull_ExitPull">
+    <Group Name="SS1" Description="8BAC0120.000-1" StructureEdit="FALSE" ModuleDisabled="FALSE">
+      <Parameter Name="ENCOD_TYPE" ID="97" Value="ncENDAT" />
+    </Group>
+    <Group Name="SS2" Description="8BAC0120.000-1" StructureEdit="FALSE" ModuleDisabled="FALSE">
+      <Parameter Name="ENCOD_TYPE" ID="97" Value="ncENDAT" />
+    </Group>
+  </Root>
+  <Root Name="SL1.SS1.IF2.ST3" Description="Maintaining_Tearing">
+    <Group Name="SS1" Description="8BAC0120.000-1" StructureEdit="FALSE" ModuleDisabled="FALSE">
+      <Parameter Name="ENCOD_TYPE" ID="97" Value="ncENDAT" />
+    </Group>
+    <Group Name="SS2" Description="8BAC0120.000-1" StructureEdit="FALSE" ModuleDisabled="FALSE">
+      <Parameter Name="ENCOD_TYPE" ID="97" Value="ncENDAT" />
+    </Group>
+  </Root>
+  <Root Name="SL1.SS1.IF2.ST1" Description="8BxxxxxxxxSx.xxx-x" ModuleDisabled="FALSE">
+    <Group Name="SS1" Description="8BAC0120.000-1" StructureEdit="FALSE" ModuleDisabled="FALSE">
+      <Parameter Name="ENCOD_TYPE" ID="97" Value="ncENDAT" />
+    </Group>
+  </Root>
+  <Root Name="SL1.SS1.IF2.ST10" Description="8BxPxxxxxxxx.xxx-x">
+    <Group Name="SS2" Description="8BAC0123.000-1" StructureEdit="FALSE" ModuleDisabled="FALSE">
+      <Parameter Name="ENCOD_TYPE" ID="97" Value="ncSSI" />
+      <Parameter Name="SCALE_ENCOD_INCR" ID="109" Value="32768" />
+      <Parameter Name="ENCOD_SSI_ZERO_BITS" ID="237" Value="0" />
+      <Parameter Name="ENCOD_SSI_BITS" ID="238" Value="15" />
+      <Parameter Name="ENCOD_SSI_CODE" ID="239" Value="ncGRAY" />
+      <Parameter Name="ENCOD_SSI_PARITY_CHK" ID="240" Value="ncOFF" />
+    </Group>
+  </Root>
+</AcoposParameterConfiguration>

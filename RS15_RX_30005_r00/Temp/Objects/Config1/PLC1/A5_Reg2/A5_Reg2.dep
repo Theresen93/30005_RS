@@ -1,0 +1,6 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/HGWeber/HGWeber.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/Runtime/runtime.fun
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Physical/Config1/PLC1/Cpu.per
+$(AS_PROJECT_PATH)/Logical/Global.typ
+$(AS_PROJECT_PATH)/Logical/BagMachine_Section/EntryPull/Registration/A5_Reg2/A5_Reg2.var

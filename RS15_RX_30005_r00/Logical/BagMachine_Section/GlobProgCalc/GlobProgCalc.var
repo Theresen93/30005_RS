@@ -1,0 +1,22 @@
+(********************************************************************
+ * COPYRIGHT -- .
+ ********************************************************************
+ * Program: GlobProgCalc
+ * File: GlobProgCalc.var
+ * Author: dominique
+ * Created: October 27, 2011
+ ********************************************************************
+ * Local variables of program GlobProgCalc
+ ********************************************************************)
+
+VAR
+  rPrintUp      : REAL ;
+  rRepeatMetric : REAL ;
+  iNmaxTooth    : INT ;
+  iNminTooth    : INT ;  
+  rRepMet_DecPart : REAL ; 
+END_VAR
+
+VAR CONSTANT
+
+END_VAR

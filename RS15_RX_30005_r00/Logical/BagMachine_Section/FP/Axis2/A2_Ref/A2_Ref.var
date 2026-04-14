@@ -1,0 +1,17 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Program: A2_Ref
+ * File: A2_Ref.var
+ * Author: Dominique
+ * Created: October 15, 2011
+ ********************************************************************
+ * Local variables of program A2_Ref
+ ********************************************************************)
+VAR
+	HGW_2StepMove_0 : HGW_2StepMove;
+	MC_Home_0 : MC_Home;
+	MC_Home_1 : MC_Home;
+	MC_MoveAdditive_0 : MC_MoveAdditive;
+	Ref_Seq : ARRAY[0..10] OF BOOL;
+END_VAR

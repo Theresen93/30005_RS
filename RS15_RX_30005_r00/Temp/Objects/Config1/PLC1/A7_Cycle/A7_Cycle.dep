@@ -1,0 +1,7 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/HGWeber/HGWeber.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/BagMachine_Section/Drum/Axis7/A7_Cycle/A7_Cycle.var
+$(AS_PROJECT_PATH)/Logical/Cycles/GenCycles.var
+$(AS_PROJECT_PATH)/Logical/Cycles/GenCycles.typ
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Global.typ

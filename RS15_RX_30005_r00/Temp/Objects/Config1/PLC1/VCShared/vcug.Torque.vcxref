@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <Torque ReferenceString="Source[global].UnitGroup[Torque]">
+      <Connection>
+         <Property ReferenceString="Source[global].UnitGroup[Torque].Property[RuntimeUnitChange]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gInchMetric_Ind]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </Torque>
+</VCXReferenceList>

@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="3.0.90.22 SP04"?>
+<Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="P45_Maint_Info">
+  <Property Name="BackColor" Value="249"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="EditBackColor" Value="1"/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Index" Value="45"/>
+  <Property Name="LockedBackColor" Value="250"/>
+  <Property Name="LockedForeColor" Value="0"/>
+  <Property Name="MoveFocus" Value="Circular"/>
+  <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+  <Property Name="Width" Value="640"/>
+  <Layers>
+    <LayerRef Source="Source[local].Layer[Underlay_Maintenance]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="Underlay_Maintenance"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="0"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[Header]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="Header"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="1"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[InvalidPassword]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="InvalidPassword"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="2"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[Control]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="Control"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="3"/>
+    </LayerRef>
+    <Layer Name="Default">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Width" Value="640"/>
+      <Property Name="Z-Order" Value="4"/>
+      <TextGroup>
+        <TextLayer LanguageId="en">
+          <Text ID="197098" Value="MACHINE MODEL:"/>
+          <Text ID="197099" Value="RS15-30005"/>
+          <Text ID="197100" Value="SOFTWARE VERSION:"/>
+          <Text ID="197101" Value="CURRENT IP ADDRESS:"/>
+          <Text ID="197102" Value="TOTAL MACHINE RUNTIME (HOURS):"/>
+          <Text ID="391859" Value="CUSTOMER:"/>
+          <Text ID="391860" Value="RX SYSTEMS"/>
+        </TextLayer>
+        <TextLayer LanguageId="de">
+          <Text ID="197098" Value=""/>
+          <Text ID="197099" Value=""/>
+          <Text ID="197100" Value=""/>
+          <Text ID="197101" Value=""/>
+          <Text ID="197102" Value=""/>
+          <Text ID="391859" Value=""/>
+          <Text ID="391860" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="fr-FR">
+          <Text ID="197098" Value=""/>
+          <Text ID="197099" Value="RS15-30005"/>
+          <Text ID="197100" Value=""/>
+          <Text ID="197101" Value=""/>
+          <Text ID="197102" Value=""/>
+          <Text ID="391859" Value=""/>
+          <Text ID="391860" Value="RX SYSTEMS"/>
+        </TextLayer>
+        <TextLayer LanguageId="fi-FI">
+          <Text ID="197098" Value="MACHINE MODEL:"/>
+          <Text ID="197099" Value=""/>
+          <Text ID="197100" Value="SOFTWARE VERSION:"/>
+          <Text ID="197101" Value="CURRENT IP ADDRESS:"/>
+          <Text ID="197102" Value="TOTAL MACHINE RUNTIME (HOURS):"/>
+          <Text ID="391859" Value="CUSTOMER:"/>
+          <Text ID="391860" Value=""/>
+        </TextLayer>
+        <IndexMap>
+          <Index ID="197098" Value="114"/>
+          <Index ID="197099" Value="115"/>
+          <Index ID="197100" Value="116"/>
+          <Index ID="197101" Value="117"/>
+          <Index ID="197102" Value="118"/>
+          <Index ID="391859" Value="0"/>
+          <Index ID="391860" Value="1"/>
+        </IndexMap>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001004" Name="Text_1">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial_12_Bold]"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="97"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="114"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="107"/>
+          <Property Name="Width" Value="300"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_2">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial_12_Bold]"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="412"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="115"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="107"/>
+          <Property Name="Width" Value="150"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_3">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial_12_Bold]"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="100"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="116"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="152"/>
+          <Property Name="Width" Value="300"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_5">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial_12_Bold]"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="100"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="117"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="199"/>
+          <Property Name="Width" Value="300"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_7">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial_12_Bold]"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="22"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="118"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="246"/>
+          <Property Name="Width" Value="378"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_1">
+          <Property Name="AddFractionDigits" Value="2"/>
+          <Property Name="AlignmentHorizontal" Value="Left"/>
+          <Property Name="BackColor" Value="53"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial_12_Bold]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="417"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="12.25"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="246"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.SupervisoryControl_Section.HourMeter.HourMeterDisplay]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="150"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_1">
+          <Property Name="AlignmentHorizontal" Value="Left"/>
+          <Property Name="BackColor" Value="53"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial_12_Bold]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="417"/>
+          <Property Name="SimulationValue" Value="192.168.1.196"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="Top" Value="199"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Internal.Connection.IPAddress]"/>
+          <Property Name="Width" Value="150"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_2">
+          <Property Name="AddFractionDigits" Value="1"/>
+          <Property Name="AlignmentHorizontal" Value="Left"/>
+          <Property Name="BackColor" Value="53"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial_12_Bold]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="417"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="1"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="152"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.SupervisoryControl_Section.Revision.CurrentSoftwareRevision]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="150"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_4">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial_12_Bold]"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="96"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="71"/>
+          <Property Name="Width" Value="300"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_6">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial_12_Bold]"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="414"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="1"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="71"/>
+          <Property Name="Width" Value="150"/>
+        </Control>
+      </Controls>
+      <KeyMapping/>
+    </Layer>
+    <LayerRef Source="Source[local].Layer[PopUp_LineSpeedAutoConfirm]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="PopUp_LineSpeedAutoConfirm"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="5"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[PopUp_AxisSynchroInProgress]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="PopUp_AxisSynchroInProgress"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="6"/>
+    </LayerRef>
+  </Layers>
+  <MovementOrder>
+    <MovementEntry Control="Source[local].Layer[Underlay_Maintenance].Control[Dropdown_2]">
+      <Property Name="Down" Value="Source[local].Layer[Header].Control[Numeric_2]"/>
+      <Property Name="Left" Value="Source[local].Layer[Header].Control[Numeric_2]"/>
+      <Property Name="Right" Value="Source[local].Layer[Header].Control[Numeric_2]"/>
+      <Property Name="Up" Value="Source[local].Layer[Header].Control[String_1]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[Header].Control[String_1]">
+      <Property Name="Down" Value="Source[local].Layer[Underlay_Maintenance].Control[Dropdown_2]"/>
+      <Property Name="Left" Value="Source[local].Layer[Header].Control[Numeric_2]"/>
+      <Property Name="Right" Value="Source[local].Layer[Header].Control[Numeric_2]"/>
+      <Property Name="Up" Value="Source[local].Layer[Underlay_Maintenance].Control[Dropdown_2]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[Header].Control[Numeric_2]">
+      <Property Name="Down" Value="Source[local].Layer[Underlay_Maintenance].Control[Dropdown_2]"/>
+      <Property Name="Left" Value="Source[local].Layer[Header].Control[String_1]"/>
+      <Property Name="Right" Value="Source[local].Layer[Header].Control[String_1]"/>
+      <Property Name="Up" Value="Source[local].Layer[Underlay_Maintenance].Control[Dropdown_2]"/>
+    </MovementEntry>
+  </MovementOrder>
+  <TabSequence>
+    <TabSeqItem Index="0" Value="Source[local].Layer[Header].Control[String_1]"/>
+    <TabSeqItem Index="1" Value="Source[local].Layer[Header].Control[Numeric_2]"/>
+    <TabSeqItem Index="2" Value="Source[local].Layer[Header].Control[Numeric_3]"/>
+    <TabSeqItem Index="3" Value="Source[local].Layer[Underlay_Maintenance].Control[Dropdown_2]"/>
+    <TabSeqItem Index="4" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
+    <TabSeqItem Index="5" Value="Source[embedded].Layer[Default].Control[String_1]"/>
+    <TabSeqItem Index="6" Value="Source[embedded].Layer[Default].Control[Numeric_2]"/>
+    <TabSeqItem Index="7" Value="Source[local].Layer[Header].Control[Numeric_4]"/>
+    <TabSeqItem Index="8" Value="Source[local].Layer[Header].Control[Numeric_5]"/>
+    <TabSeqItem Index="9" Value="Source[local].Layer[Header].Control[Numeric_6]"/>
+    <TabSeqItem Index="10" Value="Source[local].Layer[Header].Control[Numeric_7]"/>
+  </TabSequence>
+</Page>

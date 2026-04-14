@@ -1,0 +1,5 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/Acp10_MC/acp10_mc.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/Acp10_MC/acp10_mc.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/Acp10_MC/acp10_mc.var
+$(AS_PROJECT_PATH)/Logical/HMI/Cmd_Trace/Cmd_Trace.var

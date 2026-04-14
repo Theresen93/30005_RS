@@ -1,0 +1,8 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/Acp10_MC/acp10_mc.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/Acp10_MC/acp10_mc.typ
+$(AS_PROJECT_PATH)/Logical/BagMachine_Section/FP/Axis2/A2_Automat/A2_Automat.var
+$(AS_PROJECT_PATH)/Logical/Libraries/NcGlobal/NcGlobal.var
+$(AS_PROJECT_PATH)/Logical/Cycles/GenCycles.var
+$(AS_PROJECT_PATH)/Logical/Cycles/GenCycles.typ
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Global.typ

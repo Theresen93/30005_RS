@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.80.31 SP01?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="DataObject" Language="Ax" Description="Servo Power Supply Initialization File">A0_Init</Object>
+    <Object Type="DataObject" Language="Apt" Description="Servo Power Supply Parameter File">A0_Par</Object>
+    <Object Type="Program" Language="IEC" Description="Basic Servo">A0_Basic</Object>
+  </Objects>
+</Package>

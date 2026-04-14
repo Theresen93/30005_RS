@@ -1,0 +1,30 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: MainAlarms
+ * File: MainAlarms.var
+ * Author: pkiel
+ * Created: October 13, 2009
+ ********************************************************************
+ * Local variables of program MainAlarms
+ ********************************************************************)
+VAR
+	AlarmColor_Ind : UINT;
+	AlarmScreenActive : BOOL;
+	AlarmVisibility_Ind : UINT;
+	EStopAlarmColor_Ind : UINT;
+	GuardAlarmColor_Ind : UINT;
+	HGW_2StateIND_0 : HGW_2StateIND;
+	HGW_2StateIND_1 : HGW_2StateIND;
+	HGW_2StateIND_2 : HGW_2StateIND;
+	HGW_2StateIND_3 : HGW_2StateIND;
+  HGW_2StateIND_4 : HGW_2StateIND;
+  HGW_2StateIND_5 : HGW_2StateIND;
+  HGW_2StateIND_6 : HGW_2StateIND;
+	HGW_2StateIND1_0 : HGW_2StateIND1;
+	IOAlarmColor_Ind : UINT;
+	JamAlarmColor_Ind : UINT;
+	LastScreen : UINT;
+	LastScreenOK : BOOL;
+	MotorAlarmColor_Ind : UINT;
+END_VAR

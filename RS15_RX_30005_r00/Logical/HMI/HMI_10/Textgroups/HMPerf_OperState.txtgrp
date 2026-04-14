@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="3.0.90.22 SP04"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="HMPerf_OperState">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="39"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="437839" Value="Off"/>
+    <Text ID="437840" Value="SLOW ROT"/>
+    <Text ID="437841" Value="SYCHRO"/>
+    <Text ID="437842" Value="FAULT"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="437839" Value=""/>
+    <Text ID="437840" Value=""/>
+    <Text ID="437841" Value=""/>
+    <Text ID="437842" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="437839" Value=""/>
+    <Text ID="437840" Value=""/>
+    <Text ID="437841" Value=""/>
+    <Text ID="437842" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="437839" Value="Pois"/>
+    <Text ID="437840" Value="SLOW ROT"/>
+    <Text ID="437841" Value="SYCHRO"/>
+    <Text ID="437842" Value="FAULT"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="437839" Value="0"/>
+    <Index ID="437840" Value="1"/>
+    <Index ID="437841" Value="2"/>
+    <Index ID="437842" Value="3"/>
+  </IndexMap>
+</TextGroup>

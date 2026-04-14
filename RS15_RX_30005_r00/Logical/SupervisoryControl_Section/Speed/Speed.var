@@ -1,0 +1,35 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Program: SpeedLimit
+ * File: SpeedLimit.var
+ * Author: pkiel
+ * Created: July 21, 2011
+ ********************************************************************
+ * Local variables of program SpeedLimit
+ ********************************************************************)
+VAR
+	Ar_iMaxSpeedLargePerf : ARRAY[75..850] OF INT; (*Tab Max Speed Large Perf, in bag/min*)
+	Ar_iMaxSpeedSmallPerf : ARRAY[75..850] OF INT; (*Tab Max Speed Small Perf, in bag/min*)
+	Ar_iMaxSpeedApPoPerf_520 : ARRAY[75..850] OF INT; (*Tab Max Speed Envelope Bag Perf, in bag/min*)
+END_VAR
+VAR RETAIN
+	ArrayIndex : INT;
+END_VAR
+VAR
+	Index1 : INT;
+	PerfCylSelect_Old : BOOL;
+	Remainder : REAL;
+	RepeatMetric : REAL;
+	SpeedLimit : INT;
+	rConvAccDec : REAL;
+	rLinSpeedSP_JogDec : REAL;
+	bIndSynchro_OK : BOOL;
+	bLimSpeedSynchro : BOOL;
+	uiiMemoNumRev : UDINT;
+	uiiDiffNumRev : UDINT;
+	bMemoSynchro_OK : BOOL;
+	rBundSpeedLimit : REAL;
+	rFPSpeedLimit : REAL;
+	rBagSize1to2Perf_mm : REAL;
+END_VAR

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="3.0.90.22 SP04"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="HoldTearEnvBPosition">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="28"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="21224" Value="None"/>
+    <BitmapRef ID="21225" Value="Source[local].Bitmap[EnvB_HTEnvB_NormBag_2_235x223]"/>
+    <BitmapRef ID="21228" Value="Source[local].Bitmap[EnvB_HTEnvB_NormBag_1_235x223]"/>
+    <BitmapRef ID="21229" Value="Source[local].Bitmap[EnvB_HTEnvB_NormBag_3_235x223]"/>
+    <BitmapRef ID="21230" Value="Source[local].Bitmap[EnvB_HTEnvB_NormBag_4_235x218]"/>
+    <BitmapRef ID="21231" Value="Source[local].Bitmap[EnvB_HTEnvB_NormBag_5_235x220]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="21224" Value="0"/>
+    <Index ID="21225" Value="2"/>
+    <Index ID="21228" Value="1"/>
+    <Index ID="21229" Value="3"/>
+    <Index ID="21230" Value="4"/>
+    <Index ID="21231" Value="5"/>
+  </IndexMap>
+</BitmapGroup>

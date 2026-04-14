@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="3.0.90.22 SP04"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="PopUp_AxisSynchroInProgress">
+  <Property Name="BackColor" Value="249"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.HMI.HMI_Control.HMI_iAnimSynchroAxisVisibl]"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="640"/>
+  <TextGroup>
+    <TextLayer LanguageId="en">
+      <Text ID="410179" Value="SYNCHRO AXIS IN PROGRESS"/>
+    </TextLayer>
+    <TextLayer LanguageId="de">
+      <Text ID="410179" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fr-FR">
+      <Text ID="410179" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fi-FI">
+      <Text ID="410179" Value="SYNCHRO AXIS IN PROGRESS"/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="410179" Value="0"/>
+    </IndexMap>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001001" Name="Shape_1">
+      <Property Name="BackColor" Value="90"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="Width" Value="640"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_2">
+      <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[VisuSynchro_32x32]"/>
+      <Property Name="BitmapIndex" Value="1"/>
+      <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Height" Value="32"/>
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[Local.HMI.HMI_Control.HMI_iAnimSynchroAxis]"/>
+      <Property Name="Left" Value="54"/>
+      <Property Name="SimulationValue" Value="1"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="48"/>
+      <Property Name="Width" Value="32"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_1">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="BackColor" Value="119"/>
+      <Property Name="Border" Value="Source[local].Border[Etched]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Font" Value="Source[local].Font[Arial_20_Bold]"/>
+      <Property Name="ForeColor" Value="45"/>
+      <Property Name="Height" Value="55"/>
+      <Property Name="Left" Value="107"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="0"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="173"/>
+      <Property Name="Width" Value="432"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_6">
+      <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[VisuSynchro_85x85]"/>
+      <Property Name="BitmapIndex" Value="1"/>
+      <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Height" Value="85"/>
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[Local.HMI.HMI_Control.HMI_iAnimSynchroAxis]"/>
+      <Property Name="Left" Value="507"/>
+      <Property Name="SimulationValue" Value="1"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="25"/>
+      <Property Name="Width" Value="85"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_7">
+      <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[VisuSynchro_85x85]"/>
+      <Property Name="BitmapIndex" Value="1"/>
+      <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Height" Value="85"/>
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[Local.HMI.HMI_Control.HMI_iAnimSynchroAxis]"/>
+      <Property Name="Left" Value="80"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="349"/>
+      <Property Name="Width" Value="85"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_3">
+      <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[VisuSynchro_32x32]"/>
+      <Property Name="BitmapIndex" Value="1"/>
+      <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Height" Value="32"/>
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[Local.HMI.HMI_Control.HMI_iAnimSynchroAxis]"/>
+      <Property Name="Left" Value="540"/>
+      <Property Name="SimulationValue" Value="1"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="385"/>
+      <Property Name="Width" Value="32"/>
+    </Control>
+  </Controls>
+  <KeyMapping/>
+</Layer>

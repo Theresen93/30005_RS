@@ -2,13 +2,13 @@
 <Crossref Scope="SupervisoryControl_Section.Servo_Mon">
 	<Vars>
 		<Var Name="Servo_Mon.BagMachine_ServosOK" Scope="Local" Type="BOOL">
-			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Servo_Mon/Servo_MonCyclic.ld">
+			<File Name="B:/Holweg/RX_Systems_RS15_30005/AS_3090/Rev_1/RS15_RX_30005_r1/Logical/SupervisoryControl_Section/Servo_Mon/Servo_MonCyclic.ld">
 				<Pos L="1" C="12" EP="1" PS="Net:1, Ln:1, Col:12" A="W"/>
 				<Pos L="1" C="1" EP="2" PS="Net:2, Ln:1, Col:1" A="R"/>
 			</File>
 		</Var>
 		<Var Name="gA.Ind_Ready" Scope="Global" Type="AxisBasic[0..15]">
-			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Servo_Mon/Servo_MonCyclic.ld">
+			<File Name="B:/Holweg/RX_Systems_RS15_30005/AS_3090/Rev_1/RS15_RX_30005_r1/Logical/SupervisoryControl_Section/Servo_Mon/Servo_MonCyclic.ld">
 				<Pos L="1" C="1" EP="1" PS="Net:1, Ln:1, Col:1" A="R"/>
 				<Pos L="1" C="2" EP="1" PS="Net:1, Ln:1, Col:2" A="R"/>
 				<Pos L="1" C="3" EP="1" PS="Net:1, Ln:1, Col:3" A="R"/>
@@ -23,28 +23,28 @@
 			</File>
 		</Var>
 		<Var Name="gA.bActive" Scope="Global" Type="AxisBasic[0..15]">
-			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Servo_Mon/Servo_MonCyclic.ld">
+			<File Name="B:/Holweg/RX_Systems_RS15_30005/AS_3090/Rev_1/RS15_RX_30005_r1/Logical/SupervisoryControl_Section/Servo_Mon/Servo_MonCyclic.ld">
 				<Pos L="2" C="10" EP="1" PS="Net:1, Ln:2, Col:10" A="R"/>
 				<Pos L="2" C="11" EP="1" PS="Net:1, Ln:2, Col:11" A="R"/>
 			</File>
 		</Var>
 		<Var Name="gRecipeActive.bSelFPProd" Scope="Global" Type="Recipe">
-			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Servo_Mon/Servo_MonCyclic.ld">
+			<File Name="B:/Holweg/RX_Systems_RS15_30005/AS_3090/Rev_1/RS15_RX_30005_r1/Logical/SupervisoryControl_Section/Servo_Mon/Servo_MonCyclic.ld">
 				<Pos L="2" C="2" EP="1" PS="Net:1, Ln:2, Col:2" A="R"/>
 			</File>
 		</Var>
 		<Var Name="gRecipeActive.bSelColdMicroPerfProd" Scope="Global" Type="Recipe">
-			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Servo_Mon/Servo_MonCyclic.ld">
+			<File Name="B:/Holweg/RX_Systems_RS15_30005/AS_3090/Rev_1/RS15_RX_30005_r1/Logical/SupervisoryControl_Section/Servo_Mon/Servo_MonCyclic.ld">
 				<Pos L="2" C="8" EP="1" PS="Net:1, Ln:2, Col:8" A="R"/>
 			</File>
 		</Var>
 		<Var Name="gServoAxesOK" Scope="Global" Type="BOOL">
-			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Servo_Mon/Servo_MonCyclic.ld">
+			<File Name="B:/Holweg/RX_Systems_RS15_30005/AS_3090/Rev_1/RS15_RX_30005_r1/Logical/SupervisoryControl_Section/Servo_Mon/Servo_MonCyclic.ld">
 				<Pos L="1" C="2" EP="2" PS="Net:2, Ln:1, Col:2" A="W"/>
 			</File>
 		</Var>
 		<Var Name="g_stHMPerfCyc.bSelProd" Scope="Global" Type="CycHMPerf">
-			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Servo_Mon/Servo_MonCyclic.ld">
+			<File Name="B:/Holweg/RX_Systems_RS15_30005/AS_3090/Rev_1/RS15_RX_30005_r1/Logical/SupervisoryControl_Section/Servo_Mon/Servo_MonCyclic.ld">
 				<Pos L="2" C="9" EP="1" PS="Net:1, Ln:2, Col:9" A="R"/>
 			</File>
 		</Var>

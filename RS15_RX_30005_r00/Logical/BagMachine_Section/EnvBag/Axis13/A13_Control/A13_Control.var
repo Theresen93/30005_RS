@@ -1,0 +1,19 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Program: A13_Control
+ * File: A13_Control.var
+ * Author: dominique
+ * Created: November 21, 2011
+ ********************************************************************
+ * Local variables of program A13_Control
+ ********************************************************************)
+VAR
+	HGW_ChangeReal_0 : HGW_ChangeReal;
+	HGW_RelativeChangeReal1_0 : H_FB_RelativeChangeLimitReal1;
+	HGW_Toggle_0 : HGW_Toggle;
+	Synch_Permissive : BOOL;
+	TOF_0 : TOF;
+	TON_0 : TON;
+  rIncrOffsetAxeRun_Inch : REAL ;
+END_VAR

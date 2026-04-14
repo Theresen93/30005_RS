@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="3.0.90.22 SP04"?>
+<Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="P102_Main_BundManuSep">
+  <Property Name="BackColor" Value="250"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="EditBackColor" Value="1"/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Index" Value="102"/>
+  <Property Name="LockedBackColor" Value="250"/>
+  <Property Name="LockedForeColor" Value="0"/>
+  <Property Name="MoveFocus" Value="Circular"/>
+  <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+  <Property Name="Width" Value="640"/>
+  <Layers>
+    <LayerRef Source="Source[local].Layer[Underlay_Main]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="Underlay_Main"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="0"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[Header]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="Header"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="1"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[InvalidPassword]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="InvalidPassword"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="2"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[Control]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="Control"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="3"/>
+    </LayerRef>
+    <Layer Name="Default">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Width" Value="640"/>
+      <Property Name="Z-Order" Value="4"/>
+      <TextGroup>
+        <TextLayer LanguageId="en">
+          <Text ID="380448" Value="Bundler"/>
+          <Text ID="380479" Value="14C2"/>
+          <Text ID="380480" Value="14C1"/>
+          <Text ID="380484" Value="S101"/>
+          <Text ID="380485" Value="S102"/>
+          <Text ID="380486" Value="S103"/>
+          <Text ID="380487" Value="S109"/>
+          <Text ID="383679" Value="Bundler ready:"/>
+          <Text ID="397142" Value="Contre-weight pressure"/>
+        </TextLayer>
+        <TextLayer LanguageId="de">
+          <Text ID="380448" Value=""/>
+          <Text ID="380479" Value=""/>
+          <Text ID="380480" Value=""/>
+          <Text ID="380484" Value=""/>
+          <Text ID="380485" Value=""/>
+          <Text ID="380486" Value=""/>
+          <Text ID="380487" Value=""/>
+          <Text ID="383679" Value=""/>
+          <Text ID="397142" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="fr-FR">
+          <Text ID="380448" Value=""/>
+          <Text ID="380479" Value=""/>
+          <Text ID="380480" Value=""/>
+          <Text ID="380484" Value=""/>
+          <Text ID="380485" Value=""/>
+          <Text ID="380486" Value=""/>
+          <Text ID="380487" Value=""/>
+          <Text ID="383679" Value=""/>
+          <Text ID="397142" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="fi-FI">
+          <Text ID="380448" Value="Bundler"/>
+          <Text ID="380479" Value="14C2"/>
+          <Text ID="380480" Value="14C1"/>
+          <Text ID="380484" Value="S101"/>
+          <Text ID="380485" Value="S102"/>
+          <Text ID="380486" Value="S103"/>
+          <Text ID="380487" Value="S109"/>
+          <Text ID="383679" Value="Bundler ready:"/>
+          <Text ID="397142" Value="Contre-weight pressure"/>
+        </TextLayer>
+        <IndexMap>
+          <Index ID="380448" Value="59"/>
+          <Index ID="380479" Value="90"/>
+          <Index ID="380480" Value="91"/>
+          <Index ID="380484" Value="95"/>
+          <Index ID="380485" Value="96"/>
+          <Index ID="380486" Value="97"/>
+          <Index ID="380487" Value="98"/>
+          <Index ID="383679" Value="10"/>
+          <Index ID="397142" Value="15"/>
+        </IndexMap>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001001" Name="Shape_6">
+          <Property Name="BackColor" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="81"/>
+          <Property Name="Left" Value="56"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="185"/>
+          <Property Name="Width" Value="97"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_1">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[_BBKEM0002_Sep_336x220]"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="Height" Value="220"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="161"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="62"/>
+          <Property Name="Width" Value="336"/>
+        </Control>
+        <Control ClassId="0x00001001" Name="Shape_1">
+          <Property Name="BackColor" Value="15"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="461"/>
+          <Property Name="LineWidth" Value="2"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="290"/>
+          <Property Name="Width" Value="89"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_5">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="15"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Arial_10_Bold_Italic]"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="463"/>
+          <Property Name="Multiline" Value="Automatic"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="59"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="286"/>
+          <Property Name="Width" Value="85"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_5">
+          <Property Name="BackColor" Value="7"/>
+          <Property Name="Bitmap" Value="Source[local].Bitmap[Arrow_up_Blue_40x23]"/>
+          <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="474"/>
+          <Property Name="Locking" Value="Datapoint &lt; Level"/>
+          <Property Name="LockingDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Control.iHMI_BundManLock]"/>
+          <Property Name="LockingLevel" Value="1"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="124"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[HMI_BundMan_14C2P_PB]"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_6">
+          <Property Name="BackColor" Value="7"/>
+          <Property Name="Bitmap" Value="Source[local].Bitmap[Arrow_down_Blue_40x23]"/>
+          <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="525"/>
+          <Property Name="Locking" Value="Datapoint &lt; Level"/>
+          <Property Name="LockingDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Control.iHMI_BundManLock]"/>
+          <Property Name="LockingLevel" Value="1"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="124"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[HMI_BundMan_14C2M_PB]"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_8">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="BackColor" Value="7"/>
+          <Property Name="Bitmap" Value="Source[local].Bitmap[Arrow_up_Blue_40x23]"/>
+          <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="147"/>
+          <Property Name="Locking" Value="Datapoint &lt; Level"/>
+          <Property Name="LockingDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Control.iHMI_BundManLock]"/>
+          <Property Name="LockingLevel" Value="1"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="97"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[HMI_BundMan_14C1P_PB]"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_9">
+          <Property Name="BackColor" Value="7"/>
+          <Property Name="Bitmap" Value="Source[local].Bitmap[Arrow_down_Blue_40x23]"/>
+          <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="98"/>
+          <Property Name="Locking" Value="Datapoint &lt; Level"/>
+          <Property Name="LockingDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Control.iHMI_BundManLock]"/>
+          <Property Name="LockingLevel" Value="1"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="97"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[HMI_BundMan_14C1M_PB]"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="16"/>
+          <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Arial_12_Bold]"/>
+          <Property Name="ForeColor" Value="1"/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="Left" Value="413"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="90"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="209"/>
+          <Property Name="Width" Value="45"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_2">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="16"/>
+          <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Arial_12_Bold]"/>
+          <Property Name="ForeColor" Value="1"/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="Left" Value="278"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="91"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="210"/>
+          <Property Name="Width" Value="45"/>
+        </Control>
+        <Control ClassId="0x00001001" Name="Shape_2">
+          <Property Name="BackColor" Value="1"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Separator.iHMI_Bund_S101]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[Sensor]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="Left" Value="476"/>
+          <Property Name="Shape" Value="Ellipse"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="207"/>
+          <Property Name="Width" Value="15"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_7">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="16"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Arial_10_Bold]"/>
+          <Property Name="ForeColor" Value="1"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="491"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="95"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="217"/>
+          <Property Name="Width" Value="32"/>
+        </Control>
+        <Control ClassId="0x00001001" Name="Shape_3">
+          <Property Name="BackColor" Value="1"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Separator.iHMI_Bund_S102]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[Sensor]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="Left" Value="271"/>
+          <Property Name="Shape" Value="Ellipse"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="178"/>
+          <Property Name="Width" Value="15"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_8">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="16"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Arial_10_Bold]"/>
+          <Property Name="ForeColor" Value="1"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="237"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="96"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="175"/>
+          <Property Name="Width" Value="32"/>
+        </Control>
+        <Control ClassId="0x00001001" Name="Shape_4">
+          <Property Name="BackColor" Value="1"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Separator.iHMI_Bund_S103]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[Sensor]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="Left" Value="237"/>
+          <Property Name="Shape" Value="Ellipse"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="205"/>
+          <Property Name="Width" Value="15"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_9">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="16"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Arial_10_Bold]"/>
+          <Property Name="ForeColor" Value="1"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="204"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="97"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="201"/>
+          <Property Name="Width" Value="32"/>
+        </Control>
+        <Control ClassId="0x00001001" Name="Shape_5">
+          <Property Name="BackColor" Value="1"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Separator.iHMI_Bund_S109]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[Sensor]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="Left" Value="227"/>
+          <Property Name="Shape" Value="Ellipse"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="226"/>
+          <Property Name="Width" Value="15"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_10">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="16"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Arial_10_Bold]"/>
+          <Property Name="ForeColor" Value="1"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="194"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="98"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="225"/>
+          <Property Name="Width" Value="32"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_4">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Bitmap" Value="Source[local].Bitmap[ArrowD_Bla_3D]"/>
+          <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="573"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="RightToLeftLayout" Value="True"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="242"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[GoTo_Main_Bundler_PB]"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_2">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[MovManuBundSep]"/>
+          <Property Name="BitmapIndex" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="Height" Value="47"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Separator.iHMI_Bund_14C2In_State]"/>
+          <Property Name="Left" Value="494"/>
+          <Property Name="SimulationValue" Value="1"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="179"/>
+          <Property Name="Width" Value="44"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_3">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[MovManuBundSep]"/>
+          <Property Name="BitmapIndex" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="Height" Value="47"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Separator.iHMI_Bund_14C2Out_State]"/>
+          <Property Name="Left" Value="422"/>
+          <Property Name="SimulationValue" Value="4"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="105"/>
+          <Property Name="Width" Value="44"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_4">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[MovManuBundSep]"/>
+          <Property Name="BitmapIndex" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="Height" Value="47"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Separator.iHMI_Bund_14C1In_State]"/>
+          <Property Name="Left" Value="200"/>
+          <Property Name="SimulationValue" Value="1"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="67"/>
+          <Property Name="Width" Value="44"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_5">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[MovManuBundSep]"/>
+          <Property Name="BitmapIndex" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="Height" Value="47"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Separator.iHMI_Bund_14C1Out_State]"/>
+          <Property Name="Left" Value="200"/>
+          <Property Name="SimulationValue" Value="4"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="69"/>
+          <Property Name="Width" Value="44"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_11">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="15"/>
+          <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Arial_8_Bold]"/>
+          <Property Name="ForeColor" Value="1"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="HighlightingBackColor" Value="10"/>
+          <Property Name="Left" Value="525"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="10"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="61"/>
+          <Property Name="Width" Value="101"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_20">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[OK_Ind]"/>
+          <Property Name="BitmapIndex" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="14"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.g_bIndBundReady]"/>
+          <Property Name="Left" Value="610"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="63"/>
+          <Property Name="Width" Value="14"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_46">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="BackColor" Value="1"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="Border" Value="Source[local].Border[Button1_Active]"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Control.uiBundManCol_Ind]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial_10_Bold]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="35"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="18"/>
+          <Property Name="Multiline" Value="Automatic"/>
+          <Property Name="PressedBackColor" Value="10"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedBorder" Value="Source[local].Border[Button1_Pressed]"/>
+          <Property Name="PressedColorDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Control.uiBundManCol_Ind]"/>
+          <Property Name="PressedForeColor" Value="0"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[ManAuto_Ind]"/>
+          <Property Name="TextIndex" Value="1"/>
+          <Property Name="TextIndexDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Control.uiBundManTxt_Ind]"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="67"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[HMI_BundlerManAuto_PB]"/>
+          <Property Name="Width" Value="66"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_3">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="BackColor" Value="7"/>
+          <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Arial_10_Bold1]"/>
+          <Property Name="Height" Value="81"/>
+          <Property Name="Left" Value="53"/>
+          <Property Name="Multiline" Value="Automatic"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="15"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="182"/>
+          <Property Name="Width" Value="97"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_47">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="BackColor" Value="197"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="Border" Value="Source[local].Border[Button1_Active]"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Separator.uiPresSelPBCol_Id]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial_12_Bold]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="35"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="70"/>
+          <Property Name="Locking" Value="Datapoint &gt;= Level"/>
+          <Property Name="LockingDatapoint" Value="Source[global].Variable[Local.SupervisoryControl_Section.ManMode.ManualDataLock]"/>
+          <Property Name="LockingLevel" Value="1"/>
+          <Property Name="Multiline" Value="Automatic"/>
+          <Property Name="PressedBackColor" Value="10"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedBorder" Value="Source[local].Border[Button1_Pressed]"/>
+          <Property Name="PressedColorDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Separator.uiPresSelPBCol_Id]"/>
+          <Property Name="PressedForeColor" Value="0"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[HighLow]"/>
+          <Property Name="TextIndex" Value="0"/>
+          <Property Name="TextIndexDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Separator.bQ_Bund_SOL_PresSelect]"/>
+          <Property Name="TextSimulationValue" Value="1"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="222"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[HMI_BundMan_PresSelect_PB]"/>
+          <Property Name="Width" Value="66"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_1">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="159"/>
+          <Property Name="EndY" Value="240"/>
+          <Property Name="LineWidth" Value="2"/>
+          <Property Name="StartX" Value="139"/>
+          <Property Name="StartY" Value="240"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+      </Controls>
+      <KeyMapping>
+        <VirtualKey Name="HMI_BundMan_PresSelect_PB">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Separator.bHMI_BundMan_PresSelect_PB]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
+    </Layer>
+    <LayerRef Source="Source[local].Layer[PopUp_LineSpeedAutoConfirm]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="PopUp_LineSpeedAutoConfirm"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="5"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[PopUp_AxisSynchroInProgress]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="PopUp_AxisSynchroInProgress"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="6"/>
+    </LayerRef>
+  </Layers>
+  <MovementOrder>
+    <MovementEntry Control="Source[local].Layer[Header].Control[String_1]">
+      <Property Name="Down" Value="Source[local].Layer[Header].Control[Numeric_2]"/>
+      <Property Name="Left" Value="Source[local].Layer[Header].Control[Numeric_2]"/>
+      <Property Name="Right" Value="Source[local].Layer[Header].Control[Numeric_2]"/>
+      <Property Name="Up" Value="Source[local].Layer[Header].Control[Numeric_2]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[Header].Control[Numeric_2]">
+      <Property Name="Down" Value="Source[local].Layer[Header].Control[String_1]"/>
+      <Property Name="Left" Value="Source[local].Layer[Header].Control[String_1]"/>
+      <Property Name="Right" Value="Source[local].Layer[Header].Control[String_1]"/>
+      <Property Name="Up" Value="Source[local].Layer[Header].Control[String_1]"/>
+    </MovementEntry>
+  </MovementOrder>
+  <TabSequence>
+    <TabSeqItem Index="0" Value="Source[local].Layer[Header].Control[String_1]"/>
+    <TabSeqItem Index="1" Value="Source[local].Layer[Header].Control[Numeric_2]"/>
+    <TabSeqItem Index="2" Value="Source[local].Layer[Header].Control[Numeric_3]"/>
+    <TabSeqItem Index="3" Value="Source[local].Layer[Header].Control[Numeric_4]"/>
+    <TabSeqItem Index="4" Value="Source[local].Layer[Header].Control[Numeric_5]"/>
+    <TabSeqItem Index="5" Value="Source[local].Layer[Header].Control[Numeric_6]"/>
+    <TabSeqItem Index="6" Value="Source[local].Layer[Header].Control[Numeric_7]"/>
+  </TabSequence>
+</Page>

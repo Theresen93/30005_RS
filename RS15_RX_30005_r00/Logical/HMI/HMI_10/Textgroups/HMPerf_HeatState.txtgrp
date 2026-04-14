@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="3.0.90.22 SP04"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="HMPerf_HeatState">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="42"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="452883" Value="Off"/>
+    <Text ID="452884" Value="On"/>
+    <Text ID="452886" Value="FAULT"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="452883" Value=""/>
+    <Text ID="452884" Value=""/>
+    <Text ID="452886" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="452883" Value=""/>
+    <Text ID="452884" Value=""/>
+    <Text ID="452886" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="452883" Value="Off"/>
+    <Text ID="452884" Value="On"/>
+    <Text ID="452886" Value="FAULT"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="452883" Value="0"/>
+    <Index ID="452884" Value="1"/>
+    <Index ID="452886" Value="3"/>
+  </IndexMap>
+</TextGroup>

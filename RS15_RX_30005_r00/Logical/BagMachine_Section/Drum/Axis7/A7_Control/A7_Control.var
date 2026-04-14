@@ -1,0 +1,19 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Program: A7_Control
+ * File: A7_Control.var
+ * Author: pkiel
+ * Created: July 13, 2011
+ ********************************************************************
+ * Local variables of program A7_Control
+ ********************************************************************)
+VAR
+	HGW_ChangeReal_0 : HGW_ChangeReal;
+	HGW_RelativeChangeReal_0 : H_FB_RelativeChangeLimitReal1;
+	HGW_Toggle_0 : HGW_Toggle;
+	Synch_Permissive : BOOL;
+	TOF_0 : TOF;
+	TON_0 : TON;
+  rIncrOffsetAxeRun_Inch : REAL ;
+END_VAR

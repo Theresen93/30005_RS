@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="3.0.90.22 SP04"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MachineDisplay_1">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="2"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="194672" Value="MACHINE STOP: MAIN OPERATOR STATION STOP PB"/>
+    <Text ID="194673" Value="MACHINE STOP: RS STOP PB"/>
+    <Text ID="194674" Value="MACHINE STOP: UNWIND OR PRINTER STOP PB"/>
+    <Text ID="194675" Value="MACHINE STOP: JAM ALARM"/>
+    <Text ID="194676" Value="MACHINE STOP: MOTOR ALARM"/>
+    <Text ID="194677" Value="MACHINE STOP: GUARD ALARM"/>
+    <Text ID="194678" Value="MACHINE STOP: E-STOP ALARM"/>
+    <Text ID="194679" Value="MACHINE STOP: REGISTRATION OUT OF TOLERANCE SHUTDOWN"/>
+    <Text ID="194680" Value="MACHINE STOP: REGISTRATION MISSED MARK SHUTDOWN"/>
+    <Text ID="194681" Value="MACHINE STOP: UNWIND LOW ROLL"/>
+    <Text ID="194682" Value="MACHINE STOP: MAIN OPERATIOR STATION HMI STOP PB"/>
+    <Text ID="194683" Value="MACHINE STOP: I/O ALARM"/>
+    <Text ID="194684" Value="POWER UP SEQUENCE ACTIVE"/>
+    <Text ID="371210" Value="SYSTEM DRIVE POWER OFF"/>
+    <Text ID="373127" Value="MACHINE STOP: FAST STOP PB"/>
+    <Text ID="383654" Value="MACHINE STOP: BUNDLER STOP PB"/>
+    <Text ID="384536" Value="INIT BUNDLER REQUEST"/>
+    <Text ID="392020" Value="MACHINE STOP: WEB BRAKE"/>
+    <Text ID="492234" Value="MACHINE STOP: GENERAL RS FAULT "/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="194672" Value=""/>
+    <Text ID="194673" Value=""/>
+    <Text ID="194674" Value=""/>
+    <Text ID="194675" Value=""/>
+    <Text ID="194676" Value=""/>
+    <Text ID="194677" Value=""/>
+    <Text ID="194678" Value=""/>
+    <Text ID="194679" Value=""/>
+    <Text ID="194680" Value=""/>
+    <Text ID="194681" Value=""/>
+    <Text ID="194682" Value=""/>
+    <Text ID="194683" Value=""/>
+    <Text ID="194684" Value=""/>
+    <Text ID="371210" Value=""/>
+    <Text ID="373127" Value=""/>
+    <Text ID="383654" Value=""/>
+    <Text ID="384536" Value=""/>
+    <Text ID="392020" Value=""/>
+    <Text ID="492234" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="194672" Value=""/>
+    <Text ID="194673" Value=""/>
+    <Text ID="194674" Value=""/>
+    <Text ID="194675" Value=""/>
+    <Text ID="194676" Value=""/>
+    <Text ID="194677" Value=""/>
+    <Text ID="194678" Value=""/>
+    <Text ID="194679" Value=""/>
+    <Text ID="194680" Value=""/>
+    <Text ID="194681" Value=""/>
+    <Text ID="194682" Value=""/>
+    <Text ID="194683" Value=""/>
+    <Text ID="194684" Value=""/>
+    <Text ID="371210" Value=""/>
+    <Text ID="373127" Value=""/>
+    <Text ID="383654" Value=""/>
+    <Text ID="384536" Value=""/>
+    <Text ID="392020" Value=""/>
+    <Text ID="492234" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="194672" Value="kone seis: ohjauspulpetin häiriö PB"/>
+    <Text ID="194673" Value="kone seis: RS seis PB"/>
+    <Text ID="194674" Value="kone seis: Aukirullaus tai painokone hälytys"/>
+    <Text ID="194675" Value="kone seis: ruuhka hälytys"/>
+    <Text ID="194676" Value="kone seis: moottori hälytys"/>
+    <Text ID="194677" Value="kone seis:raja hälytys"/>
+    <Text ID="194678" Value="kone seis:e-stop hälytys"/>
+    <Text ID="194679" Value="kone seis: rekisteri toleranssin ulkopuolella"/>
+    <Text ID="194680" Value="kone seis: Katkaisumerkki hukassa"/>
+    <Text ID="194681" Value="kone seis: Aukirullaus, rulla lopussa"/>
+    <Text ID="194682" Value="kone seis: ohjauspulpetin häiriö HMI PB"/>
+    <Text ID="194683" Value="kone seis: I/O hälytys"/>
+    <Text ID="194684" Value="POWER UP SEQUENCE ACTIVE"/>
+    <Text ID="371210" Value="järjestelmän käyttövirta pois päältä"/>
+    <Text ID="373127" Value="kone seis: Pikapysäytys"/>
+    <Text ID="383654" Value="kone seis: "/>
+    <Text ID="384536" Value="INIT BUNDLER REQUEST"/>
+    <Text ID="392020" Value="kone seis: ratakatkos"/>
+    <Text ID="492234" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="194672" Value="23"/>
+    <Index ID="194673" Value="22"/>
+    <Index ID="194674" Value="21"/>
+    <Index ID="194675" Value="4"/>
+    <Index ID="194676" Value="3"/>
+    <Index ID="194677" Value="2"/>
+    <Index ID="194678" Value="1"/>
+    <Index ID="194679" Value="27"/>
+    <Index ID="194680" Value="26"/>
+    <Index ID="194681" Value="25"/>
+    <Index ID="194682" Value="24"/>
+    <Index ID="194683" Value="5"/>
+    <Index ID="194684" Value="100"/>
+    <Index ID="371210" Value="99"/>
+    <Index ID="373127" Value="28"/>
+    <Index ID="383654" Value="29"/>
+    <Index ID="384536" Value="98"/>
+    <Index ID="392020" Value="6"/>
+    <Index ID="492234" Value="30"/>
+  </IndexMap>
+</TextGroup>

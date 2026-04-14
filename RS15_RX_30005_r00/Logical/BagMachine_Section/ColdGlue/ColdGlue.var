@@ -1,0 +1,33 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Program: ColdGlue
+ * File: ColdGlue.var
+ * Author: pkiel
+ * Created: July 13, 2011
+ ********************************************************************
+ * Local variables of program ColdGlue
+ ********************************************************************)
+VAR
+	Glue_Auto : BOOL;
+	Glue_On : BOOL;
+	Glue_PB : BOOL;
+	GlueAuto_On : BOOL;
+	GlueAuto_PB : BOOL;
+	GlueAutoColor_Ind : UINT;
+	GlueAutoText_Ind : UINT;
+	GlueColor_Ind : UINT;
+	GluePurge_PB : BOOL;
+	GlueText_Ind : UINT;
+END_VAR
+VAR RETAIN
+	HGW_2StatePB_0 : HGW_2StatePB;
+	HGW_2StatePB_1 : HGW_2StatePB;
+END_VAR
+VAR
+	HGW_ScaleReal_0 : HGW_ScaleReal;
+	HGW_ScaleReal_1 : HGW_ScaleReal;
+	PressureCmd : REAL;
+	GlueClean_PB : BOOL;
+	HGW_Toggle_0 : HGW_Toggle;
+END_VAR

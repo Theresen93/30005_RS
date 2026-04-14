@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <P0_Splash ReferenceString="Source[local].Page[P0_Splash]">
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P0_Splash].Layer[Default].Control[Numeric_1].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.HMI.Splash.CountDown]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </P0_Splash>
+</VCXReferenceList>

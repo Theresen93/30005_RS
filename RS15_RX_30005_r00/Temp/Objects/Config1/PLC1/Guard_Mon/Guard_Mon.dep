@@ -1,0 +1,3 @@
+$(AS_PROJECT_PATH)/Logical/BagMachine_Section/BagBundler/BagBundler.var
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/SupervisoryControl_Section/Guard_Mon/Guard_Mon.var

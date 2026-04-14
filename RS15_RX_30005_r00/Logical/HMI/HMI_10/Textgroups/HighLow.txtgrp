@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="3.0.90.22 SP04"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="HighLow">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="31"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="397147" Value="High"/>
+    <Text ID="397148" Value="Low"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="397147" Value=""/>
+    <Text ID="397148" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="397147" Value="Haut"/>
+    <Text ID="397148" Value="Bas"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="397147" Value="nopea "/>
+    <Text ID="397148" Value="hidas"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="397147" Value="0"/>
+    <Index ID="397148" Value="1"/>
+  </IndexMap>
+</TextGroup>

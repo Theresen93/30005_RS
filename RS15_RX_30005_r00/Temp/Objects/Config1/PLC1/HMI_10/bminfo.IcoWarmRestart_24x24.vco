@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="IcoWarmRestart_24x24" ClsId="0x306" Version="1" TargetIndex="268" Type="GFX" RefString="Source[local].Bitmap[IcoWarmRestart_24x24]">
+        <UInt16 Name="Width">24</UInt16>
+        <UInt16 Name="Height">24</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">4</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">Qk02CQAAAAAAADYAAAAoAAAAGAAAABgAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAs8XJ/7PFyf+zxcn/s8XJ/7PFyf+zxcn/s8XJ/7PFyf+zxcn/s8XJ/7PFyf+zxcn/s8XJ/7PFyf+zxcn/s8XJ/7PFyf+zxcn/s8XJ/7PFyf+zxcn/s8XJ/7PFyf+zxcn/t8nM/7fJzP+3ycz/t8nM/7fJzP+3ycz/t8nM/7fJzP+3ycz/t8nM/7fJzP+3ycz/t8nM/7fJzP+3ycz/t8nM/7fJzP+3ycz/t8nM/7fJzP+3ycz/t8nM/7fJzP+3ycz/t8nM/7fJzP+3ycz/t8nM/7fJzP+3ycz/t8nM/7fJzP+3ycz/t8nM/7fJzP+3ycz/t8nM/7fJzP+3ycz/t8nM/7fJzP+3ycz/t8nM/7fJzP+3ycz/t8nM/7fJzP+3ycz/vc3Q/73N0P+9zdD/vc3Q/73N0P+9zdD/vc3Q//////////////////////////////////////8AAAD/AAAA/73N0P+9zdD/vc3Q/73N0P+9zdD/vc3Q/73N0P+9zdD/wdHT/8HR0//B0dP/wdHT//////////////////////+ZqKz/mais/5morP+ZqKz/mais/5morP+ZqKz/mais/wAAAP8AAAD/wdHT/8HR0//B0dP/wdHT/8HR0//B0dP/wdHT/8HR0//B0dP/wdHT//////////////////////+ZqKz/mais/5morP+ZqKz/mais/5morP+ZqKz/mais/wAAAP8AAAD/wdHT/8HR0//B0dP/wdHT/8HR0//B0dP/xtXY/8bV2P/G1dj/////////////////mais/5morP/G1dj/xtXY/8bV2P/G1dj/xtXY/8bV2P/G1dj/xtXY/5morP+ZqKz/AAAA/wAAAP/G1dj/xtXY/8bV2P/G1dj/ytjb/8rY2//K2Nv//////5morP+ZqKz/ytjb/8rY2//K2Nv/ytjb/8rY2/8AAP//AAD//8rY2//K2Nv/ytjb/8rY2//K2Nv/mais/5morP8AAAD/ytjb/8rY2//K2Nv/0N3f/////////////////5morP+ZqKz/0N3f/9Dd3//Q3d//0N3f/wAA///Q3d//0N3f/wAAgP/Q3d//0N3f/9Dd3//Q3d//mais/5morP8AAAD/0N3f/9Dd3//Q3d//0N3f/////////////////5morP+ZqKz/0N3f/9Dd3//Q3d//0N3f/wAA///Q3d//0N3f/wAAgP/Q3d//0N3f/9Dd3//Q3d//mais/5morP8AAAD/0N3f/9Dd3//Q3d//1eHk////////////mais/9Xh5P/V4eT/1eHk/9Xh5P/V4eT/1eHk/wAA///V4eT/1eHk/wAAgP/V4eT/1eHk/9Xh5P/V4eT/1eHk/9Xh5P+ZqKz/AAAA/wAAAP/V4eT/2eXn////////////mais/9nl5//Z5ef/2eXn/9nl5//Z5ef/2eXn/wAA///Z5ef/2eXn/9nl5/8AAID/AACA/9nl5//Z5ef/2eXn/9nl5/+ZqKz/AAAA/wAAAP/Z5ef/2eXn////////////mais/9nl5//Z5ef/2eXn/9nl5//Z5ef/2eXn/wAA///Z5ef/2eXn/9nl5/8AAID/AACA/9nl5//Z5ef/2eXn/9nl5/+ZqKz/AAAA/wAAAP/Z5ef/3unr////////////mais/97p6//e6ev/3unr/97p6//e6ev/3unr/wAA///e6ev/3unr/97p6/8AAID/AACA/97p6//e6ev/3unr/97p6/+ZqKz/AAAA/wAAAP/e6ev/4u3u/+Lt7v/i7e7/mais/+Lt7v/i7e7/4u3u/+Lt7v8AAP//AAD//+Lt7v/i7e7/4u3u/+Lt7v/i7e7/4u3u/wAAgP/i7e7/4u3u/+Lt7v+ZqKz/AAAA/wAAAP/i7e7/4u3u/+Lt7v/i7e7/mais/+Lt7v/i7e7/4u3u/+Lt7v8AAP//AAD//+Lt7v/i7e7/4u3u/+Lt7v/i7e7/4u3u/wAAgP/i7e7/4u3u/+Lt7v+ZqKz/AAAA/wAAAP/i7e7/6PHz/+jx8//o8fP/6PHz/5morP+ZqKz/AAD//wAA//8AAP//AAD//+jx8//o8fP/6PHz/+jx8//o8fP/6PHz/wAAgP8AAP//AAD//wAA//8AAAD/6PHz/+jx8//o8fP/7PX2/+z19v/s9fb/7PX2/5morP+ZqKz/7PX2/+z19v/s9fb/7PX2/+z19v/s9fb/7PX2/+z19v/s9fb/7PX2/+z19v/s9fb/mais/5morP8AAAD/7PX2/+z19v/s9fb/8fn6//H5+v/x+fr/8fn6//H5+v/x+fr/mais/5morP/x+fr/8fn6//H5+v/x+fr/8fn6//H5+v/x+fr/8fn6/5morP+ZqKz/AAAA/wAAAP/x+fr/8fn6//H5+v/x+fr/8fn6//H5+v/x+fr/8fn6//H5+v/x+fr/mais/5morP/x+fr/8fn6//H5+v/x+fr/8fn6//H5+v/x+fr/8fn6/5morP+ZqKz/AAAA/wAAAP/x+fr/8fn6//H5+v/x+fr/9fz9//X8/f/1/P3/9fz9//X8/f/1/P3/9fz9//X8/f+ZqKz/mais/5morP+ZqKz/mais/5morP+ZqKz/mais/wAAAP8AAAD/9fz9//X8/f/1/P3/9fz9//X8/f/1/P3/9/7///f+///3/v//9/7///f+///3/v//9/7///f+///3/v//9/7///f+///3/v//9/7///f+///3/v//9/7///f+///3/v//9/7///f+///3/v//9/7///f+///3/v//9/7///f+///3/v//9/7///f+///3/v//9/7///f+///3/v//9/7///f+///3/v//9/7///f+///3/v//9/7///f+///3/v//9/7///f+///3/v//9/7///f+///3/v//9/7///f+///3/v//9/7///f+///3/v//9/7///f+///3/v//9/7///f+///3/v//9/7///f+///3/v//9/7///f+///3/v//9/7///f+///3/v//9/7///f+///3/v//</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

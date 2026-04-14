@@ -1,0 +1,27 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: Splash
+ * File: Splash.var
+ * Author: pkiel
+ * Created: October 09, 2009
+ ********************************************************************
+ * Local variables of program Splash
+ ********************************************************************)
+VAR
+	CountDown : REAL;
+	CountDown2 : REAL;
+	ElapsedTime : REAL;
+	ElapsedTime2 : REAL;
+	Ready : BOOL;
+	Ready2 : BOOL;
+	SplashDone : BOOL;
+	SplashDone2 : BOOL;
+	Status : UINT;
+	Status2 : UINT;
+	TON_0 : TON;
+	TON_1 : TON;
+	VC_HANDLE : UDINT;
+	VC_HANDLE2 : UDINT;
+	First : BOOL;
+END_VAR
