@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=3.0.80.31 SP01?>
-<Package xmlns="http://br-automation.co.at/AS/Package">
-  <Objects>
-    <Object Type="Program" Language="IEC" Description="Entry Pull Roll Registration">A5_Reg1</Object>
-    <Object Type="Program" Language="IEC" Description="Entry Pull Roll Registration Control">A5_Reg2</Object>
-  </Objects>
-</Package>

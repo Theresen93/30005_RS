@@ -1,6 +1,0 @@
-VAR
-	zzFTR000010000:f_trig:=(0);
-	zzFTR000010001:f_trig:=(0);
-	zzRTR000010000:r_trig:=(0);
-	zzRTR000010001:r_trig:=(0);
-END_VAR

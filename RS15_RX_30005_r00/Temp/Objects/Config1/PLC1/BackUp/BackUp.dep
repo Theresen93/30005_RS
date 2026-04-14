@@ -1,7 +1,0 @@
-$(AS_PROJECT_PATH)/Logical/Libraries/FileIO/FileIO.fun
-$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
-$(AS_PROJECT_PATH)/Logical/HMI/BackUp/BackUp.var
-$(AS_PROJECT_PATH)/Logical/Global.var
-$(AS_PROJECT_PATH)/Logical/Global.typ
-$(AS_PROJECT_PATH)/Physical/Config1/PLC1/Cpu.per
-$(AS_PROJECT_PATH)/Logical/Libraries/FileIO/FileIO.var

@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=3.0.80.31 SP01?>
-<AcoposParameterTable>
-  <Root Name="Parameters">
-    <Parameter Name="CMD_SIMULATION" ID="110" Value="ncSW_OFF" Description="Simulation mode: Command" />
-    <Parameter Name="SGEN_SW_END_IGNORE" ID="128" Value="1" Description="SGEN_SW_END_IGNORE" />
-  </Root>
-</AcoposParameterTable>

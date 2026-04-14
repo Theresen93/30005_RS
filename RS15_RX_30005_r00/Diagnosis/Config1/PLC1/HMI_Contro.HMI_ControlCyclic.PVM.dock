@@ -1,6 +1,0 @@
-WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=HMI_Contro 
-Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=2 ASCIIString=0
-                                    name                                     type force                                                            value level type len format place expand specs
-                   gr_rBagSize1_2Hold_mm                                     REAL    0 "                                                           320.0"    0    8    1   10    0    0         
-                 gr_rBagSize4_2Pliers_mm                                     REAL    0 "                                                           400.0"    0    8    1   10    0    0         
-                  gr_rEnvBSizeTear2_1_mm                                     REAL    0 "                                                           500.0"    0    8    1   10    0    0         
