@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Crossref Scope="SupervisoryControl_Section.HourMeter">
+	<Vars>
+		<Var Name="HourMeter.HourMeterDisplay" Scope="Local" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/HourMeter/HourMeterCyclic.st">
+				<Pos L="29" C="2" PS="Ln:29, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gMachineTime.Seconds" Scope="Global" Type="HourMeter">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/HourMeter/HourMeterCyclic.st">
+				<Pos L="18" C="3" PS="Ln:18, Col:3" A="W"/>
+				<Pos L="18" C="27" PS="Ln:18, Col:27" A="R"/>
+				<Pos L="19" C="7" PS="Ln:19, Col:7" A="R"/>
+				<Pos L="21" C="4" PS="Ln:21, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gMachineTime.Minutes" Scope="Global" Type="HourMeter">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/HourMeter/HourMeterCyclic.st">
+				<Pos L="20" C="4" PS="Ln:20, Col:4" A="W"/>
+				<Pos L="20" C="28" PS="Ln:20, Col:28" A="R"/>
+				<Pos L="22" C="8" PS="Ln:22, Col:8" A="R"/>
+				<Pos L="24" C="5" PS="Ln:24, Col:5" A="W"/>
+				<Pos L="29" C="69" PS="Ln:29, Col:69" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gMachineTime.Hours" Scope="Global" Type="HourMeter">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/HourMeter/HourMeterCyclic.st">
+				<Pos L="23" C="5" PS="Ln:23, Col:5" A="W"/>
+				<Pos L="23" C="27" PS="Ln:23, Col:27" A="R"/>
+				<Pos L="29" C="35" PS="Ln:29, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gMachine_Jog" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/HourMeter/HourMeterCyclic.st">
+				<Pos L="17" C="22" PS="Ln:17, Col:22" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gMachine_Run" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/HourMeter/HourMeterCyclic.st">
+				<Pos L="17" C="6" PS="Ln:17, Col:6" A="R"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

@@ -1,0 +1,1254 @@
+<?xml version="1.0"?>
+<Crossref Scope="BagMachine_Section.MasterAxis.A9_Init.A9_Basic">
+	<Vars>
+		<Var Name="A9_Basic.AutoAck" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="61" C="57" PS="Ln:61, Col:57" A="R"/>
+				<Pos L="62" C="4" PS="Ln:62, Col:4" A="W"/>
+				<Pos L="64" C="4" PS="Ln:64, Col:4" A="W"/>
+				<Pos L="67" C="15" PS="Ln:67, Col:15" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.DriveStatus" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="34" C="50" PS="Ln:34, Col:50" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.DriveStatus.Simulation" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="36" C="28" PS="Ln:36, Col:28" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.DriveStatus.NetworkInit" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="37" C="29" PS="Ln:37, Col:29" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.DriveStatus.HomeSwitch" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="38" C="25" PS="Ln:38, Col:25" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.DriveStatus.PosHWSwitch" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="39" C="26" PS="Ln:39, Col:26" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.DriveStatus.NegHWSwitch" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="40" C="26" PS="Ln:40, Col:26" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.DriveStatus.Trigger1" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="41" C="28" PS="Ln:41, Col:28" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.DriveStatus.Trigger2" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="42" C="28" PS="Ln:42, Col:28" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.DriveStatus.DriveEnable" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="43" C="31" PS="Ln:43, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.DriveStatus.ControllerReady" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="44" C="32" PS="Ln:44, Col:32" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.DriveStatus.ControllerStatus" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="45" C="33" PS="Ln:45, Col:33" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.DriveStatus.AxisError" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="46" C="22" PS="Ln:46, Col:22" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.DriveStatus.LagWarning" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="47" C="28" PS="Ln:47, Col:28" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.ErrorID" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="327" C="4" PS="Ln:327, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.HomeRestore" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="119" C="4" PS="Ln:119, Col:4" A="W"/>
+				<Pos L="122" C="17" PS="Ln:122, Col:17" A="R"/>
+				<Pos L="125" C="7" PS="Ln:125, Col:7" A="R"/>
+				<Pos L="145" C="26" PS="Ln:145, Col:26" A="R"/>
+				<Pos L="152" C="4" PS="Ln:152, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.InitEndlessPosition" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="118" C="4" PS="Ln:118, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.InitModPos_Done" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="109" C="3" PS="Ln:109, Col:3" A="W"/>
+				<Pos L="113" C="41" PS="Ln:113, Col:41" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.InitModPosition" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="105" C="32" PS="Ln:105, Col:32" A="R"/>
+				<Pos L="117" C="4" PS="Ln:117, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_BR_InitEndlessPosition_0.Execute" Scope="Local" Type="MC_BR_InitEndlessPosition">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="113" C="3" PS="Ln:113, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_BR_InitEndlessPosition_0.Axis" Scope="Local" Type="MC_BR_InitEndlessPosition">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="114" C="3" PS="Ln:114, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_BR_InitEndlessPosition_0.DataAddress" Scope="Local" Type="MC_BR_InitEndlessPosition">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="115" C="3" PS="Ln:115, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_BR_InitEndlessPosition_0.Done" Scope="Local" Type="MC_BR_InitEndlessPosition">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="116" C="7" PS="Ln:116, Col:7" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_BR_InitEndlessPosition_0" Scope="Local" Type="MC_BR_InitEndlessPosition">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="121" C="3" PS="Ln:121, Col:3" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_BR_InitModPos_0.Execute" Scope="Local" Type="MC_BR_InitModPos">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="105" C="3" PS="Ln:105, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_BR_InitModPos_0.Axis" Scope="Local" Type="MC_BR_InitModPos">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="106" C="3" PS="Ln:106, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_BR_InitModPos_0.Period" Scope="Local" Type="MC_BR_InitModPos">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="107" C="3" PS="Ln:107, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_BR_InitModPos_0.Factor" Scope="Local" Type="MC_BR_InitModPos">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="108" C="3" PS="Ln:108, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_BR_InitModPos_0.Done" Scope="Local" Type="MC_BR_InitModPos">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="109" C="20" PS="Ln:109, Col:20" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_BR_InitModPos_0" Scope="Local" Type="MC_BR_InitModPos">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="110" C="3" PS="Ln:110, Col:3" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_BR_ReadDriveStatus_0.Enable" Scope="Local" Type="MC_BR_ReadDriveStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="32" C="3" PS="Ln:32, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_BR_ReadDriveStatus_0.Axis" Scope="Local" Type="MC_BR_ReadDriveStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="33" C="3" PS="Ln:33, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_BR_ReadDriveStatus_0.AdrDriveStatus" Scope="Local" Type="MC_BR_ReadDriveStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="34" C="3" PS="Ln:34, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_BR_ReadDriveStatus_0" Scope="Local" Type="MC_BR_ReadDriveStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="35" C="3" PS="Ln:35, Col:3" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Home_0.Execute" Scope="Local" Type="MC_Home">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="129" C="4" PS="Ln:129, Col:4" A="W"/>
+				<Pos L="135" C="4" PS="Ln:135, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Home_0.Axis" Scope="Local" Type="MC_Home">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="131" C="3" PS="Ln:131, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Home_0.Position" Scope="Local" Type="MC_Home">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="132" C="3" PS="Ln:132, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Home_0.HomingMode" Scope="Local" Type="MC_Home">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="133" C="3" PS="Ln:133, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Home_0.Done" Scope="Local" Type="MC_Home">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="134" C="7" PS="Ln:134, Col:7" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Home_0" Scope="Local" Type="MC_Home">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="138" C="3" PS="Ln:138, Col:3" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Home_1.Execute" Scope="Local" Type="MC_Home">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="145" C="7" PS="Ln:145, Col:7" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Home_1.Axis" Scope="Local" Type="MC_Home">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="147" C="3" PS="Ln:147, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Home_1.Position" Scope="Local" Type="MC_Home">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="148" C="3" PS="Ln:148, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Home_1.HomingMode" Scope="Local" Type="MC_Home">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="149" C="3" PS="Ln:149, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Home_1.Done" Scope="Local" Type="MC_Home">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="150" C="7" PS="Ln:150, Col:7" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Home_1" Scope="Local" Type="MC_Home">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="154" C="3" PS="Ln:154, Col:3" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_MoveAbsolute_0.Execute" Scope="Local" Type="MC_MoveAbsolute">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="285" C="14" PS="Ln:285, Col:14" A="R"/>
+				<Pos L="319" C="4" PS="Ln:319, Col:4" A="W"/>
+				<Pos L="328" C="4" PS="Ln:328, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_MoveAbsolute_0.Velocity" Scope="Local" Type="MC_MoveAbsolute">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="318" C="4" PS="Ln:318, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_MoveAbsolute_0.Deceleration" Scope="Local" Type="MC_MoveAbsolute">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="321" C="3" PS="Ln:321, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_MoveAbsolute_0.Acceleration" Scope="Local" Type="MC_MoveAbsolute">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="322" C="3" PS="Ln:322, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_MoveAbsolute_0.Direction" Scope="Local" Type="MC_MoveAbsolute">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="323" C="3" PS="Ln:323, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_MoveAbsolute_0.Axis" Scope="Local" Type="MC_MoveAbsolute">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="324" C="3" PS="Ln:324, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_MoveAbsolute_0.Position" Scope="Local" Type="MC_MoveAbsolute">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="325" C="3" PS="Ln:325, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_MoveAbsolute_0.Done" Scope="Local" Type="MC_MoveAbsolute">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="326" C="7" PS="Ln:326, Col:7" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_MoveAbsolute_0.CommandAborted" Scope="Local" Type="MC_MoveAbsolute">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="326" C="33" PS="Ln:326, Col:33" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_MoveAbsolute_0.Error" Scope="Local" Type="MC_MoveAbsolute">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="326" C="69" PS="Ln:326, Col:69" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_MoveAbsolute_0.ErrorID" Scope="Local" Type="MC_MoveAbsolute">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="327" C="15" PS="Ln:327, Col:15" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_MoveAbsolute_0" Scope="Local" Type="MC_MoveAbsolute">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="330" C="5" PS="Ln:330, Col:5" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_MoveVelocity_0.Axis" Scope="Local" Type="MC_MoveVelocity">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="188" C="3" PS="Ln:188, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_MoveVelocity_0.Velocity" Scope="Local" Type="MC_MoveVelocity">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="189" C="3" PS="Ln:189, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_MoveVelocity_0.Acceleration" Scope="Local" Type="MC_MoveVelocity">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="190" C="3" PS="Ln:190, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_MoveVelocity_0.Deceleration" Scope="Local" Type="MC_MoveVelocity">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="191" C="3" PS="Ln:191, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_MoveVelocity_0.Direction" Scope="Local" Type="MC_MoveVelocity">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="192" C="3" PS="Ln:192, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_MoveVelocity_0.Execute" Scope="Local" Type="MC_MoveVelocity">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="194" C="7" PS="Ln:194, Col:7" A="W"/>
+				<Pos L="196" C="7" PS="Ln:196, Col:7" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_MoveVelocity_0" Scope="Local" Type="MC_MoveVelocity">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="198" C="3" PS="Ln:198, Col:3" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadActualPosition_0.Enable" Scope="Local" Type="MC_ReadActualPosition">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="157" C="3" PS="Ln:157, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadActualPosition_0.Axis" Scope="Local" Type="MC_ReadActualPosition">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="158" C="3" PS="Ln:158, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadActualPosition_0" Scope="Local" Type="MC_ReadActualPosition">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="159" C="3" PS="Ln:159, Col:3" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadActualPosition_0.Valid" Scope="Local" Type="MC_ReadActualPosition">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="160" C="6" PS="Ln:160, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadActualPosition_0.Position" Scope="Local" Type="MC_ReadActualPosition">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="161" C="27" PS="Ln:161, Col:27" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadActualVelocity_0.Error" Scope="Local" Type="MC_ReadActualVelocity">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="167" C="6" PS="Ln:167, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadActualVelocity_0.Enable" Scope="Local" Type="MC_ReadActualVelocity">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="168" C="4" PS="Ln:168, Col:4" A="W"/>
+				<Pos L="170" C="4" PS="Ln:170, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadActualVelocity_0.Axis" Scope="Local" Type="MC_ReadActualVelocity">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="172" C="3" PS="Ln:172, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadActualVelocity_0" Scope="Local" Type="MC_ReadActualVelocity">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="173" C="3" PS="Ln:173, Col:3" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadActualVelocity_0.Valid" Scope="Local" Type="MC_ReadActualVelocity">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="174" C="6" PS="Ln:174, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadActualVelocity_0.Velocity" Scope="Local" Type="MC_ReadActualVelocity">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="175" C="28" PS="Ln:175, Col:28" A="R"/>
+				<Pos L="183" C="30" PS="Ln:183, Col:30" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadAxisError_0.Enable" Scope="Local" Type="MC_ReadAxisError">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="50" C="3" PS="Ln:50, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadAxisError_0.Axis" Scope="Local" Type="MC_ReadAxisError">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="51" C="3" PS="Ln:51, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadAxisError_0.DataAddress" Scope="Local" Type="MC_ReadAxisError">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="52" C="3" PS="Ln:52, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadAxisError_0.DataLength" Scope="Local" Type="MC_ReadAxisError">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="53" C="3" PS="Ln:53, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadAxisError_0.DataObjectName" Scope="Local" Type="MC_ReadAxisError">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="54" C="3" PS="Ln:54, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadAxisError_0" Scope="Local" Type="MC_ReadAxisError">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="55" C="3" PS="Ln:55, Col:3" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadAxisError_0.Valid" Scope="Local" Type="MC_ReadAxisError">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="56" C="6" PS="Ln:56, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadAxisError_0.AxisErrorID" Scope="Local" Type="MC_ReadAxisError">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="57" C="21" PS="Ln:57, Col:21" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadAxisError_0.AxisErrorCount" Scope="Local" Type="MC_ReadAxisError">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="58" C="24" PS="Ln:58, Col:24" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadAxisError_0.Acknowledge" Scope="Local" Type="MC_ReadAxisError">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="68" C="4" PS="Ln:68, Col:4" A="W"/>
+				<Pos L="70" C="4" PS="Ln:70, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadStatus_0.Enable" Scope="Local" Type="MC_ReadStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="91" C="3" PS="Ln:91, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadStatus_0.Axis" Scope="Local" Type="MC_ReadStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="92" C="3" PS="Ln:92, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadStatus_0" Scope="Local" Type="MC_ReadStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="93" C="3" PS="Ln:93, Col:3" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadStatus_0.Valid" Scope="Local" Type="MC_ReadStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="94" C="6" PS="Ln:94, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadStatus_0.Disabled" Scope="Local" Type="MC_ReadStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="95" C="33" PS="Ln:95, Col:33" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadStatus_0.StandStill" Scope="Local" Type="MC_ReadStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="96" C="29" PS="Ln:96, Col:29" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadStatus_0.Stopping" Scope="Local" Type="MC_ReadStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="97" C="28" PS="Ln:97, Col:28" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadStatus_0.DiscreteMotion" Scope="Local" Type="MC_ReadStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="98" C="32" PS="Ln:98, Col:32" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadStatus_0.ContinuousMotion" Scope="Local" Type="MC_ReadStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="99" C="34" PS="Ln:99, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadStatus_0.SynchronizedMotion" Scope="Local" Type="MC_ReadStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="100" C="35" PS="Ln:100, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_ReadStatus_0.Errorstop" Scope="Local" Type="MC_ReadStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="101" C="26" PS="Ln:101, Col:26" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Reset_0.Execute" Scope="Local" Type="MC_Reset">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="75" C="4" PS="Ln:75, Col:4" A="W"/>
+				<Pos L="78" C="4" PS="Ln:78, Col:4" A="W"/>
+				<Pos L="83" C="4" PS="Ln:83, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Reset_0.Done" Scope="Local" Type="MC_Reset">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="77" C="7" PS="Ln:77, Col:7" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Reset_0.Error" Scope="Local" Type="MC_Reset">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="82" C="7" PS="Ln:82, Col:7" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Reset_0.Axis" Scope="Local" Type="MC_Reset">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="87" C="3" PS="Ln:87, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Reset_0" Scope="Local" Type="MC_Reset">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="88" C="3" PS="Ln:88, Col:3" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Stop_0.Axis" Scope="Local" Type="MC_Stop">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="214" C="5" PS="Ln:214, Col:5" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Stop_0.Deceleration" Scope="Local" Type="MC_Stop">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="220" C="11" PS="Ln:220, Col:11" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Stop_0.Execute" Scope="Local" Type="MC_Stop">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="221" C="11" PS="Ln:221, Col:11" A="W"/>
+				<Pos L="260" C="7" PS="Ln:260, Col:7" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Stop_0.Done" Scope="Local" Type="MC_Stop">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="259" C="9" PS="Ln:259, Col:9" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Stop_0.CommandAborted" Scope="Local" Type="MC_Stop">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="259" C="27" PS="Ln:259, Col:27" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Stop_0.Error" Scope="Local" Type="MC_Stop">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="259" C="55" PS="Ln:259, Col:55" A="R"/>
+				<Pos L="261" C="10" PS="Ln:261, Col:10" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Stop_0.ErrorID" Scope="Local" Type="MC_Stop">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="262" C="29" PS="Ln:262, Col:29" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Stop_0" Scope="Local" Type="MC_Stop">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="266" C="5" PS="Ln:266, Col:5" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Stop_0.Busy" Scope="Local" Type="MC_Stop">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="269" C="12" PS="Ln:269, Col:12" A="R"/>
+				<Pos L="278" C="23" PS="Ln:278, Col:23" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.uiStop_0_ErrorID" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="262" C="9" PS="Ln:262, Col:9" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.iStop_0_ErrorCout" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="263" C="9" PS="Ln:263, Col:9" A="W"/>
+				<Pos L="263" C="30" PS="Ln:263, Col:30" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Halt_0.Axis" Scope="Local" Type="MC_Halt">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="213" C="5" PS="Ln:213, Col:5" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Halt_0.Busy" Scope="Local" Type="MC_Halt">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="240" C="14" PS="Ln:240, Col:14" A="R"/>
+				<Pos L="241" C="12" PS="Ln:241, Col:12" A="R"/>
+				<Pos L="270" C="12" PS="Ln:270, Col:12" A="R"/>
+				<Pos L="277" C="23" PS="Ln:277, Col:23" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Halt_0.Execute" Scope="Local" Type="MC_Halt">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="242" C="11" PS="Ln:242, Col:11" A="W"/>
+				<Pos L="245" C="9" PS="Ln:245, Col:9" A="W"/>
+				<Pos L="252" C="7" PS="Ln:252, Col:7" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Halt_0" Scope="Local" Type="MC_Halt">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="243" C="11" PS="Ln:243, Col:11" A="RW"/>
+				<Pos L="267" C="5" PS="Ln:267, Col:5" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Halt_0.Deceleration" Scope="Local" Type="MC_Halt">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="246" C="9" PS="Ln:246, Col:9" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Halt_0.Done" Scope="Local" Type="MC_Halt">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="251" C="9" PS="Ln:251, Col:9" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Halt_0.CommandAborted" Scope="Local" Type="MC_Halt">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="251" C="27" PS="Ln:251, Col:27" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Halt_0.Error" Scope="Local" Type="MC_Halt">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="251" C="55" PS="Ln:251, Col:55" A="R"/>
+				<Pos L="253" C="10" PS="Ln:253, Col:10" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.MC_Halt_0.ErrorID" Scope="Local" Type="MC_Halt">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="254" C="29" PS="Ln:254, Col:29" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.uiHalt_0_ErrorID" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="254" C="9" PS="Ln:254, Col:9" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.iHalt_0_ErrorCout" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="255" C="9" PS="Ln:255, Col:9" A="W"/>
+				<Pos L="255" C="30" PS="Ln:255, Col:30" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.rDecelStop" Scope="Local" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="219" C="11" PS="Ln:219, Col:11" A="W"/>
+				<Pos L="220" C="37" PS="Ln:220, Col:37" A="R"/>
+				<Pos L="224" C="11" PS="Ln:224, Col:11" A="W"/>
+				<Pos L="227" C="11" PS="Ln:227, Col:11" A="W"/>
+				<Pos L="230" C="11" PS="Ln:230, Col:11" A="W"/>
+				<Pos L="233" C="11" PS="Ln:233, Col:11" A="W"/>
+				<Pos L="235" C="11" PS="Ln:235, Col:11" A="W"/>
+				<Pos L="237" C="11" PS="Ln:237, Col:11" A="W"/>
+				<Pos L="239" C="12" PS="Ln:239, Col:12" A="R"/>
+				<Pos L="246" C="35" PS="Ln:246, Col:35" A="R"/>
+				<Pos L="247" C="27" PS="Ln:247, Col:27" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.rMemoDecelStop" Scope="Local" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="239" C="25" PS="Ln:239, Col:25" A="R"/>
+				<Pos L="247" C="9" PS="Ln:247, Col:9" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.ResetError" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="80" C="4" PS="Ln:80, Col:4" A="W"/>
+				<Pos L="85" C="4" PS="Ln:85, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.rPosMaPerfPark" Scope="Local" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="288" C="9" PS="Ln:288, Col:9" A="W"/>
+				<Pos L="302" C="18" PS="Ln:302, Col:18" A="R"/>
+				<Pos L="303" C="18" PS="Ln:303, Col:18" A="R"/>
+				<Pos L="304" C="15" PS="Ln:304, Col:15" A="W"/>
+				<Pos L="307" C="18" PS="Ln:307, Col:18" A="R"/>
+				<Pos L="308" C="18" PS="Ln:308, Col:18" A="R"/>
+				<Pos L="309" C="15" PS="Ln:309, Col:15" A="W"/>
+				<Pos L="316" C="40" PS="Ln:316, Col:40" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.rPosMaTearInContactZ_Beg" Scope="Local" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="295" C="9" PS="Ln:295, Col:9" A="W"/>
+				<Pos L="297" C="61" PS="Ln:297, Col:61" A="R"/>
+				<Pos L="301" C="16" PS="Ln:301, Col:16" A="R"/>
+				<Pos L="302" C="35" PS="Ln:302, Col:35" A="R"/>
+				<Pos L="307" C="35" PS="Ln:307, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.rPosMaTearInContactZ_End" Scope="Local" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="297" C="9" PS="Ln:297, Col:9" A="W"/>
+				<Pos L="301" C="43" PS="Ln:301, Col:43" A="R"/>
+				<Pos L="303" C="35" PS="Ln:303, Col:35" A="R"/>
+				<Pos L="304" C="33" PS="Ln:304, Col:33" A="R"/>
+				<Pos L="308" C="35" PS="Ln:308, Col:35" A="R"/>
+				<Pos L="309" C="33" PS="Ln:309, Col:33" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.rTempCalc_" Scope="Local" Type="REAL[0..9]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="287" C="9" PS="Ln:287, Col:9" A="W"/>
+				<Pos L="290" C="43" PS="Ln:290, Col:43" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.bAxisStop" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="202" C="5" PS="Ln:202, Col:5" A="W"/>
+				<Pos L="215" C="8" PS="Ln:215, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.bAxisStopPos" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="277" C="3" PS="Ln:277, Col:3" A="W"/>
+				<Pos L="284" C="8" PS="Ln:284, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.stTON_0" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="122" C="5" PS="Ln:122, Col:5" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.stTON_0.Q" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="126" C="8" PS="Ln:126, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.stTON_1" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="139" C="5" PS="Ln:139, Col:5" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="A9_Basic.stTON_1.Q" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="142" C="28" PS="Ln:142, Col:28" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.UnitsPerInch" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="14" C="2" PS="Ln:14, Col:2" A="W"/>
+				<Pos L="162" C="46" PS="Ln:162, Col:46" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.AxisPeriod" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="14" C="24" PS="Ln:14, Col:24" A="R"/>
+				<Pos L="107" C="45" PS="Ln:107, Col:45" A="R"/>
+				<Pos L="183" C="66" PS="Ln:183, Col:66" A="R"/>
+				<Pos L="189" C="49" PS="Ln:189, Col:49" A="R"/>
+				<Pos L="318" C="60" PS="Ln:318, Col:60" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ident" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="16" C="6" PS="Ln:16, Col:6" A="R"/>
+				<Pos L="33" C="35" PS="Ln:33, Col:35" A="R"/>
+				<Pos L="51" C="30" PS="Ln:51, Col:30" A="R"/>
+				<Pos L="87" C="20" PS="Ln:87, Col:20" A="R"/>
+				<Pos L="92" C="27" PS="Ln:92, Col:27" A="R"/>
+				<Pos L="106" C="29" PS="Ln:106, Col:29" A="R"/>
+				<Pos L="114" C="38" PS="Ln:114, Col:38" A="R"/>
+				<Pos L="131" C="19" PS="Ln:131, Col:19" A="R"/>
+				<Pos L="147" C="19" PS="Ln:147, Col:19" A="R"/>
+				<Pos L="158" C="34" PS="Ln:158, Col:34" A="R"/>
+				<Pos L="172" C="34" PS="Ln:172, Col:34" A="R"/>
+				<Pos L="188" C="27" PS="Ln:188, Col:27" A="R"/>
+				<Pos L="213" C="21" PS="Ln:213, Col:21" A="R"/>
+				<Pos L="214" C="21" PS="Ln:214, Col:21" A="R"/>
+				<Pos L="324" C="29" PS="Ln:324, Col:29" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_Simulation" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="36" C="3" PS="Ln:36, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_NetworkInit" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="37" C="3" PS="Ln:37, Col:3" A="W"/>
+				<Pos L="50" C="32" PS="Ln:50, Col:32" A="R"/>
+				<Pos L="91" C="29" PS="Ln:91, Col:29" A="R"/>
+				<Pos L="157" C="36" PS="Ln:157, Col:36" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Input_Home" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="38" C="3" PS="Ln:38, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Input_PosHW" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="39" C="3" PS="Ln:39, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Input_NegHW" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="40" C="3" PS="Ln:40, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Input_Trigger1" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="41" C="3" PS="Ln:41, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Input_Trigger2" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="42" C="3" PS="Ln:42, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Input_DriveEnable" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="43" C="3" PS="Ln:43, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_ControllerReady" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="44" C="3" PS="Ln:44, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_ControllerStatus" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="45" C="3" PS="Ln:45, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Error" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="46" C="3" PS="Ln:46, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_LagWarning" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="47" C="3" PS="Ln:47, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.ErrorText" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="52" C="41" PS="Ln:52, Col:41" A="R"/>
+				<Pos L="53" C="43" PS="Ln:53, Col:43" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.ErrorID" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="57" C="4" PS="Ln:57, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.ErrorCount" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="58" C="4" PS="Ln:58, Col:4" A="W"/>
+				<Pos L="61" C="28" PS="Ln:61, Col:28" A="R"/>
+				<Pos L="74" C="28" PS="Ln:74, Col:28" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Cmd_Reset" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="61" C="7" PS="Ln:61, Col:7" A="R"/>
+				<Pos L="74" C="7" PS="Ln:74, Col:7" A="R"/>
+				<Pos L="79" C="4" PS="Ln:79, Col:4" A="W"/>
+				<Pos L="84" C="4" PS="Ln:84, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.ErrorAck" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="67" C="35" PS="Ln:67, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.ErrorStop" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="74" C="52" PS="Ln:74, Col:52" A="R"/>
+				<Pos L="101" C="4" PS="Ln:101, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_Enabled" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="95" C="4" PS="Ln:95, Col:4" A="W"/>
+				<Pos L="128" C="14" PS="Ln:128, Col:14" A="R"/>
+				<Pos L="144" C="14" PS="Ln:144, Col:14" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_StandStill" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="96" C="4" PS="Ln:96, Col:4" A="W"/>
+				<Pos L="127" C="10" PS="Ln:127, Col:10" A="R"/>
+				<Pos L="143" C="10" PS="Ln:143, Col:10" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_Stopping" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="97" C="4" PS="Ln:97, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_DiscreteMotion" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="98" C="4" PS="Ln:98, Col:4" A="W"/>
+				<Pos L="217" C="10" PS="Ln:217, Col:10" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_ContinuousMotion" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="99" C="4" PS="Ln:99, Col:4" A="W"/>
+				<Pos L="209" C="20" PS="Ln:209, Col:20" A="R"/>
+				<Pos L="216" C="10" PS="Ln:216, Col:10" A="R"/>
+				<Pos L="279" C="19" PS="Ln:279, Col:19" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_SynchronizedMotion" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="100" C="4" PS="Ln:100, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_Homed" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="151" C="4" PS="Ln:151, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.PositionCount" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="161" C="4" PS="Ln:161, Col:4" A="W"/>
+				<Pos L="162" C="26" PS="Ln:162, Col:26" A="R"/>
+				<Pos L="163" C="25" PS="Ln:163, Col:25" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.PositionInch" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="162" C="4" PS="Ln:162, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.PositionDeg" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="163" C="4" PS="Ln:163, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.UnitsPerDeg" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="163" C="45" PS="Ln:163, Col:45" A="R"/>
+				<Pos L="325" C="47" PS="Ln:325, Col:47" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.ActualVelocity" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="175" C="4" PS="Ln:175, Col:4" A="W"/>
+				<Pos L="176" C="8" PS="Ln:176, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.SP_MotorPPR" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="175" C="64" PS="Ln:175, Col:64" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_InMotion" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="177" C="5" PS="Ln:177, Col:5" A="W"/>
+				<Pos L="179" C="5" PS="Ln:179, Col:5" A="W"/>
+				<Pos L="208" C="20" PS="Ln:208, Col:20" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.SP_Velocity" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="189" C="31" PS="Ln:189, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.SP_Accel" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="190" C="35" PS="Ln:190, Col:35" A="R"/>
+				<Pos L="322" C="35" PS="Ln:322, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.SP_Decel" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="191" C="35" PS="Ln:191, Col:35" A="R"/>
+				<Pos L="237" C="23" PS="Ln:237, Col:23" A="R"/>
+				<Pos L="321" C="35" PS="Ln:321, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Cmd_ContinuousMotion" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="193" C="16" PS="Ln:193, Col:16" A="R"/>
+				<Pos L="210" C="23" PS="Ln:210, Col:23" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Cmd_ContinuousMotionUpdate" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="193" C="57" PS="Ln:193, Col:57" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.SP_EStopDecel" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="219" C="25" PS="Ln:219, Col:25" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.SP_GuardFaultDecel" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="224" C="23" PS="Ln:224, Col:23" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.SP_WebBreakDecel" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="227" C="23" PS="Ln:227, Col:23" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.SP_GenFaultDecel" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="230" C="23" PS="Ln:230, Col:23" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.SP_JogDecel" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="233" C="23" PS="Ln:233, Col:23" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.SP_FStopDecel" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="235" C="23" PS="Ln:235, Col:23" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.rActPhasDeg" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="295" C="43" PS="Ln:295, Col:43" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA9_FirstHomed" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="125" C="27" PS="Ln:125, Col:27" A="R"/>
+				<Pos L="136" C="4" PS="Ln:136, Col:4" A="W"/>
+				<Pos L="139" C="17" PS="Ln:139, Col:17" A="R"/>
+				<Pos L="142" C="9" PS="Ln:142, Col:9" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActualMachineSpeed_BPM" Scope="Global" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="183" C="3" PS="Ln:183, Col:3" A="W"/>
+				<Pos L="184" C="30" PS="Ln:184, Col:30" A="R"/>
+				<Pos L="318" C="34" PS="Ln:318, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActualMachineSpeed_FPM" Scope="Global" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="184" C="3" PS="Ln:184, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gEndPosData" Scope="Global" Type="MC_ENDLESS_POSITION[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="115" C="49" PS="Ln:115, Col:49" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gFastStop_OK" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="207" C="22" PS="Ln:207, Col:22" A="R"/>
+				<Pos L="234" C="20" PS="Ln:234, Col:20" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gGeneralFaults_OK" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="206" C="22" PS="Ln:206, Col:22" A="R"/>
+				<Pos L="229" C="20" PS="Ln:229, Col:20" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gGuardAlarmsOK" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="203" C="22" PS="Ln:203, Col:22" A="R"/>
+				<Pos L="223" C="20" PS="Ln:223, Col:20" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_SafetyRelay_EStopOK" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="202" C="22" PS="Ln:202, Col:22" A="R"/>
+				<Pos L="218" C="17" PS="Ln:218, Col:17" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gRecipeActive.Repeat" Scope="Global" Type="Recipe">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="14" C="41" PS="Ln:14, Col:41" A="R"/>
+				<Pos L="184" C="54" PS="Ln:184, Col:54" A="R"/>
+				<Pos L="287" C="74" PS="Ln:287, Col:74" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gRecipeActive.Perf_Offset" Scope="Global" Type="Recipe">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="287" C="48" PS="Ln:287, Col:48" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gJog_Stop" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="205" C="18" PS="Ln:205, Col:18" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gJog_ToZeroSpeed" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="232" C="15" PS="Ln:232, Col:15" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gStopPosition" Scope="Global" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="314" C="7" PS="Ln:314, Col:7" A="W"/>
+				<Pos L="325" C="33" PS="Ln:325, Col:33" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gBagMachine_WebBreakOK" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="204" C="22" PS="Ln:204, Col:22" A="R"/>
+				<Pos L="226" C="20" PS="Ln:226, Col:20" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_rPosParkMasterCam" Scope="Global" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="287" C="26" PS="Ln:287, Col:26" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_iMachType" Scope="Global" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="300" C="12" PS="Ln:300, Col:12" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_bIndStopFault" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="222" C="11" PS="Ln:222, Col:11" A="W"/>
+				<Pos L="225" C="11" PS="Ln:225, Col:11" A="W"/>
+				<Pos L="228" C="11" PS="Ln:228, Col:11" A="W"/>
+				<Pos L="231" C="11" PS="Ln:231, Col:11" A="W"/>
+				<Pos L="272" C="7" PS="Ln:272, Col:7" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gr_rTearAxContactZone" Scope="Global" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="297" C="37" PS="Ln:297, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gNormalStopReq" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="211" C="23" PS="Ln:211, Col:23" A="R"/>
+				<Pos L="280" C="19" PS="Ln:280, Col:19" A="R"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+		<Const Name="mcHOME_DIRECT" Scope="Global" Type="USINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="133" C="25" PS="Ln:133, Col:25" A="R"/>
+			</File>
+		</Const>
+		<Const Name="mcHOME_RESTORE_POS" Scope="Global" Type="USINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="149" C="25" PS="Ln:149, Col:25" A="R"/>
+			</File>
+		</Const>
+		<Const Name="mcPOSITIVE_DIR" Scope="Global" Type="USINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="192" C="32" PS="Ln:192, Col:32" A="R"/>
+				<Pos L="323" C="34" PS="Ln:323, Col:34" A="R"/>
+			</File>
+		</Const>
+		<Const Name="C_iRS15" Scope="Global" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="300" C="26" PS="Ln:300, Col:26" A="R"/>
+			</File>
+		</Const>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="H_FC_Modulus" Lib="HGWeber">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="288" C="27" PS="Ln:288, Col:27"/>
+				<Pos L="314" C="24" PS="Ln:314, Col:24"/>
+			</File>
+		</Func>
+		<Func Name="TON" Lib="standard">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="122" C="5" PS="Ln:122, Col:5"/>
+				<Pos L="139" C="5" PS="Ln:139, Col:5"/>
+			</File>
+		</Func>
+		<Func Name="MC_BR_InitEndlessPosition" Lib="acp10_mc">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="121" C="3" PS="Ln:121, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="MC_BR_InitModPos" Lib="acp10_mc">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="110" C="3" PS="Ln:110, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="MC_BR_ReadDriveStatus" Lib="acp10_mc">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="35" C="3" PS="Ln:35, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="MC_Halt" Lib="acp10_mc">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="243" C="11" PS="Ln:243, Col:11"/>
+				<Pos L="267" C="5" PS="Ln:267, Col:5"/>
+			</File>
+		</Func>
+		<Func Name="MC_Home" Lib="acp10_mc">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="138" C="3" PS="Ln:138, Col:3"/>
+				<Pos L="154" C="3" PS="Ln:154, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="MC_MoveAbsolute" Lib="acp10_mc">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="330" C="5" PS="Ln:330, Col:5"/>
+			</File>
+		</Func>
+		<Func Name="MC_MoveVelocity" Lib="acp10_mc">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="198" C="3" PS="Ln:198, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="MC_ReadActualPosition" Lib="acp10_mc">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="159" C="3" PS="Ln:159, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="MC_ReadActualVelocity" Lib="acp10_mc">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="173" C="3" PS="Ln:173, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="MC_ReadAxisError" Lib="acp10_mc">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="55" C="3" PS="Ln:55, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="MC_ReadStatus" Lib="acp10_mc">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="93" C="3" PS="Ln:93, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="MC_Reset" Lib="acp10_mc">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="88" C="3" PS="Ln:88, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="MC_Stop" Lib="acp10_mc">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/A9_Basic/A9_BasicCyclic.st">
+				<Pos L="266" C="5" PS="Ln:266, Col:5"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

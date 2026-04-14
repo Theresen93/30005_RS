@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<Crossref Scope="HMI.Recipe_2">
+	<Vars>
+		<Var Name="Recipe_2.CSV_Init_0" Scope="Local" Type="CSV_Init">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/Recipe_2/Recipe_2Init.st">
+				<Pos L="17" C="2" PS="Ln:17, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Recipe_2.pNames" Scope="Local" Type="UDINT[0..9]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/Recipe_2/Recipe_2Init.st">
+				<Pos L="15" C="2" PS="Ln:15, Col:2" A="W"/>
+				<Pos L="17" C="30" PS="Ln:17, Col:30" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Recipe_2.step" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/Recipe_2/Recipe_2Init.st">
+				<Pos L="24" C="2" PS="Ln:24, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Recipe_2.pDevice" Scope="Local" Type="UDINT[0..9]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/Recipe_2/Recipe_2Init.st">
+				<Pos L="21" C="2" PS="Ln:21, Col:2" A="W"/>
+				<Pos L="22" C="2" PS="Ln:22, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Recipe_2.indexNum" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/Recipe_2/Recipe_2Init.st">
+				<Pos L="25" C="2" PS="Ln:25, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Recipe_2.hmiDevice" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/Recipe_2/Recipe_2Init.st">
+				<Pos L="26" C="2" PS="Ln:26, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Recipe_2.RecipeBackUpPopUp" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/Recipe_2/Recipe_2Init.st">
+				<Pos L="32" C="2" PS="Ln:32, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Recipe_2.RecipeRestorePopUp" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/Recipe_2/Recipe_2Init.st">
+				<Pos L="33" C="2" PS="Ln:33, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gRecipeCntl.cmdDelete" Scope="Global" Type="RECIPE_CNTL_typ">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/Recipe_2/Recipe_2Init.st">
+				<Pos L="28" C="2" PS="Ln:28, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gRecipeCntl.cmdLoad" Scope="Global" Type="RECIPE_CNTL_typ">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/Recipe_2/Recipe_2Init.st">
+				<Pos L="29" C="2" PS="Ln:29, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gRecipeCntl.cmdSave" Scope="Global" Type="RECIPE_CNTL_typ">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/Recipe_2/Recipe_2Init.st">
+				<Pos L="30" C="2" PS="Ln:30, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gRecipeCntl.driveSelect" Scope="Global" Type="RECIPE_CNTL_typ">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/Recipe_2/Recipe_2Init.st">
+				<Pos L="31" C="2" PS="Ln:31, Col:2" A="W"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+		<Const Name="Recipe_2.INIT_WAIT" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/Recipe_2/Recipe_2Init.st">
+				<Pos L="24" C="12" PS="Ln:24, Col:12" A="R"/>
+			</File>
+		</Const>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="CSV_Init" Lib="CSV_File">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/Recipe_2/Recipe_2Init.st">
+				<Pos L="17" C="2" PS="Ln:17, Col:2"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

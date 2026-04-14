@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="3.0"?>
+<hwcInformation>
+   <HMI_10>
+      <Name>C:/BrAutomation/AS30090/as/hardware/VNCXGA.hwc</Name>
+      <Name>C:/BrAutomation/AS30090/as/hardware/4PP420.1043-B5.hwc</Name>
+      <Name>C:/BrAutomation/AS30090/as/hardware/4PP420.1043-B5d.hwc</Name>
+      <Name>C:/Program Files/BrAutomation/AS30090/as/hardware/VNCXGA.hwc</Name>
+      <Name>C:/Program Files/BrAutomation/AS30090/as/hardware/4PP420.1043-75.hwc</Name>
+      <Name>C:/Program Files/BrAutomation/AS30090/as/hardware/4PP420.1043-75d.hwc</Name>
+   </HMI_10>
+</hwcInformation>

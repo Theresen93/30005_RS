@@ -1,0 +1,31 @@
+(********************************************************************
+ * COPYRIGHT -- .
+ ********************************************************************
+ * Program: CMPerf_Gen
+ * File: CMPerf_en.var
+ * Author: dominique
+ * Created: November 05, 2011
+ ********************************************************************
+ * Local variables of program CMPerf_Gen
+ ********************************************************************)
+
+
+VAR CONSTANT
+
+END_VAR
+
+VAR
+  HMI_CMPerf_bOnOffPB : BOOL ; 
+  
+  bOnReq      : BOOL;
+  bOffReq     : BOOL;
+  bOn_PB      : BOOL ;
+  bOff_PB     : BOOL ;
+  
+  bToolSizeLock : BOOL ;
+  
+END_VAR
+
+VAR RETAIN
+  HGW_2StatePB_0 : HGW_2StatePB;
+END_VAR

@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<Crossref Scope="BagMachine_Section.FP.FP_Gen">
+  <Vars>
+    <Var Name="FP_Gen.HMI_FP_bFlexoPressOnOffPB" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="35" C="15" PS="Ln:35, Col:15" A="R" />
+        <Pos L="42" C="7" PS="Ln:42, Col:7" A="W" />
+        <Pos L="47" C="20" PS="Ln:47, Col:20" A="R" />
+        <Pos L="54" C="7" PS="Ln:54, Col:7" A="W" />
+      </File>
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenInit.st">
+        <Pos L="15" C="3" PS="Ln:15, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="FP_Gen.HMI_FP_bPrintAutoPB" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="72" C="35" PS="Ln:72, Col:35" A="R" />
+      </File>
+    </Var>
+    <Var Name="FP_Gen.HMI_FP_iToothSetVisibl" Scope="Local" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="59" C="5" PS="Ln:59, Col:5" A="W" />
+        <Pos L="61" C="5" PS="Ln:61, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="FP_Gen.rMaxLSFlexoP_ftm" Scope="Local" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="79" C="3" PS="Ln:79, Col:3" A="W" />
+        <Pos L="80" C="61" PS="Ln:80, Col:61" A="R" />
+        <Pos L="81" C="62" PS="Ln:81, Col:62" A="R" />
+      </File>
+    </Var>
+    <Var Name="FP_Gen.bPrint_Auto" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="75" C="3" PS="Ln:75, Col:3" A="W" />
+        <Pos L="91" C="6" PS="Ln:91, Col:6" A="R" />
+        <Pos L="100" C="6" PS="Ln:100, Col:6" A="R" />
+      </File>
+    </Var>
+    <Var Name="FP_Gen.bFPOnReq" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="35" C="3" PS="Ln:35, Col:3" A="W" />
+        <Pos L="36" C="6" PS="Ln:36, Col:6" A="R" />
+      </File>
+    </Var>
+    <Var Name="FP_Gen.bFPOffReq" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="47" C="3" PS="Ln:47, Col:3" A="W" />
+        <Pos L="48" C="6" PS="Ln:48, Col:6" A="R" />
+      </File>
+    </Var>
+    <Var Name="FP_Gen.bEdgeSpeedOn" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="83" C="3" PS="Ln:83, Col:3" A="W" />
+        <Pos L="92" C="6" PS="Ln:92, Col:6" A="R" />
+      </File>
+    </Var>
+    <Var Name="FP_Gen.bEdgeSpeedOff" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="84" C="3" PS="Ln:84, Col:3" A="W" />
+        <Pos L="101" C="6" PS="Ln:101, Col:6" A="R" />
+      </File>
+    </Var>
+    <Var Name="FP_Gen.bPrintOn_PB" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="87" C="3" PS="Ln:87, Col:3" A="W" />
+        <Pos L="94" C="14" PS="Ln:94, Col:14" A="R" />
+      </File>
+    </Var>
+    <Var Name="FP_Gen.bPrintOff_PB" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="88" C="3" PS="Ln:88, Col:3" A="W" />
+        <Pos L="102" C="14" PS="Ln:102, Col:14" A="R" />
+      </File>
+    </Var>
+    <Var Name="FP_Gen.bEdgeSpeedNul" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="85" C="3" PS="Ln:85, Col:3" A="W" />
+        <Pos L="103" C="6" PS="Ln:103, Col:6" A="R" />
+      </File>
+    </Var>
+    <Var Name="FP_Gen.bQ_CR_FP_Print" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="96" C="5" PS="Ln:96, Col:5" A="W" />
+        <Pos L="106" C="5" PS="Ln:106, Col:5" A="W" />
+        <Pos L="109" C="21" PS="Ln:109, Col:21" A="R" />
+      </File>
+    </Var>
+    <Var Name="FP_Gen.bQ_CR_FP_NipRol" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="17" C="5" PS="Ln:17, Col:5" A="W" />
+        <Pos L="23" C="5" PS="Ln:23, Col:5" A="W" />
+        <Pos L="26" C="22" PS="Ln:26, Col:22" A="R" />
+      </File>
+    </Var>
+    <Var Name="FP_Gen.uiPrintAutoColor_Ind" Scope="Local" Type="UINT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="74" C="3" PS="Ln:74, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="FP_Gen.uiPrintAutoText_Ind" Scope="Local" Type="UINT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="73" C="3" PS="Ln:73, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="FP_Gen.HGW_2StatePB_0.PB" Scope="Local" Type="HGW_2StatePB">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="72" C="3" PS="Ln:72, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="FP_Gen.HGW_2StatePB_0.Text_Ind" Scope="Local" Type="HGW_2StatePB">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="73" C="27" PS="Ln:73, Col:27" A="R" />
+      </File>
+    </Var>
+    <Var Name="FP_Gen.HGW_2StatePB_0.Color_Ind" Scope="Local" Type="HGW_2StatePB">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="74" C="27" PS="Ln:74, Col:27" A="R" />
+      </File>
+    </Var>
+    <Var Name="FP_Gen.HGW_2StatePB_0.State1" Scope="Local" Type="HGW_2StatePB">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="75" C="27" PS="Ln:75, Col:27" A="R" />
+      </File>
+    </Var>
+    <Var Name="FP_Gen.HGW_2StatePB_0" Scope="Local" Type="HGW_2StatePB">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="76" C="3" PS="Ln:76, Col:3" A="RW" />
+      </File>
+    </Var>
+    <Var Name="FP_Gen.HMI_FP_rSPSpeedPrintOn" Scope="Local" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="80" C="3" PS="Ln:80, Col:3" A="W" />
+        <Pos L="80" C="38" PS="Ln:80, Col:38" A="R" />
+        <Pos L="83" C="54" PS="Ln:83, Col:54" A="R" />
+      </File>
+    </Var>
+    <Var Name="FP_Gen.HMI_FP_rSPSpeedPrintOff" Scope="Local" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="81" C="3" PS="Ln:81, Col:3" A="W" />
+        <Pos L="81" C="38" PS="Ln:81, Col:38" A="R" />
+        <Pos L="84" C="56" PS="Ln:84, Col:56" A="R" />
+      </File>
+    </Var>
+    <Var Name="gA.Ind_InMotion" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="37" C="12" PS="Ln:37, Col:12" A="R" />
+        <Pos L="49" C="12" PS="Ln:49, Col:12" A="R" />
+        <Pos L="85" C="28" PS="Ln:85, Col:28" A="R" />
+      </File>
+    </Var>
+    <Var Name="gActualMachineSpeed_FPM" Scope="Global" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="83" C="28" PS="Ln:83, Col:28" A="R" />
+        <Pos L="84" C="29" PS="Ln:84, Col:29" A="R" />
+      </File>
+    </Var>
+    <Var Name="gI_PrintOn_PB" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="87" C="39" PS="Ln:87, Col:39" A="R" />
+      </File>
+    </Var>
+    <Var Name="gI_PrintOff_PB" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="88" C="41" PS="Ln:88, Col:41" A="R" />
+      </File>
+    </Var>
+    <Var Name="gI_SS_FP_NipRol" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="16" C="14" PS="Ln:16, Col:14" A="R" />
+        <Pos L="22" C="10" PS="Ln:22, Col:10" A="R" />
+      </File>
+    </Var>
+    <Var Name="gI_FP_PrintOn_PB" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="87" C="19" PS="Ln:87, Col:19" A="R" />
+      </File>
+    </Var>
+    <Var Name="gI_FP_PrintOff_PB" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="88" C="19" PS="Ln:88, Col:19" A="R" />
+      </File>
+    </Var>
+    <Var Name="gQ_CR_FP_NipRol" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="26" C="3" PS="Ln:26, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="gQ_CR_FP_Print" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="109" C="3" PS="Ln:109, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="gRecipeActive.bSelFPProd" Scope="Global" Type="Recipe">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="19" C="10" PS="Ln:19, Col:10" A="R" />
+        <Pos L="35" C="49" PS="Ln:35, Col:49" A="R" />
+        <Pos L="39" C="7" PS="Ln:39, Col:7" A="W" />
+        <Pos L="41" C="7" PS="Ln:41, Col:7" A="W" />
+        <Pos L="47" C="51" PS="Ln:47, Col:51" A="R" />
+        <Pos L="51" C="7" PS="Ln:51, Col:7" A="W" />
+        <Pos L="53" C="7" PS="Ln:53, Col:7" A="W" />
+        <Pos L="58" C="6" PS="Ln:58, Col:6" A="R" />
+        <Pos L="93" C="6" PS="Ln:93, Col:6" A="R" />
+        <Pos L="104" C="10" PS="Ln:104, Col:10" A="R" />
+      </File>
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenInit.st">
+        <Pos L="15" C="32" PS="Ln:15, Col:32" A="R" />
+      </File>
+    </Var>
+    <Var Name="gRun_Stop" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="84" C="85" PS="Ln:84, Col:85" A="R" />
+      </File>
+    </Var>
+    <Var Name="g_bMainPower_On" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="20" C="10" PS="Ln:20, Col:10" A="R" />
+      </File>
+    </Var>
+    <Var Name="g_bIndEStop" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="21" C="6" PS="Ln:21, Col:6" A="R" />
+        <Pos L="110" C="25" PS="Ln:110, Col:25" A="R" />
+      </File>
+    </Var>
+    <Var Name="g_bFP_NipRolAutoOff" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="27" C="26" PS="Ln:27, Col:26" A="R" />
+      </File>
+    </Var>
+    <Var Name="gr_rMaxLSFlexoP_mmin" Scope="Global" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="79" C="23" PS="Ln:79, Col:23" A="R" />
+      </File>
+    </Var>
+    <Var Name="FP_Gen.HGW_2StatePB_0.BackColor_State0" Scope="Local" Type="HGW_2StatePB">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenInit.st">
+        <Pos L="18" C="3" PS="Ln:18, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="FP_Gen.HGW_2StatePB_0.ForeColor_State0" Scope="Local" Type="HGW_2StatePB">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenInit.st">
+        <Pos L="19" C="3" PS="Ln:19, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="FP_Gen.HGW_2StatePB_0.BackColor_State1" Scope="Local" Type="HGW_2StatePB">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenInit.st">
+        <Pos L="20" C="3" PS="Ln:20, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="FP_Gen.HGW_2StatePB_0.ForeColor_State1" Scope="Local" Type="HGW_2StatePB">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenInit.st">
+        <Pos L="21" C="3" PS="Ln:21, Col:3" A="W" />
+      </File>
+    </Var>
+  </Vars>
+  <Consts>
+    <Const Name="gBlack" Scope="Global" Type="UINT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenInit.st">
+        <Pos L="19" C="38" PS="Ln:19, Col:38" A="R" />
+        <Pos L="21" C="38" PS="Ln:21, Col:38" A="R" />
+      </File>
+    </Const>
+    <Const Name="gGreen" Scope="Global" Type="UINT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenInit.st">
+        <Pos L="20" C="38" PS="Ln:20, Col:38" A="R" />
+      </File>
+    </Const>
+    <Const Name="gYellow" Scope="Global" Type="UINT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenInit.st">
+        <Pos L="18" C="38" PS="Ln:18, Col:38" A="R" />
+      </File>
+    </Const>
+  </Consts>
+  <Enums>
+  </Enums>
+  <Funcs>
+    <Func Name="HGW_2StatePB" Lib="HGWeber">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Gen/FP_GenCyclic.st">
+        <Pos L="76" C="3" PS="Ln:76, Col:3" />
+      </File>
+    </Func>
+  </Funcs>
+  <Actions>
+  </Actions>
+</Crossref>

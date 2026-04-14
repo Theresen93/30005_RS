@@ -1,0 +1,35 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Program: A1_Automat2
+ * File: A1_Automat2.var
+ * Author: pkiel
+ * Created: July 19, 2011
+ ********************************************************************
+ * Local variables of program A1_Automat2
+ ********************************************************************)
+VAR
+  AutData : MC_AUTDATA_TYP;
+  AutomatStart : BOOL;
+  Error : UINT;
+  ErrorID : UINT;
+  InMatched : BOOL;
+  MasterOffset : REAL;
+  MasterParID : UINT;
+  MatchedSpeed_Inch : REAL;
+  MC_BR_AutControl_0 : MC_BR_AutControl;
+  MC_BR_InitMasterParIDTransfer_0 : MC_BR_InitMasterParIDTransfer;
+  ParID_Ready : BOOL;
+  Slave_AxisPeriod : REAL;
+  SlaveTravel_Deg : REAL;
+  Synch_Request : BOOL;
+  Travel_Deg : REAL;
+  Travel_Inch : REAL;
+  Value1 : DINT;
+  Value2 : DINT;
+  rSlave_AxisPeriod_Inch : REAL ; 
+  rPosOutMatchedSpeed2_Inch : REAL;
+  rTempPosA1_Inch : REAL ;
+  bInitCamAuto : BOOL ; 
+  
+END_VAR

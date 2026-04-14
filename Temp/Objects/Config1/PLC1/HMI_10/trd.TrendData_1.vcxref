@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <TrendData_1 ReferenceString="Source[local].TrendData[TrendData_1]">
+      <Connection>
+         <Property ReferenceString="Source[local].TrendData[TrendData_1].Property[TrendValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.FP.FP_Heater.rTrendSetPTempRegT[1]]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </TrendData_1>
+</VCXReferenceList>

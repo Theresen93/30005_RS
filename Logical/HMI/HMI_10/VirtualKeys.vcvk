@@ -1,0 +1,3819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="3.0.90.22 SP04"?>
+<KeyMapping xmlns="http://br-automation.co.at/AS/VC/Project">
+  <VirtualKey Name="TP_ALPHA_Quest">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="?"/>
+        <Property Name="UnicodeValue['en']" Value="?"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="?"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="?"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Plus">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="+"/>
+        <Property Name="UnicodeValue['en']" Value="+"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="+"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="+"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Openparen">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="("/>
+        <Property Name="UnicodeValue['en']" Value="("/>
+        <Property Name="UnicodeValue['fi-FI']" Value="("/>
+        <Property Name="UnicodeValue['fr-FR']" Value="("/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ENTER">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000166">
+        <Property Name="Action" Value="Enter"/>
+        <Property Name="Description" Value=""/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Semicolon">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value=";"/>
+        <Property Name="UnicodeValue['en']" Value=";"/>
+        <Property Name="UnicodeValue['fi-FI']" Value=";"/>
+        <Property Name="UnicodeValue['fr-FR']" Value=";"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_BckSlsh">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="\"/>
+        <Property Name="UnicodeValue['en']" Value="\"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="\"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="\"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Minus">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="-"/>
+        <Property Name="UnicodeValue['en']" Value="-"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="-"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="-"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_sp">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="p"/>
+        <Property Name="UnicodeValue['en']" Value="p"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="p"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="p"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_sq">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="q"/>
+        <Property Name="UnicodeValue['en']" Value="q"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="q"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="q"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_sr">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="r"/>
+        <Property Name="UnicodeValue['en']" Value="r"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="r"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="r"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_ss">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="s"/>
+        <Property Name="UnicodeValue['en']" Value="s"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="s"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="s"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_st">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="t"/>
+        <Property Name="UnicodeValue['en']" Value="t"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="t"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="t"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_su">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="u"/>
+        <Property Name="UnicodeValue['en']" Value="u"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="u"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="u"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_sv">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="v"/>
+        <Property Name="UnicodeValue['en']" Value="v"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="v"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="v"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_sw">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="w"/>
+        <Property Name="UnicodeValue['en']" Value="w"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="w"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="w"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_sx">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="x"/>
+        <Property Name="UnicodeValue['en']" Value="x"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="x"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="x"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_sy">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="y"/>
+        <Property Name="UnicodeValue['en']" Value="y"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="y"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="y"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_sz">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="z"/>
+        <Property Name="UnicodeValue['en']" Value="z"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="z"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="z"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_R">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="R"/>
+        <Property Name="UnicodeValue['en']" Value="R"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="R"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="R"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_3">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="3"/>
+        <Property Name="UnicodeValue['en']" Value="3"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="3"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="3"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_2">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="2"/>
+        <Property Name="UnicodeValue['en']" Value="2"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="2"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="2"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_1">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="1"/>
+        <Property Name="UnicodeValue['en']" Value="1"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="1"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="1"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_sd">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="d"/>
+        <Property Name="UnicodeValue['en']" Value="d"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="d"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="d"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_7">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="7"/>
+        <Property Name="UnicodeValue['en']" Value="7"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="7"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="7"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_6">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="6"/>
+        <Property Name="UnicodeValue['en']" Value="6"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="6"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="6"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_5">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="5"/>
+        <Property Name="UnicodeValue['en']" Value="5"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="5"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="5"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_4">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="4"/>
+        <Property Name="UnicodeValue['en']" Value="4"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="4"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="4"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_si">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="i"/>
+        <Property Name="UnicodeValue['en']" Value="i"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="i"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="i"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_sj">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="j"/>
+        <Property Name="UnicodeValue['en']" Value="j"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="j"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="j"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_sk">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="k"/>
+        <Property Name="UnicodeValue['en']" Value="k"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="k"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="k"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_sl">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="l"/>
+        <Property Name="UnicodeValue['en']" Value="l"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="l"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="l"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_sm">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="m"/>
+        <Property Name="UnicodeValue['en']" Value="m"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="m"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="m"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_sn">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="n"/>
+        <Property Name="UnicodeValue['en']" Value="n"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="n"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="n"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_so">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="o"/>
+        <Property Name="UnicodeValue['en']" Value="o"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="o"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="o"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_CANCEL">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000166">
+        <Property Name="Action" Value="Cancel Input"/>
+        <Property Name="Description" Value=""/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Openbrace">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="{"/>
+        <Property Name="UnicodeValue['en']" Value="{"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="{"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="{"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_At_sign">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="@"/>
+        <Property Name="UnicodeValue['en']" Value="@"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="@"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="@"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Closebracket">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="]"/>
+        <Property Name="UnicodeValue['en']" Value="]"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="]"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Asterisk">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="*"/>
+        <Property Name="UnicodeValue['en']" Value="*"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="*"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="*"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Bigger">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="&gt;"/>
+        <Property Name="UnicodeValue['en']" Value="&gt;"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="&gt;"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="&gt;"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_TAB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000166">
+        <Property Name="Action" Value="Tabulator"/>
+        <Property Name="Description" Value=""/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Quotes">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="&quot;"/>
+        <Property Name="UnicodeValue['en']" Value="&quot;"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="&quot;"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="&quot;"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_Cur_Right">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000167">
+        <Property Name="Description" Value=""/>
+        <Property Name="Direction" Value="Right"/>
+        <Property Name="Step" Value="Item"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Small">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="&lt;"/>
+        <Property Name="UnicodeValue['en']" Value="&lt;"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="&lt;"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="&lt;"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_V">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="V"/>
+        <Property Name="UnicodeValue['en']" Value="V"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="V"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="V"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_T">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="T"/>
+        <Property Name="UnicodeValue['en']" Value="T"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="T"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="T"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Closeparen">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value=")"/>
+        <Property Name="UnicodeValue['en']" Value=")"/>
+        <Property Name="UnicodeValue['fi-FI']" Value=")"/>
+        <Property Name="UnicodeValue['fr-FR']" Value=")"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Exclamation">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="!"/>
+        <Property Name="UnicodeValue['en']" Value="!"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="!"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="!"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Underscore">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="_"/>
+        <Property Name="UnicodeValue['en']" Value="_"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="_"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="_"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_Shift1">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000168">
+        <Property Name="Description" Value=""/>
+        <Property Name="Mode" Value="Increment Single"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_Shift0">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000168">
+        <Property Name="Description" Value=""/>
+        <Property Name="Mode" Value="Decrement Single"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Care">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="^"/>
+        <Property Name="UnicodeValue['en']" Value="^"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="^"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="^"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Backquote">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="`"/>
+        <Property Name="UnicodeValue['en']" Value="`"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="`"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="`"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_sa">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="a"/>
+        <Property Name="UnicodeValue['en']" Value="a"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="a"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="a"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_sb">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="b"/>
+        <Property Name="UnicodeValue['en']" Value="b"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="b"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="b"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_sc">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="c"/>
+        <Property Name="UnicodeValue['en']" Value="c"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="c"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="c"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_se">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="e"/>
+        <Property Name="UnicodeValue['en']" Value="e"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="e"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="e"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_sf">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="f"/>
+        <Property Name="UnicodeValue['en']" Value="f"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="f"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="f"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_sg">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="g"/>
+        <Property Name="UnicodeValue['en']" Value="g"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="g"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="g"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_sh">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="h"/>
+        <Property Name="UnicodeValue['en']" Value="h"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="h"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="h"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Comma">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value=","/>
+        <Property Name="UnicodeValue['en']" Value=","/>
+        <Property Name="UnicodeValue['fi-FI']" Value=","/>
+        <Property Name="UnicodeValue['fr-FR']" Value=","/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Slash">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="/"/>
+        <Property Name="UnicodeValue['en']" Value="/"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="/"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="/"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Ampersand">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="&amp;"/>
+        <Property Name="UnicodeValue['en']" Value="&amp;"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="&amp;"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="&amp;"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Openbracket">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="["/>
+        <Property Name="UnicodeValue['en']" Value="["/>
+        <Property Name="UnicodeValue['fi-FI']" Value="["/>
+        <Property Name="UnicodeValue['fr-FR']" Value="["/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Percent">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="%"/>
+        <Property Name="UnicodeValue['en']" Value="%"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="%"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="%"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_B">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="B"/>
+        <Property Name="UnicodeValue['en']" Value="B"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="B"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="B"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_A">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="A"/>
+        <Property Name="UnicodeValue['en']" Value="A"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="A"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="A"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_G">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="G"/>
+        <Property Name="UnicodeValue['en']" Value="G"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="G"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="G"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_F">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="F"/>
+        <Property Name="UnicodeValue['en']" Value="F"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="F"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="F"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_E">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="E"/>
+        <Property Name="UnicodeValue['en']" Value="E"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="E"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="E"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_D">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="D"/>
+        <Property Name="UnicodeValue['en']" Value="D"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="D"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="D"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_K">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="K"/>
+        <Property Name="UnicodeValue['en']" Value="K"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="K"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="K"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_J">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="J"/>
+        <Property Name="UnicodeValue['en']" Value="J"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="J"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="J"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_I">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="I"/>
+        <Property Name="UnicodeValue['en']" Value="I"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="I"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="I"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_H">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="H"/>
+        <Property Name="UnicodeValue['en']" Value="H"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="H"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="H"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_O">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="O"/>
+        <Property Name="UnicodeValue['en']" Value="O"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="O"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="O"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_N">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="N"/>
+        <Property Name="UnicodeValue['en']" Value="N"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="N"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="N"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_M">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="M"/>
+        <Property Name="UnicodeValue['en']" Value="M"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="M"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="M"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_L">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="L"/>
+        <Property Name="UnicodeValue['en']" Value="L"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="L"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="L"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_S">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="S"/>
+        <Property Name="UnicodeValue['en']" Value="S"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="S"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="S"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Apostrophy">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="'"/>
+        <Property Name="UnicodeValue['en']" Value="'"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="'"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="'"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Q">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="Q"/>
+        <Property Name="UnicodeValue['en']" Value="Q"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="Q"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="Q"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_P">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="P"/>
+        <Property Name="UnicodeValue['en']" Value="P"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="P"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="P"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_W">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="W"/>
+        <Property Name="UnicodeValue['en']" Value="W"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="W"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="W"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_0">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="0"/>
+        <Property Name="UnicodeValue['en']" Value="0"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="0"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="0"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_U">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="U"/>
+        <Property Name="UnicodeValue['en']" Value="U"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="U"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="U"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Closebrace">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="}"/>
+        <Property Name="UnicodeValue['en']" Value="}"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="}"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="}"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ShiftCapsLock1">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000168">
+        <Property Name="Description" Value=""/>
+        <Property Name="KeyLevel" Value="0"/>
+        <Property Name="Mode" Value="Set"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Z">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="Z"/>
+        <Property Name="UnicodeValue['en']" Value="Z"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="Z"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="Z"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Y">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="Y"/>
+        <Property Name="UnicodeValue['en']" Value="Y"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="Y"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="Y"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_X">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="X"/>
+        <Property Name="UnicodeValue['en']" Value="X"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="X"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="X"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_9">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="9"/>
+        <Property Name="UnicodeValue['en']" Value="9"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="9"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="9"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_8">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="8"/>
+        <Property Name="UnicodeValue['en']" Value="8"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="8"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="8"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Equal">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="="/>
+        <Property Name="UnicodeValue['en']" Value="="/>
+        <Property Name="UnicodeValue['fi-FI']" Value="="/>
+        <Property Name="UnicodeValue['fr-FR']" Value="="/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Colon">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value=":"/>
+        <Property Name="UnicodeValue['en']" Value=":"/>
+        <Property Name="UnicodeValue['fi-FI']" Value=":"/>
+        <Property Name="UnicodeValue['fr-FR']" Value=":"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Dollar">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="$"/>
+        <Property Name="UnicodeValue['en']" Value="$"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="$"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="$"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_VBar">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="|"/>
+        <Property Name="UnicodeValue['en']" Value="|"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="|"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="|"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_SIGN_CHANGE">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000166">
+        <Property Name="Action" Value="Negative Sign"/>
+        <Property Name="Description" Value=""/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Space">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value=" "/>
+        <Property Name="UnicodeValue['en']" Value=" "/>
+        <Property Name="UnicodeValue['fi-FI']" Value=" "/>
+        <Property Name="UnicodeValue['fr-FR']" Value=" "/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_C">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="C"/>
+        <Property Name="UnicodeValue['en']" Value="C"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="C"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="C"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ShiftCapsLock0">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000168">
+        <Property Name="Description" Value=""/>
+        <Property Name="KeyLevel" Value="1"/>
+        <Property Name="Mode" Value="Set"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Hash">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="#"/>
+        <Property Name="UnicodeValue['en']" Value="#"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="#"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="#"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Tilde">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="~"/>
+        <Property Name="UnicodeValue['en']" Value="~"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="~"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="~"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_Cur_Left">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000167">
+        <Property Name="Description" Value=""/>
+        <Property Name="Direction" Value="Left"/>
+        <Property Name="Step" Value="Item"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_DOT">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="."/>
+        <Property Name="UnicodeValue['en']" Value="."/>
+        <Property Name="UnicodeValue['fi-FI']" Value="."/>
+        <Property Name="UnicodeValue['fr-FR']" Value="."/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_BACKSPACE">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000166">
+        <Property Name="Action" Value="Backspace"/>
+        <Property Name="Description" Value=""/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_SET_LAYER2">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000168">
+        <Property Name="Description" Value=""/>
+        <Property Name="KeyLevel" Value="2"/>
+        <Property Name="Mode" Value="Set"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_SET_LAYER4">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000168">
+        <Property Name="Description" Value=""/>
+        <Property Name="KeyLevel" Value="4"/>
+        <Property Name="Mode" Value="Set"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_SET_LAYER0">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000168">
+        <Property Name="Description" Value=""/>
+        <Property Name="KeyLevel" Value="0"/>
+        <Property Name="Mode" Value="Set"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_ALPHA_Apostrophy1">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000165">
+        <Property Name="Description" Value=""/>
+        <Property Name="LanguageDependent" Value="False"/>
+        <Property Name="UnicodeValue['de']" Value="&quot;"/>
+        <Property Name="UnicodeValue['en']" Value="&quot;"/>
+        <Property Name="UnicodeValue['fi-FI']" Value="&quot;"/>
+        <Property Name="UnicodeValue['fr-FR']" Value="&quot;"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_FocusDependent1">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000169">
+        <Property Name="Action[0x00001007]" Value="Step Up"/>
+        <Property Name="Action[0x00001008]" Value="Line Up"/>
+        <Property Name="Action[0x00001009]" Value="Line Up"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Name" Value="Action_0"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_FocusDependent2">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000169">
+        <Property Name="Action[0x00001007]" Value="Step Down"/>
+        <Property Name="Action[0x00001008]" Value="Line Down"/>
+        <Property Name="Action[0x00001009]" Value="Line Down"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Name" Value="Action_0"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_FocusDependent3">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000169">
+        <Property Name="Action[0x00001007]" Value="Enter"/>
+        <Property Name="Action[0x00001008]" Value="Enter"/>
+        <Property Name="Action[0x00001009]" Value="Acknowledge"/>
+        <Property Name="Action[0x0000100B]" Value="Enter"/>
+        <Property Name="Action[0x0000100C]" Value="Enter"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Name" Value="Action_0"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_FocusDependent4">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000169">
+        <Property Name="Action[0x00001007]" Value="Cancel Input"/>
+        <Property Name="Action[0x00001008]" Value="Cancel Input"/>
+        <Property Name="Action[0x00001009]" Value="Cancel Input"/>
+        <Property Name="Action[0x0000100B]" Value="Cancel Input"/>
+        <Property Name="Action[0x0000100C]" Value="Cancel Input"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Name" Value="Action_0"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_Shift2">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000168">
+        <Property Name="Description" Value=""/>
+        <Property Name="KeyLevel" Value="0"/>
+        <Property Name="Mode" Value="Set"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_Shift3">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000168">
+        <Property Name="Description" Value=""/>
+        <Property Name="KeyLevel" Value="2"/>
+        <Property Name="Mode" Value="Set"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_Shift4">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000168">
+        <Property Name="Description" Value=""/>
+        <Property Name="KeyLevel" Value="4"/>
+        <Property Name="Mode" Value="Set"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_Confirm">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000169">
+        <Property Name="Action[0x00001007]" Value="Confirm Input"/>
+        <Property Name="Action[0x00001008]" Value="Confirm Input"/>
+        <Property Name="Action[0x00001009]" Value="Enter"/>
+        <Property Name="Action[0x0000100B]" Value="Confirm Input"/>
+        <Property Name="Action[0x0000100C]" Value="Confirm Input"/>
+        <Property Name="Action[0x00001013]" Value="Confirm Input"/>
+        <Property Name="Action[0x00001018]" Value="Confirm Input"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Name" Value="Action_0"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_Copy">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016F">
+        <Property Name="Description" Value=""/>
+        <Property Name="Mode" Value="Copy"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_Cur_Down">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000167">
+        <Property Name="Description" Value=""/>
+        <Property Name="Direction" Value="Down"/>
+        <Property Name="Step" Value="Item"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_Cur_Up">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000167">
+        <Property Name="Description" Value=""/>
+        <Property Name="Direction" Value="Up"/>
+        <Property Name="Step" Value="Item"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_Cut">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016F">
+        <Property Name="Description" Value=""/>
+        <Property Name="Mode" Value="Cut"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_End">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000167">
+        <Property Name="Description" Value=""/>
+        <Property Name="Direction" Value="Right"/>
+        <Property Name="Step" Value="End"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_Home">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000167">
+        <Property Name="Description" Value=""/>
+        <Property Name="Direction" Value="Left"/>
+        <Property Name="Step" Value="End"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_Insert">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000169">
+        <Property Name="Action[0x00001013]" Value="Toggle Insert Mode"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Name" Value="Action_0"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_Page_Down">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000167">
+        <Property Name="Description" Value=""/>
+        <Property Name="Direction" Value="Down"/>
+        <Property Name="Step" Value="Page"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_Page_Up">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000167">
+        <Property Name="Description" Value=""/>
+        <Property Name="Direction" Value="Up"/>
+        <Property Name="Step" Value="Page"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_Paste">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016F">
+        <Property Name="Description" Value=""/>
+        <Property Name="Mode" Value="Paste"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="TP_SelectionMode">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016F">
+        <Property Name="Description" Value=""/>
+        <Property Name="Mode" Value="Toggle Selection Mode"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_WebBreakBypass_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016A">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gWebBreakBypass_On]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_SystemRestore_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.HMI.BackUp.SystemRestore_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_SystemBackUp_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.HMI.BackUp.SystemBackUp_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_PasswordConfirm_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.HMI.Password.PasswordChange_Visibility]"/>
+      </KeyAction>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_1"/>
+        <Property Name="SetValue" Value="0"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.HMI.Password.PasswordConfirm_Visibility]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_PasswordCancel_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.HMI.Password.PasswordChangeCancel_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_PasswordAccept_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.HMI.Password.PasswordChangeAccept_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_ChangeTechnician_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="SetValue" Value="3"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.HMI.Password.PasswordSelect_Ind]"/>
+      </KeyAction>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_1"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.HMI.Password.PasswordChangeStart_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_ChangeMaint_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="SetValue" Value="2"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.HMI.Password.PasswordSelect_Ind]"/>
+      </KeyAction>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_1"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.HMI.Password.PasswordChangeStart_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_ChangeSupervisor_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.HMI.Password.PasswordSelect_Ind]"/>
+      </KeyAction>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_1"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.HMI.Password.PasswordChangeStart_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="GoTo_Maint">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gHMI_GoToMaint_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_Logout_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.HMI.Password.Logout_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_Login_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="SetValue" Value="8"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.HMI.Password.PasswordStatus]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="GoTo_AlarmHistory_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000160">
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Page" Value="Source[local].Page[P31_Alarms_History]"/>
+        <Property Name="Target" Value="Page"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="GoTo_AlarmActive_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000160">
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Page" Value="Source[local].Page[P30_Alarms_Active]"/>
+        <Property Name="Target" Value="Page"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="GoTo_MainBagMachine_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000160">
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Page" Value="Source[local].Page[P1_Main_BagMachine]"/>
+        <Property Name="Target" Value="Page"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="Stop_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gHMI_Stop_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="Run_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gHMI_Run_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="Reset_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gHMI_Reset_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="Jog_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gHMI_Jog_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="InchMetric_Key">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016A">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.HMI.Units.InchMetric_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_ShaftlessTension_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="None"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_ProductSelect_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.Count.HMI_CountSelect_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_ProductCountReset_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.Count.HMI_ProductCountReset_PB]"/>
+      </KeyAction>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_1"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.Count.HMI_ProductCountVisibility]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_ProductCountPopUP_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="SetValue" Value="0"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.Count.HMI_ProductCountVisibility]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_ProductCountAbort_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.Count.HMI_ProductCountVisibility]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_Language_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016A">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.HMI.Language.Language_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_DrawrollOffsetRET_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000162">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="MaxValue" Value="32768"/>
+        <Property Name="MinValue" Value="-32768"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Repeat" Value="True"/>
+        <Property Name="StepValue" Value="-0.01"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gReg[5].SP_Offset]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_DrawrollOffsetADV_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000162">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="MaxValue" Value="32768"/>
+        <Property Name="MinValue" Value="-32768"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Repeat" Value="True"/>
+        <Property Name="StepValue" Value="0.01"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gReg[5].SP_Offset]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_DrawrollCountReset_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="SetValue" Value="0"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gReg[5].MarkGoodCount]"/>
+      </KeyAction>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_1"/>
+        <Property Name="SetValue" Value="0"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gReg[5].MarkMissedCount]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_DrawReg_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016A">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gReg[5].Enable]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_CommandTrace_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.HMI.Cmd_Trace.Trace_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_Ack_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.HMI.HMI_Control.HMI_ErrorAck]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="GoTo_Status">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gHMI_GoToStatus_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="GoTo_Main">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gHMI_GoToMain_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="GoToSetup">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gHMI_GoToSetup_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="GoToAlarms">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gHMI_GoToAlarm_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_Calibrate_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000164">
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="Alarm_CurserUp">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000169">
+        <Property Name="Description" Value=""/>
+        <Property Name="Name" Value="Action_0"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="Alarm_CurserPageUp">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000169">
+        <Property Name="Description" Value=""/>
+        <Property Name="Name" Value="Action_0"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="Alarm_CurserPageDown">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000169">
+        <Property Name="Description" Value=""/>
+        <Property Name="Name" Value="Action_0"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="Alarm_CurserDown">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000169">
+        <Property Name="Description" Value=""/>
+        <Property Name="Name" Value="Action_0"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="AlarmHistory_PageUp_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="AlarmHistory_PageDown_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="AlarmActive_PageUp_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="AlarmActive_PageDown_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_SpeedINC_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000162">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="MaxValue" Value="100"/>
+        <Property Name="MinValue" Value="0"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Repeat" Value="True"/>
+        <Property Name="StepValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gSP_CmdSpeed]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_SpeedDEC_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000162">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="MaxValue" Value="100"/>
+        <Property Name="MinValue" Value="0"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Repeat" Value="True"/>
+        <Property Name="StepValue" Value="-1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gSP_CmdSpeed]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_DeliveryJamBypass_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="None"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_RegCorrectOffOn_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="None"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_ColdGlueManAuto_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.ColdGlue.GlueAuto_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_ColdGlueOffOn_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.ColdGlue.Glue_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_ColdGluePurge_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.ColdGlue.GluePurge_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_ColdGlueClean_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.ColdGlue.GlueClean_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_HotGlueOffOn_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.HotGlue.Glue_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_HotGluePurge_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.HotGlue.GluePurge_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_HotGlueClean_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.HotGlue.GlueClean_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_HotGlueManAuto_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.HotGlue.GlueAuto_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_ExitRollDrawPOS_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000162">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="MaxValue" Value="32768"/>
+        <Property Name="MinValue" Value="-32768"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Repeat" Value="True"/>
+        <Property Name="StepValue" Value="0.1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gRecipeActive.Exit_Draw]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_ExitRollDrawNEG_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000162">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="MaxValue" Value="32768"/>
+        <Property Name="MinValue" Value="-32768"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Repeat" Value="True"/>
+        <Property Name="StepValue" Value="-0.1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gRecipeActive.Exit_Draw]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_EntryRollDrawPOS_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000162">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="MaxValue" Value="32768"/>
+        <Property Name="MinValue" Value="-32768"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Repeat" Value="True"/>
+        <Property Name="StepValue" Value="0.1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.EntryPull.Axis5.A5_Draw.HMI_rEntry_Draw_Set]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_EntryRollDrawNEG_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000162">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="MaxValue" Value="32768"/>
+        <Property Name="MinValue" Value="-32768"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Repeat" Value="True"/>
+        <Property Name="StepValue" Value="-0.1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.EntryPull.Axis5.A5_Draw.HMI_rEntry_Draw_Set]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="GoTo_MainRegistration_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000160">
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Page" Value="Source[local].Page[P5_Main_Registration]"/>
+        <Property Name="Target" Value="Page"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="GoTo_MainCount_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000160">
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Page" Value="Source[local].Page[P3_Main_Count]"/>
+        <Property Name="Target" Value="Page"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="GoTo_MainGlue_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000160">
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Page" Value="Source[local].Page[P4_Main_Glue]"/>
+        <Property Name="Target" Value="Page"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_MarkCountReset_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="SetValue" Value="0"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gReg[5].MarkGoodCount]"/>
+      </KeyAction>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_1"/>
+        <Property Name="SetValue" Value="0"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gReg[5].MarkMissedCount]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_GlueTray_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.GlueTray.GlueTray_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_GlueTraySR_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.GlueTray.GlueTraySR_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_A1Ref_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gA1Ref_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_A3Ref_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gA3Ref_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_A4Ref_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gA4Ref_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_A7Ref_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gA7Ref_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_CountOffOn_OB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.Count.Count_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_Perf_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.Perf.Perf_Gen.Perf_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_Vacuum_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.Vacuum.Vacuum_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_TubeSelect_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016A">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gSP_TubeSelect]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_SetupMode_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.SupervisoryControl_Section.Setup.SetupMode_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_PerfCylSelect_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016A">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gSP_PerfCylSelect]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_PerfOffsetPOS_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000162">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="MaxValue" Value="32768"/>
+        <Property Name="MinValue" Value="-32768"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Repeat" Value="True"/>
+        <Property Name="StepValue" Value="0.01"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gRecipeActive.Perf_Offset]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_PerfOffsetNEG_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000162">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="MaxValue" Value="32768"/>
+        <Property Name="MinValue" Value="-32768"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Repeat" Value="True"/>
+        <Property Name="StepValue" Value="-0.01"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gRecipeActive.Perf_Offset]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_HoldingOffsetPOS_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000162">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="MaxValue" Value="32768"/>
+        <Property Name="MinValue" Value="-32768"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Repeat" Value="True"/>
+        <Property Name="StepValue" Value="0.01"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gRecipeActive.Holding_Offset]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_HoldingOffsetNEG_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000162">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="MaxValue" Value="32768"/>
+        <Property Name="MinValue" Value="-32768"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Repeat" Value="True"/>
+        <Property Name="StepValue" Value="-0.01"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gRecipeActive.Holding_Offset]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_TearingOffsetPOS_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000162">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="MaxValue" Value="32768"/>
+        <Property Name="MinValue" Value="-32768"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Repeat" Value="True"/>
+        <Property Name="StepValue" Value="0.01"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gRecipeActive.Tearing_Offset]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_TearingOffsetNEG_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000162">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="MaxValue" Value="32768"/>
+        <Property Name="MinValue" Value="-32768"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Repeat" Value="True"/>
+        <Property Name="StepValue" Value="-0.01"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gRecipeActive.Tearing_Offset]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_DrumOffsetPOS_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000162">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="MaxValue" Value="32768"/>
+        <Property Name="MinValue" Value="-32768"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Repeat" Value="True"/>
+        <Property Name="StepValue" Value="0.01"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gRecipeActive.Drum_Offset]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_DrumOffsetNEG_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000162">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="MaxValue" Value="32768"/>
+        <Property Name="MinValue" Value="-32768"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Repeat" Value="True"/>
+        <Property Name="StepValue" Value="-0.01"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gRecipeActive.Drum_Offset]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="GoTo_SetupBagMachine_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000160">
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Page" Value="Source[local].Page[P10_Setup_BagMachine]"/>
+        <Property Name="Target" Value="Page"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="GoTo_SetupPerf_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000160">
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Page" Value="Source[local].Page[P11_Setup_Perf]"/>
+        <Property Name="Target" Value="Page"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_ManualMode_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.SupervisoryControl_Section.ManMode.ManualMode_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="GoTo_MainBundler_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000160">
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Page" Value="Source[local].Page[P100_Main_Bundler]"/>
+        <Property Name="Target" Value="Page"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_Bund_PosIn14C1_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Tilter.bHMI_Cmd_RecPosIn14C1]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_PosTiltTrav14C4Out_Pos_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000162">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="MaxValue" Value="60"/>
+        <Property Name="MinValue" Value="0"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Repeat" Value="True"/>
+        <Property Name="StepValue" Value="0.1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.gr_rPosTiltTrav14C4Out]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_PosTiltTrav14C4Out_Neg_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000162">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="MaxValue" Value="60"/>
+        <Property Name="MinValue" Value="0"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Repeat" Value="True"/>
+        <Property Name="StepValue" Value="-0.1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.gr_rPosTiltTrav14C4Out]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_BundlerManAuto_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Control.bHMI_Bund_ManOn_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_BundlerInit_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Control.bHMI_Bund_Init_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_BundMan_14C1P_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Separator.bHMI_BundMan_14C1P_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_BundMan_14C1M_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Separator.bHMI_BundMan_14C1M_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_BundMan_14C2M_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Separator.bHMI_BundMan_14C2M_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_BundMan_14C2P_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Separator.bHMI_BundMan_14C2P_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_BundMan_14C3P_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Tilter.bHMI_BundMan_14C3P_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_BundMan_14C3M_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Tilter.bHMI_BundMan_14C3M_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_BundMan_14C4M_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Tilter.bHMI_BundMan_14C4M_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_BundMan_14C4P_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Tilter.bHMI_BundMan_14C4P_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_BundMan_14C5P_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Tilter.bHMI_BundMan_14C5P_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_BundMan_14C5M_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Tilter.bHMI_BundMan_14C5M_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_BundMan_TiltUp_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Tilter.bHMI_BundMan_TiltUp_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_BundMan_TiltDown_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.BagBundler.Tilter.bHMI_BundMan_TiltDown_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="GoTo_Main_Bundler_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000160">
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Page" Value="Source[local].Page[P100_Main_Bundler]"/>
+        <Property Name="Target" Value="Page"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="GoTo_Bund_ManEject_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000160">
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Page" Value="Source[local].Page[P101_Main_BundManuEject]"/>
+        <Property Name="Target" Value="Page"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="GoTo_Bund_ManSep_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000160">
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Page" Value="Source[local].Page[P102_Main_BundManuSep]"/>
+        <Property Name="Target" Value="Page"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="GoTo_Bund_ManTilt_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000160">
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Page" Value="Source[local].Page[P103_Main_BundManuTilt]"/>
+        <Property Name="Target" Value="Page"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_SetSpeed_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_CurvMaxSpeedPerf">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_tilter_startmode">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_ConfirmSetSpeedAuto_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="SetValue" Value="0"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gr_bSetSpeedMode]"/>
+      </KeyAction>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_1"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.MasterAxis.A9_Init.SetSpeedMode.HMI_uiConfirmSetSpeedVisibl]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_ConfirmSetSpeedAutoAbort_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.MasterAxis.A9_Init.SetSpeedMode.HMI_uiConfirmSetSpeedVisibl]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_BundMan_PresSelect_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="EndReelBypass_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="EndReelPolyBypass_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="EndReelPaperBypass_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_FP_PrintAuto_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_FlexoPressOffOn_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="GoTo_Printer_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="GoTo_MainExitTable_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_ExitTableSpeedUp_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_ExitTableSpeedDown_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_ExitTableSlower_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_ExitTableFaster_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_RSGlueSelect_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_RSGlueOffOn_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_RSGluePurge_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_RSGlueClean_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_RSGlueManAuto_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_UNWGlueOffOn_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_UNWGluePurge_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_UNWGlueClean_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_UNWGlueManAuto_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_FlexoOffsetPOS_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_AutoOffsetPrintRol_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="GoTo_SetupHoldTearDr_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000160">
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Page" Value="Source[local].Page[P12_Setup_HoldTearDr]"/>
+        <Property Name="Target" Value="Page"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="GoTo_MicroPerf_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_ColdMicroPerfDrawPOS_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_ColdMicroPerfDrawNEG_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_DeflectorFanOnOff_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_HMPerf_Mode_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_HotMicroPerfOffsetPOS_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_HotMicroPerfOffsetNEG_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_DryBlowerOffOn_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_DryHeaterOffOn_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_DryHalfHeatPowerOffOn_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_DryAutoStopOffOn_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_OtherRSGlueSelect_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="GoTo_EnvelopeBag_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_EnvBWasteSucOffOn_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_EnvBOffOn_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_A13Ref_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gA13Ref_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_A12Ref_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gA12Ref_PB]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_EnvBOffsetNeg_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000162">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="MaxValue" Value="32768"/>
+        <Property Name="MinValue" Value="-32768"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Repeat" Value="True"/>
+        <Property Name="StepValue" Value="-0.01"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gRecipeActive.rEnvB_Offset]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_EnvBOffsetPos_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000162">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="MaxValue" Value="32768"/>
+        <Property Name="MinValue" Value="-32768"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Repeat" Value="True"/>
+        <Property Name="StepValue" Value="0.01"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gRecipeActive.rEnvB_Offset]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_TearEBOffsetPos_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000162">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="MaxValue" Value="32768"/>
+        <Property Name="MinValue" Value="-32768"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Repeat" Value="True"/>
+        <Property Name="StepValue" Value="0.01"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gRecipeActive.rTearEB_Offset]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_TearEBOffsetNeg_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000162">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="MaxValue" Value="32768"/>
+        <Property Name="MinValue" Value="-32768"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Repeat" Value="True"/>
+        <Property Name="StepValue" Value="-0.01"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gRecipeActive.rTearEB_Offset]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_PopUpHolTearOffset_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_PopUpHolTearOffsetOpen_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_PopUpHolTearOffsetClose_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="GoTo_Splash">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="GoTo_SetupHoldTearDr_1_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000160">
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="Page" Value="Source[local].Page[P13_Setup_HoldTearDr_1]"/>
+        <Property Name="Target" Value="Page"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="HMI_MoveUpPictHoldTearEnvB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_MoveDowPictHoldTearEnvB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_ShowHideEnvB_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_SystemWarmRestart_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="HMI_SystemColdRestart_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="GoTo_Main_Printer_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+  <VirtualKey Name="GoTo_Main_HeatTrend_PB">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+  </VirtualKey>
+</KeyMapping>

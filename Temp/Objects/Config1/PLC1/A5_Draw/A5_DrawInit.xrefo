@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Crossref Scope="BagMachine_Section.EntryPull.Axis5.A5_Draw">
+	<Vars>
+		<Var Name="A5_Draw.HMI_rEntry_Draw_Set" Scope="Local" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Draw/A5_DrawInit.st">
+				<Pos L="15" C="5" PS="Ln:15, Col:5" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gRecipeActive.Entry_Draw" Scope="Global" Type="Recipe">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Draw/A5_DrawInit.st">
+				<Pos L="15" C="28" PS="Ln:15, Col:28" A="R"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

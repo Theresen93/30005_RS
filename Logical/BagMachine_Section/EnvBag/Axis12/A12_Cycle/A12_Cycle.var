@@ -1,0 +1,22 @@
+(********************************************************************
+ * COPYRIGHT -- .
+ ********************************************************************
+ * Program: A12_Cycle
+ * File: A12_Cycle.var
+ * Author: dominique
+ * Created: November 21, 2011
+ ********************************************************************
+ * Local variables of program A12_Cycle
+ ********************************************************************)
+
+VAR         
+  iTest_          : ARRAY [0..15] OF INT ;
+  rTempActPhasDeg : ARRAY[0..15] OF REAL ;
+  rTempActOffsetInch : ARRAY[0..15] OF REAL ;
+  rTemp_          : ARRAY[0..15] OF REAL ;
+  stTON_01        : TON ;
+END_VAR
+
+VAR CONSTANT
+
+END_VAR

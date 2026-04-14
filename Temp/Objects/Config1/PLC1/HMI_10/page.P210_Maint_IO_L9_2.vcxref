@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <P210_Maint_IO_L9_2 ReferenceString="Source[local].Page[P210_Maint_IO_L9_2]">
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P210_Maint_IO_L9_2].Layer[Default].Control[Bitmap_20].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.gQ_Bund_DriveFailReset]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P210_Maint_IO_L9_2].Layer[Default].Control[Bitmap_21].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.gQ_Bund_SOL_14C4Out]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P210_Maint_IO_L9_2].Layer[Default].Control[Bitmap_22].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.gQ_Bund_SOL_14C2Out]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P210_Maint_IO_L9_2].Layer[Default].Control[Bitmap_23].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.gQ_Bund_SOL_14C3Out]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P210_Maint_IO_L9_2].Layer[Default].Control[Bitmap_24].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.gQ_Bund_SOL_AirSupply]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P210_Maint_IO_L9_2].Layer[Default].Control[Bitmap_26].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.gQ_Bund_SOL_14C1Out]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P210_Maint_IO_L9_2].Layer[Default].Control[Bitmap_27].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.gQ_Bund_SOL_15C1Out]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P210_Maint_IO_L9_2].Layer[Default].Control[Bitmap_28].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.gQ_Bund_SpO3]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P210_Maint_IO_L9_2].Layer[Default].Control[Bitmap_29].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.gQ_Bund_SpO4]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P210_Maint_IO_L9_2].Layer[Default].Control[Bitmap_30].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.gQ_Bund_SpO5]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P210_Maint_IO_L9_2].Layer[Default].Control[Bitmap_31].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.gQ_Bund_SOL_PresSelect]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </P210_Maint_IO_L9_2>
+</VCXReferenceList>

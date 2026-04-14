@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Crossref Scope="HMI.BackUp">
+	<Vars>
+		<Var Name="BackUp.strDevice" Scope="Local" Type="STRING[32]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/BackUp/BackUpInit.st">
+				<Pos L="14" C="1" PS="Ln:14, Col:1" A="W"/>
+			</File>
+		</Var>
+		<Var Name="BackUp.strFile" Scope="Local" Type="STRING[32]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/BackUp/BackUpInit.st">
+				<Pos L="15" C="1" PS="Ln:15, Col:1" A="W"/>
+			</File>
+		</Var>
+		<Var Name="BackUp.byStep" Scope="Local" Type="USINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/BackUp/BackUpInit.st">
+				<Pos L="16" C="1" PS="Ln:16, Col:1" A="W"/>
+			</File>
+		</Var>
+		<Var Name="BackUp.bOK" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/BackUp/BackUpInit.st">
+				<Pos L="17" C="1" PS="Ln:17, Col:1" A="W"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

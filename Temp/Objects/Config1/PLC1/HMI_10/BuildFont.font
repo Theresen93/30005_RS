@@ -1,0 +1,7 @@
+<FontFiles>
+  <LastBuildFont>
+    <Property Name="File" Value="ARIALBD.TTF" ModuleName="arialbd" />
+    <Property Name="File" Value="ARIALBI.TTF" ModuleName="arialbi" />
+    <Property Name="File" Value="ARIAL.TTF" ModuleName="arial" />
+  </LastBuildFont>
+</FontFiles>

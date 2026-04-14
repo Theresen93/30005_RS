@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Crossref Scope="SupervisoryControl_Section.Revision">
+	<Vars>
+		<Var Name="Revision.CurrentSoftwareRevision" Scope="Local" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Revision/RevisionCyclic.st">
+				<Pos L="14" C="2" PS="Ln:14, Col:2" A="W"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

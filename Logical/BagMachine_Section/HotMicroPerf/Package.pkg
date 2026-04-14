@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.80.31 SP01?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="IEC" Description="General Hot Micro Perf control">HMPerf_Gen</Object>
+    <Object Type="Package">Axis15</Object>
+  </Objects>
+</Package>

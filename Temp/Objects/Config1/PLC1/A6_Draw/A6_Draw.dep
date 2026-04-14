@@ -1,0 +1,3 @@
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Global.typ
+$(AS_PROJECT_PATH)/Logical/BagMachine_Section/ExitPull/Axis6/A6_Draw/A6_Draw.var

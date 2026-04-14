@@ -1,0 +1,31 @@
+(********************************************************************
+ * COPYRIGHT -- .
+ ********************************************************************
+ * Program: CPURestart
+ * File: CPURestart.var
+ * Author: dominique
+ * Created: March 18, 2012
+ ********************************************************************
+ * Local variables of program CPURestart
+ ********************************************************************)
+
+VAR RETAIN 
+
+  HMI_iCRestartStat : INT ; 
+  HMI_iWRestartStat : INT ; 
+   
+END_VAR
+
+VAR
+
+  HMI_CmdColdRestart : BOOL ;
+  uiRetColdRestart   : UINT ;
+  HMI_CmdWarmRestart : BOOL ;
+  uiRetWarmRestart   : UINT ;
+  
+END_VAR
+
+VAR CONSTANT
+  
+
+END_VAR

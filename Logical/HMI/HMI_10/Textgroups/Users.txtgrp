@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="3.0.90.22 SP04"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Users">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="17"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="194739" Value="User: Technician"/>
+    <Text ID="194740" Value="User: Maintenance"/>
+    <Text ID="194741" Value="User: Supervisor"/>
+    <Text ID="194742" Value="User: Operator"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="194739" Value=""/>
+    <Text ID="194740" Value=""/>
+    <Text ID="194741" Value=""/>
+    <Text ID="194742" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="194739" Value=""/>
+    <Text ID="194740" Value=""/>
+    <Text ID="194741" Value=""/>
+    <Text ID="194742" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="194739" Value="Käyttäjä: Teknikko"/>
+    <Text ID="194740" Value="Käyttäjä: Huolto"/>
+    <Text ID="194741" Value="Käyttäjä: Esimies"/>
+    <Text ID="194742" Value="Käyttäjä: Koneenhoitaja"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="194739" Value="3"/>
+    <Index ID="194740" Value="2"/>
+    <Index ID="194741" Value="1"/>
+    <Index ID="194742" Value="0"/>
+  </IndexMap>
+</TextGroup>

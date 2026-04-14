@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="3.0.90.22 SP04"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Perf_Ind">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="24"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="368266" Value="PERF ON"/>
+    <Text ID="368267" Value="PERF OFF"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="368266" Value=""/>
+    <Text ID="368267" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="368266" Value=""/>
+    <Text ID="368267" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="368266" Value="PERF ON"/>
+    <Text ID="368267" Value="PERF OFF"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="368266" Value="1"/>
+    <Index ID="368267" Value="0"/>
+  </IndexMap>
+</TextGroup>

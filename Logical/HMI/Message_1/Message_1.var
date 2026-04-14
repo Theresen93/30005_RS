@@ -1,0 +1,27 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: Message_1
+ * File: Message_1.var
+ * Author: pkiel
+ * Created: October 16, 2009
+ ********************************************************************
+ * Local variables of program Message_1
+ ********************************************************************)
+VAR
+	FirstMessage_L1 : BOOL;
+	FirstMessage_L2 : BOOL;
+	HGW_2StateIND_0 : HGW_2StateIND;
+	HMI_MessageDisplay : UINT;
+	Message : ARRAY[0..100] OF BOOL;
+	MessageActive : BOOL;
+	MessageColor_Ind : UINT;
+	MessageDisplay : UINT;
+	MessageReset : BOOL;
+	MessageStatus : UINT;
+	Permissive_L2 : BOOL;
+	Permissive_L3 : BOOL;
+	SelfReset : BOOL;
+	SparePermissive : BOOL;
+	TON_0 : TON;
+END_VAR

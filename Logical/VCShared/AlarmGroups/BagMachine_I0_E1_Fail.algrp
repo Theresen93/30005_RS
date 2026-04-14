@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="3.0.90.22 SP04"?>
+<AlarmGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="BagMachine_I0_E1_Fail">
+  <Property Name="AcknowledgeImage" Value="None"/>
+  <Property Name="ActiveBackColor" Value="252"/>
+  <Property Name="ActiveForeColor" Value="0"/>
+  <Property Name="AlarmImage" Value="Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.bAlarmIO_E1]"/>
+  <Property Name="BypassBackColor" Value="14"/>
+  <Property Name="BypassForeColor" Value="0"/>
+  <Property Name="BypassImage" Value="None"/>
+  <Property Name="DefaultBackColor" Value="252"/>
+  <Property Name="DefaultForeColor" Value="0"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="GroupAlarm" Value="None"/>
+  <Property Name="ImageOffset" Value="0"/>
+  <Property Name="Index" Value="2"/>
+  <Property Name="LatchedBackColor" Value="2"/>
+  <Property Name="LatchedForeColor" Value="0"/>
+  <Property Name="Priority" Value="1"/>
+  <Property Name="QuitBackColor" Value="1"/>
+  <Property Name="QuitForeColor" Value="0"/>
+  <Alarms>
+    <Alarm Index="1">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Disabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="False"/>
+      <Property Name="RecordBypass" Value="None"/>
+      <Property Name="RecordReset" Value="None"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="2">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Disabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="False"/>
+      <Property Name="RecordBypass" Value="None"/>
+      <Property Name="RecordReset" Value="None"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="3">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Disabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="False"/>
+      <Property Name="RecordBypass" Value="None"/>
+      <Property Name="RecordReset" Value="None"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="4">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="5">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="6">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="7">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="8">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="9">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="10">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="11">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="12">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="13">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="14">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="15">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="16">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="17">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="18">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="19">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="20">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="Group">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+    </Alarm>
+  </Alarms>
+  <TextGroup>
+    <TextSnippets>
+      <TextSnippet ClassId="0x00002002" Name="IO_E1_Slot1_Type">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_E1_Slot[1].strType]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+        <Property Name="SimulationValue" Value="X20BC0083"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="IO_E1_Slot2_Type">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_E1_Slot[2].strType]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+        <Property Name="SimulationValue" Value="X20PS9400"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="IO_E1_Slot3_Type">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_E1_Slot[3].strType]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+        <Property Name="SimulationValue" Value="X20DI4371"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="IO_E1_Slot4_Type">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_E1_Slot[4].strType]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+        <Property Name="SimulationValue" Value="X20DI4371"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="IO_E1_Slot5_Type">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_E1_Slot[5].strType]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+        <Property Name="SimulationValue" Value="X20DI4371"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="IO_E1_Slot6_Type">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_E1_Slot[6].strType]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+        <Property Name="SimulationValue" Value="X20DI4371"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="IO_E1_Slot7_Type">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_E1_Slot[7].strType]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+        <Property Name="SimulationValue" Value="X20DI4371"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="IO_E1_Slot8_Type">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_E1_Slot[7].strType]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+        <Property Name="SimulationValue" Value="X20DI4371"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="IO_E1_Slot9_Type">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_E1_Slot[9].strType]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+        <Property Name="SimulationValue" Value="X20DI4371"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="IO_E1_Slot10_Type">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_E1_Slot[10].strType]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+        <Property Name="SimulationValue" Value="X20DI4371"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="IO_E1_Slot11_Type">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_E1_Slot[11].strType]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+        <Property Name="SimulationValue" Value="X20DI4371"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="IO_E1_Slot12_Type">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_E1_Slot[12].strType]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+        <Property Name="SimulationValue" Value="X20DI4371"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="IO_E1_Slot13_Type">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_E1_Slot[13].strType]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+        <Property Name="SimulationValue" Value="X20DI4371"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="IO_E1_Slot14_Type">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_E1_Slot[14].strType]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+        <Property Name="SimulationValue" Value="X20DI4371"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="IO_E1_Slot15_Type">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_E1_Slot[15].strType]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+        <Property Name="SimulationValue" Value="X20DI4371"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="IO_E1_Slot16_Type">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_E1_Slot[16].strType]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+        <Property Name="SimulationValue" Value="X20DI4371"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="IO_E1_Slot17_Type">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_E1_Slot[17].strType]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+        <Property Name="SimulationValue" Value="X20DI4371"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="IO_E1_Slot18_Type">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_E1_Slot[18].strType]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+        <Property Name="SimulationValue" Value="X20DI4371"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="IO_E1_Slot19_Type">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_E1_Slot[19].strType]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+        <Property Name="SimulationValue" Value="X20DI4371"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="IO_E1_Slot20_Type">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_E1_Slot[20].strType]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+        <Property Name="SimulationValue" Value="X20DI4371"/>
+      </TextSnippet>
+    </TextSnippets>
+    <TextLayer LanguageId="en">
+      <Text ID="546" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 1 ({IO_E1_Slot1_Type})"/>
+      <Text ID="547" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 2 ({IO_E1_Slot2_Type})"/>
+      <Text ID="548" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 3 ({IO_E1_Slot3_Type})"/>
+      <Text ID="574" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 4 ({IO_E1_Slot4_Type})"/>
+      <Text ID="575" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 5 ({IO_E1_Slot5_Type})"/>
+      <Text ID="576" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 6 ({IO_E1_Slot6_Type})"/>
+      <Text ID="577" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 7 ({IO_E1_Slot7_Type})"/>
+      <Text ID="578" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 8 ({IO_E1_Slot8_Type})"/>
+      <Text ID="579" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 9 ({IO_E1_Slot9_Type})"/>
+      <Text ID="580" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 10 ({IO_E1_Slot10_Type})"/>
+      <Text ID="581" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 11({IO_E1_Slot11_Type})"/>
+      <Text ID="582" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 12 ({IO_E1_Slot12_Type})"/>
+      <Text ID="583" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 13 ({IO_E1_Slot13_Type})"/>
+      <Text ID="584" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 14 ({IO_E1_Slot14_Type})"/>
+      <Text ID="585" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 15 ({IO_E1_Slot15_Type})"/>
+      <Text ID="586" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 16 ({IO_E1_Slot16_Type})"/>
+      <Text ID="587" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 17 ({IO_E1_Slot17_Type})"/>
+      <Text ID="588" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 18 ({IO_E1_Slot18_Type})"/>
+      <Text ID="589" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 19 ({IO_E1_Slot19_Type})"/>
+      <Text ID="590" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 20 ({IO_E1_Slot20_Type})"/>
+      <Text ID="530" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="de">
+      <Text ID="546" Value=""/>
+      <Text ID="547" Value=""/>
+      <Text ID="548" Value=""/>
+      <Text ID="574" Value=""/>
+      <Text ID="575" Value=""/>
+      <Text ID="576" Value=""/>
+      <Text ID="577" Value=""/>
+      <Text ID="578" Value=""/>
+      <Text ID="579" Value=""/>
+      <Text ID="580" Value=""/>
+      <Text ID="581" Value=""/>
+      <Text ID="582" Value=""/>
+      <Text ID="583" Value=""/>
+      <Text ID="584" Value=""/>
+      <Text ID="585" Value=""/>
+      <Text ID="586" Value=""/>
+      <Text ID="587" Value=""/>
+      <Text ID="588" Value=""/>
+      <Text ID="589" Value=""/>
+      <Text ID="590" Value=""/>
+      <Text ID="530" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fr-FR">
+      <Text ID="546" Value=""/>
+      <Text ID="547" Value=""/>
+      <Text ID="548" Value=""/>
+      <Text ID="574" Value=""/>
+      <Text ID="575" Value=""/>
+      <Text ID="576" Value=""/>
+      <Text ID="577" Value=""/>
+      <Text ID="578" Value=""/>
+      <Text ID="579" Value=""/>
+      <Text ID="580" Value=""/>
+      <Text ID="581" Value=""/>
+      <Text ID="582" Value=""/>
+      <Text ID="583" Value=""/>
+      <Text ID="584" Value=""/>
+      <Text ID="585" Value=""/>
+      <Text ID="586" Value=""/>
+      <Text ID="587" Value=""/>
+      <Text ID="588" Value=""/>
+      <Text ID="589" Value=""/>
+      <Text ID="590" Value=""/>
+      <Text ID="530" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fi-FI">
+      <Text ID="546" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 1 ({IO_E1_Slot1_Type})"/>
+      <Text ID="547" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 2 ({IO_E1_Slot2_Type})"/>
+      <Text ID="548" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 3 ({IO_E1_Slot3_Type})"/>
+      <Text ID="574" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 4 ({IO_E1_Slot4_Type})"/>
+      <Text ID="575" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 5 ({IO_E1_Slot5_Type})"/>
+      <Text ID="576" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 6 ({IO_E1_Slot6_Type})"/>
+      <Text ID="577" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 7 ({IO_E1_Slot7_Type})"/>
+      <Text ID="578" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 8 ({IO_E1_Slot8_Type})"/>
+      <Text ID="579" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 9 ({IO_E1_Slot9_Type})"/>
+      <Text ID="580" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 10 ({IO_E1_Slot10_Type})"/>
+      <Text ID="581" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 11({IO_E1_Slot11_Type})"/>
+      <Text ID="582" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 12 ({IO_E1_Slot12_Type})"/>
+      <Text ID="583" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 13 ({IO_E1_Slot13_Type})"/>
+      <Text ID="584" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 14 ({IO_E1_Slot14_Type})"/>
+      <Text ID="585" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 15 ({IO_E1_Slot15_Type})"/>
+      <Text ID="586" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 16 ({IO_E1_Slot16_Type})"/>
+      <Text ID="587" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 17 ({IO_E1_Slot17_Type})"/>
+      <Text ID="588" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 18 ({IO_E1_Slot18_Type})"/>
+      <Text ID="589" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 19 ({IO_E1_Slot19_Type})"/>
+      <Text ID="590" Value="I/O MODULE ALARM: MAIN ENCLOSURE SLOT 20 ({IO_E1_Slot20_Type})"/>
+      <Text ID="530" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="546" Value="1"/>
+      <Index ID="547" Value="2"/>
+      <Index ID="548" Value="3"/>
+      <Index ID="574" Value="4"/>
+      <Index ID="575" Value="5"/>
+      <Index ID="576" Value="6"/>
+      <Index ID="577" Value="7"/>
+      <Index ID="578" Value="8"/>
+      <Index ID="579" Value="9"/>
+      <Index ID="580" Value="10"/>
+      <Index ID="581" Value="11"/>
+      <Index ID="582" Value="12"/>
+      <Index ID="583" Value="13"/>
+      <Index ID="584" Value="14"/>
+      <Index ID="585" Value="15"/>
+      <Index ID="586" Value="16"/>
+      <Index ID="587" Value="17"/>
+      <Index ID="588" Value="18"/>
+      <Index ID="589" Value="19"/>
+      <Index ID="590" Value="20"/>
+      <Index ID="530" Value="Group"/>
+    </IndexMap>
+  </TextGroup>
+</AlarmGroup>

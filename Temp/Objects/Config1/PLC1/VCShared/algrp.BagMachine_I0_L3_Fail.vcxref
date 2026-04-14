@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <IO_L3_Slot20_Type ReferenceString="Source[global].AlarmGroup[AS1.BagMachine_I0_L3_Fail].TextGroup[_embedded].Snippet[Source[global].TextGroup[AG.BagMachine_I0_L3_Fail.AS1]]">
+      <Connection>
+         <Property ReferenceString="Source[global].TextGroup[AG.BagMachine_I0_L3_Fail.AS1].Snippet[IO_L3_Slot20_Type].Property[Datapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_L3_Slot[20].strType]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[global].TextGroup[AG.BagMachine_I0_L3_Fail.AS1].Snippet[IO_L3_Slot19_Type].Property[Datapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_L3_Slot[19].strType]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[global].TextGroup[AG.BagMachine_I0_L3_Fail.AS1].Snippet[IO_L3_Slot18_Type].Property[Datapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_L3_Slot[18].strType]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[global].TextGroup[AG.BagMachine_I0_L3_Fail.AS1].Snippet[IO_L3_Slot17_Type].Property[Datapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_L3_Slot[17].strType]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[global].TextGroup[AG.BagMachine_I0_L3_Fail.AS1].Snippet[IO_L3_Slot16_Type].Property[Datapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_L3_Slot[16].strType]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[global].TextGroup[AG.BagMachine_I0_L3_Fail.AS1].Snippet[IO_L3_Slot15_Type].Property[Datapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_L3_Slot[15].strType]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[global].TextGroup[AG.BagMachine_I0_L3_Fail.AS1].Snippet[IO_L3_Slot14_Type].Property[Datapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_L3_Slot[14].strType]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[global].TextGroup[AG.BagMachine_I0_L3_Fail.AS1].Snippet[IO_L3_Slot13_Type].Property[Datapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_L3_Slot[13].strType]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[global].TextGroup[AG.BagMachine_I0_L3_Fail.AS1].Snippet[IO_L3_Slot12_Type].Property[Datapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_L3_Slot[12].strType]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[global].TextGroup[AG.BagMachine_I0_L3_Fail.AS1].Snippet[IO_L3_Slot11_Type].Property[Datapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_L3_Slot[11].strType]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[global].TextGroup[AG.BagMachine_I0_L3_Fail.AS1].Snippet[IO_L3_Slot10_Type].Property[Datapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_L3_Slot[10].strType]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[global].TextGroup[AG.BagMachine_I0_L3_Fail.AS1].Snippet[IO_L3_Slot9_Type].Property[Datapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_L3_Slot[9].strType]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[global].TextGroup[AG.BagMachine_I0_L3_Fail.AS1].Snippet[IO_L3_Slot8_Type].Property[Datapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_L3_Slot[7].strType]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[global].TextGroup[AG.BagMachine_I0_L3_Fail.AS1].Snippet[IO_L3_Slot7_Type].Property[Datapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_L3_Slot[7].strType]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[global].TextGroup[AG.BagMachine_I0_L3_Fail.AS1].Snippet[IO_L3_Slot6_Type].Property[Datapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_L3_Slot[6].strType]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[global].TextGroup[AG.BagMachine_I0_L3_Fail.AS1].Snippet[IO_L3_Slot5_Type].Property[Datapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_L3_Slot[5].strType]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[global].TextGroup[AG.BagMachine_I0_L3_Fail.AS1].Snippet[IO_L3_Slot4_Type].Property[Datapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_L3_Slot[4].strType]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[global].TextGroup[AG.BagMachine_I0_L3_Fail.AS1].Snippet[IO_L3_Slot3_Type].Property[Datapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_L3_Slot[3].strType]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[global].TextGroup[AG.BagMachine_I0_L3_Fail.AS1].Snippet[IO_L3_Slot2_Type].Property[Datapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_L3_Slot[2].strType]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[global].TextGroup[AG.BagMachine_I0_L3_Fail.AS1].Snippet[IO_L3_Slot1_Type].Property[Datapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.stModuleOK_IO_L3_Slot[1].strType]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[global].AlarmGroup[AS1.BagMachine_I0_L3_Fail].Property[AlarmImage]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.SupervisoryControl_Section.Alarm_Section.Alarms1.bAlarmIO_L3]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </IO_L3_Slot20_Type>
+</VCXReferenceList>

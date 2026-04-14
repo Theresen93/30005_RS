@@ -1,0 +1,9 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/HGWeber/HGWeber.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/Acp10_MC/acp10_mc.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/Acp10_MC/acp10_mc.typ
+$(AS_PROJECT_PATH)/Logical/BagMachine_Section/Holding/Axis3/A3_Automat/A3_Automat.var
+$(AS_PROJECT_PATH)/Logical/Libraries/NcGlobal/Ncglobal.var
+$(AS_PROJECT_PATH)/Logical/Cycles/GenCycles.var
+$(AS_PROJECT_PATH)/Logical/Cycles/GenCycles.typ
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Global.typ

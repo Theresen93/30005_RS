@@ -1,0 +1,2564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Layers">
+    <Folder Name="P20_Status_BagMachineDefault" TargetIndex="Source[local].Page[P20_Status_BagMachine].Layer[Default]">
+      <Folder Name="Controls">
+        <Folder Name="POBJ">
+          <Object Name="Listbox_1" ClsId="0x1008" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Listbox_1]">
+            <UInt32 Name="Left">10</UInt32>
+            <UInt32 Name="Top">62</UInt32>
+            <UInt32 Name="Right">623</UInt32>
+            <UInt32 Name="Bottom">137</UInt32>
+            <UInt32 Name="MinValue">4294967295</UInt32>
+            <UInt32 Name="MaxValue">4294967295</UInt32>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <Int32 Name="TextIndexOffset">0</Int32>
+            <UInt32 Name="TextGroup">4294967295</UInt32>
+            <UInt32 Name="TextDatapoint">4294967295</UInt32>
+            <UInt32 Name="OptionDatapoint">4294967295</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001008].StyleClass[Output]</Reference>
+            <UInt16 Name="StyleTableSize">128</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[SunkenOuter]</Reference>
+            </Group>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">12</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">15</UInt32>
+            </Group>
+            <Group Name="SelectedBackColor">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">15</UInt32>
+            </Group>
+            <Group Name="DisabledForeColor">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="DisabledBackColor">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">15</UInt32>
+            </Group>
+            <Group Name="LeftBitmap">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="RightBitmap">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="LeftTextGroup">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="RightTextGroup">
+              <UInt16 Name="Offset">60</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">80</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">84</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold]</Reference>
+            </Group>
+            <Group Name="AdjustContent">
+              <UInt16 Name="Offset">92</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">95</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="ButtonsSlider">
+              <UInt16 Name="Offset">108</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="ButtonsBitmapGroup">
+              <UInt16 Name="Offset">128</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="ButtonsBackColor">
+              <UInt16 Name="Offset">144</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">15</UInt32>
+            </Group>
+            <Group Name="ButtonsPressedBitmapGroup">
+              <UInt16 Name="Offset">152</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_2" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[String_2]">
+            <UInt32 Name="Left">15</UInt32>
+            <UInt32 Name="Top">66</UInt32>
+            <UInt32 Name="Right">619</UInt32>
+            <UInt32 Name="Bottom">80</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[Local.HMI.HMI_Control.HMI_ErrorText[0]]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[Output]</Reference>
+            <UInt16 Name="StyleTableSize">33</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold]</Reference>
+            </Group>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_3" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[String_3]">
+            <UInt32 Name="Left">15</UInt32>
+            <UInt32 Name="Top">84</UInt32>
+            <UInt32 Name="Right">619</UInt32>
+            <UInt32 Name="Bottom">98</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[Local.HMI.HMI_Control.HMI_ErrorText[1]]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[Output]</Reference>
+            <UInt16 Name="StyleTableSize">33</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold]</Reference>
+            </Group>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_4" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[String_4]">
+            <UInt32 Name="Left">15</UInt32>
+            <UInt32 Name="Top">102</UInt32>
+            <UInt32 Name="Right">619</UInt32>
+            <UInt32 Name="Bottom">116</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[Local.HMI.HMI_Control.HMI_ErrorText[2]]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[Output]</Reference>
+            <UInt16 Name="StyleTableSize">33</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold]</Reference>
+            </Group>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_4" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_4]">
+            <UInt32 Name="Left">138</UInt32>
+            <UInt32 Name="Top">86</UInt32>
+            <UInt32 Name="Right">495</UInt32>
+            <UInt32 Name="Bottom">113</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[Local.HMI.HMI_Control.HMI_Error]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">51</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">10</UInt32>
+            </Group>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_18_Bold]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">0</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].TextGroup[Drive_Health]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_5" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[String_5]">
+            <UInt32 Name="Left">15</UInt32>
+            <UInt32 Name="Top">120</UInt32>
+            <UInt32 Name="Right">619</UInt32>
+            <UInt32 Name="Bottom">134</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[Local.HMI.HMI_Control.HMI_ErrorText[3]]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[Output]</Reference>
+            <UInt16 Name="StyleTableSize">33</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold]</Reference>
+            </Group>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Numeric_5" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Numeric_5]">
+            <UInt32 Name="Left">174</UInt32>
+            <UInt32 Name="Top">146</UInt32>
+            <UInt32 Name="Right">263</UInt32>
+            <UInt32 Name="Bottom">160</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[Local.gA[9].PositionInch]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Output]</Reference>
+            <UInt16 Name="StyleTableSize">59</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="BackColor">
+              <UInt16 Name="Offset">12</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">53</UInt32>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold1]</Reference>
+            </Group>
+            <Group Name="UnitText">
+              <UInt16 Name="Offset">57</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="UnitTextPosition">
+              <UInt16 Name="Offset">58</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="UnitTextAlignment">
+              <UInt16 Name="Offset">59</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="UnitTextWidth">
+              <UInt16 Name="Offset">60</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Numeric_7" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Numeric_7]">
+            <UInt32 Name="Left">174</UInt32>
+            <UInt32 Name="Top">164</UInt32>
+            <UInt32 Name="Right">263</UInt32>
+            <UInt32 Name="Bottom">178</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[Local.HMI.HMI_Control.HMI_PositionInch]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Output]</Reference>
+            <UInt16 Name="StyleTableSize">59</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="BackColor">
+              <UInt16 Name="Offset">12</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">53</UInt32>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold1]</Reference>
+            </Group>
+            <Group Name="UnitText">
+              <UInt16 Name="Offset">57</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="UnitTextPosition">
+              <UInt16 Name="Offset">58</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="UnitTextAlignment">
+              <UInt16 Name="Offset">59</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="UnitTextWidth">
+              <UInt16 Name="Offset">60</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Numeric_17" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Numeric_17]">
+            <UInt32 Name="Left">174</UInt32>
+            <UInt32 Name="Top">182</UInt32>
+            <UInt32 Name="Right">263</UInt32>
+            <UInt32 Name="Bottom">196</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[Local.HMI.HMI_Control.HMI_ActualVelocity]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Output]</Reference>
+            <UInt16 Name="StyleTableSize">59</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="BackColor">
+              <UInt16 Name="Offset">12</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">53</UInt32>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold1]</Reference>
+            </Group>
+            <Group Name="UnitText">
+              <UInt16 Name="Offset">57</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="UnitTextPosition">
+              <UInt16 Name="Offset">58</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="UnitTextAlignment">
+              <UInt16 Name="Offset">59</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="UnitTextWidth">
+              <UInt16 Name="Offset">60</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_23" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_23]">
+            <UInt32 Name="Left">7</UInt32>
+            <UInt32 Name="Top">146</UInt32>
+            <UInt32 Name="Right">176</UInt32>
+            <UInt32 Name="Bottom">160</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">48</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Multiline">
+              <UInt16 Name="Offset">23</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold1]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">25</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[P20_Status_BagMachine].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_24" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_24]">
+            <UInt32 Name="Left">7</UInt32>
+            <UInt32 Name="Top">164</UInt32>
+            <UInt32 Name="Right">176</UInt32>
+            <UInt32 Name="Bottom">178</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold1]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">26</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[P20_Status_BagMachine].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_26" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_26]">
+            <UInt32 Name="Left">7</UInt32>
+            <UInt32 Name="Top">182</UInt32>
+            <UInt32 Name="Right">176</UInt32>
+            <UInt32 Name="Bottom">196</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold1]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">28</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[P20_Status_BagMachine].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_9" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_9]">
+            <UInt32 Name="Left">295</UInt32>
+            <UInt32 Name="Top">146</UInt32>
+            <UInt32 Name="Right">449</UInt32>
+            <UInt32 Name="Bottom">160</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold1]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">30</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[P20_Status_BagMachine].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_10" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_10]">
+            <UInt32 Name="Left">295</UInt32>
+            <UInt32 Name="Top">164</UInt32>
+            <UInt32 Name="Right">449</UInt32>
+            <UInt32 Name="Bottom">178</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold1]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">31</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[P20_Status_BagMachine].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_11" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_11]">
+            <UInt32 Name="Left">295</UInt32>
+            <UInt32 Name="Top">182</UInt32>
+            <UInt32 Name="Right">449</UInt32>
+            <UInt32 Name="Bottom">196</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold1]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">33</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[P20_Status_BagMachine].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_12" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_12]">
+            <UInt32 Name="Left">483</UInt32>
+            <UInt32 Name="Top">182</UInt32>
+            <UInt32 Name="Right">607</UInt32>
+            <UInt32 Name="Bottom">196</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold1]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">34</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[P20_Status_BagMachine].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_13" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_13]">
+            <UInt32 Name="Left">295</UInt32>
+            <UInt32 Name="Top">218</UInt32>
+            <UInt32 Name="Right">449</UInt32>
+            <UInt32 Name="Bottom">232</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold1]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">35</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[P20_Status_BagMachine].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_14" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_14]">
+            <UInt32 Name="Left">295</UInt32>
+            <UInt32 Name="Top">236</UInt32>
+            <UInt32 Name="Right">449</UInt32>
+            <UInt32 Name="Bottom">250</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold1]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">36</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[P20_Status_BagMachine].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_15" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_15]">
+            <UInt32 Name="Left">295</UInt32>
+            <UInt32 Name="Top">254</UInt32>
+            <UInt32 Name="Right">449</UInt32>
+            <UInt32 Name="Bottom">268</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold1]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">37</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[P20_Status_BagMachine].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_16" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_16]">
+            <UInt32 Name="Left">483</UInt32>
+            <UInt32 Name="Top">146</UInt32>
+            <UInt32 Name="Right">607</UInt32>
+            <UInt32 Name="Bottom">160</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold1]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">38</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[P20_Status_BagMachine].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_17" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_17]">
+            <UInt32 Name="Left">483</UInt32>
+            <UInt32 Name="Top">200</UInt32>
+            <UInt32 Name="Right">607</UInt32>
+            <UInt32 Name="Bottom">214</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold1]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">39</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[P20_Status_BagMachine].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_18" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_18]">
+            <UInt32 Name="Left">483</UInt32>
+            <UInt32 Name="Top">236</UInt32>
+            <UInt32 Name="Right">607</UInt32>
+            <UInt32 Name="Bottom">250</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold1]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">40</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[P20_Status_BagMachine].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_19" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_19]">
+            <UInt32 Name="Left">483</UInt32>
+            <UInt32 Name="Top">254</UInt32>
+            <UInt32 Name="Right">607</UInt32>
+            <UInt32 Name="Bottom">268</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold1]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">41</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[P20_Status_BagMachine].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_20" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_20]">
+            <UInt32 Name="Left">480</UInt32>
+            <UInt32 Name="Top">210</UInt32>
+            <UInt32 Name="Right">607</UInt32>
+            <UInt32 Name="Bottom">239</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">48</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Multiline">
+              <UInt16 Name="Offset">23</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold1]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">42</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[P20_Status_BagMachine].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_21" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_21]">
+            <UInt32 Name="Left">483</UInt32>
+            <UInt32 Name="Top">164</UInt32>
+            <UInt32 Name="Right">607</UInt32>
+            <UInt32 Name="Bottom">178</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold1]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">43</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[P20_Status_BagMachine].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_22" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_22]">
+            <UInt32 Name="Left">295</UInt32>
+            <UInt32 Name="Top">200</UInt32>
+            <UInt32 Name="Right">449</UInt32>
+            <UInt32 Name="Bottom">214</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold1]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">44</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[P20_Status_BagMachine].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Bitmap_1" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Bitmap_1]">
+            <UInt32 Name="Left">456</UInt32>
+            <UInt32 Name="Top">146</UInt32>
+            <UInt32 Name="Right">469</UInt32>
+            <UInt32 Name="Bottom">159</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[Local.HMI.HMI_Control.HMI_Ind_Enabled]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Bitmap]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="BitmapIndex">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">0</Int32>
+            </Group>
+            <Group Name="BitmapGroup">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[OK_Ind]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Bitmap_2" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Bitmap_2]">
+            <UInt32 Name="Left">456</UInt32>
+            <UInt32 Name="Top">164</UInt32>
+            <UInt32 Name="Right">469</UInt32>
+            <UInt32 Name="Bottom">177</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[Local.HMI.HMI_Control.HMI_Ind_InMotion]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Bitmap]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="BitmapIndex">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">0</Int32>
+            </Group>
+            <Group Name="BitmapGroup">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[OK_Ind]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Bitmap_3" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Bitmap_3]">
+            <UInt32 Name="Left">456</UInt32>
+            <UInt32 Name="Top">182</UInt32>
+            <UInt32 Name="Right">469</UInt32>
+            <UInt32 Name="Bottom">195</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[Local.HMI.HMI_Control.HMI_Error]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Bitmap]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="BitmapIndex">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">0</Int32>
+            </Group>
+            <Group Name="BitmapGroup">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[NotOK_Ind]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Bitmap_4" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Bitmap_4]">
+            <UInt32 Name="Left">456</UInt32>
+            <UInt32 Name="Top">218</UInt32>
+            <UInt32 Name="Right">469</UInt32>
+            <UInt32 Name="Bottom">231</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[Local.HMI.HMI_Control.HMI_Ind_DiscreteMotion]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Bitmap]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="BitmapIndex">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">0</Int32>
+            </Group>
+            <Group Name="BitmapGroup">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[OK_Ind]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Bitmap_5" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Bitmap_5]">
+            <UInt32 Name="Left">456</UInt32>
+            <UInt32 Name="Top">236</UInt32>
+            <UInt32 Name="Right">469</UInt32>
+            <UInt32 Name="Bottom">249</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[Local.HMI.HMI_Control.HMI_Ind_ContinuousMotion]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Bitmap]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="BitmapIndex">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">0</Int32>
+            </Group>
+            <Group Name="BitmapGroup">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[OK_Ind]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Bitmap_6" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Bitmap_6]">
+            <UInt32 Name="Left">456</UInt32>
+            <UInt32 Name="Top">254</UInt32>
+            <UInt32 Name="Right">469</UInt32>
+            <UInt32 Name="Bottom">267</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[Local.HMI.HMI_Control.HMI_Ind_SynchronizedMotion]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Bitmap]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="BitmapIndex">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">0</Int32>
+            </Group>
+            <Group Name="BitmapGroup">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[OK_Ind]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Bitmap_7" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Bitmap_7]">
+            <UInt32 Name="Left">456</UInt32>
+            <UInt32 Name="Top">200</UInt32>
+            <UInt32 Name="Right">469</UInt32>
+            <UInt32 Name="Bottom">213</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[Local.HMI.HMI_Control.HMI_ErrorStop]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Bitmap]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="BitmapIndex">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">0</Int32>
+            </Group>
+            <Group Name="BitmapGroup">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[NotOK_Ind]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Bitmap_8" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Bitmap_8]">
+            <UInt32 Name="Left">610</UInt32>
+            <UInt32 Name="Top">146</UInt32>
+            <UInt32 Name="Right">623</UInt32>
+            <UInt32 Name="Bottom">159</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[Local.HMI.HMI_Control.HMI_Ind_NetworkInit]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Bitmap]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="BitmapIndex">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">0</Int32>
+            </Group>
+            <Group Name="BitmapGroup">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[OK_Ind]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Bitmap_9" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Bitmap_9]">
+            <UInt32 Name="Left">610</UInt32>
+            <UInt32 Name="Top">200</UInt32>
+            <UInt32 Name="Right">623</UInt32>
+            <UInt32 Name="Bottom">213</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[Local.HMI.HMI_Control.HMI_Input_Home]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Bitmap]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="BitmapIndex">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">0</Int32>
+            </Group>
+            <Group Name="BitmapGroup">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[OK_Ind]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Bitmap_10" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Bitmap_10]">
+            <UInt32 Name="Left">610</UInt32>
+            <UInt32 Name="Top">218</UInt32>
+            <UInt32 Name="Right">623</UInt32>
+            <UInt32 Name="Bottom">231</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[Local.HMI.HMI_Control.HMI_Input_DriveEnable]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Bitmap]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="BitmapIndex">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">0</Int32>
+            </Group>
+            <Group Name="BitmapGroup">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[OK_Ind]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Bitmap_11" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Bitmap_11]">
+            <UInt32 Name="Left">610</UInt32>
+            <UInt32 Name="Top">164</UInt32>
+            <UInt32 Name="Right">623</UInt32>
+            <UInt32 Name="Bottom">177</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[Local.HMI.HMI_Control.HMI_Ind_ControllerStatus]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Bitmap]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="BitmapIndex">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">0</Int32>
+            </Group>
+            <Group Name="BitmapGroup">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[OK_Ind]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Bitmap_12" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Bitmap_12]">
+            <UInt32 Name="Left">610</UInt32>
+            <UInt32 Name="Top">236</UInt32>
+            <UInt32 Name="Right">623</UInt32>
+            <UInt32 Name="Bottom">249</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[Local.HMI.HMI_Control.HMI_Input_Trigger1]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Bitmap]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="BitmapIndex">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">0</Int32>
+            </Group>
+            <Group Name="BitmapGroup">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[OK_Ind]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Bitmap_13" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Bitmap_13]">
+            <UInt32 Name="Left">610</UInt32>
+            <UInt32 Name="Top">254</UInt32>
+            <UInt32 Name="Right">623</UInt32>
+            <UInt32 Name="Bottom">267</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[Local.HMI.HMI_Control.HMI_Input_Trigger2]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Bitmap]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="BitmapIndex">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">0</Int32>
+            </Group>
+            <Group Name="BitmapGroup">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[OK_Ind]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Bitmap_14" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Bitmap_14]">
+            <UInt32 Name="Left">610</UInt32>
+            <UInt32 Name="Top">182</UInt32>
+            <UInt32 Name="Right">623</UInt32>
+            <UInt32 Name="Bottom">195</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[Local.HMI.HMI_Control.HMI_Ind_Homed]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Bitmap]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="BitmapIndex">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">0</Int32>
+            </Group>
+            <Group Name="BitmapGroup">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[OK_Ind]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Numeric_4" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Numeric_4]">
+            <UInt32 Name="Left">174</UInt32>
+            <UInt32 Name="Top">236</UInt32>
+            <UInt32 Name="Right">263</UInt32>
+            <UInt32 Name="Bottom">250</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[Local.HMI.HMI_Control.HMI_ErrorCount]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Output]</Reference>
+            <UInt16 Name="StyleTableSize">36</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="BackColor">
+              <UInt16 Name="Offset">12</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">53</UInt32>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold1]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Numeric_6" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Numeric_6]">
+            <UInt32 Name="Left">174</UInt32>
+            <UInt32 Name="Top">218</UInt32>
+            <UInt32 Name="Right">263</UInt32>
+            <UInt32 Name="Bottom">232</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[Local.HMI.HMI_Control.HMI_ErrorID]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Output]</Reference>
+            <UInt16 Name="StyleTableSize">36</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="BackColor">
+              <UInt16 Name="Offset">12</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">53</UInt32>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold1]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_8" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_8]">
+            <UInt32 Name="Left">7</UInt32>
+            <UInt32 Name="Top">236</UInt32>
+            <UInt32 Name="Right">176</UInt32>
+            <UInt32 Name="Bottom">250</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">48</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Multiline">
+              <UInt16 Name="Offset">23</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold1]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">45</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[P20_Status_BagMachine].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_27" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_27]">
+            <UInt32 Name="Left">7</UInt32>
+            <UInt32 Name="Top">218</UInt32>
+            <UInt32 Name="Right">176</UInt32>
+            <UInt32 Name="Bottom">232</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold1]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">46</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[P20_Status_BagMachine].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Button_1" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Button_1]">
+            <UInt32 Name="Left">10</UInt32>
+            <UInt32 Name="Top">256</UInt32>
+            <UInt32 Name="Right">127</UInt32>
+            <UInt32 Name="Bottom">282</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[HMI_Ack_PB]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[BasicButton]</Reference>
+            <UInt16 Name="StyleTableSize">134</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="PressedBorder">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Button1_Pressed]</Reference>
+            </Group>
+            <Group Name="Border">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Button1_Active]</Reference>
+            </Group>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Multiline">
+              <UInt16 Name="Offset">13</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="BackColor">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">46</UInt32>
+            </Group>
+            <Group Name="PressedForeColor">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="PressedBackColor">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">15</UInt32>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial_10_Bold]</Reference>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[P20_Status_BagMachine].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[P20_Status_BagMachine].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="TextIndex">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">47</UInt16>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">47</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="POBJ">
+        <Object Name="Default" ClsId="0x401" Version="1" Type="LAY" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default]">
+          <Reference Name="StatusDP" Type="DP">None</Reference>
+          <UInt32 Name="CtrlCount">45</UInt32>
+          <Reference Name="Listbox_1" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Listbox_1]</Reference>
+          <Reference Name="String_2" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[String_2]</Reference>
+          <Reference Name="String_3" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[String_3]</Reference>
+          <Reference Name="String_4" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[String_4]</Reference>
+          <Reference Name="Text_4" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_4]</Reference>
+          <Reference Name="String_5" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[String_5]</Reference>
+          <Reference Name="Numeric_5" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Numeric_5]</Reference>
+          <Reference Name="Numeric_7" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Numeric_7]</Reference>
+          <Reference Name="Numeric_17" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Numeric_17]</Reference>
+          <Reference Name="Text_23" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_23]</Reference>
+          <Reference Name="Text_24" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_24]</Reference>
+          <Reference Name="Text_26" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_26]</Reference>
+          <Reference Name="Text_9" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_9]</Reference>
+          <Reference Name="Text_10" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_10]</Reference>
+          <Reference Name="Text_11" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_11]</Reference>
+          <Reference Name="Text_12" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_12]</Reference>
+          <Reference Name="Text_13" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_13]</Reference>
+          <Reference Name="Text_14" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_14]</Reference>
+          <Reference Name="Text_15" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_15]</Reference>
+          <Reference Name="Text_16" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_16]</Reference>
+          <Reference Name="Text_17" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_17]</Reference>
+          <Reference Name="Text_18" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_18]</Reference>
+          <Reference Name="Text_19" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_19]</Reference>
+          <Reference Name="Text_20" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_20]</Reference>
+          <Reference Name="Text_21" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_21]</Reference>
+          <Reference Name="Text_22" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_22]</Reference>
+          <Reference Name="Bitmap_1" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Bitmap_1]</Reference>
+          <Reference Name="Bitmap_2" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Bitmap_2]</Reference>
+          <Reference Name="Bitmap_3" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Bitmap_3]</Reference>
+          <Reference Name="Bitmap_4" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Bitmap_4]</Reference>
+          <Reference Name="Bitmap_5" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Bitmap_5]</Reference>
+          <Reference Name="Bitmap_6" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Bitmap_6]</Reference>
+          <Reference Name="Bitmap_7" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Bitmap_7]</Reference>
+          <Reference Name="Bitmap_8" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Bitmap_8]</Reference>
+          <Reference Name="Bitmap_9" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Bitmap_9]</Reference>
+          <Reference Name="Bitmap_10" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Bitmap_10]</Reference>
+          <Reference Name="Bitmap_11" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Bitmap_11]</Reference>
+          <Reference Name="Bitmap_12" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Bitmap_12]</Reference>
+          <Reference Name="Bitmap_13" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Bitmap_13]</Reference>
+          <Reference Name="Bitmap_14" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Bitmap_14]</Reference>
+          <Reference Name="Numeric_4" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Numeric_4]</Reference>
+          <Reference Name="Numeric_6" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Numeric_6]</Reference>
+          <Reference Name="Text_8" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_8]</Reference>
+          <Reference Name="Text_27" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Text_27]</Reference>
+          <Reference Name="Button_1" Type="CTRL">Source[local].Page[P20_Status_BagMachine].Layer[Default].Control[Button_1]</Reference>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="TextGroupBase">
+    <Folder Name="PP20_Status_BagMachine.LDefault" TargetIndex="Source[local].Page[P20_Status_BagMachine].Layer[Default].TextGroup[Embedded]">
+      <Object Name="Embedded" ClsId="0x304" Version="1" Type="TG" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].TextGroup[Embedded]">
+        <UInt32 Name="NumberOfTags">0</UInt32>
+        <UInt32 Name="NumberOfTexts">20</UInt32>
+        <Table Name="TextMap" Cols="2">
+          <TableHeader>
+            <Column Name="UserIndex" />
+            <Column Name="TextIndex" />
+          </TableHeader>
+          <TableRow>
+            <UInt32 Name="UserIndex">25</UInt32>
+            <UInt32 Name="TextIndex">196155</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">26</UInt32>
+            <UInt32 Name="TextIndex">196156</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">28</UInt32>
+            <UInt32 Name="TextIndex">196158</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">30</UInt32>
+            <UInt32 Name="TextIndex">196159</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">31</UInt32>
+            <UInt32 Name="TextIndex">196160</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">33</UInt32>
+            <UInt32 Name="TextIndex">196161</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">34</UInt32>
+            <UInt32 Name="TextIndex">196162</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">35</UInt32>
+            <UInt32 Name="TextIndex">196163</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">36</UInt32>
+            <UInt32 Name="TextIndex">196164</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">37</UInt32>
+            <UInt32 Name="TextIndex">196165</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">38</UInt32>
+            <UInt32 Name="TextIndex">196166</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">39</UInt32>
+            <UInt32 Name="TextIndex">196167</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">40</UInt32>
+            <UInt32 Name="TextIndex">196168</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">41</UInt32>
+            <UInt32 Name="TextIndex">196169</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">42</UInt32>
+            <UInt32 Name="TextIndex">196170</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">43</UInt32>
+            <UInt32 Name="TextIndex">196171</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">44</UInt32>
+            <UInt32 Name="TextIndex">196172</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">45</UInt32>
+            <UInt32 Name="TextIndex">196173</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">46</UInt32>
+            <UInt32 Name="TextIndex">196174</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">47</UInt32>
+            <UInt32 Name="TextIndex">196175</UInt32>
+          </TableRow>
+        </Table>
+      </Object>
+    </Folder>
+  </Folder>
+  <Folder Name="Language">
+    <Folder Name="en" TargetIndex="0">
+      <Folder Name="TextGroups">
+        <Folder Name="POBJ">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].Page[P20_Status_BagMachine].Layer[Default].TextGroup[Embedded]" Type="TG" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].TextGroup[Embedded].Language[en]">
+            <UInt32 Name="NumberOfTexts">20</UInt32>
+            <Table Name="TextOffsets" Cols="5">
+              <TableHeader>
+                <Column Name="TextIndex" />
+                <Column Name="TextOffset" />
+                <Column Name="SnippetCount" />
+                <Column Name="Reserved" />
+                <Column Name="Reserved" />
+              </TableHeader>
+              <TableRow>
+                <UInt32 Name="TextIndex">196155</UInt32>
+                <UInt32 Name="TextOffset">244</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196156</UInt32>
+                <UInt32 Name="TextOffset">288</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196158</UInt32>
+                <UInt32 Name="TextOffset">334</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196159</UInt32>
+                <UInt32 Name="TextOffset">374</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196160</UInt32>
+                <UInt32 Name="TextOffset">402</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196161</UInt32>
+                <UInt32 Name="TextOffset">434</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196162</UInt32>
+                <UInt32 Name="TextOffset">470</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196163</UInt32>
+                <UInt32 Name="TextOffset">488</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196164</UInt32>
+                <UInt32 Name="TextOffset">522</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196165</UInt32>
+                <UInt32 Name="TextOffset">560</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196166</UInt32>
+                <UInt32 Name="TextOffset">602</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196167</UInt32>
+                <UInt32 Name="TextOffset">644</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196168</UInt32>
+                <UInt32 Name="TextOffset">670</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196169</UInt32>
+                <UInt32 Name="TextOffset">706</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196170</UInt32>
+                <UInt32 Name="TextOffset">740</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196171</UInt32>
+                <UInt32 Name="TextOffset">780</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196172</UInt32>
+                <UInt32 Name="TextOffset">816</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196173</UInt32>
+                <UInt32 Name="TextOffset">840</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196174</UInt32>
+                <UInt32 Name="TextOffset">876</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196175</UInt32>
+                <UInt32 Name="TextOffset">896</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+            </Table>
+            <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">"Master Axis Position:"</String>
+              <String Name="Text" Encoding="Unicode">"Current Axis Position:"</String>
+              <String Name="Text" Encoding="Unicode">"Current Axis Speed:"</String>
+              <String Name="Text" Encoding="Unicode">"Axis Enabled:"</String>
+              <String Name="Text" Encoding="Unicode">"Axis In Motion:"</String>
+              <String Name="Text" Encoding="Unicode">"Axis Error State:"</String>
+              <String Name="Text" Encoding="Unicode">"Home OK:"</String>
+              <String Name="Text" Encoding="Unicode">"Discrete Motion:"</String>
+              <String Name="Text" Encoding="Unicode">"Continuous Motion:"</String>
+              <String Name="Text" Encoding="Unicode">"Synchronized Motion:"</String>
+              <String Name="Text" Encoding="Unicode">"Network Initialized:"</String>
+              <String Name="Text" Encoding="Unicode">"Home Switch:"</String>
+              <String Name="Text" Encoding="Unicode">" Trigger Input 1:"</String>
+              <String Name="Text" Encoding="Unicode">"Trigger Input 2:"</String>
+              <String Name="Text" Encoding="Unicode">"Drive Enable Input:"</String>
+              <String Name="Text" Encoding="Unicode">"Controller Ready:"</String>
+              <String Name="Text" Encoding="Unicode">"Error Stop:"</String>
+              <String Name="Text" Encoding="Unicode">"Axis Error Count:"</String>
+              <String Name="Text" Encoding="Unicode">"Error ID:"</String>
+              <String Name="Text" Encoding="Unicode">"ERROR ACK"</String>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Language">
+    <Folder Name="fr-FR" TargetIndex="2">
+      <Folder Name="TextGroups">
+        <Folder Name="POBJ">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].Page[P20_Status_BagMachine].Layer[Default].TextGroup[Embedded]" Type="TG" RefString="Source[local].Page[P20_Status_BagMachine].Layer[Default].TextGroup[Embedded].Language[fr-FR]">
+            <UInt32 Name="NumberOfTexts">20</UInt32>
+            <Table Name="TextOffsets" Cols="5">
+              <TableHeader>
+                <Column Name="TextIndex" />
+                <Column Name="TextOffset" />
+                <Column Name="SnippetCount" />
+                <Column Name="Reserved" />
+                <Column Name="Reserved" />
+              </TableHeader>
+              <TableRow>
+                <UInt32 Name="TextIndex">196155</UInt32>
+                <UInt32 Name="TextOffset">244</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196156</UInt32>
+                <UInt32 Name="TextOffset">246</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196158</UInt32>
+                <UInt32 Name="TextOffset">248</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196159</UInt32>
+                <UInt32 Name="TextOffset">250</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196160</UInt32>
+                <UInt32 Name="TextOffset">252</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196161</UInt32>
+                <UInt32 Name="TextOffset">254</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196162</UInt32>
+                <UInt32 Name="TextOffset">256</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196163</UInt32>
+                <UInt32 Name="TextOffset">258</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196164</UInt32>
+                <UInt32 Name="TextOffset">260</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196165</UInt32>
+                <UInt32 Name="TextOffset">262</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196166</UInt32>
+                <UInt32 Name="TextOffset">264</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196167</UInt32>
+                <UInt32 Name="TextOffset">266</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196168</UInt32>
+                <UInt32 Name="TextOffset">268</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196169</UInt32>
+                <UInt32 Name="TextOffset">270</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196170</UInt32>
+                <UInt32 Name="TextOffset">272</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196171</UInt32>
+                <UInt32 Name="TextOffset">274</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196172</UInt32>
+                <UInt32 Name="TextOffset">276</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196173</UInt32>
+                <UInt32 Name="TextOffset">278</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196174</UInt32>
+                <UInt32 Name="TextOffset">280</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">196175</UInt32>
+                <UInt32 Name="TextOffset">282</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+            </Table>
+            <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Forms">
+    <Folder Name="POBJ">
+      <Object Name="P20_Status_BagMachine" ClsId="0x400" Version="1" TargetIndex="20" Type="PAGE" RefString="Source[local].Page[P20_Status_BagMachine]">
+        <UInt32 Name="FormLanguage">0</UInt32>
+        <Reference Name="StartControl" Type="CTRL">Source[local].Layer[Header].Control[String_1]</Reference>
+        <UInt32 Name="LayerCount">7</UInt32>
+        <UInt32 Name="MoveFocus">1</UInt32>
+        <Group Name="Styleable Properties">
+          <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00000400].StyleClass[default]</Reference>
+          <UInt16 Name="StyleTableSize">36</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+          <Group Name="EditBackColor">
+            <UInt16 Name="Offset">4</UInt16>
+            <UInt16 Name="Size">4</UInt16>
+            <UInt32 Name="Data">1</UInt32>
+          </Group>
+          <Group Name="BackColor">
+            <UInt16 Name="Offset">32</UInt16>
+            <UInt16 Name="Size">4</UInt16>
+            <UInt32 Name="Data">249</UInt32>
+          </Group>
+          <Group Name="LockedForeColor">
+            <UInt16 Name="Offset">36</UInt16>
+            <UInt16 Name="Size">4</UInt16>
+            <UInt32 Name="Data">0</UInt32>
+          </Group>
+          <Group Name="LockedBackColor">
+            <UInt16 Name="Offset">40</UInt16>
+            <UInt16 Name="Size">4</UInt16>
+            <UInt32 Name="Data">250</UInt32>
+          </Group>
+          <Group Name="End Marker">
+            <UInt16 Name="Offset">65535</UInt16>
+            <UInt16 Name="Size">0</UInt16>
+          </Group>
+        </Group>
+        <Reference Name="FormLayer0" Type="LAY">Source[local].Layer[Underlay_Status]</Reference>
+        <Reference Name="FormLayer1" Type="LAY">Source[local].Layer[Header]</Reference>
+        <Reference Name="FormLayer2" Type="LAY">Source[local].Layer[Control]</Reference>
+        <Reference Name="FormLayer3" Type="LAY">Source[local].Layer[InvalidPassword]</Reference>
+        <Reference Name="FormLayer4" Type="LAY">Source[local].Page[P20_Status_BagMachine].Layer[Default]</Reference>
+        <Reference Name="FormLayer5" Type="LAY">Source[local].Layer[PopUp_LineSpeedAutoConfirm]</Reference>
+        <Reference Name="FormLayer6" Type="LAY">Source[local].Layer[PopUp_AxisSynchroInProgress]</Reference>
+        <Group Name="MovementOrder">
+          <UInt32 Name="Count">3</UInt32>
+          <Group Name="Source[local].Layer[Underlay_Status].Control[Dropdown_2]">
+            <Reference Name="Control" Type="CTRL">Source[local].Layer[Underlay_Status].Control[Dropdown_2]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Layer[Header].Control[String_1]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[Header].Control[Numeric_2]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[Header].Control[String_1]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Layer[Header].Control[Numeric_2]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[Header].Control[String_1]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Layer[Header].Control[Numeric_2]</Reference>
+          </Group>
+          <Group Name="Source[local].Layer[Header].Control[String_1]">
+            <Reference Name="Control" Type="CTRL">Source[local].Layer[Header].Control[String_1]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Layer[Header].Control[Numeric_2]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[Underlay_Status].Control[Dropdown_2]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[Header].Control[Numeric_2]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Layer[Header].Control[Numeric_2]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[Underlay_Status].Control[Dropdown_2]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Layer[Underlay_Status].Control[Dropdown_2]</Reference>
+          </Group>
+          <Group Name="Source[local].Layer[Header].Control[Numeric_2]">
+            <Reference Name="Control" Type="CTRL">Source[local].Layer[Header].Control[Numeric_2]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Layer[Underlay_Status].Control[Dropdown_2]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[Header].Control[String_1]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[Header].Control[String_1]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Layer[Header].Control[String_1]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[Underlay_Status].Control[Dropdown_2]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Layer[Underlay_Status].Control[Dropdown_2]</Reference>
+          </Group>
+        </Group>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.90.27 SP09?>
+<BuildOptions>
+  <Project>
+    <IECNamingConvention>true</IECNamingConvention>
+    <IecKeywordsAsStructureMembers>false</IecKeywordsAsStructureMembers>
+    <IecExtendedConstants>true</IecExtendedConstants>
+    <ProjectLogicalDirectory>C:\Job_Files\Holweg\CompleteBackup_RS15_RX_30005_r0_130220\Logical\</ProjectLogicalDirectory>
+    <ProjectTempDirectory>C:\Job_Files\Holweg\CompleteBackup_RS15_RX_30005_r0_130220\Temp\</ProjectTempDirectory>
+    <ASVersion>3.0.90.27 SP09</ASVersion>
+    <Edition>Standard</Edition>
+    <CrossReference>true</CrossReference>
+    <ActiveConfiguration>Config1</ActiveConfiguration>
+    <CreateAnsiCDeclarations>false</CreateAnsiCDeclarations>
+    <GccVersion>V4.1.1</GccVersion>
+  </Project>
+  <Config Name="Config1">
+    <Target>SG4</Target>
+    <PermanentAnalogMemory>0</PermanentAnalogMemory>
+    <PermanentDigitalMemory>1548</PermanentDigitalMemory>
+    <GccVersion>V4.1.1</GccVersion>
+    <SaveSourceOnTarget>false</SaveSourceOnTarget>
+    <ActivateSdm>true</ActivateSdm>
+    <WebServer>true</WebServer>
+  </Config>
+  <CiR />
+</BuildOptions>

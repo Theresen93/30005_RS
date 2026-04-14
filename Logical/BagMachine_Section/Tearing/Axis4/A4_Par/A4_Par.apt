@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.80.31 SP01?>
+<AcoposParameterTable>
+  <Root Name="Parameters">
+    <Parameter Name="CMD_SIMULATION" ID="110" Value="ncSW_OFF" Description="Simulation mode: Command" />
+    <Parameter Name="SGEN_SW_END_IGNORE" ID="128" Value="1" Description="SGEN_SW_END_IGNORE" />
+    <Parameter Name="UDC_NOMINAL" ID="390" Value="565" Unit="V" Description="CTRL DC bus: Nominal voltage" />
+    <Parameter Name="REFERENCE_SWITCH_PARID" ID="944" Value="463" Description="REFERENCE_SWITCH_PARID" />
+  </Root>
+</AcoposParameterTable>

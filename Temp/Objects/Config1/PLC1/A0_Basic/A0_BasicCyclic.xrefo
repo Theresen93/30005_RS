@@ -1,0 +1,467 @@
+<?xml version="1.0"?>
+<Crossref Scope="BagMachine_Section.Servo_Power_Supply.Axis0.A0_Basic">
+	<Vars>
+		<Var Name="A0_Basic.AutoAck" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="59" C="57" PS="Ln:59, Col:57" A="R"/>
+				<Pos L="60" C="4" PS="Ln:60, Col:4" A="W"/>
+				<Pos L="62" C="4" PS="Ln:62, Col:4" A="W"/>
+				<Pos L="65" C="15" PS="Ln:65, Col:15" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.DriveStatus" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="32" C="50" PS="Ln:32, Col:50" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.DriveStatus.Simulation" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="34" C="28" PS="Ln:34, Col:28" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.DriveStatus.NetworkInit" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="35" C="29" PS="Ln:35, Col:29" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.DriveStatus.HomeSwitch" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="36" C="25" PS="Ln:36, Col:25" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.DriveStatus.PosHWSwitch" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="37" C="26" PS="Ln:37, Col:26" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.DriveStatus.NegHWSwitch" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="38" C="26" PS="Ln:38, Col:26" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.DriveStatus.Trigger1" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="39" C="28" PS="Ln:39, Col:28" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.DriveStatus.Trigger2" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="40" C="28" PS="Ln:40, Col:28" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.DriveStatus.DriveEnable" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="41" C="31" PS="Ln:41, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.DriveStatus.ControllerReady" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="42" C="32" PS="Ln:42, Col:32" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.DriveStatus.ControllerStatus" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="43" C="33" PS="Ln:43, Col:33" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.DriveStatus.AxisError" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="44" C="22" PS="Ln:44, Col:22" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.DriveStatus.LagWarning" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="45" C="28" PS="Ln:45, Col:28" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_BR_PowerMeter_0.Axis" Scope="Local" Type="MC_BR_PowerMeter">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="112" C="3" PS="Ln:112, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_BR_PowerMeter_0.IntervalTime" Scope="Local" Type="MC_BR_PowerMeter">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="113" C="9" PS="Ln:113, Col:9" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_BR_PowerMeter_0.Mode" Scope="Local" Type="MC_BR_PowerMeter">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="114" C="9" PS="Ln:114, Col:9" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_BR_PowerMeter_0" Scope="Local" Type="MC_BR_PowerMeter">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="116" C="3" PS="Ln:116, Col:3" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_BR_ReadDriveStatus_0.Enable" Scope="Local" Type="MC_BR_ReadDriveStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="30" C="3" PS="Ln:30, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_BR_ReadDriveStatus_0.Axis" Scope="Local" Type="MC_BR_ReadDriveStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="31" C="3" PS="Ln:31, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_BR_ReadDriveStatus_0.AdrDriveStatus" Scope="Local" Type="MC_BR_ReadDriveStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="32" C="3" PS="Ln:32, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_BR_ReadDriveStatus_0" Scope="Local" Type="MC_BR_ReadDriveStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="33" C="3" PS="Ln:33, Col:3" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_Power_0.Axis" Scope="Local" Type="MC_Power">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="97" C="3" PS="Ln:97, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_Power_0.Error" Scope="Local" Type="MC_Power">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="98" C="7" PS="Ln:98, Col:7" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_Power_0.Enable" Scope="Local" Type="MC_Power">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="99" C="7" PS="Ln:99, Col:7" A="W"/>
+				<Pos L="101" C="4" PS="Ln:101, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_Power_0" Scope="Local" Type="MC_Power">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="103" C="3" PS="Ln:103, Col:3" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_ReadAxisError_0.Enable" Scope="Local" Type="MC_ReadAxisError">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="48" C="3" PS="Ln:48, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_ReadAxisError_0.Axis" Scope="Local" Type="MC_ReadAxisError">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="49" C="3" PS="Ln:49, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_ReadAxisError_0.DataAddress" Scope="Local" Type="MC_ReadAxisError">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="50" C="3" PS="Ln:50, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_ReadAxisError_0.DataLength" Scope="Local" Type="MC_ReadAxisError">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="51" C="3" PS="Ln:51, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_ReadAxisError_0.DataObjectName" Scope="Local" Type="MC_ReadAxisError">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="52" C="3" PS="Ln:52, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_ReadAxisError_0" Scope="Local" Type="MC_ReadAxisError">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="53" C="3" PS="Ln:53, Col:3" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_ReadAxisError_0.Valid" Scope="Local" Type="MC_ReadAxisError">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="54" C="6" PS="Ln:54, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_ReadAxisError_0.AxisErrorID" Scope="Local" Type="MC_ReadAxisError">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="55" C="21" PS="Ln:55, Col:21" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_ReadAxisError_0.AxisErrorCount" Scope="Local" Type="MC_ReadAxisError">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="56" C="24" PS="Ln:56, Col:24" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_ReadAxisError_0.Acknowledge" Scope="Local" Type="MC_ReadAxisError">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="66" C="4" PS="Ln:66, Col:4" A="W"/>
+				<Pos L="68" C="4" PS="Ln:68, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_ReadStatus_0.Enable" Scope="Local" Type="MC_ReadStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="83" C="3" PS="Ln:83, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_ReadStatus_0.Axis" Scope="Local" Type="MC_ReadStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="84" C="3" PS="Ln:84, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_ReadStatus_0" Scope="Local" Type="MC_ReadStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="85" C="3" PS="Ln:85, Col:3" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_ReadStatus_0.Valid" Scope="Local" Type="MC_ReadStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="86" C="6" PS="Ln:86, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_ReadStatus_0.Disabled" Scope="Local" Type="MC_ReadStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="87" C="33" PS="Ln:87, Col:33" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_ReadStatus_0.StandStill" Scope="Local" Type="MC_ReadStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="88" C="29" PS="Ln:88, Col:29" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_ReadStatus_0.Stopping" Scope="Local" Type="MC_ReadStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="89" C="28" PS="Ln:89, Col:28" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_ReadStatus_0.DiscreteMotion" Scope="Local" Type="MC_ReadStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="90" C="32" PS="Ln:90, Col:32" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_ReadStatus_0.ContinuousMotion" Scope="Local" Type="MC_ReadStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="91" C="34" PS="Ln:91, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_ReadStatus_0.SynchronizedMotion" Scope="Local" Type="MC_ReadStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="92" C="35" PS="Ln:92, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_ReadStatus_0.Errorstop" Scope="Local" Type="MC_ReadStatus">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="93" C="26" PS="Ln:93, Col:26" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_Reset_0.Execute" Scope="Local" Type="MC_Reset">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="73" C="4" PS="Ln:73, Col:4" A="W"/>
+				<Pos L="77" C="4" PS="Ln:77, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_Reset_0.Done" Scope="Local" Type="MC_Reset">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="76" C="7" PS="Ln:76, Col:7" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_Reset_0.Axis" Scope="Local" Type="MC_Reset">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="79" C="3" PS="Ln:79, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A0_Basic.MC_Reset_0" Scope="Local" Type="MC_Reset">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="80" C="3" PS="Ln:80, Col:3" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ident" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="14" C="5" PS="Ln:14, Col:5" A="R"/>
+				<Pos L="31" C="35" PS="Ln:31, Col:35" A="R"/>
+				<Pos L="49" C="30" PS="Ln:49, Col:30" A="R"/>
+				<Pos L="79" C="20" PS="Ln:79, Col:20" A="R"/>
+				<Pos L="84" C="27" PS="Ln:84, Col:27" A="R"/>
+				<Pos L="97" C="20" PS="Ln:97, Col:20" A="R"/>
+				<Pos L="112" C="30" PS="Ln:112, Col:30" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_Simulation" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="34" C="3" PS="Ln:34, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_NetworkInit" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="35" C="3" PS="Ln:35, Col:3" A="W"/>
+				<Pos L="48" C="32" PS="Ln:48, Col:32" A="R"/>
+				<Pos L="83" C="29" PS="Ln:83, Col:29" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Input_Home" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="36" C="3" PS="Ln:36, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Input_PosHW" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="37" C="3" PS="Ln:37, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Input_NegHW" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="38" C="3" PS="Ln:38, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Input_Trigger1" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="39" C="3" PS="Ln:39, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Input_Trigger2" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="40" C="3" PS="Ln:40, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Input_DriveEnable" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="41" C="3" PS="Ln:41, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_ControllerReady" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="42" C="3" PS="Ln:42, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_ControllerStatus" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="43" C="3" PS="Ln:43, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Error" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="44" C="3" PS="Ln:44, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_LagWarning" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="45" C="3" PS="Ln:45, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.ErrorText" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="50" C="41" PS="Ln:50, Col:41" A="R"/>
+				<Pos L="51" C="43" PS="Ln:51, Col:43" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.ErrorID" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="55" C="4" PS="Ln:55, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.ErrorCount" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="56" C="4" PS="Ln:56, Col:4" A="W"/>
+				<Pos L="59" C="28" PS="Ln:59, Col:28" A="R"/>
+				<Pos L="72" C="28" PS="Ln:72, Col:28" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Cmd_Reset" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="59" C="7" PS="Ln:59, Col:7" A="R"/>
+				<Pos L="72" C="7" PS="Ln:72, Col:7" A="R"/>
+				<Pos L="74" C="4" PS="Ln:74, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.ErrorAck" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="65" C="35" PS="Ln:65, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.ErrorStop" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="72" C="52" PS="Ln:72, Col:52" A="R"/>
+				<Pos L="93" C="4" PS="Ln:93, Col:4" A="W"/>
+				<Pos L="98" C="34" PS="Ln:98, Col:34" A="R"/>
+				<Pos L="105" C="33" PS="Ln:105, Col:33" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_Enabled" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="87" C="4" PS="Ln:87, Col:4" A="W"/>
+				<Pos L="105" C="7" PS="Ln:105, Col:7" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_StandStill" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="88" C="4" PS="Ln:88, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_Stopping" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="89" C="4" PS="Ln:89, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_DiscreteMotion" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="90" C="4" PS="Ln:90, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_ContinuousMotion" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="91" C="4" PS="Ln:91, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_SynchronizedMotion" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="92" C="4" PS="Ln:92, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gDriveSupply_Ready" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="106" C="4" PS="Ln:106, Col:4" A="W"/>
+				<Pos L="108" C="4" PS="Ln:108, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gPowerUp_Complete" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="105" C="53" PS="Ln:105, Col:53" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gQ_CR_MainPowerOn" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="99" C="27" PS="Ln:99, Col:27" A="R"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+		<Const Name="mcONLY_PSM" Scope="Global" Type="USINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="114" C="34" PS="Ln:114, Col:34" A="R"/>
+			</File>
+		</Const>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="MC_BR_PowerMeter" Lib="acp10_mc">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="116" C="3" PS="Ln:116, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="MC_BR_ReadDriveStatus" Lib="acp10_mc">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="33" C="3" PS="Ln:33, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="MC_Power" Lib="acp10_mc">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="103" C="3" PS="Ln:103, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="MC_ReadAxisError" Lib="acp10_mc">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="53" C="3" PS="Ln:53, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="MC_ReadStatus" Lib="acp10_mc">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="85" C="3" PS="Ln:85, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="MC_Reset" Lib="acp10_mc">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicCyclic.st">
+				<Pos L="80" C="3" PS="Ln:80, Col:3"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

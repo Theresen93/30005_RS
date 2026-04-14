@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Crossref Scope="BagMachine_Section.MasterAxis.A9_Init.SetSpeedMode">
+	<Vars>
+		<Var Name="SetSpeedMode.HMI_uiConfirmSetSpeedVisibl" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/MasterAxis/A9_Init/SetSpeedMode/SetSpeedModeInit.st">
+				<Pos L="13" C="3" PS="Ln:13, Col:3" A="W"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

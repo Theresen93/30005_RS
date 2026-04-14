@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Crossref Scope="Libraries.CSV_File">
+	<Vars>
+	</Vars>
+	<Consts>
+		<Const Name="ERROR_ENABLE_NOT_SET" Scope="Global" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/CSV_InitCheckFile.ab">
+				<Pos L="29" C="12" PS="Ln:29, Col:12" A="R"/>
+			</File>
+		</Const>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="AsMemPartCreate" Lib="AsMem">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/CSV_InitCheckFile.ab">
+				<Pos L="16" C="27" PS="Ln:16, Col:27"/>
+			</File>
+		</Func>
+		<Func Name="AsMemPartAlloc" Lib="AsMem">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/CSV_InitCheckFile.ab">
+				<Pos L="21" C="30" PS="Ln:21, Col:30"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

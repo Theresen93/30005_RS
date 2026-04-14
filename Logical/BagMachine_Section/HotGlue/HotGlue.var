@@ -1,0 +1,34 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Program: HotGlue
+ * File: HotGlue.var
+ * Author: pkiel
+ * Created: July 14, 2011
+ ********************************************************************
+ * Local variables of program HotGlue
+ ********************************************************************)
+VAR
+	Glue_Auto : BOOL;
+	Glue_On : BOOL;
+	Glue_PB : BOOL;
+	GlueAuto_On : BOOL;
+	GlueAuto_PB : BOOL;
+	GlueAutoColor_Ind : UINT;
+	GlueAutoText_Ind : UINT;
+	GlueClean_PB : BOOL;
+	GlueColor_Ind : UINT;
+	GluePurge_PB : BOOL;
+	GlueText_Ind : UINT;
+END_VAR
+VAR RETAIN
+	HGW_2StatePB_0 : HGW_2StatePB;
+	HGW_2StatePB_1 : HGW_2StatePB;
+  HMI_bSelHotColdRSGlue_PB : BOOL ;   
+END_VAR
+VAR
+	HGW_ScaleReal_0 : HGW_ScaleReal;
+	HGW_ScaleReal_1 : HGW_ScaleReal;
+	HGW_Toggle_0 : HGW_Toggle;
+	PressureCmd : REAL;
+END_VAR

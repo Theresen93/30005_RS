@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.80.31 SP01?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="IEC" Description="E-Stop Relay and Alarm Reset">EStopReset</Object>
+    <Object Type="Program" Language="IEC" Description="Bag Machine Alarm Monitoring">Alarms1</Object>
+    <Object Type="Program" Language="IEC" Description="Main Alarm Monitoring">MainAlarms</Object>
+  </Objects>
+</Package>

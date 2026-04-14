@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<Crossref Scope="BagMachine_Section.EntryPull.Axis5.A5_Control">
+	<Vars>
+		<Var Name="A5_Control.Synch_Permissive" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Control/A5_ControlCyclic.ld">
+				<Pos L="1" C="5" EP="4" PS="Net:4, Ln:1, Col:5" A="W"/>
+				<Pos L="1" C="2" EP="5" PS="Net:5, Ln:1, Col:2" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A5_Control.TOF_0.IN" Scope="Local" Type="TOF">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Control/A5_ControlCyclic.ld">
+				<Pos L="2" C="3" EP="3" PS="Net:3, Ln:2, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A5_Control.TOF_0.PT" Scope="Local" Type="TOF">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Control/A5_ControlCyclic.ld">
+				<Pos L="3" C="3" EP="3" PS="Net:3, Ln:3, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A5_Control.TOF_0" Scope="Local" Type="TOF">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Control/A5_ControlCyclic.ld">
+				<Pos L="2" C="5" EP="3" PS="Net:3, Ln:2, Col:5" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="A5_Control.TOF_0.Q" Scope="Local" Type="TOF">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Control/A5_ControlCyclic.ld">
+				<Pos L="2" C="5" EP="3" PS="Net:3, Ln:2, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_Enabled" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Control/A5_ControlCyclic.ld">
+				<Pos L="1" C="1" EP="1" PS="Net:1, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="4" PS="Net:4, Ln:1, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Cmd_Enable" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Control/A5_ControlCyclic.ld">
+				<Pos L="1" C="6" EP="1" PS="Net:1, Ln:1, Col:6" A="W"/>
+				<Pos L="2" C="1" EP="1" PS="Net:1, Ln:2, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Error" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Control/A5_ControlCyclic.ld">
+				<Pos L="1" C="3" EP="1" PS="Net:1, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="1" EP="4" PS="Net:4, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Input_DriveEnable" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Control/A5_ControlCyclic.ld">
+				<Pos L="1" C="4" EP="1" PS="Net:1, Ln:1, Col:4" A="R"/>
+				<Pos L="3" C="1" EP="3" PS="Net:3, Ln:3, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Cmd_EStopDisable" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Control/A5_ControlCyclic.ld">
+				<Pos L="1" C="5" EP="1" PS="Net:1, Ln:1, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_NetworkInit" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Control/A5_ControlCyclic.ld">
+				<Pos L="1" C="1" EP="2" PS="Net:2, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_ControllerReady" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Control/A5_ControlCyclic.ld">
+				<Pos L="1" C="2" EP="2" PS="Net:2, Ln:1, Col:2" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_SynchronizedMotion" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Control/A5_ControlCyclic.ld">
+				<Pos L="1" C="3" EP="2" PS="Net:2, Ln:1, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_Ready" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Control/A5_ControlCyclic.ld">
+				<Pos L="1" C="4" EP="2" PS="Net:2, Ln:1, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Cmd_Reset" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Control/A5_ControlCyclic.ld">
+				<Pos L="2" C="5" EP="3" PS="Net:3, Ln:2, Col:5" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_Homed" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Control/A5_ControlCyclic.ld">
+				<Pos L="1" C="2" EP="4" PS="Net:4, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="4" EP="4" PS="Net:4, Ln:1, Col:4" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_AutomatEnabled" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Control/A5_ControlCyclic.ld">
+				<Pos L="1" C="1" EP="5" PS="Net:5, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Cmd_SynchronizedMotion" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Control/A5_ControlCyclic.ld">
+				<Pos L="1" C="4" EP="5" PS="Net:5, Ln:1, Col:4" A="W"/>
+				<Pos L="2" C="1" EP="5" PS="Net:5, Ln:2, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gDriveSupply_Ready" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Control/A5_ControlCyclic.ld">
+				<Pos L="1" C="2" EP="1" PS="Net:1, Ln:1, Col:2" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI_Reset_PB" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Control/A5_ControlCyclic.ld">
+				<Pos L="2" C="1" EP="3" PS="Net:3, Ln:2, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gCmd_ResetPBGen" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Control/A5_ControlCyclic.ld">
+				<Pos L="4" C="1" EP="3" PS="Net:3, Ln:4, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gRepeatChange" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Control/A5_ControlCyclic.ld">
+				<Pos L="1" C="3" EP="5" PS="Net:5, Ln:1, Col:3" A="R"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="TOF" Lib="standard">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Control/A5_ControlCyclic.ld">
+				<Pos L="2" C="5" EP="3" PS="Net:3, Ln:2, Col:5"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

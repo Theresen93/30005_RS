@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Crossref Scope="Libraries.CSV_File">
+	<Vars>
+	</Vars>
+	<Consts>
+		<Const Name="FILE_FOUND" Scope="Global" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/SearchFileName.ab">
+				<Pos L="75" C="12" PS="Ln:75, Col:12" A="R"/>
+			</File>
+		</Const>
+		<Const Name="FILE_NOT_FOUND" Scope="Global" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/SearchFileName.ab">
+				<Pos L="60" C="12" PS="Ln:60, Col:12" A="R"/>
+			</File>
+		</Const>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="strcat" Lib="asstring">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/SearchFileName.ab">
+				<Pos L="37" C="5" PS="Ln:37, Col:5"/>
+			</File>
+		</Func>
+		<Func Name="strlen" Lib="asstring">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/SearchFileName.ab">
+				<Pos L="31" C="22" PS="Ln:31, Col:22"/>
+				<Pos L="34" C="0" PS="Ln:34, Col:0"/>
+			</File>
+		</Func>
+		<Func Name="strcpy" Lib="asstring">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/SearchFileName.ab">
+				<Pos L="29" C="5" PS="Ln:29, Col:5"/>
+			</File>
+		</Func>
+		<Func Name="FileOpen" Lib="FileIO">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/SearchFileName.ab">
+				<Pos L="49" C="19" PS="Ln:49, Col:19"/>
+			</File>
+		</Func>
+		<Func Name="FileClose" Lib="FileIO">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/SearchFileName.ab">
+				<Pos L="72" C="20" PS="Ln:72, Col:20"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

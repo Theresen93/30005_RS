@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <P92_Main_ExitTable ReferenceString="Source[local].Page[P92_Main_ExitTable]">
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P92_Main_ExitTable].Layer[Default].Control[Numeric_25].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.ExitTable.rCMD_RS_ExitTableSpeed]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </P92_Main_ExitTable>
+</VCXReferenceList>

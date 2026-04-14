@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Crossref Scope="HMI.Language">
+	<Vars>
+		<Var Name="Language.Language_PB" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/Language/LanguageCyclic.st">
+				<Pos L="15" C="6" PS="Ln:15, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Language.Language_Ind" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/Language/LanguageCyclic.st">
+				<Pos L="16" C="3" PS="Ln:16, Col:3" A="W"/>
+				<Pos L="18" C="3" PS="Ln:18, Col:3" A="W"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

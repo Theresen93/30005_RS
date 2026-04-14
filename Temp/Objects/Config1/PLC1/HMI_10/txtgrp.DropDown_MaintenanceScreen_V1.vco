@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="TextGroupBase">
+    <Folder Name="DropDown_MaintenanceScreen_V1" TargetIndex="Source[local].TextGroup[DropDown_MaintenanceScreen_V1]">
+      <Object Name="DropDown_MaintenanceScreen_V1" ClsId="0x304" Version="1" TargetIndex="33" Type="TG" RefString="Source[local].TextGroup[DropDown_MaintenanceScreen_V1]">
+        <UInt32 Name="NumberOfTags">0</UInt32>
+        <UInt32 Name="NumberOfTexts">11</UInt32>
+        <Table Name="TextMap" Cols="2">
+          <TableHeader>
+            <Column Name="UserIndex" />
+            <Column Name="TextIndex" />
+          </TableHeader>
+          <TableRow>
+            <UInt32 Name="UserIndex">40</UInt32>
+            <UInt32 Name="TextIndex">403198</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">41</UInt32>
+            <UInt32 Name="TextIndex">403202</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">42</UInt32>
+            <UInt32 Name="TextIndex">403201</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">43</UInt32>
+            <UInt32 Name="TextIndex">403199</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">44</UInt32>
+            <UInt32 Name="TextIndex">403200</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">45</UInt32>
+            <UInt32 Name="TextIndex">403206</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">50</UInt32>
+            <UInt32 Name="TextIndex">403203</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">51</UInt32>
+            <UInt32 Name="TextIndex">403204</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">52</UInt32>
+            <UInt32 Name="TextIndex">403205</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">53</UInt32>
+            <UInt32 Name="TextIndex">403207</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">54</UInt32>
+            <UInt32 Name="TextIndex">403208</UInt32>
+          </TableRow>
+        </Table>
+      </Object>
+    </Folder>
+  </Folder>
+  <Folder Name="Language">
+    <Folder Name="en" TargetIndex="0">
+      <Folder Name="TextGroups">
+        <Folder Name="POBJ">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].TextGroup[DropDown_MaintenanceScreen_V1]" Type="TG" RefString="Source[local].TextGroup[DropDown_MaintenanceScreen_V1].Language[en]">
+            <UInt32 Name="NumberOfTexts">11</UInt32>
+            <Table Name="TextOffsets" Cols="5">
+              <TableHeader>
+                <Column Name="TextIndex" />
+                <Column Name="TextOffset" />
+                <Column Name="SnippetCount" />
+                <Column Name="Reserved" />
+                <Column Name="Reserved" />
+              </TableHeader>
+              <TableRow>
+                <UInt32 Name="TextIndex">403198</UInt32>
+                <UInt32 Name="TextOffset">136</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">403199</UInt32>
+                <UInt32 Name="TextOffset">186</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">403200</UInt32>
+                <UInt32 Name="TextOffset">252</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">403201</UInt32>
+                <UInt32 Name="TextOffset">318</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">403202</UInt32>
+                <UInt32 Name="TextOffset">372</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">403203</UInt32>
+                <UInt32 Name="TextOffset">424</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">403204</UInt32>
+                <UInt32 Name="TextOffset">488</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">403205</UInt32>
+                <UInt32 Name="TextOffset">552</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">403206</UInt32>
+                <UInt32 Name="TextOffset">616</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">403207</UInt32>
+                <UInt32 Name="TextOffset">658</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">403208</UInt32>
+                <UInt32 Name="TextOffset">722</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+            </Table>
+            <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">"MAINTENANCE: BAG MACHINE"</String>
+              <String Name="Text" Encoding="Unicode">"MAINTENANCE: PASSWORD MANAGEMENT"</String>
+              <String Name="Text" Encoding="Unicode">"MAINTENANCE: MACHINE INFORMATION"</String>
+              <String Name="Text" Encoding="Unicode">"MAINTENANCE: MISCELLANEOUS"</String>
+              <String Name="Text" Encoding="Unicode">"MAINTENANCE: SERVO HOMING"</String>
+              <String Name="Text" Encoding="Unicode">"MAINTENANCE: MAIN ENCLOSURE I/O"</String>
+              <String Name="Text" Encoding="Unicode">"MAINTENANCE: L3 ENCLOSURE I/O 1"</String>
+              <String Name="Text" Encoding="Unicode">"MAINTENANCE: L3 ENCLOSURE I/O 2"</String>
+              <String Name="Text" Encoding="Unicode">"MAINTENANCE: BUNDLER"</String>
+              <String Name="Text" Encoding="Unicode">"MAINTENANCE: L9 ENCLOSURE I/O 1"</String>
+              <String Name="Text" Encoding="Unicode">"MAINTENANCE: L9 ENCLOSURE I/O 2"</String>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Language">
+    <Folder Name="fr-FR" TargetIndex="2">
+      <Folder Name="TextGroups">
+        <Folder Name="POBJ">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].TextGroup[DropDown_MaintenanceScreen_V1]" Type="TG" RefString="Source[local].TextGroup[DropDown_MaintenanceScreen_V1].Language[fr-FR]">
+            <UInt32 Name="NumberOfTexts">11</UInt32>
+            <Table Name="TextOffsets" Cols="5">
+              <TableHeader>
+                <Column Name="TextIndex" />
+                <Column Name="TextOffset" />
+                <Column Name="SnippetCount" />
+                <Column Name="Reserved" />
+                <Column Name="Reserved" />
+              </TableHeader>
+              <TableRow>
+                <UInt32 Name="TextIndex">403198</UInt32>
+                <UInt32 Name="TextOffset">136</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">403199</UInt32>
+                <UInt32 Name="TextOffset">138</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">403200</UInt32>
+                <UInt32 Name="TextOffset">140</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">403201</UInt32>
+                <UInt32 Name="TextOffset">142</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">403202</UInt32>
+                <UInt32 Name="TextOffset">144</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">403203</UInt32>
+                <UInt32 Name="TextOffset">146</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">403204</UInt32>
+                <UInt32 Name="TextOffset">148</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">403205</UInt32>
+                <UInt32 Name="TextOffset">150</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">403206</UInt32>
+                <UInt32 Name="TextOffset">152</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">403207</UInt32>
+                <UInt32 Name="TextOffset">154</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">403208</UInt32>
+                <UInt32 Name="TextOffset">156</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+            </Table>
+            <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

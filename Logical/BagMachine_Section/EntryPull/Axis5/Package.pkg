@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.80.31 SP01?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="DataObject" Language="Ax" Description="Servo Axis Initialization File">A5_Init</Object>
+    <Object Type="DataObject" Language="Apt" Description="Servo Axis Parameter File">A5_Par</Object>
+    <Object Type="Program" Language="IEC" Description="Basic Servo">A5_Basic</Object>
+    <Object Type="Program" Language="IEC" Description="Servo Control">A5_Control</Object>
+    <Object Type="Program" Language="IEC" Description="Cam Automat">A5_Automat</Object>
+    <Object Type="Program" Language="IEC" Description="Axis Draw Calculations">A5_Draw</Object>
+  </Objects>
+</Package>

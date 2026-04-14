@@ -1,0 +1,1350 @@
+<?xml version="1.0"?>
+<Crossref Scope="BagMachine_Section.BagBundler.Tilter">
+  <Vars>
+    <Var Name="Tilter.stCycBundTilt.bSCyc" Scope="Local" Type="CycGen">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="355" C="7" PS="Ln:355, Col:7" A="W" />
+        <Pos L="360" C="12" PS="Ln:360, Col:12" A="R" />
+        <Pos L="417" C="9" PS="Ln:417, Col:9" A="W" />
+        <Pos L="461" C="9" PS="Ln:461, Col:9" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.stCycBundTilt.bFCyc" Scope="Local" Type="CycGen">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="362" C="15" PS="Ln:362, Col:15" A="R" />
+        <Pos L="364" C="9" PS="Ln:364, Col:9" A="W" />
+        <Pos L="451" C="9" PS="Ln:451, Col:9" A="W" />
+        <Pos L="515" C="13" PS="Ln:515, Col:13" A="W" />
+        <Pos L="774" C="13" PS="Ln:774, Col:13" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.stCycBundTilt.bCyc" Scope="Local" Type="CycGen">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="365" C="9" PS="Ln:365, Col:9" A="W" />
+        <Pos L="452" C="9" PS="Ln:452, Col:9" A="W" />
+        <Pos L="516" C="13" PS="Ln:516, Col:13" A="W" />
+        <Pos L="775" C="13" PS="Ln:775, Col:13" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.stCycBundTilt.bCycFail" Scope="Local" Type="CycGen">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="366" C="9" PS="Ln:366, Col:9" A="W" />
+        <Pos L="453" C="9" PS="Ln:453, Col:9" A="W" />
+        <Pos L="517" C="13" PS="Ln:517, Col:13" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.stCycBundTilt.iStep" Scope="Local" Type="CycGen">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="374" C="7" PS="Ln:374, Col:7" A="W" />
+        <Pos L="383" C="9" PS="Ln:383, Col:9" A="W" />
+        <Pos L="436" C="11" PS="Ln:436, Col:11" A="W" />
+        <Pos L="441" C="11" PS="Ln:441, Col:11" A="W" />
+        <Pos L="466" C="12" PS="Ln:466, Col:12" A="R" />
+        <Pos L="469" C="42" PS="Ln:469, Col:42" A="R" />
+        <Pos L="471" C="42" PS="Ln:471, Col:42" A="R" />
+        <Pos L="472" C="25" PS="Ln:472, Col:25" A="R" />
+        <Pos L="481" C="30" PS="Ln:481, Col:30" A="R" />
+        <Pos L="482" C="30" PS="Ln:482, Col:30" A="R" />
+        <Pos L="505" C="14" PS="Ln:505, Col:14" A="R" />
+        <Pos L="512" C="13" PS="Ln:512, Col:13" A="W" />
+        <Pos L="529" C="13" PS="Ln:529, Col:13" A="W" />
+        <Pos L="545" C="13" PS="Ln:545, Col:13" A="W" />
+        <Pos L="562" C="13" PS="Ln:562, Col:13" A="W" />
+        <Pos L="580" C="13" PS="Ln:580, Col:13" A="W" />
+        <Pos L="600" C="13" PS="Ln:600, Col:13" A="W" />
+        <Pos L="616" C="13" PS="Ln:616, Col:13" A="W" />
+        <Pos L="633" C="13" PS="Ln:633, Col:13" A="W" />
+        <Pos L="651" C="13" PS="Ln:651, Col:13" A="W" />
+        <Pos L="666" C="13" PS="Ln:666, Col:13" A="W" />
+        <Pos L="682" C="13" PS="Ln:682, Col:13" A="W" />
+        <Pos L="699" C="13" PS="Ln:699, Col:13" A="W" />
+        <Pos L="715" C="13" PS="Ln:715, Col:13" A="W" />
+        <Pos L="735" C="13" PS="Ln:735, Col:13" A="W" />
+        <Pos L="753" C="13" PS="Ln:753, Col:13" A="W" />
+        <Pos L="769" C="13" PS="Ln:769, Col:13" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.stCycBundTilt.bTestOn" Scope="Local" Type="CycGen">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="527" C="16" PS="Ln:527, Col:16" A="R" />
+        <Pos L="532" C="13" PS="Ln:532, Col:13" A="W" />
+        <Pos L="543" C="16" PS="Ln:543, Col:16" A="R" />
+        <Pos L="548" C="13" PS="Ln:548, Col:13" A="W" />
+        <Pos L="560" C="16" PS="Ln:560, Col:16" A="R" />
+        <Pos L="565" C="13" PS="Ln:565, Col:13" A="W" />
+        <Pos L="578" C="16" PS="Ln:578, Col:16" A="R" />
+        <Pos L="583" C="13" PS="Ln:583, Col:13" A="W" />
+        <Pos L="598" C="16" PS="Ln:598, Col:16" A="R" />
+        <Pos L="603" C="13" PS="Ln:603, Col:13" A="W" />
+        <Pos L="614" C="16" PS="Ln:614, Col:16" A="R" />
+        <Pos L="619" C="13" PS="Ln:619, Col:13" A="W" />
+        <Pos L="631" C="16" PS="Ln:631, Col:16" A="R" />
+        <Pos L="636" C="13" PS="Ln:636, Col:13" A="W" />
+        <Pos L="649" C="16" PS="Ln:649, Col:16" A="R" />
+        <Pos L="654" C="13" PS="Ln:654, Col:13" A="W" />
+        <Pos L="664" C="16" PS="Ln:664, Col:16" A="R" />
+        <Pos L="669" C="13" PS="Ln:669, Col:13" A="W" />
+        <Pos L="680" C="16" PS="Ln:680, Col:16" A="R" />
+        <Pos L="685" C="13" PS="Ln:685, Col:13" A="W" />
+        <Pos L="697" C="16" PS="Ln:697, Col:16" A="R" />
+        <Pos L="702" C="13" PS="Ln:702, Col:13" A="W" />
+        <Pos L="718" C="13" PS="Ln:718, Col:13" A="W" />
+        <Pos L="733" C="16" PS="Ln:733, Col:16" A="R" />
+        <Pos L="737" C="13" PS="Ln:737, Col:13" A="W" />
+        <Pos L="751" C="16" PS="Ln:751, Col:16" A="R" />
+        <Pos L="756" C="13" PS="Ln:756, Col:13" A="W" />
+        <Pos L="767" C="16" PS="Ln:767, Col:16" A="R" />
+        <Pos L="772" C="13" PS="Ln:772, Col:13" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.stCycBundTilt.bModTest" Scope="Local" Type="CycGen">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="528" C="20" PS="Ln:528, Col:20" A="R" />
+        <Pos L="544" C="19" PS="Ln:544, Col:19" A="R" />
+        <Pos L="561" C="20" PS="Ln:561, Col:20" A="R" />
+        <Pos L="579" C="20" PS="Ln:579, Col:20" A="R" />
+        <Pos L="599" C="20" PS="Ln:599, Col:20" A="R" />
+        <Pos L="615" C="20" PS="Ln:615, Col:20" A="R" />
+        <Pos L="632" C="20" PS="Ln:632, Col:20" A="R" />
+        <Pos L="650" C="20" PS="Ln:650, Col:20" A="R" />
+        <Pos L="665" C="20" PS="Ln:665, Col:20" A="R" />
+        <Pos L="681" C="20" PS="Ln:681, Col:20" A="R" />
+        <Pos L="698" C="20" PS="Ln:698, Col:20" A="R" />
+        <Pos L="734" C="20" PS="Ln:734, Col:20" A="R" />
+        <Pos L="752" C="20" PS="Ln:752, Col:20" A="R" />
+        <Pos L="768" C="20" PS="Ln:768, Col:20" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bQ_Bund_DriveStart" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="17" C="72" PS="Ln:17, Col:72" A="R" />
+        <Pos L="18" C="77" PS="Ln:18, Col:77" A="R" />
+        <Pos L="26" C="27" PS="Ln:26, Col:27" A="R" />
+        <Pos L="241" C="13" PS="Ln:241, Col:13" A="R" />
+        <Pos L="370" C="9" PS="Ln:370, Col:9" A="W" />
+        <Pos L="403" C="9" PS="Ln:403, Col:9" A="W" />
+        <Pos L="423" C="9" PS="Ln:423, Col:9" A="W" />
+        <Pos L="445" C="11" PS="Ln:445, Col:11" A="W" />
+        <Pos L="489" C="53" PS="Ln:489, Col:53" A="R" />
+        <Pos L="550" C="13" PS="Ln:550, Col:13" A="W" />
+        <Pos L="605" C="13" PS="Ln:605, Col:13" A="W" />
+        <Pos L="621" C="13" PS="Ln:621, Col:13" A="W" />
+        <Pos L="671" C="13" PS="Ln:671, Col:13" A="W" />
+        <Pos L="739" C="13" PS="Ln:739, Col:13" A="W" />
+        <Pos L="758" C="13" PS="Ln:758, Col:13" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bQ_Bund_DriveDirection" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="17" C="45" PS="Ln:17, Col:45" A="R" />
+        <Pos L="18" C="49" PS="Ln:18, Col:49" A="R" />
+        <Pos L="28" C="31" PS="Ln:28, Col:31" A="R" />
+        <Pos L="266" C="9" PS="Ln:266, Col:9" A="R" />
+        <Pos L="270" C="13" PS="Ln:270, Col:13" A="R" />
+        <Pos L="306" C="20" PS="Ln:306, Col:20" A="R" />
+        <Pos L="308" C="24" PS="Ln:308, Col:24" A="R" />
+        <Pos L="372" C="9" PS="Ln:372, Col:9" A="W" />
+        <Pos L="404" C="9" PS="Ln:404, Col:9" A="W" />
+        <Pos L="425" C="9" PS="Ln:425, Col:9" A="W" />
+        <Pos L="446" C="11" PS="Ln:446, Col:11" A="W" />
+        <Pos L="551" C="13" PS="Ln:551, Col:13" A="W" />
+        <Pos L="622" C="13" PS="Ln:622, Col:13" A="W" />
+        <Pos L="740" C="13" PS="Ln:740, Col:13" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bQ_Bund_DriveFastSpeed" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="30" C="31" PS="Ln:30, Col:31" A="R" />
+        <Pos L="371" C="9" PS="Ln:371, Col:9" A="W" />
+        <Pos L="424" C="9" PS="Ln:424, Col:9" A="W" />
+        <Pos L="489" C="7" PS="Ln:489, Col:7" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bQ_Bund_SOL_14C3Out" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="21" C="28" PS="Ln:21, Col:28" A="R" />
+        <Pos L="386" C="11" PS="Ln:386, Col:11" A="W" />
+        <Pos L="389" C="11" PS="Ln:389, Col:11" A="W" />
+        <Pos L="438" C="11" PS="Ln:438, Col:11" A="W" />
+        <Pos L="443" C="11" PS="Ln:443, Col:11" A="W" />
+        <Pos L="498" C="25" PS="Ln:498, Col:25" A="R" />
+        <Pos L="567" C="13" PS="Ln:567, Col:13" A="W" />
+        <Pos L="585" C="13" PS="Ln:585, Col:13" A="W" />
+        <Pos L="638" C="13" PS="Ln:638, Col:13" A="W" />
+        <Pos L="687" C="13" PS="Ln:687, Col:13" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bQ_Bund_SOL_14C4Out" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="22" C="28" PS="Ln:22, Col:28" A="R" />
+        <Pos L="392" C="11" PS="Ln:392, Col:11" A="W" />
+        <Pos L="395" C="11" PS="Ln:395, Col:11" A="W" />
+        <Pos L="439" C="11" PS="Ln:439, Col:11" A="W" />
+        <Pos L="444" C="11" PS="Ln:444, Col:11" A="W" />
+        <Pos L="568" C="13" PS="Ln:568, Col:13" A="W" />
+        <Pos L="586" C="13" PS="Ln:586, Col:13" A="W" />
+        <Pos L="688" C="13" PS="Ln:688, Col:13" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bQ_Bund_SOL_14C5Out" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="23" C="28" PS="Ln:23, Col:28" A="R" />
+        <Pos L="398" C="11" PS="Ln:398, Col:11" A="W" />
+        <Pos L="401" C="11" PS="Ln:401, Col:11" A="W" />
+        <Pos L="494" C="9" PS="Ln:494, Col:9" A="W" />
+        <Pos L="640" C="13" PS="Ln:640, Col:13" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.rPosTiltUpLSpeed" Scope="Local" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="250" C="6" PS="Ln:250, Col:6" A="W" />
+        <Pos L="302" C="6" PS="Ln:302, Col:6" A="W" />
+        <Pos L="305" C="37" PS="Ln:305, Col:37" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.rPosTiltDownLSpeed" Scope="Local" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="251" C="6" PS="Ln:251, Col:6" A="W" />
+        <Pos L="303" C="6" PS="Ln:303, Col:6" A="W" />
+        <Pos L="307" C="37" PS="Ln:307, Col:37" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.rPosTiltUpStop" Scope="Local" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="252" C="6" PS="Ln:252, Col:6" A="W" />
+        <Pos L="302" C="28" PS="Ln:302, Col:28" A="R" />
+        <Pos L="312" C="25" PS="Ln:312, Col:25" A="R" />
+        <Pos L="317" C="24" PS="Ln:317, Col:24" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.rPosTiltDownStop" Scope="Local" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="253" C="6" PS="Ln:253, Col:6" A="W" />
+        <Pos L="303" C="28" PS="Ln:303, Col:28" A="R" />
+        <Pos L="321" C="25" PS="Ln:321, Col:25" A="R" />
+        <Pos L="326" C="24" PS="Ln:326, Col:24" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.rPosTiltDegPts" Scope="Local" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="258" C="58" PS="Ln:258, Col:58" A="R" />
+      </File>
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterInit.st">
+        <Pos L="16" C="3" PS="Ln:16, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bHMI_Cmd_RecPosIn14C1" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="240" C="17" PS="Ln:240, Col:17" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.rHMI_PosTiltAct" Scope="Local" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="285" C="6" PS="Ln:285, Col:6" A="W" />
+        <Pos L="285" C="50" PS="Ln:285, Col:50" A="R" />
+        <Pos L="286" C="9" PS="Ln:286, Col:9" A="R" />
+        <Pos L="287" C="8" PS="Ln:287, Col:8" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.rK_HMI" Scope="Local" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="285" C="41" PS="Ln:285, Col:41" A="R" />
+        <Pos L="285" C="72" PS="Ln:285, Col:72" A="R" />
+      </File>
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterInit.st">
+        <Pos L="18" C="3" PS="Ln:18, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bHMI_BundMan_14C3P_PB" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="385" C="12" PS="Ln:385, Col:12" A="R" />
+        <Pos L="407" C="9" PS="Ln:407, Col:9" A="W" />
+        <Pos L="418" C="9" PS="Ln:418, Col:9" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bHMI_BundMan_14C3M_PB" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="388" C="12" PS="Ln:388, Col:12" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.iHMI_Bund_14C3In_State" Scope="Local" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="160" C="7" PS="Ln:160, Col:7" A="W" />
+        <Pos L="171" C="7" PS="Ln:171, Col:7" A="W" />
+        <Pos L="176" C="9" PS="Ln:176, Col:9" A="W" />
+        <Pos L="178" C="9" PS="Ln:178, Col:9" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.iHMI_Bund_14C3Out_State" Scope="Local" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="159" C="7" PS="Ln:159, Col:7" A="W" />
+        <Pos L="164" C="9" PS="Ln:164, Col:9" A="W" />
+        <Pos L="166" C="9" PS="Ln:166, Col:9" A="W" />
+        <Pos L="172" C="7" PS="Ln:172, Col:7" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bHMI_BundMan_14C4P_PB" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="391" C="12" PS="Ln:391, Col:12" A="R" />
+        <Pos L="408" C="9" PS="Ln:408, Col:9" A="W" />
+        <Pos L="419" C="9" PS="Ln:419, Col:9" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bHMI_BundMan_14C4M_PB" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="394" C="12" PS="Ln:394, Col:12" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.iHMI_Bund_14C4In_State" Scope="Local" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="186" C="7" PS="Ln:186, Col:7" A="W" />
+        <Pos L="197" C="7" PS="Ln:197, Col:7" A="W" />
+        <Pos L="202" C="9" PS="Ln:202, Col:9" A="W" />
+        <Pos L="204" C="9" PS="Ln:204, Col:9" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.iHMI_Bund_14C4Out_State" Scope="Local" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="185" C="7" PS="Ln:185, Col:7" A="W" />
+        <Pos L="190" C="9" PS="Ln:190, Col:9" A="W" />
+        <Pos L="192" C="9" PS="Ln:192, Col:9" A="W" />
+        <Pos L="198" C="7" PS="Ln:198, Col:7" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bHMI_BundMan_14C5P_PB" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="397" C="12" PS="Ln:397, Col:12" A="R" />
+        <Pos L="409" C="9" PS="Ln:409, Col:9" A="W" />
+        <Pos L="420" C="9" PS="Ln:420, Col:9" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bHMI_BundMan_14C5M_PB" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="400" C="12" PS="Ln:400, Col:12" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.iHMI_Bund_14C5In_State" Scope="Local" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="212" C="7" PS="Ln:212, Col:7" A="W" />
+        <Pos L="223" C="7" PS="Ln:223, Col:7" A="W" />
+        <Pos L="228" C="9" PS="Ln:228, Col:9" A="W" />
+        <Pos L="230" C="9" PS="Ln:230, Col:9" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.iHMI_Bund_14C5Out_State" Scope="Local" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="211" C="7" PS="Ln:211, Col:7" A="W" />
+        <Pos L="216" C="9" PS="Ln:216, Col:9" A="W" />
+        <Pos L="218" C="9" PS="Ln:218, Col:9" A="W" />
+        <Pos L="224" C="7" PS="Ln:224, Col:7" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bHMI_BundMan_TiltUp_PB" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="403" C="35" PS="Ln:403, Col:35" A="R" />
+        <Pos L="404" C="35" PS="Ln:404, Col:35" A="R" />
+        <Pos L="410" C="9" PS="Ln:410, Col:9" A="W" />
+        <Pos L="421" C="9" PS="Ln:421, Col:9" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bHMI_BundMan_TiltDown_PB" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="403" C="61" PS="Ln:403, Col:61" A="R" />
+        <Pos L="411" C="9" PS="Ln:411, Col:9" A="W" />
+        <Pos L="422" C="9" PS="Ln:422, Col:9" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.iHMI_Bund_S104" Scope="Local" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="93" C="7" PS="Ln:93, Col:7" A="W" />
+        <Pos L="95" C="7" PS="Ln:95, Col:7" A="W" />
+        <Pos L="99" C="7" PS="Ln:99, Col:7" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.iHMI_Bund_S106" Scope="Local" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="103" C="7" PS="Ln:103, Col:7" A="W" />
+        <Pos L="106" C="9" PS="Ln:106, Col:9" A="W" />
+        <Pos L="109" C="7" PS="Ln:109, Col:7" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.iHMI_Bund_S108" Scope="Local" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="113" C="7" PS="Ln:113, Col:7" A="W" />
+        <Pos L="116" C="9" PS="Ln:116, Col:9" A="W" />
+        <Pos L="119" C="7" PS="Ln:119, Col:7" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.iHMI_Bund_S110" Scope="Local" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="123" C="7" PS="Ln:123, Col:7" A="W" />
+        <Pos L="125" C="7" PS="Ln:125, Col:7" A="W" />
+        <Pos L="129" C="7" PS="Ln:129, Col:7" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.iHMI_Bund_S111" Scope="Local" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="133" C="7" PS="Ln:133, Col:7" A="W" />
+        <Pos L="135" C="7" PS="Ln:135, Col:7" A="W" />
+        <Pos L="139" C="7" PS="Ln:139, Col:7" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.iHMI_Bund_S112" Scope="Local" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="143" C="7" PS="Ln:143, Col:7" A="W" />
+        <Pos L="145" C="7" PS="Ln:145, Col:7" A="W" />
+        <Pos L="149" C="7" PS="Ln:149, Col:7" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bS104_FaultIn" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="56" C="5" PS="Ln:56, Col:5" A="W" />
+        <Pos L="174" C="8" PS="Ln:174, Col:8" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bS104_FaultOut" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="55" C="5" PS="Ln:55, Col:5" A="W" />
+        <Pos L="162" C="8" PS="Ln:162, Col:8" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bS104_Fault" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="57" C="5" PS="Ln:57, Col:5" A="W" />
+        <Pos L="97" C="8" PS="Ln:97, Col:8" A="R" />
+        <Pos L="152" C="33" PS="Ln:152, Col:33" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bS110_FaultIn" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="70" C="5" PS="Ln:70, Col:5" A="W" />
+        <Pos L="200" C="8" PS="Ln:200, Col:8" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bS110_FaultOut" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="69" C="5" PS="Ln:69, Col:5" A="W" />
+        <Pos L="188" C="8" PS="Ln:188, Col:8" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bS110_Fault" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="71" C="5" PS="Ln:71, Col:5" A="W" />
+        <Pos L="127" C="8" PS="Ln:127, Col:8" A="R" />
+        <Pos L="152" C="48" PS="Ln:152, Col:48" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bS111_FaultIn" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="85" C="5" PS="Ln:85, Col:5" A="W" />
+        <Pos L="226" C="8" PS="Ln:226, Col:8" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bS111_FaultOut" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="84" C="5" PS="Ln:84, Col:5" A="W" />
+        <Pos L="214" C="8" PS="Ln:214, Col:8" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bS111_Fault" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="86" C="5" PS="Ln:86, Col:5" A="W" />
+        <Pos L="137" C="8" PS="Ln:137, Col:8" A="R" />
+        <Pos L="152" C="63" PS="Ln:152, Col:63" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bS112_FaultIn" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="88" C="5" PS="Ln:88, Col:5" A="W" />
+        <Pos L="226" C="25" PS="Ln:226, Col:25" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bS112_FaultOut" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="87" C="5" PS="Ln:87, Col:5" A="W" />
+        <Pos L="214" C="26" PS="Ln:214, Col:26" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bS112_Fault" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="89" C="5" PS="Ln:89, Col:5" A="W" />
+        <Pos L="147" C="8" PS="Ln:147, Col:8" A="R" />
+        <Pos L="152" C="78" PS="Ln:152, Col:78" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C3.IN_bSensorIn" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="46" C="5" PS="Ln:46, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C3.IN_bSOL_In" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="47" C="5" PS="Ln:47, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C3.IN_bSOL_Out" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="48" C="5" PS="Ln:48, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C3.IN_bActSensIn" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="49" C="5" PS="Ln:49, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C3.IN_bActSensOut" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="50" C="5" PS="Ln:50, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C3.IN_tTpWatchIn" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="51" C="5" PS="Ln:51, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C3.IN_tTpWatchOut" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="52" C="5" PS="Ln:52, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C3.IN_bReset" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="53" C="5" PS="Ln:53, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C3" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="54" C="5" PS="Ln:54, Col:5" A="RW" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C3.OUT_bSensIn_FaultOut" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="55" C="23" PS="Ln:55, Col:23" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C3.OUT_bSensIn_FaultIn" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="56" C="23" PS="Ln:56, Col:23" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C3.OUT_bSensIn_Fault" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="57" C="23" PS="Ln:57, Col:23" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C4.IN_bSensorIn" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="60" C="5" PS="Ln:60, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C4.IN_bSOL_In" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="61" C="5" PS="Ln:61, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C4.IN_bSOL_Out" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="62" C="5" PS="Ln:62, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C4.IN_bActSensIn" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="63" C="5" PS="Ln:63, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C4.IN_bActSensOut" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="64" C="5" PS="Ln:64, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C4.IN_tTpWatchIn" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="65" C="5" PS="Ln:65, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C4.IN_tTpWatchOut" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="66" C="5" PS="Ln:66, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C4.IN_bReset" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="67" C="5" PS="Ln:67, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C4" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="68" C="5" PS="Ln:68, Col:5" A="RW" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C4.OUT_bSensIn_FaultOut" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="69" C="23" PS="Ln:69, Col:23" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C4.OUT_bSensIn_FaultIn" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="70" C="23" PS="Ln:70, Col:23" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C4.OUT_bSensIn_Fault" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="71" C="23" PS="Ln:71, Col:23" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C5.IN_bSensorIn" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="74" C="5" PS="Ln:74, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C5.IN_bSensorOut" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="75" C="5" PS="Ln:75, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C5.IN_bSOL_In" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="76" C="5" PS="Ln:76, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C5.IN_bSOL_Out" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="77" C="5" PS="Ln:77, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C5.IN_bActSensIn" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="78" C="5" PS="Ln:78, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C5.IN_bActSensOut" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="79" C="5" PS="Ln:79, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C5.IN_tTpWatchIn" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="80" C="5" PS="Ln:80, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C5.IN_tTpWatchOut" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="81" C="5" PS="Ln:81, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C5.IN_bReset" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="82" C="5" PS="Ln:82, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C5" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="83" C="5" PS="Ln:83, Col:5" A="RW" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C5.OUT_bSensIn_FaultOut" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="84" C="23" PS="Ln:84, Col:23" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C5.OUT_bSensIn_FaultIn" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="85" C="23" PS="Ln:85, Col:23" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C5.OUT_bSensIn_Fault" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="86" C="23" PS="Ln:86, Col:23" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C5.OUT_bSensOut_FaultOut" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="87" C="23" PS="Ln:87, Col:23" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C5.OUT_bSensOut_FaultIn" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="88" C="23" PS="Ln:88, Col:23" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_WS_14C5.OUT_bSensOut_Fault" Scope="Local" Type="H_FB_WatchSensor">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="89" C="23" PS="Ln:89, Col:23" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bIndLSpeed" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="305" C="6" PS="Ln:305, Col:6" A="W" />
+        <Pos L="489" C="37" PS="Ln:489, Col:37" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bIndPosUpStop" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="314" C="7" PS="Ln:314, Col:7" A="W" />
+        <Pos L="319" C="7" PS="Ln:319, Col:7" A="W" />
+        <Pos L="481" C="68" PS="Ln:481, Col:68" A="R" />
+        <Pos L="596" C="16" PS="Ln:596, Col:16" A="R" />
+        <Pos L="749" C="16" PS="Ln:749, Col:16" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bIndPosDownStop" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="323" C="7" PS="Ln:323, Col:7" A="W" />
+        <Pos L="328" C="7" PS="Ln:328, Col:7" A="W" />
+        <Pos L="482" C="68" PS="Ln:482, Col:68" A="R" />
+        <Pos L="663" C="14" PS="Ln:663, Col:14" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.rPosTiltAct" Scope="Local" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="242" C="29" PS="Ln:242, Col:29" A="R" />
+        <Pos L="279" C="6" PS="Ln:279, Col:6" A="W" />
+        <Pos L="280" C="9" PS="Ln:280, Col:9" A="R" />
+        <Pos L="281" C="8" PS="Ln:281, Col:8" A="W" />
+        <Pos L="285" C="27" PS="Ln:285, Col:27" A="R" />
+        <Pos L="291" C="9" PS="Ln:291, Col:9" A="R" />
+        <Pos L="294" C="9" PS="Ln:294, Col:9" A="R" />
+        <Pos L="305" C="22" PS="Ln:305, Col:22" A="R" />
+        <Pos L="307" C="22" PS="Ln:307, Col:22" A="R" />
+        <Pos L="312" C="10" PS="Ln:312, Col:10" A="R" />
+        <Pos L="316" C="10" PS="Ln:316, Col:10" A="R" />
+        <Pos L="317" C="10" PS="Ln:317, Col:10" A="R" />
+        <Pos L="321" C="10" PS="Ln:321, Col:10" A="R" />
+        <Pos L="325" C="10" PS="Ln:325, Col:10" A="R" />
+        <Pos L="326" C="10" PS="Ln:326, Col:10" A="R" />
+        <Pos L="435" C="13" PS="Ln:435, Col:13" A="R" />
+        <Pos L="559" C="16" PS="Ln:559, Col:16" A="R" />
+        <Pos L="577" C="16" PS="Ln:577, Col:16" A="R" />
+        <Pos L="630" C="16" PS="Ln:630, Col:16" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.rPosTiltActTemp1" Scope="Local" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="258" C="6" PS="Ln:258, Col:6" A="W" />
+        <Pos L="259" C="46" PS="Ln:259, Col:46" A="R" />
+        <Pos L="261" C="28" PS="Ln:261, Col:28" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.rMemoPosTiltAct" Scope="Local" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="265" C="31" PS="Ln:265, Col:31" A="R" />
+        <Pos L="269" C="31" PS="Ln:269, Col:31" A="R" />
+        <Pos L="275" C="8" PS="Ln:275, Col:8" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.rNumRoundTilt" Scope="Local" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="267" C="8" PS="Ln:267, Col:8" A="W" />
+        <Pos L="271" C="8" PS="Ln:271, Col:8" A="W" />
+        <Pos L="279" C="40" PS="Ln:279, Col:40" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.rPosTiltActTemp2" Scope="Local" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="261" C="6" PS="Ln:261, Col:6" A="W" />
+        <Pos L="261" C="52" PS="Ln:261, Col:52" A="R" />
+        <Pos L="262" C="46" PS="Ln:262, Col:46" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.rPosTiltActTemp3" Scope="Local" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="262" C="6" PS="Ln:262, Col:6" A="W" />
+        <Pos L="279" C="21" PS="Ln:279, Col:21" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.rPosTiltActTemp4" Scope="Local" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="259" C="6" PS="Ln:259, Col:6" A="W" />
+        <Pos L="265" C="12" PS="Ln:265, Col:12" A="R" />
+        <Pos L="269" C="12" PS="Ln:269, Col:12" A="R" />
+        <Pos L="275" C="27" PS="Ln:275, Col:27" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.iCmpt" Scope="Local" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="273" C="9" PS="Ln:273, Col:9" A="R" />
+        <Pos L="274" C="8" PS="Ln:274, Col:8" A="W" />
+        <Pos L="277" C="6" PS="Ln:277, Col:6" A="W" />
+        <Pos L="277" C="15" PS="Ln:277, Col:15" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.rK" Scope="Local" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="261" C="47" PS="Ln:261, Col:47" A="R" />
+        <Pos L="261" C="75" PS="Ln:261, Col:75" A="R" />
+      </File>
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterInit.st">
+        <Pos L="17" C="3" PS="Ln:17, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.rPosTiltInit_OK" Scope="Local" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="291" C="24" PS="Ln:291, Col:24" A="R" />
+        <Pos L="294" C="24" PS="Ln:294, Col:24" A="R" />
+      </File>
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterInit.st">
+        <Pos L="19" C="3" PS="Ln:19, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.rPosTiltInitHyst" Scope="Local" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="294" C="42" PS="Ln:294, Col:42" A="R" />
+      </File>
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterInit.st">
+        <Pos L="20" C="3" PS="Ln:20, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bPosTiltInit_OK" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="292" C="8" PS="Ln:292, Col:8" A="W" />
+        <Pos L="295" C="8" PS="Ln:295, Col:8" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.stTON_StopTilt" Scope="Local" Type="TON">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="483" C="7" PS="Ln:483, Col:7" A="RW" />
+      </File>
+    </Var>
+    <Var Name="Tilter.stTON_StopTilt.Q" Scope="Local" Type="TON">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="613" C="14" PS="Ln:613, Col:14" A="R" />
+        <Pos L="679" C="14" PS="Ln:679, Col:14" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bTON_StopTilt_IN" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="481" C="7" PS="Ln:481, Col:7" A="W" />
+        <Pos L="484" C="19" PS="Ln:484, Col:19" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.tTpStopTilt" Scope="Local" Type="TIME">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="485" C="19" PS="Ln:485, Col:19" A="R" />
+      </File>
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterInit.st">
+        <Pos L="21" C="3" PS="Ln:21, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bInitTiltCycl" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="351" C="12" PS="Ln:351, Col:12" A="R" />
+        <Pos L="368" C="9" PS="Ln:368, Col:9" A="W" />
+        <Pos L="431" C="14" PS="Ln:431, Col:14" A="R" />
+        <Pos L="432" C="9" PS="Ln:432, Col:9" A="W" />
+        <Pos L="587" C="41" PS="Ln:587, Col:41" A="R" />
+        <Pos L="722" C="13" PS="Ln:722, Col:13" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.stTON_Out14C5" Scope="Local" Type="TON">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="492" C="7" PS="Ln:492, Col:7" A="RW" />
+      </File>
+    </Var>
+    <Var Name="Tilter.stTON_Out14C5.Q" Scope="Local" Type="TON">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="493" C="10" PS="Ln:493, Col:10" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.tTpOut14C5" Scope="Local" Type="TIME">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="492" C="67" PS="Ln:492, Col:67" A="R" />
+      </File>
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterInit.st">
+        <Pos L="22" C="3" PS="Ln:22, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.stTON_Out14C3" Scope="Local" Type="TON">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="498" C="7" PS="Ln:498, Col:7" A="RW" />
+      </File>
+    </Var>
+    <Var Name="Tilter.stTON_Out14C3.Q" Scope="Local" Type="TON">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="732" C="14" PS="Ln:732, Col:14" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.tTpOut14C3" Scope="Local" Type="TIME">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="498" C="74" PS="Ln:498, Col:74" A="R" />
+      </File>
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterInit.st">
+        <Pos L="23" C="3" PS="Ln:23, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.stTON_WatchCyc" Scope="Local" Type="TON">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="469" C="9" PS="Ln:469, Col:9" A="RW" />
+        <Pos L="471" C="9" PS="Ln:471, Col:9" A="RW" />
+      </File>
+    </Var>
+    <Var Name="Tilter.stTON_WatchCyc.Q" Scope="Local" Type="TON">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="474" C="10" PS="Ln:474, Col:10" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.tTpWatchCyc" Scope="Local" Type="TIME">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="469" C="68" PS="Ln:469, Col:68" A="R" />
+        <Pos L="471" C="68" PS="Ln:471, Col:68" A="R" />
+      </File>
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterInit.st">
+        <Pos L="24" C="3" PS="Ln:24, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.iMemoStepCyc" Scope="Local" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="448" C="11" PS="Ln:448, Col:11" A="W" />
+        <Pos L="468" C="9" PS="Ln:468, Col:9" A="W" />
+        <Pos L="469" C="29" PS="Ln:469, Col:29" A="R" />
+        <Pos L="471" C="29" PS="Ln:471, Col:29" A="R" />
+        <Pos L="472" C="9" PS="Ln:472, Col:9" A="W" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_Flash_0" Scope="Local" Type="H_FB_Flash">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="42" C="5" PS="Ln:42, Col:5" A="RW" />
+      </File>
+    </Var>
+    <Var Name="Tilter.H_FB_Flash_0.OUT_bFlash" Scope="Local" Type="H_FB_Flash">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="43" C="15" PS="Ln:43, Col:15" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.bFlash" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="43" C="5" PS="Ln:43, Col:5" A="W" />
+        <Pos L="98" C="8" PS="Ln:98, Col:8" A="R" />
+        <Pos L="105" C="10" PS="Ln:105, Col:10" A="R" />
+        <Pos L="115" C="10" PS="Ln:115, Col:10" A="R" />
+        <Pos L="128" C="8" PS="Ln:128, Col:8" A="R" />
+        <Pos L="138" C="8" PS="Ln:138, Col:8" A="R" />
+        <Pos L="148" C="8" PS="Ln:148, Col:8" A="R" />
+        <Pos L="163" C="10" PS="Ln:163, Col:10" A="R" />
+        <Pos L="175" C="10" PS="Ln:175, Col:10" A="R" />
+        <Pos L="189" C="10" PS="Ln:189, Col:10" A="R" />
+        <Pos L="201" C="10" PS="Ln:201, Col:10" A="R" />
+        <Pos L="215" C="10" PS="Ln:215, Col:10" A="R" />
+        <Pos L="227" C="10" PS="Ln:227, Col:10" A="R" />
+      </File>
+    </Var>
+    <Var Name="Tilter.rPosTilt14C4Out" Scope="Local" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="299" C="6" PS="Ln:299, Col:6" A="W" />
+        <Pos L="435" C="28" PS="Ln:435, Col:28" A="R" />
+        <Pos L="577" C="31" PS="Ln:577, Col:31" A="R" />
+      </File>
+    </Var>
+    <Var Name="gAlarmReset" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="32" C="31" PS="Ln:32, Col:31" A="R" />
+        <Pos L="53" C="36" PS="Ln:53, Col:36" A="R" />
+        <Pos L="67" C="36" PS="Ln:67, Col:36" A="R" />
+        <Pos L="82" C="36" PS="Ln:82, Col:36" A="R" />
+      </File>
+    </Var>
+    <Var Name="gBagMachine_EstopAlarmsOK" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="21" C="52" PS="Ln:21, Col:52" A="R" />
+        <Pos L="22" C="52" PS="Ln:22, Col:52" A="R" />
+        <Pos L="23" C="52" PS="Ln:23, Col:52" A="R" />
+        <Pos L="26" C="50" PS="Ln:26, Col:50" A="R" />
+        <Pos L="28" C="58" PS="Ln:28, Col:58" A="R" />
+        <Pos L="30" C="58" PS="Ln:30, Col:58" A="R" />
+        <Pos L="350" C="8" PS="Ln:350, Col:8" A="R" />
+        <Pos L="415" C="14" PS="Ln:415, Col:14" A="R" />
+      </File>
+    </Var>
+    <Var Name="g_bIndSelBundProd" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="349" C="8" PS="Ln:349, Col:8" A="R" />
+      </File>
+    </Var>
+    <Var Name="g_bIndBundManu" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="309" C="20" PS="Ln:309, Col:20" A="R" />
+        <Pos L="382" C="10" PS="Ln:382, Col:10" A="R" />
+        <Pos L="406" C="14" PS="Ln:406, Col:14" A="R" />
+        <Pos L="465" C="10" PS="Ln:465, Col:10" A="R" />
+        <Pos L="492" C="46" PS="Ln:492, Col:46" A="R" />
+        <Pos L="498" C="53" PS="Ln:498, Col:53" A="R" />
+        <Pos L="766" C="18" PS="Ln:766, Col:18" A="R" />
+      </File>
+    </Var>
+    <Var Name="g_bBundInitTilt_OK" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="433" C="9" PS="Ln:433, Col:9" A="W" />
+        <Pos L="459" C="9" PS="Ln:459, Col:9" A="W" />
+        <Pos L="542" C="14" PS="Ln:542, Col:14" A="R" />
+        <Pos L="723" C="13" PS="Ln:723, Col:13" A="W" />
+        <Pos L="741" C="13" PS="Ln:741, Col:13" A="W" />
+      </File>
+    </Var>
+    <Var Name="g_bBund_InitTilt" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="369" C="9" PS="Ln:369, Col:9" A="W" />
+        <Pos L="430" C="10" PS="Ln:430, Col:10" A="R" />
+        <Pos L="458" C="9" PS="Ln:458, Col:9" A="W" />
+        <Pos L="721" C="13" PS="Ln:721, Col:13" A="W" />
+      </File>
+    </Var>
+    <Var Name="g_bBundStopInitTilt" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="457" C="10" PS="Ln:457, Col:10" A="R" />
+        <Pos L="460" C="9" PS="Ln:460, Col:9" A="W" />
+      </File>
+    </Var>
+    <Var Name="g_bBund_EndTravUp" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="17" C="5" PS="Ln:17, Col:5" A="W" />
+        <Pos L="27" C="31" PS="Ln:27, Col:31" A="R" />
+        <Pos L="29" C="35" PS="Ln:29, Col:35" A="R" />
+        <Pos L="31" C="35" PS="Ln:31, Col:35" A="R" />
+        <Pos L="114" C="10" PS="Ln:114, Col:10" A="R" />
+        <Pos L="597" C="16" PS="Ln:597, Col:16" A="R" />
+        <Pos L="750" C="16" PS="Ln:750, Col:16" A="R" />
+      </File>
+    </Var>
+    <Var Name="g_bBund_EndTravDown" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="18" C="5" PS="Ln:18, Col:5" A="W" />
+        <Pos L="27" C="58" PS="Ln:27, Col:58" A="R" />
+        <Pos L="29" C="62" PS="Ln:29, Col:62" A="R" />
+        <Pos L="31" C="62" PS="Ln:31, Col:62" A="R" />
+        <Pos L="104" C="10" PS="Ln:104, Col:10" A="R" />
+      </File>
+    </Var>
+    <Var Name="g_bBund_SensFaultCycTilt" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="152" C="5" PS="Ln:152, Col:5" A="W" />
+        <Pos L="352" C="12" PS="Ln:352, Col:12" A="R" />
+        <Pos L="416" C="10" PS="Ln:416, Col:10" A="R" />
+      </File>
+    </Var>
+    <Var Name="g_bBund_TimOutFaultCycTilt" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="353" C="12" PS="Ln:353, Col:12" A="R" />
+        <Pos L="475" C="9" PS="Ln:475, Col:9" A="W" />
+      </File>
+    </Var>
+    <Var Name="g_bBund_MoveInSep_OK" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="454" C="9" PS="Ln:454, Col:9" A="W" />
+        <Pos L="519" C="13" PS="Ln:519, Col:13" A="W" />
+        <Pos L="587" C="13" PS="Ln:587, Col:13" A="W" />
+      </File>
+    </Var>
+    <Var Name="g_bBund_StartTilt" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="447" C="11" PS="Ln:447, Col:11" A="W" />
+        <Pos L="541" C="14" PS="Ln:541, Col:14" A="R" />
+        <Pos L="552" C="13" PS="Ln:552, Col:13" A="W" />
+        <Pos L="742" C="13" PS="Ln:742, Col:13" A="W" />
+      </File>
+    </Var>
+    <Var Name="g_tBund_TpWatchSens" Scope="Global" Type="TIME">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="51" C="36" PS="Ln:51, Col:36" A="R" />
+        <Pos L="52" C="36" PS="Ln:52, Col:36" A="R" />
+        <Pos L="65" C="36" PS="Ln:65, Col:36" A="R" />
+        <Pos L="66" C="36" PS="Ln:66, Col:36" A="R" />
+        <Pos L="80" C="36" PS="Ln:80, Col:36" A="R" />
+        <Pos L="81" C="36" PS="Ln:81, Col:36" A="R" />
+      </File>
+    </Var>
+    <Var Name="gr_rPosTiltOffset0" Scope="Global" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="258" C="75" PS="Ln:258, Col:75" A="R" />
+      </File>
+    </Var>
+    <Var Name="gr_rPosTiltZLSpeed" Scope="Global" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="250" C="48" PS="Ln:250, Col:48" A="R" />
+        <Pos L="251" C="28" PS="Ln:251, Col:28" A="R" />
+        <Pos L="302" C="45" PS="Ln:302, Col:45" A="R" />
+        <Pos L="303" C="47" PS="Ln:303, Col:47" A="R" />
+      </File>
+    </Var>
+    <Var Name="gr_rPosTiltTravel" Scope="Global" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="250" C="28" PS="Ln:250, Col:28" A="R" />
+        <Pos L="259" C="26" PS="Ln:259, Col:26" A="R" />
+        <Pos L="262" C="26" PS="Ln:262, Col:26" A="R" />
+        <Pos L="279" C="56" PS="Ln:279, Col:56" A="R" />
+      </File>
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterInit.st">
+        <Pos L="16" C="21" PS="Ln:16, Col:21" A="R" />
+      </File>
+    </Var>
+    <Var Name="gr_rPosTiltStopUp" Scope="Global" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="252" C="28" PS="Ln:252, Col:28" A="R" />
+      </File>
+    </Var>
+    <Var Name="gr_rPosTiltStopDown" Scope="Global" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="253" C="28" PS="Ln:253, Col:28" A="R" />
+      </File>
+    </Var>
+    <Var Name="gr_rPosTilt14C4In" Scope="Global" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="242" C="8" PS="Ln:242, Col:8" A="W" />
+        <Pos L="299" C="25" PS="Ln:299, Col:25" A="R" />
+        <Pos L="559" C="31" PS="Ln:559, Col:31" A="R" />
+      </File>
+    </Var>
+    <Var Name="gr_rPosTiltTrav14C4Out" Scope="Global" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="299" C="45" PS="Ln:299, Col:45" A="R" />
+      </File>
+    </Var>
+    <Var Name="gI_Bund_S106" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="18" C="28" PS="Ln:18, Col:28" A="R" />
+        <Pos L="102" C="8" PS="Ln:102, Col:8" A="R" />
+        <Pos L="322" C="8" PS="Ln:322, Col:8" A="R" />
+        <Pos L="327" C="12" PS="Ln:327, Col:12" A="R" />
+      </File>
+    </Var>
+    <Var Name="gI_Bund_S108" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="17" C="28" PS="Ln:17, Col:28" A="R" />
+        <Pos L="112" C="8" PS="Ln:112, Col:8" A="R" />
+        <Pos L="313" C="8" PS="Ln:313, Col:8" A="R" />
+        <Pos L="318" C="12" PS="Ln:318, Col:12" A="R" />
+      </File>
+    </Var>
+    <Var Name="gI_Bund_S104" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="46" C="36" PS="Ln:46, Col:36" A="R" />
+        <Pos L="92" C="8" PS="Ln:92, Col:8" A="R" />
+        <Pos L="647" C="14" PS="Ln:647, Col:14" A="R" />
+        <Pos L="695" C="18" PS="Ln:695, Col:18" A="R" />
+        <Pos L="730" C="18" PS="Ln:730, Col:18" A="R" />
+      </File>
+    </Var>
+    <Var Name="gI_Bund_S110" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="60" C="36" PS="Ln:60, Col:36" A="R" />
+        <Pos L="122" C="8" PS="Ln:122, Col:8" A="R" />
+        <Pos L="576" C="14" PS="Ln:576, Col:14" A="R" />
+        <Pos L="595" C="18" PS="Ln:595, Col:18" A="R" />
+        <Pos L="696" C="18" PS="Ln:696, Col:18" A="R" />
+        <Pos L="731" C="18" PS="Ln:731, Col:18" A="R" />
+      </File>
+    </Var>
+    <Var Name="gI_Bund_S111" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="74" C="36" PS="Ln:74, Col:36" A="R" />
+        <Pos L="132" C="8" PS="Ln:132, Col:8" A="R" />
+      </File>
+    </Var>
+    <Var Name="gI_Bund_S112" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="75" C="36" PS="Ln:75, Col:36" A="R" />
+        <Pos L="142" C="8" PS="Ln:142, Col:8" A="R" />
+        <Pos L="492" C="25" PS="Ln:492, Col:25" A="R" />
+      </File>
+    </Var>
+    <Var Name="gAI_Bund_TiltPos" Scope="Global" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="258" C="38" PS="Ln:258, Col:38" A="R" />
+      </File>
+    </Var>
+    <Var Name="gQ_Bund_DriveStart" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="26" C="5" PS="Ln:26, Col:5" A="W" />
+        <Pos L="34" C="27" PS="Ln:34, Col:27" A="R" />
+      </File>
+    </Var>
+    <Var Name="gQ_Bund_DriveDirection" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="28" C="5" PS="Ln:28, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="gQ_Bund_DriveFastSpeed" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="30" C="5" PS="Ln:30, Col:5" A="W" />
+        <Pos L="34" C="49" PS="Ln:34, Col:49" A="R" />
+      </File>
+    </Var>
+    <Var Name="gQ_Bund_DriveFailReset" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="32" C="5" PS="Ln:32, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="gQ_Bund_SOL_14C3Out" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="21" C="5" PS="Ln:21, Col:5" A="W" />
+        <Pos L="47" C="40" PS="Ln:47, Col:40" A="R" />
+        <Pos L="48" C="36" PS="Ln:48, Col:36" A="R" />
+        <Pos L="158" C="8" PS="Ln:158, Col:8" A="R" />
+        <Pos L="170" C="12" PS="Ln:170, Col:12" A="R" />
+      </File>
+    </Var>
+    <Var Name="gQ_Bund_SOL_14C4Out" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="22" C="5" PS="Ln:22, Col:5" A="W" />
+        <Pos L="61" C="40" PS="Ln:61, Col:40" A="R" />
+        <Pos L="62" C="36" PS="Ln:62, Col:36" A="R" />
+        <Pos L="184" C="8" PS="Ln:184, Col:8" A="R" />
+        <Pos L="196" C="12" PS="Ln:196, Col:12" A="R" />
+      </File>
+    </Var>
+    <Var Name="gQ_Bund_MotorBrake" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="34" C="5" PS="Ln:34, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="gQ_Bund_SOL_14C5Out" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="23" C="5" PS="Ln:23, Col:5" A="W" />
+        <Pos L="76" C="40" PS="Ln:76, Col:40" A="R" />
+        <Pos L="77" C="36" PS="Ln:77, Col:36" A="R" />
+        <Pos L="210" C="8" PS="Ln:210, Col:8" A="R" />
+        <Pos L="222" C="12" PS="Ln:222, Col:12" A="R" />
+      </File>
+    </Var>
+  </Vars>
+  <Consts>
+    <Const Name="C_iSTEP_0" Scope="Global" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="507" C="9" PS="Ln:507, Col:9" A="R" />
+      </File>
+    </Const>
+    <Const Name="C_iSTEP_1" Scope="Global" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="512" C="36" PS="Ln:512, Col:36" A="R" />
+        <Pos L="522" C="9" PS="Ln:522, Col:9" A="R" />
+        <Pos L="769" C="36" PS="Ln:769, Col:36" A="R" />
+      </File>
+    </Const>
+    <Const Name="C_iSTEP_2" Scope="Global" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="529" C="36" PS="Ln:529, Col:36" A="R" />
+        <Pos L="537" C="9" PS="Ln:537, Col:9" A="R" />
+        <Pos L="715" C="36" PS="Ln:715, Col:36" A="R" />
+      </File>
+    </Const>
+    <Const Name="C_iSTEP_4" Scope="Global" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="441" C="34" PS="Ln:441, Col:34" A="R" />
+        <Pos L="466" C="34" PS="Ln:466, Col:34" A="R" />
+        <Pos L="545" C="36" PS="Ln:545, Col:36" A="R" />
+        <Pos L="555" C="9" PS="Ln:555, Col:9" A="R" />
+      </File>
+    </Const>
+    <Const Name="C_iSTEP_5" Scope="Global" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="562" C="36" PS="Ln:562, Col:36" A="R" />
+        <Pos L="571" C="9" PS="Ln:571, Col:9" A="R" />
+      </File>
+    </Const>
+    <Const Name="C_iSTEP_6" Scope="Global" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="580" C="36" PS="Ln:580, Col:36" A="R" />
+        <Pos L="591" C="9" PS="Ln:591, Col:9" A="R" />
+      </File>
+    </Const>
+    <Const Name="C_iSTEP_7" Scope="Global" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="481" C="52" PS="Ln:481, Col:52" A="R" />
+        <Pos L="600" C="36" PS="Ln:600, Col:36" A="R" />
+        <Pos L="609" C="9" PS="Ln:609, Col:9" A="R" />
+        <Pos L="753" C="36" PS="Ln:753, Col:36" A="R" />
+      </File>
+    </Const>
+    <Const Name="C_iSTEP_8" Scope="Global" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="616" C="36" PS="Ln:616, Col:36" A="R" />
+        <Pos L="625" C="9" PS="Ln:625, Col:9" A="R" />
+      </File>
+    </Const>
+    <Const Name="C_iSTEP_9" Scope="Global" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="633" C="36" PS="Ln:633, Col:36" A="R" />
+        <Pos L="643" C="9" PS="Ln:643, Col:9" A="R" />
+      </File>
+    </Const>
+    <Const Name="C_iSTEP_10" Scope="Global" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="651" C="36" PS="Ln:651, Col:36" A="R" />
+        <Pos L="659" C="9" PS="Ln:659, Col:9" A="R" />
+      </File>
+    </Const>
+    <Const Name="C_iSTEP_11" Scope="Global" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="482" C="52" PS="Ln:482, Col:52" A="R" />
+        <Pos L="666" C="36" PS="Ln:666, Col:36" A="R" />
+        <Pos L="675" C="9" PS="Ln:675, Col:9" A="R" />
+      </File>
+    </Const>
+    <Const Name="C_iSTEP_12" Scope="Global" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="682" C="36" PS="Ln:682, Col:36" A="R" />
+        <Pos L="691" C="9" PS="Ln:691, Col:9" A="R" />
+      </File>
+    </Const>
+    <Const Name="C_iSTEP_13" Scope="Global" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="699" C="36" PS="Ln:699, Col:36" A="R" />
+        <Pos L="707" C="9" PS="Ln:707, Col:9" A="R" />
+      </File>
+    </Const>
+    <Const Name="C_iSTEP_15" Scope="Global" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="436" C="34" PS="Ln:436, Col:34" A="R" />
+        <Pos L="726" C="9" PS="Ln:726, Col:9" A="R" />
+      </File>
+    </Const>
+    <Const Name="C_iSTEP_16" Scope="Global" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="735" C="36" PS="Ln:735, Col:36" A="R" />
+        <Pos L="745" C="9" PS="Ln:745, Col:9" A="R" />
+      </File>
+    </Const>
+    <Const Name="C_iSTEP_25" Scope="Global" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="383" C="32" PS="Ln:383, Col:32" A="R" />
+        <Pos L="762" C="9" PS="Ln:762, Col:9" A="R" />
+      </File>
+    </Const>
+    <Const Name="C_iSTEP_99" Scope="Global" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="448" C="37" PS="Ln:448, Col:37" A="R" />
+        <Pos L="468" C="25" PS="Ln:468, Col:25" A="R" />
+      </File>
+    </Const>
+    <Const Name="C_rMaxAna" Scope="Global" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterInit.st">
+        <Pos L="16" C="39" PS="Ln:16, Col:39" A="R" />
+      </File>
+    </Const>
+  </Consts>
+  <Enums>
+  </Enums>
+  <Funcs>
+    <Func Name="H_FB_WatchSensor" Lib="HGWeber">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="54" C="5" PS="Ln:54, Col:5" />
+        <Pos L="68" C="5" PS="Ln:68, Col:5" />
+        <Pos L="83" C="5" PS="Ln:83, Col:5" />
+      </File>
+    </Func>
+    <Func Name="H_FB_Flash" Lib="HGWeber">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="42" C="5" PS="Ln:42, Col:5" />
+      </File>
+    </Func>
+    <Func Name="TON" Lib="standard">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/BagBundler/Tilter/TilterCyclic.st">
+        <Pos L="469" C="9" PS="Ln:469, Col:9" />
+        <Pos L="471" C="9" PS="Ln:471, Col:9" />
+        <Pos L="483" C="7" PS="Ln:483, Col:7" />
+        <Pos L="492" C="7" PS="Ln:492, Col:7" />
+        <Pos L="498" C="7" PS="Ln:498, Col:7" />
+      </File>
+    </Func>
+  </Funcs>
+  <Actions>
+  </Actions>
+</Crossref>

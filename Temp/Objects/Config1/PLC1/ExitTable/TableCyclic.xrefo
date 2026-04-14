@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<Crossref Scope="BagMachine_Section.ExitTable">
+	<Vars>
+		<Var Name="ExitTable.HMI_ExTb_bExitTableFaster_PB" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/ExitTable/TableCyclic.st">
+				<Pos L="14" C="44" PS="Ln:14, Col:44" A="R"/>
+			</File>
+		</Var>
+		<Var Name="ExitTable.HMI_ExTb_bExitTableSlower_PB" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/ExitTable/TableCyclic.st">
+				<Pos L="15" C="44" PS="Ln:15, Col:44" A="R"/>
+			</File>
+		</Var>
+		<Var Name="ExitTable.rIncrChangeSlope" Scope="Local" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/ExitTable/TableCyclic.st">
+				<Pos L="20" C="72" PS="Ln:20, Col:72" A="R"/>
+				<Pos L="23" C="72" PS="Ln:23, Col:72" A="R"/>
+			</File>
+		</Var>
+		<Var Name="ExitTable.rIncrSlopeContinuChange" Scope="Local" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/ExitTable/TableCyclic.st">
+				<Pos L="37" C="72" PS="Ln:37, Col:72" A="R"/>
+				<Pos L="40" C="72" PS="Ln:40, Col:72" A="R"/>
+			</File>
+		</Var>
+		<Var Name="ExitTable.rFactMulIncr" Scope="Local" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/ExitTable/TableCyclic.st">
+				<Pos L="31" C="7" PS="Ln:31, Col:7" A="W"/>
+				<Pos L="34" C="7" PS="Ln:34, Col:7" A="W"/>
+				<Pos L="37" C="98" PS="Ln:37, Col:98" A="R"/>
+				<Pos L="40" C="98" PS="Ln:40, Col:98" A="R"/>
+			</File>
+		</Var>
+		<Var Name="ExitTable.rCMD_RS_ExitTableSpeed" Scope="Local" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/ExitTable/TableCyclic.st">
+				<Pos L="48" C="5" PS="Ln:48, Col:5" A="W"/>
+				<Pos L="49" C="5" PS="Ln:49, Col:5" A="W"/>
+				<Pos L="49" C="39" PS="Ln:49, Col:39" A="R"/>
+				<Pos L="51" C="45" PS="Ln:51, Col:45" A="R"/>
+			</File>
+		</Var>
+		<Var Name="ExitTable.iCMD_Offset" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/ExitTable/TableCyclic.st">
+				<Pos L="51" C="83" PS="Ln:51, Col:83" A="R"/>
+			</File>
+		</Var>
+		<Var Name="ExitTable.bFasterReq" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/ExitTable/TableCyclic.st">
+				<Pos L="14" C="5" PS="Ln:14, Col:5" A="W"/>
+				<Pos L="16" C="21" PS="Ln:16, Col:21" A="R"/>
+				<Pos L="19" C="16" PS="Ln:19, Col:16" A="R"/>
+				<Pos L="36" C="8" PS="Ln:36, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="ExitTable.bSlowerReq" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/ExitTable/TableCyclic.st">
+				<Pos L="15" C="5" PS="Ln:15, Col:5" A="W"/>
+				<Pos L="16" C="35" PS="Ln:16, Col:35" A="R"/>
+				<Pos L="22" C="16" PS="Ln:22, Col:16" A="R"/>
+				<Pos L="39" C="8" PS="Ln:39, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="ExitTable.bFastSlowReq" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/ExitTable/TableCyclic.st">
+				<Pos L="16" C="5" PS="Ln:16, Col:5" A="W"/>
+				<Pos L="27" C="36" PS="Ln:27, Col:36" A="R"/>
+				<Pos L="29" C="36" PS="Ln:29, Col:36" A="R"/>
+			</File>
+		</Var>
+		<Var Name="ExitTable.stTON_ContinuChangeSlope_0" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/ExitTable/TableCyclic.st">
+				<Pos L="27" C="5" PS="Ln:27, Col:5" A="RW"/>
+				<Pos L="29" C="5" PS="Ln:29, Col:5" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="ExitTable.stTON_ContinuChangeSlope_0.Q" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/ExitTable/TableCyclic.st">
+				<Pos L="30" C="8" PS="Ln:30, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="ExitTable.stTON_ContinuChangeSlope_1.Q" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/ExitTable/TableCyclic.st">
+				<Pos L="33" C="8" PS="Ln:33, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActualMachineSpeed_BPM" Scope="Global" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/ExitTable/TableCyclic.st">
+				<Pos L="48" C="67" PS="Ln:48, Col:67" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_ExitTableFaster" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/ExitTable/TableCyclic.st">
+				<Pos L="14" C="19" PS="Ln:14, Col:19" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_ExitTableSlower" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/ExitTable/TableCyclic.st">
+				<Pos L="15" C="19" PS="Ln:15, Col:19" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gQ_CMD_RS_ExitTableSpeed" Scope="Global" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/ExitTable/TableCyclic.st">
+				<Pos L="51" C="5" PS="Ln:51, Col:5" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gRecipeActive.rSlopeExitTable" Scope="Global" Type="Recipe">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/ExitTable/TableCyclic.st">
+				<Pos L="20" C="7" PS="Ln:20, Col:7" A="W"/>
+				<Pos L="20" C="40" PS="Ln:20, Col:40" A="R"/>
+				<Pos L="23" C="7" PS="Ln:23, Col:7" A="W"/>
+				<Pos L="23" C="40" PS="Ln:23, Col:40" A="R"/>
+				<Pos L="37" C="7" PS="Ln:37, Col:7" A="W"/>
+				<Pos L="37" C="40" PS="Ln:37, Col:40" A="R"/>
+				<Pos L="40" C="7" PS="Ln:40, Col:7" A="W"/>
+				<Pos L="40" C="40" PS="Ln:40, Col:40" A="R"/>
+				<Pos L="44" C="5" PS="Ln:44, Col:5" A="W"/>
+				<Pos L="44" C="46" PS="Ln:44, Col:46" A="R"/>
+				<Pos L="48" C="31" PS="Ln:48, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gr_rMachMaxSpeed_BPM" Scope="Global" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/ExitTable/TableCyclic.st">
+				<Pos L="48" C="91" PS="Ln:48, Col:91" A="R"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+		<Const Name="C_rMaxAna" Scope="Global" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/ExitTable/TableCyclic.st">
+				<Pos L="51" C="70" PS="Ln:51, Col:70" A="R"/>
+			</File>
+		</Const>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="TON" Lib="standard">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/ExitTable/TableCyclic.st">
+				<Pos L="27" C="5" PS="Ln:27, Col:5"/>
+				<Pos L="29" C="5" PS="Ln:29, Col:5"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

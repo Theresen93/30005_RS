@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <P10_Setup_BagMachine ReferenceString="Source[local].Page[P10_Setup_BagMachine]">
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P10_Setup_BagMachine].Layer[Default].Control[Numeric_10].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gRecipeActive.Repeat]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P10_Setup_BagMachine].Layer[Default].Control[Numeric_10].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.HMI.HMI_Control.DataLock_Motion]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P10_Setup_BagMachine].Layer[Default].Control[Numeric_10].Property[LockingDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gRecipeActive.bSelFPProd]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P10_Setup_BagMachine].Layer[Default].Control[Numeric_11].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gReg[5].SP_MaximumCorrection]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P10_Setup_BagMachine].Layer[Default].Control[Numeric_11].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.HMI.Password.DataLock_1]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P10_Setup_BagMachine].Layer[Default].Control[Numeric_12].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gReg[5].SP_WeightingFactor]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P10_Setup_BagMachine].Layer[Default].Control[Numeric_12].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.HMI.Password.DataLock_1]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P10_Setup_BagMachine].Layer[Default].Control[Numeric_13].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gReg[5].SP_Tolerance]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P10_Setup_BagMachine].Layer[Default].Control[Numeric_13].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.HMI.HMI_Control.DataLock_Motion]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P10_Setup_BagMachine].Layer[Default].Control[Numeric_14].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gReg[5].SP_Format]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P10_Setup_BagMachine].Layer[Default].Control[Numeric_14].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.HMI.HMI_Control.DataLock_Motion]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </P10_Setup_BagMachine>
+</VCXReferenceList>

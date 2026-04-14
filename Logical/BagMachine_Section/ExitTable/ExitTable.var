@@ -1,0 +1,34 @@
+(********************************************************************
+ * COPYRIGHT -- .
+ ********************************************************************
+ * Program: ExitTable
+ * File: ExitTable.var
+ * Author: dominique
+ * Created: October 20, 2011
+ ********************************************************************
+ * Local variables of program ExitTable
+ ********************************************************************)
+
+VAR
+  HMI_ExTb_rSPSlope            : REAL ;
+  HMI_ExTb_bExitTableFaster_PB : BOOL ;
+  HMI_ExTb_bExitTableSlower_PB : BOOL ;
+  
+  rIncrChangeSlope        : REAL ; (*Increment change slope, in %/(Bag/min)*)
+  rIncrSlopeContinuChange : REAL ; (*Increment continually change, in (%/(Bag/min))/cycle*)
+  rFactMulIncr            : REAL ;
+  rCMD_RS_ExitTableSpeed  : REAL ;
+  iCMD_Offset             : INT ;  
+  bFasterReq   : BOOL ;
+  bSlowerReq   : BOOL ;
+  bFastSlowReq : BOOL ;
+  iMemoTime    : INT ;
+  iDiffTime    : INT ; 
+  rDiffTime    : REAL ; 
+  stTON_ContinuChangeSlope_0 : TON ; 
+  stTON_ContinuChangeSlope_1 : TON ; 
+END_VAR
+
+VAR CONSTANT
+
+END_VAR

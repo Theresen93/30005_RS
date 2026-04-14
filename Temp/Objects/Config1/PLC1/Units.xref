@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Crossref Scope="HMI.Units">
+  <Vars>
+    <Var Name="Units.InchMetric_PB" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/Units/UnitsCyclic.st">
+        <Pos L="15" C="6" PS="Ln:15, Col:6" A="R" />
+      </File>
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/Units/UnitsInit.st">
+        <Pos L="15" C="3" PS="Ln:15, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="gInchMetric_Ind" Scope="Global" Type="UINT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/Units/UnitsCyclic.st">
+        <Pos L="16" C="3" PS="Ln:16, Col:3" A="W" />
+        <Pos L="18" C="3" PS="Ln:18, Col:3" A="W" />
+      </File>
+    </Var>
+  </Vars>
+  <Consts>
+  </Consts>
+  <Enums>
+  </Enums>
+  <Funcs>
+  </Funcs>
+  <Actions>
+  </Actions>
+</Crossref>

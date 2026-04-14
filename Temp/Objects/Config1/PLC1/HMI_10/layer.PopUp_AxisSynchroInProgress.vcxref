@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <PopUp_AxisSynchroInProgress ReferenceString="Source[local].Layer[PopUp_AxisSynchroInProgress]">
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[PopUp_AxisSynchroInProgress].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.HMI.HMI_Control.HMI_iAnimSynchroAxisVisibl]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[PopUp_AxisSynchroInProgress].Control[Bitmap_2].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.HMI.HMI_Control.HMI_iAnimSynchroAxis]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[PopUp_AxisSynchroInProgress].Control[Bitmap_6].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.HMI.HMI_Control.HMI_iAnimSynchroAxis]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[PopUp_AxisSynchroInProgress].Control[Bitmap_7].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.HMI.HMI_Control.HMI_iAnimSynchroAxis]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[PopUp_AxisSynchroInProgress].Control[Bitmap_3].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.HMI.HMI_Control.HMI_iAnimSynchroAxis]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </PopUp_AxisSynchroInProgress>
+</VCXReferenceList>

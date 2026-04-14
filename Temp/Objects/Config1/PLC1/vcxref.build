@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<VCXReferenceBuildData>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <BuildData Name="HMI_10">
+      <VCObjectName>HMI_10</VCObjectName>
+      <VCObjectPath>C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Temp/Objects/Config1/PLC1/HMI_10/</VCObjectPath>
+      <VCProjectPath>C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Logical/HMI/HMI_10/VCObject.vc</VCProjectPath>
+      <VCSharedName>VCShared</VCSharedName>
+      <VCSharedPath>C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Temp/Objects/Config1/PLC1/VCShared/</VCSharedPath>
+   </BuildData>
+</VCXReferenceBuildData>

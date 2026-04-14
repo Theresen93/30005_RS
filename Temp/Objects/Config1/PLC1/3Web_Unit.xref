@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Crossref Scope="BagMachine_Section.3Web_Unit">
+  <Vars>
+    <Var Name="3Web_Unit.HGW_2StatePB_0.BackColor_State0" Scope="Local" Type="HGW_2StatePB">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/3Web_Unit/3Web_UnitInit.st">
+        <Pos L="15" C="3" PS="Ln:15, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="3Web_Unit.HGW_2StatePB_0.ForeColor_State0" Scope="Local" Type="HGW_2StatePB">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/3Web_Unit/3Web_UnitInit.st">
+        <Pos L="16" C="3" PS="Ln:16, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="3Web_Unit.HGW_2StatePB_0.BackColor_State1" Scope="Local" Type="HGW_2StatePB">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/3Web_Unit/3Web_UnitInit.st">
+        <Pos L="17" C="3" PS="Ln:17, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="3Web_Unit.HGW_2StatePB_0.ForeColor_State1" Scope="Local" Type="HGW_2StatePB">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/3Web_Unit/3Web_UnitInit.st">
+        <Pos L="18" C="3" PS="Ln:18, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="gI_SS_3W_FanOnOff" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/3Web_Unit/3Web_UnitCyclic.st">
+        <Pos L="16" C="19" PS="Ln:16, Col:19" A="R" />
+      </File>
+    </Var>
+    <Var Name="gQ_CR_3W_Fan" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/3Web_Unit/3Web_UnitCyclic.st">
+        <Pos L="16" C="3" PS="Ln:16, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="g_bIndEStop" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/3Web_Unit/3Web_UnitCyclic.st">
+        <Pos L="17" C="23" PS="Ln:17, Col:23" A="R" />
+      </File>
+    </Var>
+  </Vars>
+  <Consts>
+    <Const Name="gBlack" Scope="Global" Type="UINT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/3Web_Unit/3Web_UnitInit.st">
+        <Pos L="18" C="38" PS="Ln:18, Col:38" A="R" />
+      </File>
+    </Const>
+    <Const Name="gBlue" Scope="Global" Type="UINT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/3Web_Unit/3Web_UnitInit.st">
+        <Pos L="15" C="38" PS="Ln:15, Col:38" A="R" />
+      </File>
+    </Const>
+    <Const Name="gGreen" Scope="Global" Type="UINT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/3Web_Unit/3Web_UnitInit.st">
+        <Pos L="17" C="38" PS="Ln:17, Col:38" A="R" />
+      </File>
+    </Const>
+    <Const Name="gWhite" Scope="Global" Type="UINT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/3Web_Unit/3Web_UnitInit.st">
+        <Pos L="16" C="38" PS="Ln:16, Col:38" A="R" />
+      </File>
+    </Const>
+  </Consts>
+  <Enums>
+  </Enums>
+  <Funcs>
+  </Funcs>
+  <Actions>
+  </Actions>
+</Crossref>

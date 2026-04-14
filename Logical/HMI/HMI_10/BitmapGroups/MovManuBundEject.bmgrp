@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="3.0.90.22 SP04"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MovManuBundEject">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="13"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="420" Value="Source[local].Bitmap[ArrowD_Re_1_44x22]"/>
+    <BitmapRef ID="421" Value="Source[local].Bitmap[ArrowD_Gr_1_44x22]"/>
+    <BitmapRef ID="422" Value="None"/>
+    <BitmapRef ID="423" Value="Source[local].Bitmap[ArrowD_Gra_1_44x22]"/>
+    <BitmapRef ID="424" Value="Source[local].Bitmap[ArrowG_Gra_1_44x22]"/>
+    <BitmapRef ID="425" Value="Source[local].Bitmap[ArrowG_Gr_1_44x22]"/>
+    <BitmapRef ID="426" Value="Source[local].Bitmap[ArrowG_Re_1_44x22]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="420" Value="2"/>
+    <Index ID="421" Value="1"/>
+    <Index ID="422" Value="0"/>
+    <Index ID="423" Value="3"/>
+    <Index ID="424" Value="6"/>
+    <Index ID="425" Value="4"/>
+    <Index ID="426" Value="5"/>
+  </IndexMap>
+</BitmapGroup>

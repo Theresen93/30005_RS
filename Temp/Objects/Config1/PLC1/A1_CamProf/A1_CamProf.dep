@@ -1,0 +1,8 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/HGWeber/HGWeber.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/Acp10_MC/acp10_mc.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/Acp10_MC/acp10_mc.typ
+$(AS_PROJECT_PATH)/Logical/BagMachine_Section/Perf/Axis1/A1_CamProfCalc/A1_CamProfCalc.var
+$(AS_PROJECT_PATH)/Logical/Libraries/Acp10_MC/acp10_mc.var
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Physical/Config1/PLC1/Cpu.per
+$(AS_PROJECT_PATH)/Logical/Global.typ

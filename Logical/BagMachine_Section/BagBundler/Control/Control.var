@@ -1,0 +1,39 @@
+(********************************************************************
+ * COPYRIGHT -- .
+ ********************************************************************
+ * Program: Control
+ * File: Control.var
+ * Author: dominique
+ * Created: August 16, 2011
+ ********************************************************************
+ * Local variables of program Control
+ ********************************************************************)
+
+VAR
+  bHMI_Bund_ManOn_PB : BOOL ; (*Bundler lacal manuel mode, =0:Off; =1:On*)
+  bHMI_Bund_Init_PB  : BOOL ;
+  bBundManOn         : BOOL ;
+  bBundManOff        : BOOL ;
+  bInitBund          : BOOL ; 
+  bInitBundStart     : BOOL ; 
+  bInitBundStop      : BOOL ; 
+  uiBundManTxt_Ind   : UINT ;
+  uiBundManCol_Ind   : UINT ;
+  uiBundInitTxt_Ind  : UINT ;
+  uiBundInitCol_Ind  : UINT ;
+  tBundInitTpHorn    : TIME ;
+  
+  bHMI_Bund_OnOff  : BOOL ;
+  iHMI_BundManLock : INT ;
+    
+  H_FB_ToggleTB_0 : H_FB_ToggleTB;
+  
+  bBundInit_Perm   : BOOL ; 
+  H_FB_2StepMove_0 : H_FB_2StepMove ;
+  
+  stTP_0 : TP ;
+END_VAR
+
+VAR CONSTANT
+
+END_VAR

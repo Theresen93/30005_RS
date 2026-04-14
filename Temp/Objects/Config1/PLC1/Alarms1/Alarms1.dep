@@ -1,0 +1,9 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/HGWeber/HGWeber.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/Runtime/runtime.fun
+$(AS_PROJECT_PATH)/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1.var
+$(AS_PROJECT_PATH)/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1.typ
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Cycles/GenCycles.typ
+$(AS_PROJECT_PATH)/Logical/BagMachine_Section/BagBundler/BagBundler.var
+$(AS_PROJECT_PATH)/Logical/Global.typ

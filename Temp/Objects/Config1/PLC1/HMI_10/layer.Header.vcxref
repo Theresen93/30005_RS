@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <Header ReferenceString="Source[local].Layer[Header]">
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[Header].Control[Text_5].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.HMI.Password.UserLevel_Ind]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[Header].Control[String_1].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.HMI.Password.PasswordEntered]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[Header].Control[String_1].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.HMI.Password.PasswordStatus]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[Header].Control[String_1].Property[CompletionDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.HMI.Password.EvaluatePassword]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[Header].Control[Numeric_2].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gSP_CmdSpeed]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[Header].Control[Numeric_3].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gActualMachineSpeed_BPM]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[Header].Control[Numeric_4].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gMachineMaxSpeedLimit]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[Header].Control[Numeric_5].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.Count.HMI_ProductCount]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[Header].Control[Numeric_6].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gActualMachineSpeed_FPM]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[Header].Control[Numeric_7].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gRecipeActive.Repeat]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </Header>
+</VCXReferenceList>

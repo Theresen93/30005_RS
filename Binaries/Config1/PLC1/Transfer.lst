@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Transfer xmlns="http://br-automation.co.at/AS/Transfer">
+  <OperatingSystem Version="F3.01"/>
+  <Hardware Target="SG4"/>
+  <Operation Delete="HourMeter.br"/>
+  <Operation Delete="FP_Dryer.br"/>
+  <Operation Delete="3Web_Unit.br"/>
+  <Operation Delete="Unwinder.br"/>
+  <Operation Delete="FP_Gen.br"/>
+  <Operation Delete="ExitTable.br"/>
+  <Operation Delete="ManMode.br"/>
+  <Operation Delete="SetSpeedMo.br"/>
+  <Operation Delete="CPURestart.br"/>
+  <Operation Delete="Speed.br"/>
+  <Operation Delete="Revision.br"/>
+  <Operation Delete="BackUp.br"/>
+  <Operation Delete="PowerTimer.br"/>
+  <Operation Delete="Password.br"/>
+  <Operation Delete="Message_2.br"/>
+  <Operation Delete="Message_1.br"/>
+  <Operation Delete="Recipe_2.br"/>
+  <Operation Delete="Recipe_1.br"/>
+  <Operation Delete="Cmd_Trace.br"/>
+  <Operation Delete="Splash.br"/>
+  <Operation Delete="Language.br"/>
+  <Operation Delete="Units.br"/>
+  <Operation Delete="HMI_Contro.br"/>
+  <Operation Delete="A1_CamProf.br"/>
+  <Operation Delete="FP_Heater.br"/>
+  <Operation Delete="Separator.br"/>
+  <Operation Delete="Tilter.br"/>
+  <Operation Delete="Control.br"/>
+  <Operation Delete="Warn_Horn.br"/>
+  <Operation Delete="Run.br"/>
+  <Operation Delete="Jog.br"/>
+  <Operation Delete="EStopReset.br"/>
+  <Operation Delete="Servo_Mon.br"/>
+  <Operation Delete="Stop_Mon.br"/>
+  <Operation Delete="Guard_Mon.br"/>
+  <Operation Delete="EB_Gen.br"/>
+  <Operation Delete="Unw_3W_Glu.br"/>
+  <Operation Delete="ColdGlue.br"/>
+  <Operation Delete="GlueTray.br"/>
+  <Operation Delete="ExitNip.br"/>
+  <Operation Delete="EntryNip.br"/>
+  <Operation Delete="Setup.br"/>
+  <Operation Delete="Vacuum.br"/>
+  <Operation Delete="A9_Control.br"/>
+  <Operation Delete="A7_Cycle.br"/>
+  <Operation Delete="A7_Ref.br"/>
+  <Operation Delete="A7_Control.br"/>
+  <Operation Delete="A6_Draw.br"/>
+  <Operation Delete="A6_Control.br"/>
+  <Operation Delete="A5_Reg2.br"/>
+  <Operation Delete="A5_Draw.br"/>
+  <Operation Delete="A5_Control.br"/>
+  <Operation Delete="A4_Cycle.br"/>
+  <Operation Delete="A4_Ref.br"/>
+  <Operation Delete="A4_Control.br"/>
+  <Operation Delete="A3_Cycle.br"/>
+  <Operation Delete="A3_Ref.br"/>
+  <Operation Delete="A3_Control.br"/>
+  <Operation Delete="A2_Cycle.br"/>
+  <Operation Delete="A2_Ref.br"/>
+  <Operation Delete="A2_Control.br"/>
+  <Operation Delete="A11_Contro.br"/>
+  <Operation Delete="A1_Cycle.br"/>
+  <Operation Delete="A1_Ref.br"/>
+  <Operation Delete="A1_Control.br"/>
+  <Operation Delete="Count.br"/>
+  <Operation Delete="A7_Automat.br"/>
+  <Operation Delete="A6_Automat.br"/>
+  <Operation Delete="A5_Automat.br"/>
+  <Operation Delete="A4_Automat.br"/>
+  <Operation Delete="A3_Automat.br"/>
+  <Operation Delete="A2_Automat.br"/>
+  <Operation Delete="A11_Automa.br"/>
+  <Operation Delete="A1_Automa1.br"/>
+  <Operation Delete="A1_Automat.br"/>
+  <Operation Delete="A11_Basic.br"/>
+  <Operation Delete="A9_Basic.br"/>
+  <Operation Delete="A7_Basic.br"/>
+  <Operation Delete="A6_Basic.br"/>
+  <Operation Delete="A5_Reg1.br"/>
+  <Operation Delete="A5_Basic.br"/>
+  <Operation Delete="A4_Basic.br"/>
+  <Operation Delete="A3_Basic.br"/>
+  <Operation Delete="A2_Basic.br"/>
+  <Operation Delete="A1_Basic.br"/>
+  <Operation Delete="A0_Basic.br"/>
+  <Operation Delete="Perf_Gen.br"/>
+  <Operation Delete="MainAlarms.br"/>
+  <Operation Delete="Alarms1.br"/>
+  <Operation Delete="GlobProgCa.br"/>
+  <Operation Delete="HMI_10.br"/>
+  <Operation Delete="vcctrend.br"/>
+  <Operation Delete="AsIOAcc.br"/>
+  <Operation Delete="arsdm.br"/>
+  <Operation Delete="vccnum.br"/>
+  <Operation Delete="vcpdvnc.br"/>
+  <Operation Delete="vctcal.br"/>
+  <Operation Delete="vccalarm.br"/>
+  <Operation Delete="vccovl.br"/>
+  <Operation Delete="vcpfpp30.br"/>
+  <Operation Delete="vcfile.br"/>
+  <Operation Delete="vccline.br"/>
+  <Operation Delete="vccstr.br"/>
+  <Operation Delete="vccbtn.br"/>
+  <Operation Delete="vcrt.br"/>
+  <Operation Delete="vcctext.br"/>
+  <Operation Delete="vcclbox.br"/>
+  <Operation Delete="vccbmp.br"/>
+  <Operation Delete="vcfntttf.br"/>
+  <Operation Delete="vccddbox.br"/>
+  <Operation Delete="vcalarm.br"/>
+  <Operation Delete="vcdsint.br"/>
+  <Operation Delete="vccshape.br"/>
+  <Operation Delete="vcchspot.br"/>
+  <Operation Delete="vcptelo.br"/>
+  <Operation Delete="vcdsloc.br"/>
+  <Operation Delete="vcmgr.br"/>
+  <Operation Delete="visvc.br"/>
+  <Operation Delete="vccdt.br"/>
+  <Operation Delete="vcpdsw.br"/>
+  <Operation Delete="vcbclass.br"/>
+  <Operation Delete="CSV_File.br"/>
+  <Operation Delete="AsARCfg.br"/>
+  <Operation Delete="LoopConR.br"/>
+  <Operation Delete="HGWeber.br"/>
+  <Operation Delete="vcshared.br"/>
+  <Operation Delete="arial.br"/>
+  <Operation Delete="arialbi.br"/>
+  <Operation Delete="arialbd.br"/>
+  <Operation Delete="HMI_1003.br"/>
+  <Operation Delete="HMI_1002.br"/>
+  <Operation Delete="HMI_1001.br"/>
+  <Operation Delete="webserv.br"/>
+  <Operation Delete="vcnet.br"/>
+  <Operation Delete="vcpfmtcx.br"/>
+  <Operation Delete="vccpopup.br"/>
+  <Operation Delete="vcgclass.br"/>
+  <Operation Delete="FileIO.br"/>
+  <Operation Delete="dataobj.br"/>
+  <Operation Delete="astcp.br"/>
+  <Operation Delete="AsMem.br"/>
+  <Operation Delete="vcpdpp30.br"/>
+  <Operation Delete="Acp10_MC.br"/>
+  <Operation Delete="sys_lib.br"/>
+  <Operation Delete="Brsystem.br"/>
+  <Operation Delete="Acp10man.br"/>
+  <Operation Delete="astime.br"/>
+  <Operation Download="ashwd.br" Memory="SystemROM"/>
+  <Operation Download="asfw.br" Memory="SystemROM"/>
+  <Operation Download="arconfig.br" Memory="SystemROM"/>
+  <Operation Download="sysconf.br" Memory="SystemROM"/>
+  <Operation Restart="warm"/>
+  <Operation Download="Acp10map.br" Memory="UserROM"/>
+  <Operation Download="Acp10cfg.br" Memory="UserROM"/>
+  <Operation Download="NcGlobal.br" Memory="UserROM"/>
+  <Operation Download="vcresman.br" Memory="UserROM"/>
+  <Operation Download="powerlnk.br" Memory="UserROM"/>
+  <Operation Download="Acp10par.br" Memory="UserROM"/>
+  <Operation Download="Runtime.br" Memory="UserROM"/>
+  <Operation Download="astime.br" Memory="UserROM"/>
+  <Operation Download="Acp10man.br" Memory="UserROM"/>
+  <Operation Download="Brsystem.br" Memory="UserROM"/>
+  <Operation Download="sys_lib.br" Memory="UserROM"/>
+  <Operation Download="Acp10_MC.br" Memory="UserROM"/>
+  <Operation Download="vcpdpp30.br" Memory="UserROM"/>
+  <Operation Download="arsdmsvg.br" Memory="UserROM"/>
+  <Operation Download="arsdmhtm.br" Memory="UserROM"/>
+  <Operation Download="arsdmsvp.br" Memory="UserROM"/>
+  <Operation Download="Acp10sys.br" Memory="UserROM"/>
+  <Operation Download="Error_Eng.br" Memory="UserROM"/>
+  <Operation Download="A0_Init.br" Memory="UserROM"/>
+  <Operation Download="A0_Par.br" Memory="UserROM"/>
+  <Operation Download="A1_Init.br" Memory="UserROM"/>
+  <Operation Download="A1_Par.br" Memory="UserROM"/>
+  <Operation Download="A2_Init.br" Memory="UserROM"/>
+  <Operation Download="A2_Par.br" Memory="UserROM"/>
+  <Operation Download="A3_Init.br" Memory="UserROM"/>
+  <Operation Download="A3_Par.br" Memory="UserROM"/>
+  <Operation Download="A4_Init.br" Memory="UserROM"/>
+  <Operation Download="A4_Par.br" Memory="UserROM"/>
+  <Operation Download="A5_Init.br" Memory="UserROM"/>
+  <Operation Download="A5_Par.br" Memory="UserROM"/>
+  <Operation Download="A6_Init.br" Memory="UserROM"/>
+  <Operation Download="A6_Par.br" Memory="UserROM"/>
+  <Operation Download="A7_Init.br" Memory="UserROM"/>
+  <Operation Download="A7_Par.br" Memory="UserROM"/>
+  <Operation Download="A9_Init.br" Memory="UserROM"/>
+  <Operation Download="A9_Par.br" Memory="UserROM"/>
+  <Operation Download="A11_Init.br" Memory="UserROM"/>
+  <Operation Download="A11_Par.br" Memory="UserROM"/>
+  <Operation Restart="warm"/>
+  <Operation Download="Visapi.br" Memory="UserROM"/>
+  <Operation Download="convert.br" Memory="UserROM"/>
+  <Operation Download="AsMem.br" Memory="UserROM"/>
+  <Operation Download="astcp.br" Memory="UserROM"/>
+  <Operation Download="dataobj.br" Memory="UserROM"/>
+  <Operation Download="FileIO.br" Memory="UserROM"/>
+  <Operation Download="vcgclass.br" Memory="UserROM"/>
+  <Operation Download="vccpopup.br" Memory="UserROM"/>
+  <Operation Download="vcpfmtcx.br" Memory="UserROM"/>
+  <Operation Download="vcnet.br" Memory="UserROM"/>
+  <Operation Download="webserv.br" Memory="UserROM"/>
+  <Operation Download="standard.br" Memory="UserROM"/>
+  <Operation Download="AsMath.br" Memory="UserROM"/>
+  <Operation Download="asstring.br" Memory="UserROM"/>
+  <Operation Download="HMI_1001.br" Memory="UserROM"/>
+  <Operation Download="HMI_1002.br" Memory="UserROM"/>
+  <Operation Download="HMI_1003.br" Memory="UserROM"/>
+  <Operation Download="arialbd.br" Memory="UserROM"/>
+  <Operation Download="arialbi.br" Memory="UserROM"/>
+  <Operation Download="arial.br" Memory="UserROM"/>
+  <Operation Download="vcshared.br" Memory="UserROM"/>
+  <Operation Download="HGWeber.br" Memory="UserROM"/>
+  <Operation Download="LoopConR.br" Memory="UserROM"/>
+  <Operation Download="AsARCfg.br" Memory="UserROM"/>
+  <Operation Download="CSV_File.br" Memory="UserROM"/>
+  <Operation Download="vcbclass.br" Memory="UserROM"/>
+  <Operation Download="vcpdsw.br" Memory="UserROM"/>
+  <Operation Download="vccdt.br" Memory="UserROM"/>
+  <Operation Download="visvc.br" Memory="UserROM"/>
+  <Operation Download="vcmgr.br" Memory="UserROM"/>
+  <Operation Download="vcdsloc.br" Memory="UserROM"/>
+  <Operation Download="vcptelo.br" Memory="UserROM"/>
+  <Operation Download="vcchspot.br" Memory="UserROM"/>
+  <Operation Download="vccshape.br" Memory="UserROM"/>
+  <Operation Download="vcdsint.br" Memory="UserROM"/>
+  <Operation Download="vcalarm.br" Memory="UserROM"/>
+  <Operation Download="vccddbox.br" Memory="UserROM"/>
+  <Operation Download="vcfntttf.br" Memory="UserROM"/>
+  <Operation Download="vccbmp.br" Memory="UserROM"/>
+  <Operation Download="vcclbox.br" Memory="UserROM"/>
+  <Operation Download="vcctext.br" Memory="UserROM"/>
+  <Operation Download="vcrt.br" Memory="UserROM"/>
+  <Operation Download="vccbtn.br" Memory="UserROM"/>
+  <Operation Download="vccstr.br" Memory="UserROM"/>
+  <Operation Download="vccline.br" Memory="UserROM"/>
+  <Operation Download="vcfile.br" Memory="UserROM"/>
+  <Operation Download="vcpfpp30.br" Memory="UserROM"/>
+  <Operation Download="vccovl.br" Memory="UserROM"/>
+  <Operation Download="vccalarm.br" Memory="UserROM"/>
+  <Operation Download="vctcal.br" Memory="UserROM"/>
+  <Operation Download="vcpdvnc.br" Memory="UserROM"/>
+  <Operation Download="vccnum.br" Memory="UserROM"/>
+  <Operation Download="arsdm.br" Memory="UserROM"/>
+  <Operation Download="iomap.br" Memory="UserROM"/>
+  <Operation Download="AsIOAcc.br" Memory="UserROM"/>
+  <Operation Download="vcctrend.br" Memory="UserROM"/>
+  <Operation Download="HMI_10.br" Memory="UserROM"/>
+  <Operation Download="GlobProgCa.br" Memory="UserROM"/>
+  <Operation Download="Alarms1.br" Memory="UserROM"/>
+  <Operation Download="MainAlarms.br" Memory="UserROM"/>
+  <Operation Download="Perf_Gen.br" Memory="UserROM"/>
+  <Operation Download="A0_Basic.br" Memory="UserROM"/>
+  <Operation Download="A1_Basic.br" Memory="UserROM"/>
+  <Operation Download="A2_Basic.br" Memory="UserROM"/>
+  <Operation Download="A3_Basic.br" Memory="UserROM"/>
+  <Operation Download="A4_Basic.br" Memory="UserROM"/>
+  <Operation Download="A5_Basic.br" Memory="UserROM"/>
+  <Operation Download="A5_Reg1.br" Memory="UserROM"/>
+  <Operation Download="A6_Basic.br" Memory="UserROM"/>
+  <Operation Download="A7_Basic.br" Memory="UserROM"/>
+  <Operation Download="A9_Basic.br" Memory="UserROM"/>
+  <Operation Download="A11_Basic.br" Memory="UserROM"/>
+  <Operation Download="A1_Automat.br" Memory="UserROM"/>
+  <Operation Download="A1_Automa1.br" Memory="UserROM"/>
+  <Operation Download="A11_Automa.br" Memory="UserROM"/>
+  <Operation Download="A2_Automat.br" Memory="UserROM"/>
+  <Operation Download="A3_Automat.br" Memory="UserROM"/>
+  <Operation Download="A4_Automat.br" Memory="UserROM"/>
+  <Operation Download="A5_Automat.br" Memory="UserROM"/>
+  <Operation Download="A6_Automat.br" Memory="UserROM"/>
+  <Operation Download="A7_Automat.br" Memory="UserROM"/>
+  <Operation Download="Count.br" Memory="UserROM"/>
+  <Operation Download="A1_Control.br" Memory="UserROM"/>
+  <Operation Download="A1_Ref.br" Memory="UserROM"/>
+  <Operation Download="A1_Cycle.br" Memory="UserROM"/>
+  <Operation Download="A11_Contro.br" Memory="UserROM"/>
+  <Operation Download="A2_Control.br" Memory="UserROM"/>
+  <Operation Download="A2_Ref.br" Memory="UserROM"/>
+  <Operation Download="A2_Cycle.br" Memory="UserROM"/>
+  <Operation Download="A3_Control.br" Memory="UserROM"/>
+  <Operation Download="A3_Ref.br" Memory="UserROM"/>
+  <Operation Download="A3_Cycle.br" Memory="UserROM"/>
+  <Operation Download="A4_Control.br" Memory="UserROM"/>
+  <Operation Download="A4_Ref.br" Memory="UserROM"/>
+  <Operation Download="A4_Cycle.br" Memory="UserROM"/>
+  <Operation Download="A5_Control.br" Memory="UserROM"/>
+  <Operation Download="A5_Draw.br" Memory="UserROM"/>
+  <Operation Download="A5_Reg2.br" Memory="UserROM"/>
+  <Operation Download="A6_Control.br" Memory="UserROM"/>
+  <Operation Download="A6_Draw.br" Memory="UserROM"/>
+  <Operation Download="A7_Control.br" Memory="UserROM"/>
+  <Operation Download="A7_Ref.br" Memory="UserROM"/>
+  <Operation Download="A7_Cycle.br" Memory="UserROM"/>
+  <Operation Download="A9_Control.br" Memory="UserROM"/>
+  <Operation Download="Vacuum.br" Memory="UserROM"/>
+  <Operation Download="Setup.br" Memory="UserROM"/>
+  <Operation Download="EntryNip.br" Memory="UserROM"/>
+  <Operation Download="ExitNip.br" Memory="UserROM"/>
+  <Operation Download="GlueTray.br" Memory="UserROM"/>
+  <Operation Download="ColdGlue.br" Memory="UserROM"/>
+  <Operation Download="Unw_3W_Glu.br" Memory="UserROM"/>
+  <Operation Download="EB_Gen.br" Memory="UserROM"/>
+  <Operation Download="Guard_Mon.br" Memory="UserROM"/>
+  <Operation Download="Stop_Mon.br" Memory="UserROM"/>
+  <Operation Download="Servo_Mon.br" Memory="UserROM"/>
+  <Operation Download="EStopReset.br" Memory="UserROM"/>
+  <Operation Download="Jog.br" Memory="UserROM"/>
+  <Operation Download="Run.br" Memory="UserROM"/>
+  <Operation Download="Warn_Horn.br" Memory="UserROM"/>
+  <Operation Download="Control.br" Memory="UserROM"/>
+  <Operation Download="Tilter.br" Memory="UserROM"/>
+  <Operation Download="Separator.br" Memory="UserROM"/>
+  <Operation Download="FP_Heater.br" Memory="UserROM"/>
+  <Operation Download="A1_CamProf.br" Memory="UserROM"/>
+  <Operation Download="HMI_Contro.br" Memory="UserROM"/>
+  <Operation Download="Units.br" Memory="UserROM"/>
+  <Operation Download="Language.br" Memory="UserROM"/>
+  <Operation Download="Splash.br" Memory="UserROM"/>
+  <Operation Download="Cmd_Trace.br" Memory="UserROM"/>
+  <Operation Download="Recipe_1.br" Memory="UserROM"/>
+  <Operation Download="Recipe_2.br" Memory="UserROM"/>
+  <Operation Download="Message_1.br" Memory="UserROM"/>
+  <Operation Download="Message_2.br" Memory="UserROM"/>
+  <Operation Download="Password.br" Memory="UserROM"/>
+  <Operation Download="PowerTimer.br" Memory="UserROM"/>
+  <Operation Download="BackUp.br" Memory="UserROM"/>
+  <Operation Download="Revision.br" Memory="UserROM"/>
+  <Operation Download="Speed.br" Memory="UserROM"/>
+  <Operation Download="CPURestart.br" Memory="UserROM"/>
+  <Operation Download="SetSpeedMo.br" Memory="UserROM"/>
+  <Operation Download="ManMode.br" Memory="UserROM"/>
+  <Operation Download="ExitTable.br" Memory="UserROM"/>
+  <Operation Download="FP_Gen.br" Memory="UserROM"/>
+  <Operation Download="Unwinder.br" Memory="UserROM"/>
+  <Operation Download="3Web_Unit.br" Memory="UserROM"/>
+  <Operation Download="FP_Dryer.br" Memory="UserROM"/>
+  <Operation Download="HourMeter.br" Memory="UserROM"/>
+</Transfer>

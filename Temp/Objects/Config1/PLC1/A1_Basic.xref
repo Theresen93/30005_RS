@@ -1,0 +1,1405 @@
+<?xml version="1.0"?>
+<Crossref Scope="BagMachine_Section.Perf.Axis1.A1_Basic">
+  <Vars>
+    <Var Name="A1_Basic.AutoAck" Scope="Local" Type="BOOL">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="59" C="57" PS="Ln:59, Col:57" A="R" />
+        <Pos L="60" C="4" PS="Ln:60, Col:4" A="W" />
+        <Pos L="62" C="4" PS="Ln:62, Col:4" A="W" />
+        <Pos L="65" C="15" PS="Ln:65, Col:15" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.DriveStatus" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="32" C="50" PS="Ln:32, Col:50" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.DriveStatus.Simulation" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="34" C="28" PS="Ln:34, Col:28" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.DriveStatus.NetworkInit" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="35" C="29" PS="Ln:35, Col:29" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.DriveStatus.HomeSwitch" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="36" C="25" PS="Ln:36, Col:25" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.DriveStatus.PosHWSwitch" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="37" C="26" PS="Ln:37, Col:26" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.DriveStatus.NegHWSwitch" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="38" C="26" PS="Ln:38, Col:26" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.DriveStatus.Trigger1" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="39" C="28" PS="Ln:39, Col:28" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.DriveStatus.Trigger2" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="40" C="28" PS="Ln:40, Col:28" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.DriveStatus.DriveEnable" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="41" C="31" PS="Ln:41, Col:31" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.DriveStatus.ControllerReady" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="42" C="32" PS="Ln:42, Col:32" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.DriveStatus.ControllerStatus" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="43" C="33" PS="Ln:43, Col:33" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.DriveStatus.AxisError" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="44" C="22" PS="Ln:44, Col:22" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.DriveStatus.LagWarning" Scope="Local" Type="MC_DRIVESTATUS_TYP">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="45" C="28" PS="Ln:45, Col:28" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.HomeRestore" Scope="Local" Type="BOOL">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="123" C="4" PS="Ln:123, Col:4" A="W" />
+        <Pos L="128" C="7" PS="Ln:128, Col:7" A="R" />
+        <Pos L="142" C="23" PS="Ln:142, Col:23" A="R" />
+        <Pos L="149" C="4" PS="Ln:149, Col:4" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.InitEndlessPosition" Scope="Local" Type="BOOL">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="122" C="4" PS="Ln:122, Col:4" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.InitModPos_Done" Scope="Local" Type="BOOL">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="113" C="3" PS="Ln:113, Col:3" A="W" />
+        <Pos L="117" C="41" PS="Ln:117, Col:41" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.InitModPosition" Scope="Local" Type="BOOL">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="109" C="32" PS="Ln:109, Col:32" A="R" />
+        <Pos L="121" C="4" PS="Ln:121, Col:4" A="W" />
+      </File>
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicInit.st">
+        <Pos L="33" C="3" PS="Ln:33, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.rAxisTimSet_SP_Vel" Scope="Local" Type="REAL">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="260" C="7" PS="Ln:260, Col:7" A="W" />
+        <Pos L="266" C="7" PS="Ln:266, Col:7" A="W" />
+        <Pos L="278" C="39" PS="Ln:278, Col:39" A="R" />
+        <Pos L="340" C="42" PS="Ln:340, Col:42" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.rAxisTimSet_SP_Acc" Scope="Local" Type="REAL">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="261" C="7" PS="Ln:261, Col:7" A="W" />
+        <Pos L="267" C="7" PS="Ln:267, Col:7" A="W" />
+        <Pos L="279" C="39" PS="Ln:279, Col:39" A="R" />
+        <Pos L="341" C="42" PS="Ln:341, Col:42" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.rAxisTimSet_SP_Dec" Scope="Local" Type="REAL">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="262" C="7" PS="Ln:262, Col:7" A="W" />
+        <Pos L="268" C="7" PS="Ln:268, Col:7" A="W" />
+        <Pos L="280" C="39" PS="Ln:280, Col:39" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.uiAxisTimSet_SP_Dir" Scope="Local" Type="USINT">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="263" C="7" PS="Ln:263, Col:7" A="W" />
+        <Pos L="270" C="9" PS="Ln:270, Col:9" A="W" />
+        <Pos L="272" C="9" PS="Ln:272, Col:9" A="W" />
+        <Pos L="281" C="39" PS="Ln:281, Col:39" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.uiAxisTimSet_SP_ShiftAppMode" Scope="Local" Type="UINT">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="344" C="44" PS="Ln:344, Col:44" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_InitEndlessPosition_0.Execute" Scope="Local" Type="MC_BR_InitEndlessPosition">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="117" C="3" PS="Ln:117, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_InitEndlessPosition_0.Axis" Scope="Local" Type="MC_BR_InitEndlessPosition">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="118" C="3" PS="Ln:118, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_InitEndlessPosition_0.DataAddress" Scope="Local" Type="MC_BR_InitEndlessPosition">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="119" C="3" PS="Ln:119, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_InitEndlessPosition_0.Done" Scope="Local" Type="MC_BR_InitEndlessPosition">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="120" C="7" PS="Ln:120, Col:7" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_InitEndlessPosition_0" Scope="Local" Type="MC_BR_InitEndlessPosition">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="125" C="3" PS="Ln:125, Col:3" A="RW" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_InitModPos_0.Execute" Scope="Local" Type="MC_BR_InitModPos">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="109" C="3" PS="Ln:109, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_InitModPos_0.Axis" Scope="Local" Type="MC_BR_InitModPos">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="110" C="3" PS="Ln:110, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_InitModPos_0.Period" Scope="Local" Type="MC_BR_InitModPos">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="111" C="3" PS="Ln:111, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_InitModPos_0.Factor" Scope="Local" Type="MC_BR_InitModPos">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="112" C="3" PS="Ln:112, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_InitModPos_0.Done" Scope="Local" Type="MC_BR_InitModPos">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="113" C="20" PS="Ln:113, Col:20" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_InitModPos_0" Scope="Local" Type="MC_BR_InitModPos">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="114" C="3" PS="Ln:114, Col:3" A="RW" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_Phasing_0.Shift" Scope="Local" Type="MC_BR_Phasing">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="339" C="3" PS="Ln:339, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_Phasing_0.Velocity" Scope="Local" Type="MC_BR_Phasing">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="340" C="3" PS="Ln:340, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_Phasing_0.Acceleration" Scope="Local" Type="MC_BR_Phasing">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="341" C="3" PS="Ln:341, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_Phasing_0.ApplicationDistance" Scope="Local" Type="MC_BR_Phasing">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="342" C="3" PS="Ln:342, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_Phasing_0.ShiftMode" Scope="Local" Type="MC_BR_Phasing">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="343" C="3" PS="Ln:343, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_Phasing_0.ApplicationMode" Scope="Local" Type="MC_BR_Phasing">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="344" C="5" PS="Ln:344, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_Phasing_0.PerformVelocityControl" Scope="Local" Type="MC_BR_Phasing">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="345" C="5" PS="Ln:345, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_Phasing_0" Scope="Local" Type="MC_BR_Phasing">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="346" C="3" PS="Ln:346, Col:3" A="RW" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_ReadDriveStatus_0.Enable" Scope="Local" Type="MC_BR_ReadDriveStatus">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="30" C="3" PS="Ln:30, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_ReadDriveStatus_0.Axis" Scope="Local" Type="MC_BR_ReadDriveStatus">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="31" C="3" PS="Ln:31, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_ReadDriveStatus_0.AdrDriveStatus" Scope="Local" Type="MC_BR_ReadDriveStatus">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="32" C="3" PS="Ln:32, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_ReadDriveStatus_0" Scope="Local" Type="MC_BR_ReadDriveStatus">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="33" C="3" PS="Ln:33, Col:3" A="RW" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Home_0.Execute" Scope="Local" Type="MC_Home">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="129" C="4" PS="Ln:129, Col:4" A="W" />
+        <Pos L="135" C="4" PS="Ln:135, Col:4" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Home_0.Axis" Scope="Local" Type="MC_Home">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="131" C="3" PS="Ln:131, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Home_0.Position" Scope="Local" Type="MC_Home">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="132" C="3" PS="Ln:132, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Home_0.HomingMode" Scope="Local" Type="MC_Home">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="133" C="3" PS="Ln:133, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Home_0.Done" Scope="Local" Type="MC_Home">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="134" C="7" PS="Ln:134, Col:7" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Home_0" Scope="Local" Type="MC_Home">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="138" C="3" PS="Ln:138, Col:3" A="RW" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Home_1.Execute" Scope="Local" Type="MC_Home">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="142" C="4" PS="Ln:142, Col:4" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Home_1.Axis" Scope="Local" Type="MC_Home">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="144" C="3" PS="Ln:144, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Home_1.Position" Scope="Local" Type="MC_Home">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="145" C="3" PS="Ln:145, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Home_1.HomingMode" Scope="Local" Type="MC_Home">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="146" C="3" PS="Ln:146, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Home_1.Done" Scope="Local" Type="MC_Home">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="147" C="7" PS="Ln:147, Col:7" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Home_1" Scope="Local" Type="MC_Home">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="151" C="3" PS="Ln:151, Col:3" A="RW" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_MoveVelocity_0.Execute" Scope="Local" Type="MC_MoveVelocity">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="259" C="4" PS="Ln:259, Col:4" A="W" />
+        <Pos L="265" C="7" PS="Ln:265, Col:7" A="W" />
+        <Pos L="275" C="4" PS="Ln:275, Col:4" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_MoveVelocity_0.Axis" Scope="Local" Type="MC_MoveVelocity">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="277" C="5" PS="Ln:277, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_MoveVelocity_0.Velocity" Scope="Local" Type="MC_MoveVelocity">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="278" C="5" PS="Ln:278, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_MoveVelocity_0.Acceleration" Scope="Local" Type="MC_MoveVelocity">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="279" C="5" PS="Ln:279, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_MoveVelocity_0.Deceleration" Scope="Local" Type="MC_MoveVelocity">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="280" C="5" PS="Ln:280, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_MoveVelocity_0.Direction" Scope="Local" Type="MC_MoveVelocity">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="281" C="5" PS="Ln:281, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_MoveVelocity_0" Scope="Local" Type="MC_MoveVelocity">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="282" C="2" PS="Ln:282, Col:2" A="RW" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Power_0.Axis" Scope="Local" Type="MC_Power">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="249" C="3" PS="Ln:249, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Power_0.Error" Scope="Local" Type="MC_Power">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="250" C="7" PS="Ln:250, Col:7" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Power_0.Enable" Scope="Local" Type="MC_Power">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="251" C="4" PS="Ln:251, Col:4" A="W" />
+        <Pos L="253" C="4" PS="Ln:253, Col:4" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Power_0" Scope="Local" Type="MC_Power">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="255" C="3" PS="Ln:255, Col:3" A="RW" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadActualPosition_0.Enable" Scope="Local" Type="MC_ReadActualPosition">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="154" C="5" PS="Ln:154, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadActualPosition_0.Axis" Scope="Local" Type="MC_ReadActualPosition">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="155" C="5" PS="Ln:155, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadActualPosition_0" Scope="Local" Type="MC_ReadActualPosition">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="156" C="5" PS="Ln:156, Col:5" A="RW" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadActualPosition_0.Valid" Scope="Local" Type="MC_ReadActualPosition">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="157" C="8" PS="Ln:157, Col:8" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadActualPosition_0.Position" Scope="Local" Type="MC_ReadActualPosition">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="158" C="30" PS="Ln:158, Col:30" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadActualTorque_0.Error" Scope="Local" Type="MC_ReadActualTorque">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="237" C="6" PS="Ln:237, Col:6" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadActualTorque_0.Enable" Scope="Local" Type="MC_ReadActualTorque">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="238" C="4" PS="Ln:238, Col:4" A="W" />
+        <Pos L="240" C="4" PS="Ln:240, Col:4" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadActualTorque_0.Axis" Scope="Local" Type="MC_ReadActualTorque">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="242" C="3" PS="Ln:242, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadActualTorque_0" Scope="Local" Type="MC_ReadActualTorque">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="243" C="3" PS="Ln:243, Col:3" A="RW" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadActualTorque_0.Valid" Scope="Local" Type="MC_ReadActualTorque">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="244" C="6" PS="Ln:244, Col:6" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadActualTorque_0.Torque" Scope="Local" Type="MC_ReadActualTorque">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="245" C="26" PS="Ln:245, Col:26" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadActualVelocity_0.Error" Scope="Local" Type="MC_ReadActualVelocity">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="219" C="6" PS="Ln:219, Col:6" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadActualVelocity_0.Enable" Scope="Local" Type="MC_ReadActualVelocity">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="220" C="4" PS="Ln:220, Col:4" A="W" />
+        <Pos L="222" C="4" PS="Ln:222, Col:4" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadActualVelocity_0.Axis" Scope="Local" Type="MC_ReadActualVelocity">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="224" C="3" PS="Ln:224, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadActualVelocity_0" Scope="Local" Type="MC_ReadActualVelocity">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="225" C="3" PS="Ln:225, Col:3" A="RW" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadActualVelocity_0.Valid" Scope="Local" Type="MC_ReadActualVelocity">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="226" C="6" PS="Ln:226, Col:6" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadActualVelocity_0.Velocity" Scope="Local" Type="MC_ReadActualVelocity">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="228" C="31" PS="Ln:228, Col:31" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadAxisError_0.Enable" Scope="Local" Type="MC_ReadAxisError">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="48" C="3" PS="Ln:48, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadAxisError_0.Axis" Scope="Local" Type="MC_ReadAxisError">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="49" C="3" PS="Ln:49, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadAxisError_0.DataAddress" Scope="Local" Type="MC_ReadAxisError">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="50" C="3" PS="Ln:50, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadAxisError_0.DataLength" Scope="Local" Type="MC_ReadAxisError">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="51" C="3" PS="Ln:51, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadAxisError_0.DataObjectName" Scope="Local" Type="MC_ReadAxisError">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="52" C="3" PS="Ln:52, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadAxisError_0" Scope="Local" Type="MC_ReadAxisError">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="53" C="3" PS="Ln:53, Col:3" A="RW" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadAxisError_0.Valid" Scope="Local" Type="MC_ReadAxisError">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="54" C="6" PS="Ln:54, Col:6" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadAxisError_0.AxisErrorID" Scope="Local" Type="MC_ReadAxisError">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="55" C="21" PS="Ln:55, Col:21" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadAxisError_0.AxisErrorCount" Scope="Local" Type="MC_ReadAxisError">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="56" C="24" PS="Ln:56, Col:24" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadAxisError_0.Acknowledge" Scope="Local" Type="MC_ReadAxisError">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="66" C="4" PS="Ln:66, Col:4" A="W" />
+        <Pos L="68" C="4" PS="Ln:68, Col:4" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadStatus_0.Enable" Scope="Local" Type="MC_ReadStatus">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="89" C="3" PS="Ln:89, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadStatus_0.Axis" Scope="Local" Type="MC_ReadStatus">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="90" C="3" PS="Ln:90, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadStatus_0" Scope="Local" Type="MC_ReadStatus">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="91" C="3" PS="Ln:91, Col:3" A="RW" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadStatus_0.Valid" Scope="Local" Type="MC_ReadStatus">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="92" C="6" PS="Ln:92, Col:6" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadStatus_0.Disabled" Scope="Local" Type="MC_ReadStatus">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="93" C="33" PS="Ln:93, Col:33" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadStatus_0.StandStill" Scope="Local" Type="MC_ReadStatus">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="94" C="29" PS="Ln:94, Col:29" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadStatus_0.Stopping" Scope="Local" Type="MC_ReadStatus">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="95" C="28" PS="Ln:95, Col:28" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadStatus_0.DiscreteMotion" Scope="Local" Type="MC_ReadStatus">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="96" C="32" PS="Ln:96, Col:32" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadStatus_0.ContinuousMotion" Scope="Local" Type="MC_ReadStatus">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="97" C="34" PS="Ln:97, Col:34" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadStatus_0.SynchronizedMotion" Scope="Local" Type="MC_ReadStatus">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="98" C="35" PS="Ln:98, Col:35" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_ReadStatus_0.Errorstop" Scope="Local" Type="MC_ReadStatus">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="99" C="26" PS="Ln:99, Col:26" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Reset_0.Execute" Scope="Local" Type="MC_Reset">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="73" C="4" PS="Ln:73, Col:4" A="W" />
+        <Pos L="76" C="4" PS="Ln:76, Col:4" A="W" />
+        <Pos L="81" C="4" PS="Ln:81, Col:4" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Reset_0.Done" Scope="Local" Type="MC_Reset">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="75" C="7" PS="Ln:75, Col:7" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Reset_0.Error" Scope="Local" Type="MC_Reset">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="80" C="7" PS="Ln:80, Col:7" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Reset_0.Axis" Scope="Local" Type="MC_Reset">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="85" C="3" PS="Ln:85, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Reset_0" Scope="Local" Type="MC_Reset">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="86" C="3" PS="Ln:86, Col:3" A="RW" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Stop_0.Axis" Scope="Local" Type="MC_Stop">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="296" C="3" PS="Ln:296, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Stop_0.Deceleration" Scope="Local" Type="MC_Stop">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="298" C="4" PS="Ln:298, Col:4" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Stop_0.Execute" Scope="Local" Type="MC_Stop">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="299" C="4" PS="Ln:299, Col:4" A="W" />
+        <Pos L="302" C="4" PS="Ln:302, Col:4" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Stop_0.Done" Scope="Local" Type="MC_Stop">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="301" C="7" PS="Ln:301, Col:7" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Stop_0.CommandAborted" Scope="Local" Type="MC_Stop">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="301" C="25" PS="Ln:301, Col:25" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Stop_0.Error" Scope="Local" Type="MC_Stop">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="301" C="53" PS="Ln:301, Col:53" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Stop_0" Scope="Local" Type="MC_Stop">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="304" C="3" PS="Ln:304, Col:3" A="RW" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Stop_1.Axis" Scope="Local" Type="MC_Stop">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="307" C="5" PS="Ln:307, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Stop_1.Deceleration" Scope="Local" Type="MC_Stop">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="309" C="7" PS="Ln:309, Col:7" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Stop_1.Execute" Scope="Local" Type="MC_Stop">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="310" C="7" PS="Ln:310, Col:7" A="W" />
+        <Pos L="313" C="7" PS="Ln:313, Col:7" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Stop_1.Done" Scope="Local" Type="MC_Stop">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="312" C="9" PS="Ln:312, Col:9" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Stop_1.CommandAborted" Scope="Local" Type="MC_Stop">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="312" C="27" PS="Ln:312, Col:27" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Stop_1.Error" Scope="Local" Type="MC_Stop">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="312" C="55" PS="Ln:312, Col:55" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_Stop_1" Scope="Local" Type="MC_Stop">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="319" C="5" PS="Ln:319, Col:5" A="RW" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_SetOverride_0.Axis" Scope="Local" Type="MC_SetOverride">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="285" C="5" PS="Ln:285, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_SetOverride_0.Enable" Scope="Local" Type="MC_SetOverride">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="286" C="5" PS="Ln:286, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_SetOverride_0.VelFactor" Scope="Local" Type="MC_SetOverride">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="287" C="5" PS="Ln:287, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_SetOverride_0.AccFactor" Scope="Local" Type="MC_SetOverride">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="288" C="5" PS="Ln:288, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_SetOverride_0.Enabled" Scope="Local" Type="MC_SetOverride">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="289" C="9" PS="Ln:289, Col:9" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_SetOverride_0.Error" Scope="Local" Type="MC_SetOverride">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="290" C="9" PS="Ln:290, Col:9" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_SetOverride_0" Scope="Local" Type="MC_SetOverride">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="293" C="5" PS="Ln:293, Col:5" A="RW" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.ResetError" Scope="Local" Type="BOOL">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="78" C="4" PS="Ln:78, Col:4" A="W" />
+        <Pos L="83" C="4" PS="Ln:83, Col:4" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.rTempActPhasDeg" Scope="Local" Type="REAL">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="210" C="5" PS="Ln:210, Col:5" A="W" />
+        <Pos L="213" C="42" PS="Ln:213, Col:42" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.iiSP_SlPos_U" Scope="Local" Type="DINT">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="180" C="43" PS="Ln:180, Col:43" A="R" />
+        <Pos L="191" C="24" PS="Ln:191, Col:24" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.rSP_SlPos_Deg" Scope="Local" Type="REAL">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="191" C="7" PS="Ln:191, Col:7" A="W" />
+        <Pos L="210" C="24" PS="Ln:210, Col:24" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.iiSP_MaPos_U" Scope="Local" Type="DINT">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="186" C="43" PS="Ln:186, Col:43" A="R" />
+        <Pos L="197" C="24" PS="Ln:197, Col:24" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.rSP_MaPos_Deg" Scope="Local" Type="REAL">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="197" C="7" PS="Ln:197, Col:7" A="W" />
+        <Pos L="210" C="40" PS="Ln:210, Col:40" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_CyclicRead_0.Axis" Scope="Local" Type="MC_BR_CyclicRead">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="177" C="5" PS="Ln:177, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_CyclicRead_0.Enable" Scope="Local" Type="MC_BR_CyclicRead">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="178" C="5" PS="Ln:178, Col:5" A="W" />
+        <Pos L="193" C="7" PS="Ln:193, Col:7" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_CyclicRead_0.ParID" Scope="Local" Type="MC_BR_CyclicRead">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="179" C="5" PS="Ln:179, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_CyclicRead_0.DataAddress" Scope="Local" Type="MC_BR_CyclicRead">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="180" C="5" PS="Ln:180, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_CyclicRead_0.DataType" Scope="Local" Type="MC_BR_CyclicRead">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="181" C="5" PS="Ln:181, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_CyclicRead_0.Valid" Scope="Local" Type="MC_BR_CyclicRead">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="189" C="8" PS="Ln:189, Col:8" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_CyclicRead_0.Error" Scope="Local" Type="MC_BR_CyclicRead">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="192" C="11" PS="Ln:192, Col:11" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_CyclicRead_0" Scope="Local" Type="MC_BR_CyclicRead">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="201" C="5" PS="Ln:201, Col:5" A="RW" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_CyclicRead_1.Axis" Scope="Local" Type="MC_BR_CyclicRead">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="183" C="5" PS="Ln:183, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_CyclicRead_1.Enable" Scope="Local" Type="MC_BR_CyclicRead">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="184" C="5" PS="Ln:184, Col:5" A="W" />
+        <Pos L="199" C="7" PS="Ln:199, Col:7" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_CyclicRead_1.ParID" Scope="Local" Type="MC_BR_CyclicRead">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="185" C="5" PS="Ln:185, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_CyclicRead_1.DataAddress" Scope="Local" Type="MC_BR_CyclicRead">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="186" C="5" PS="Ln:186, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_CyclicRead_1.DataType" Scope="Local" Type="MC_BR_CyclicRead">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="187" C="5" PS="Ln:187, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_CyclicRead_1.Valid" Scope="Local" Type="MC_BR_CyclicRead">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="195" C="8" PS="Ln:195, Col:8" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_CyclicRead_1.Error" Scope="Local" Type="MC_BR_CyclicRead">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="198" C="11" PS="Ln:198, Col:11" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.MC_BR_CyclicRead_1" Scope="Local" Type="MC_BR_CyclicRead">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="202" C="5" PS="Ln:202, Col:5" A="RW" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.rTempPosA1_Deg" Scope="Local" Type="REAL">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="205" C="3" PS="Ln:205, Col:3" A="W" />
+        <Pos L="206" C="30" PS="Ln:206, Col:30" A="R" />
+      </File>
+    </Var>
+    <Var Name="gA.Ident" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="14" C="6" PS="Ln:14, Col:6" A="R" />
+        <Pos L="31" C="35" PS="Ln:31, Col:35" A="R" />
+        <Pos L="49" C="30" PS="Ln:49, Col:30" A="R" />
+        <Pos L="85" C="20" PS="Ln:85, Col:20" A="R" />
+        <Pos L="90" C="27" PS="Ln:90, Col:27" A="R" />
+        <Pos L="110" C="29" PS="Ln:110, Col:29" A="R" />
+        <Pos L="118" C="38" PS="Ln:118, Col:38" A="R" />
+        <Pos L="131" C="19" PS="Ln:131, Col:19" A="R" />
+        <Pos L="144" C="19" PS="Ln:144, Col:19" A="R" />
+        <Pos L="155" C="36" PS="Ln:155, Col:36" A="R" />
+        <Pos L="177" C="39" PS="Ln:177, Col:39" A="R" />
+        <Pos L="183" C="39" PS="Ln:183, Col:39" A="R" />
+        <Pos L="224" C="34" PS="Ln:224, Col:34" A="R" />
+        <Pos L="242" C="32" PS="Ln:242, Col:32" A="R" />
+        <Pos L="249" C="20" PS="Ln:249, Col:20" A="R" />
+        <Pos L="277" C="39" PS="Ln:277, Col:39" A="R" />
+        <Pos L="285" C="35" PS="Ln:285, Col:35" A="R" />
+        <Pos L="296" C="19" PS="Ln:296, Col:19" A="R" />
+        <Pos L="307" C="21" PS="Ln:307, Col:21" A="R" />
+      </File>
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicInit.st">
+        <Pos L="30" C="63" PS="Ln:30, Col:63" A="R" />
+      </File>
+    </Var>
+    <Var Name="gA.Ind_Simulation" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="34" C="3" PS="Ln:34, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.Ind_NetworkInit" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="35" C="3" PS="Ln:35, Col:3" A="W" />
+        <Pos L="48" C="32" PS="Ln:48, Col:32" A="R" />
+        <Pos L="89" C="29" PS="Ln:89, Col:29" A="R" />
+        <Pos L="154" C="38" PS="Ln:154, Col:38" A="R" />
+        <Pos L="178" C="39" PS="Ln:178, Col:39" A="R" />
+        <Pos L="184" C="39" PS="Ln:184, Col:39" A="R" />
+      </File>
+    </Var>
+    <Var Name="gA.Input_Home" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="36" C="3" PS="Ln:36, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.Input_PosHW" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="37" C="3" PS="Ln:37, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.Input_NegHW" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="38" C="3" PS="Ln:38, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.Input_Trigger1" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="39" C="3" PS="Ln:39, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.Input_Trigger2" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="40" C="3" PS="Ln:40, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.Input_DriveEnable" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="41" C="3" PS="Ln:41, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.Ind_ControllerReady" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="42" C="3" PS="Ln:42, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.Ind_ControllerStatus" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="43" C="3" PS="Ln:43, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.Error" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="44" C="3" PS="Ln:44, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.Ind_LagWarning" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="45" C="3" PS="Ln:45, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.ErrorText" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="50" C="41" PS="Ln:50, Col:41" A="R" />
+        <Pos L="51" C="43" PS="Ln:51, Col:43" A="R" />
+      </File>
+    </Var>
+    <Var Name="gA.ErrorID" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="55" C="4" PS="Ln:55, Col:4" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.ErrorCount" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="56" C="4" PS="Ln:56, Col:4" A="W" />
+        <Pos L="59" C="28" PS="Ln:59, Col:28" A="R" />
+        <Pos L="72" C="28" PS="Ln:72, Col:28" A="R" />
+      </File>
+    </Var>
+    <Var Name="gA.Cmd_Reset" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="59" C="7" PS="Ln:59, Col:7" A="R" />
+        <Pos L="72" C="7" PS="Ln:72, Col:7" A="R" />
+        <Pos L="77" C="4" PS="Ln:77, Col:4" A="W" />
+        <Pos L="82" C="4" PS="Ln:82, Col:4" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.ErrorAck" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="65" C="35" PS="Ln:65, Col:35" A="R" />
+      </File>
+    </Var>
+    <Var Name="gA.ErrorStop" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="72" C="52" PS="Ln:72, Col:52" A="R" />
+        <Pos L="99" C="4" PS="Ln:99, Col:4" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.Ind_Enabled" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="93" C="4" PS="Ln:93, Col:4" A="W" />
+        <Pos L="101" C="12" PS="Ln:101, Col:12" A="R" />
+      </File>
+    </Var>
+    <Var Name="gA.Ind_StandStill" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="94" C="4" PS="Ln:94, Col:4" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.Ind_Stopping" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="95" C="4" PS="Ln:95, Col:4" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.Ind_DiscreteMotion" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="96" C="4" PS="Ln:96, Col:4" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.Ind_ContinuousMotion" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="97" C="4" PS="Ln:97, Col:4" A="W" />
+        <Pos L="297" C="9" PS="Ln:297, Col:9" A="R" />
+      </File>
+    </Var>
+    <Var Name="gA.Ind_SynchronizedMotion" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="98" C="4" PS="Ln:98, Col:4" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.bSynchroReq" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="102" C="7" PS="Ln:102, Col:7" A="W" />
+        <Pos L="105" C="7" PS="Ln:105, Col:7" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.Ind_bSynchroOK" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="104" C="16" PS="Ln:104, Col:16" A="R" />
+      </File>
+    </Var>
+    <Var Name="gA.AxisPeriod" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="111" C="45" PS="Ln:111, Col:45" A="R" />
+        <Pos L="228" C="67" PS="Ln:228, Col:67" A="R" />
+        <Pos L="260" C="48" PS="Ln:260, Col:48" A="R" />
+        <Pos L="266" C="51" PS="Ln:266, Col:51" A="R" />
+        <Pos L="267" C="51" PS="Ln:267, Col:51" A="R" />
+        <Pos L="268" C="51" PS="Ln:268, Col:51" A="R" />
+        <Pos L="342" C="44" PS="Ln:342, Col:44" A="R" />
+      </File>
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicInit.st">
+        <Pos L="18" C="3" PS="Ln:18, Col:3" A="W" />
+        <Pos L="19" C="24" PS="Ln:19, Col:24" A="R" />
+        <Pos L="20" C="25" PS="Ln:20, Col:25" A="R" />
+        <Pos L="21" C="25" PS="Ln:21, Col:25" A="R" />
+        <Pos L="22" C="33" PS="Ln:22, Col:33" A="R" />
+      </File>
+    </Var>
+    <Var Name="gA.Ind_Homed" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="148" C="4" PS="Ln:148, Col:4" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.PositionCount" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="158" C="7" PS="Ln:158, Col:7" A="W" />
+        <Pos L="159" C="29" PS="Ln:159, Col:29" A="R" />
+        <Pos L="160" C="28" PS="Ln:160, Col:28" A="R" />
+      </File>
+    </Var>
+    <Var Name="gA.PositionInch" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="159" C="7" PS="Ln:159, Col:7" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.UnitsPerInch" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="159" C="49" PS="Ln:159, Col:49" A="R" />
+        <Pos L="339" C="47" PS="Ln:339, Col:47" A="R" />
+      </File>
+    </Var>
+    <Var Name="gA.PositionDeg" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="160" C="7" PS="Ln:160, Col:7" A="W" />
+        <Pos L="164" C="16" PS="Ln:164, Col:16" A="R" />
+        <Pos L="205" C="76" PS="Ln:205, Col:76" A="R" />
+      </File>
+    </Var>
+    <Var Name="gA.UnitsPerDeg" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="160" C="48" PS="Ln:160, Col:48" A="R" />
+        <Pos L="191" C="37" PS="Ln:191, Col:37" A="R" />
+        <Pos L="197" C="37" PS="Ln:197, Col:37" A="R" />
+      </File>
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicInit.st">
+        <Pos L="19" C="3" PS="Ln:19, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.uiiNumRev" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="165" C="10" PS="Ln:165, Col:10" A="R" />
+        <Pos L="166" C="9" PS="Ln:166, Col:9" A="W" />
+        <Pos L="168" C="9" PS="Ln:168, Col:9" A="W" />
+        <Pos L="168" C="28" PS="Ln:168, Col:28" A="R" />
+      </File>
+    </Var>
+    <Var Name="gA.rActPhasDeg" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="211" C="5" PS="Ln:211, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.ActualVelocity" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="228" C="7" PS="Ln:228, Col:7" A="W" />
+        <Pos L="229" C="15" PS="Ln:229, Col:15" A="R" />
+      </File>
+    </Var>
+    <Var Name="gA.Ind_InMotion" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="230" C="5" PS="Ln:230, Col:5" A="W" />
+        <Pos L="232" C="5" PS="Ln:232, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.ActualTorque" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="245" C="4" PS="Ln:245, Col:4" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.Cmd_Enable" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="251" C="23" PS="Ln:251, Col:23" A="R" />
+      </File>
+    </Var>
+    <Var Name="gA.Cmd_ContinuousMotion" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="258" C="19" PS="Ln:258, Col:19" A="R" />
+        <Pos L="297" C="45" PS="Ln:297, Col:45" A="R" />
+      </File>
+    </Var>
+    <Var Name="gA.Cmd_ContinuousMotionUpdate" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="258" C="60" PS="Ln:258, Col:60" A="R" />
+      </File>
+    </Var>
+    <Var Name="gA.SP_Velocity" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="260" C="30" PS="Ln:260, Col:30" A="R" />
+      </File>
+    </Var>
+    <Var Name="gA.SP_Accel" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="261" C="30" PS="Ln:261, Col:30" A="R" />
+      </File>
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicInit.st">
+        <Pos L="20" C="3" PS="Ln:20, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.SP_Decel" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="262" C="30" PS="Ln:262, Col:30" A="R" />
+        <Pos L="298" C="28" PS="Ln:298, Col:28" A="R" />
+      </File>
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicInit.st">
+        <Pos L="21" C="3" PS="Ln:21, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.Cmd_ManuTimSetPlus" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="269" C="10" PS="Ln:269, Col:10" A="R" />
+      </File>
+    </Var>
+    <Var Name="gA.Cmd_Override" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="286" C="35" PS="Ln:286, Col:35" A="R" />
+        <Pos L="291" C="7" PS="Ln:291, Col:7" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.rSP_OverrideV" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="287" C="35" PS="Ln:287, Col:35" A="R" />
+      </File>
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicInit.st">
+        <Pos L="25" C="5" PS="Ln:25, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.rSP_OverrideA" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="288" C="35" PS="Ln:288, Col:35" A="R" />
+      </File>
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicInit.st">
+        <Pos L="26" C="5" PS="Ln:26, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.SP_EStopDecel" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="309" C="31" PS="Ln:309, Col:31" A="R" />
+      </File>
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicInit.st">
+        <Pos L="22" C="3" PS="Ln:22, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.Cmd_EStopDisable" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="314" C="7" PS="Ln:314, Col:7" A="W" />
+        <Pos L="317" C="7" PS="Ln:317, Col:7" A="W" />
+      </File>
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicInit.st">
+        <Pos L="27" C="5" PS="Ln:27, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.SP_PhaseOffset" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="339" C="26" PS="Ln:339, Col:26" A="R" />
+      </File>
+    </Var>
+    <Var Name="gA1_FirstHomed" Scope="Global" Type="BOOL">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="128" C="27" PS="Ln:128, Col:27" A="R" />
+        <Pos L="136" C="4" PS="Ln:136, Col:4" A="W" />
+        <Pos L="141" C="7" PS="Ln:141, Col:7" A="R" />
+      </File>
+    </Var>
+    <Var Name="gAlarmsOK" Scope="Global" Type="BOOL">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="297" C="77" PS="Ln:297, Col:77" A="R" />
+      </File>
+    </Var>
+    <Var Name="gEndPosData" Scope="Global" Type="MC_ENDLESS_POSITION[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="119" C="49" PS="Ln:119, Col:49" A="R" />
+      </File>
+    </Var>
+    <Var Name="gSP_A.MatchedSpeed" Scope="Global" Type="AxisSP[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="206" C="47" PS="Ln:206, Col:47" A="R" />
+      </File>
+    </Var>
+    <Var Name="gSP_PerfKnifeCount" Scope="Global" Type="REAL">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="205" C="47" PS="Ln:205, Col:47" A="R" />
+      </File>
+    </Var>
+    <Var Name="g_rActualSizePerf_in" Scope="Global" Type="REAL">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="208" C="6" PS="Ln:208, Col:6" A="R" />
+      </File>
+    </Var>
+    <Var Name="g_bPerfInMatchedSpeed" Scope="Global" Type="BOOL">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="206" C="3" PS="Ln:206, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="g_bIndEStopStandstill" Scope="Global" Type="BOOL">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="308" C="16" PS="Ln:308, Col:16" A="R" />
+        <Pos L="316" C="12" PS="Ln:316, Col:12" A="R" />
+      </File>
+    </Var>
+    <Var Name="gr_rAxisTimSet_SP_Vel" Scope="Global" Type="REAL">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="266" C="29" PS="Ln:266, Col:29" A="R" />
+      </File>
+    </Var>
+    <Var Name="gr_rAxisTimSet_SP_Acc" Scope="Global" Type="REAL">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="267" C="29" PS="Ln:267, Col:29" A="R" />
+      </File>
+    </Var>
+    <Var Name="gr_rAxisTimSet_SP_Dec" Scope="Global" Type="REAL">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="268" C="29" PS="Ln:268, Col:29" A="R" />
+      </File>
+    </Var>
+    <Var Name="gstCycA.CycManTimSet.CmdMov" Scope="Global" Type="stCycAxis[0..15]">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="264" C="11" PS="Ln:264, Col:11" A="R" />
+        <Pos L="345" C="47" PS="Ln:345, Col:47" A="R" />
+      </File>
+    </Var>
+    <Var Name="A1_Basic.AxisErrorNcAccess" Scope="Local" Type="UINT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicInit.st">
+        <Pos L="30" C="3" PS="Ln:30, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.SP_MotorPPR" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicInit.st">
+        <Pos L="15" C="3" PS="Ln:15, Col:3" A="W" />
+        <Pos L="18" C="24" PS="Ln:18, Col:24" A="R" />
+      </File>
+    </Var>
+    <Var Name="gA.SP_GearBoxInput" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicInit.st">
+        <Pos L="16" C="3" PS="Ln:16, Col:3" A="W" />
+        <Pos L="18" C="42" PS="Ln:18, Col:42" A="R" />
+      </File>
+    </Var>
+    <Var Name="gA.SP_GearBoxOutput" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicInit.st">
+        <Pos L="17" C="3" PS="Ln:17, Col:3" A="W" />
+        <Pos L="18" C="64" PS="Ln:18, Col:64" A="R" />
+      </File>
+    </Var>
+    <Var Name="gA.rSP_CorPosVel" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicInit.st">
+        <Pos L="23" C="5" PS="Ln:23, Col:5" A="W" />
+        <Pos L="24" C="5" PS="Ln:24, Col:5" A="W" />
+      </File>
+    </Var>
+  </Vars>
+  <Consts>
+    <Const Name="ncPAR_TYP_DINT" Scope="Global" Type="UINT">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="181" C="39" PS="Ln:181, Col:39" A="R" />
+        <Pos L="187" C="39" PS="Ln:187, Col:39" A="R" />
+      </File>
+    </Const>
+    <Const Name="mcHOME_DIRECT" Scope="Global" Type="USINT">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="133" C="25" PS="Ln:133, Col:25" A="R" />
+      </File>
+    </Const>
+    <Const Name="mcHOME_RESTORE_POS" Scope="Global" Type="USINT">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="146" C="25" PS="Ln:146, Col:25" A="R" />
+      </File>
+    </Const>
+    <Const Name="mcNEGATIVE_DIR" Scope="Global" Type="USINT">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="272" C="32" PS="Ln:272, Col:32" A="R" />
+      </File>
+    </Const>
+    <Const Name="mcPOSITIVE_DIR" Scope="Global" Type="USINT">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="263" C="30" PS="Ln:263, Col:30" A="R" />
+        <Pos L="270" C="32" PS="Ln:270, Col:32" A="R" />
+      </File>
+    </Const>
+    <Const Name="mcRELATIVE" Scope="Global" Type="USINT">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="343" C="42" PS="Ln:343, Col:42" A="R" />
+      </File>
+    </Const>
+    <Const Name="ncACP10MAN" Scope="Global" Type="UINT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicInit.st">
+        <Pos L="30" C="33" PS="Ln:30, Col:33" A="R" />
+      </File>
+    </Const>
+  </Consts>
+  <Enums>
+  </Enums>
+  <Funcs>
+    <Func Name="H_FC_Modulus" Lib="HGWeber">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="205" C="21" PS="Ln:205, Col:21" />
+        <Pos L="211" C="26" PS="Ln:211, Col:26" />
+      </File>
+    </Func>
+    <Func Name="MC_BR_CyclicRead" Lib="acp10_mc">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="201" C="5" PS="Ln:201, Col:5" />
+        <Pos L="202" C="5" PS="Ln:202, Col:5" />
+      </File>
+    </Func>
+    <Func Name="MC_BR_InitEndlessPosition" Lib="acp10_mc">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="125" C="3" PS="Ln:125, Col:3" />
+      </File>
+    </Func>
+    <Func Name="MC_BR_InitModPos" Lib="acp10_mc">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="114" C="3" PS="Ln:114, Col:3" />
+      </File>
+    </Func>
+    <Func Name="MC_BR_Phasing" Lib="acp10_mc">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="346" C="3" PS="Ln:346, Col:3" />
+      </File>
+    </Func>
+    <Func Name="MC_BR_ReadDriveStatus" Lib="acp10_mc">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="33" C="3" PS="Ln:33, Col:3" />
+      </File>
+    </Func>
+    <Func Name="MC_Home" Lib="acp10_mc">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="138" C="3" PS="Ln:138, Col:3" />
+        <Pos L="151" C="3" PS="Ln:151, Col:3" />
+      </File>
+    </Func>
+    <Func Name="MC_MoveVelocity" Lib="acp10_mc">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="282" C="2" PS="Ln:282, Col:2" />
+      </File>
+    </Func>
+    <Func Name="MC_Power" Lib="acp10_mc">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="255" C="3" PS="Ln:255, Col:3" />
+      </File>
+    </Func>
+    <Func Name="MC_ReadActualPosition" Lib="acp10_mc">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="156" C="5" PS="Ln:156, Col:5" />
+      </File>
+    </Func>
+    <Func Name="MC_ReadActualTorque" Lib="acp10_mc">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="243" C="3" PS="Ln:243, Col:3" />
+      </File>
+    </Func>
+    <Func Name="MC_ReadActualVelocity" Lib="acp10_mc">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="225" C="3" PS="Ln:225, Col:3" />
+      </File>
+    </Func>
+    <Func Name="MC_ReadAxisError" Lib="acp10_mc">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="53" C="3" PS="Ln:53, Col:3" />
+      </File>
+    </Func>
+    <Func Name="MC_ReadStatus" Lib="acp10_mc">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="91" C="3" PS="Ln:91, Col:3" />
+      </File>
+    </Func>
+    <Func Name="MC_Reset" Lib="acp10_mc">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="86" C="3" PS="Ln:86, Col:3" />
+      </File>
+    </Func>
+    <Func Name="MC_SetOverride" Lib="acp10_mc">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="293" C="5" PS="Ln:293, Col:5" />
+      </File>
+    </Func>
+    <Func Name="MC_Stop" Lib="acp10_mc">
+      <File Name="C:/Job_Files/Holweg/CompletBackUp_RS15_RS15_RX_30005_r0_120824/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicCyclic.st">
+        <Pos L="304" C="3" PS="Ln:304, Col:3" />
+        <Pos L="319" C="5" PS="Ln:319, Col:5" />
+      </File>
+    </Func>
+    <Func Name="ncaccess" Lib="Ncglobal">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Basic/A1_BasicInit.st">
+        <Pos L="30" C="24" PS="Ln:30, Col:24" />
+      </File>
+    </Func>
+  </Funcs>
+  <Actions>
+  </Actions>
+</Crossref>

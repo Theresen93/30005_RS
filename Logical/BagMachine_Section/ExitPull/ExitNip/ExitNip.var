@@ -1,0 +1,18 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Program: ExitNip
+ * File: ExitNip.var
+ * Author: pkiel
+ * Created: July 20, 2011
+ ********************************************************************
+ * Local variables of program ExitNip
+ ********************************************************************)
+
+VAR
+  bQ_SOL_WebExitNip : BOOL ;
+END_VAR
+
+VAR CONSTANT
+
+END_VAR

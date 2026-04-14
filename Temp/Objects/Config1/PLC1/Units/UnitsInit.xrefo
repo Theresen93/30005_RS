@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Crossref Scope="HMI.Units">
+	<Vars>
+		<Var Name="Units.InchMetric_PB" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/Units/UnitsInit.st">
+				<Pos L="15" C="3" PS="Ln:15, Col:3" A="W"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

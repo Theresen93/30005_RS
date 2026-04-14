@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<Crossref Scope="HMI.HMI_Control">
+	<Vars>
+		<Var Name="HMI_Control.CfgSetDefaultGateway_0" Scope="Local" Type="CfgSetDefaultGateway">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="55" C="2" PS="Ln:55, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="HMI_Control.HMI_AlarmInputStatus" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="18" C="2" PS="Ln:18, Col:2" A="W"/>
+				<Pos L="18" C="24" PS="Ln:18, Col:24" A="R"/>
+			</File>
+		</Var>
+		<Var Name="HMI_Control.HMI_MainScreenGroup" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="14" C="2" PS="Ln:14, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="HMI_Control.HMI_MaintenanceScreenGroup" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="17" C="2" PS="Ln:17, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="HMI_Control.HMI_SetupScreenGroup" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="15" C="2" PS="Ln:15, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="HMI_Control.HMI_StatusScreenGroup" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="16" C="2" PS="Ln:16, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="HMI_Control.HMI_uiCurvVisibl" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="19" C="3" PS="Ln:19, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="HMI_Control.HMI_uiNeverVisibl" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="20" C="3" PS="Ln:20, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="HMI_Control.HMI_strMP_UNW_HydroPump" Scope="Local" Type="STRING[10]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="23" C="3" PS="Ln:23, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="HMI_Control.HMI_strMP_FP_MotorFan" Scope="Local" Type="STRING[10]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="25" C="3" PS="Ln:25, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="HMI_Control.HMI_strMP_FP_SlowRot1" Scope="Local" Type="STRING[10]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="26" C="3" PS="Ln:26, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="HMI_Control.HMI_strMP_FP_SlowRot2" Scope="Local" Type="STRING[10]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="27" C="3" PS="Ln:27, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="HMI_Control.HMI_strMP_FP_SlowRot3" Scope="Local" Type="STRING[10]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="28" C="3" PS="Ln:28, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="HMI_Control.HMI_strMP_FP_SlowRot4" Scope="Local" Type="STRING[10]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="29" C="3" PS="Ln:29, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="HMI_Control.HMI_strMP_FP_SlowRot5" Scope="Local" Type="STRING[10]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="30" C="3" PS="Ln:30, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="HMI_Control.HMI_strMP_FP_SlowRot6" Scope="Local" Type="STRING[10]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="31" C="3" PS="Ln:31, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="HMI_Control.HMI_strMP_GlueSlowRotation" Scope="Local" Type="STRING[10]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="33" C="3" PS="Ln:33, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="HMI_Control.HMI_strMP_PerfFan" Scope="Local" Type="STRING[10]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="34" C="3" PS="Ln:34, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="HMI_Control.HMI_strMP_Vacuum" Scope="Local" Type="STRING[10]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="35" C="3" PS="Ln:35, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="HMI_Control.HMI_strMP_3W_MotorFan" Scope="Local" Type="STRING[10]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="37" C="3" PS="Ln:37, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="HMI_Control.HMI_strMP_DRY_Blower" Scope="Local" Type="STRING[12]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="39" C="3" PS="Ln:39, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="HMI_Control.HMI_strMP_DRY_Heater" Scope="Local" Type="STRING[10]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="40" C="3" PS="Ln:40, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="HMI_Control.HMI_strSS_DRY_Thermostat" Scope="Local" Type="STRING[10]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="41" C="3" PS="Ln:41, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="HMI_Control.HMI_strMP_CMP_WasteSuc" Scope="Local" Type="STRING[10]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="43" C="3" PS="Ln:43, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="HMI_Control.HMI_strMP_EB_WasteSuc" Scope="Local" Type="STRING[10]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="45" C="3" PS="Ln:45, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="HMI_Control.HMI_iAnimSynchroAxisVisibl" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="47" C="3" PS="Ln:47, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="HMI_Control.HMI_iHTEnvBOffsetVisibl" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="50" C="3" PS="Ln:50, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="g_bSplashDone" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="48" C="3" PS="Ln:48, Col:3" A="W"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="CfgSetDefaultGateway" Lib="AsARCfg">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/HMI_Control/HMI_ControlInit.st">
+				<Pos L="55" C="2" PS="Ln:55, Col:2"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

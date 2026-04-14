@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Crossref Scope="BagMachine_Section.EntryPull.EntryNip">
+	<Vars>
+		<Var Name="gI_SafetyRelay_EStopOK" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/EntryNip/EntryNipCyclic.ld">
+				<Pos L="1" C="3" EP="1" PS="Net:1, Ln:1, Col:3" A="R"/>
+				<Pos L="3" C="1" EP="2" PS="Net:2, Ln:3, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_WebEntryNipOff_1" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/EntryNip/EntryNipCyclic.ld">
+				<Pos L="1" C="2" EP="1" PS="Net:1, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="1" EP="2" PS="Net:2, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_WebEntryNipOff_2" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/EntryNip/EntryNipCyclic.ld">
+				<Pos L="2" C="2" EP="1" PS="Net:1, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="1" EP="2" PS="Net:2, Ln:2, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_WebEntryNipOn_1" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/EntryNip/EntryNipCyclic.ld">
+				<Pos L="1" C="1" EP="1" PS="Net:1, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_WebEntryNipOn_2" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/EntryNip/EntryNipCyclic.ld">
+				<Pos L="2" C="1" EP="1" PS="Net:1, Ln:2, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gQ_SOL_WebEntryNip" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/EntryNip/EntryNipCyclic.ld">
+				<Pos L="1" C="5" EP="1" PS="Net:1, Ln:1, Col:5" A="W"/>
+				<Pos L="1" C="2" EP="2" PS="Net:2, Ln:1, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="g_bMainPower_On" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/EntryNip/EntryNipCyclic.ld">
+				<Pos L="1" C="4" EP="1" PS="Net:1, Ln:1, Col:4" A="R"/>
+				<Pos L="4" C="1" EP="2" PS="Net:2, Ln:4, Col:1" A="R"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

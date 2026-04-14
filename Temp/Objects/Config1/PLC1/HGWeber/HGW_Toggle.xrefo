@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Crossref Scope="Libraries.HGWeber">
+	<Vars>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="TON" Lib="standard">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/HGWeber/HGW_Toggle.ld">
+				<Pos L="2" C="5" EP="1" PS="Net:1, Ln:2, Col:5"/>
+				<Pos L="2" C="4" EP="2" PS="Net:2, Ln:2, Col:4"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

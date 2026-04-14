@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <P55_Maint_IO_L3_1 ReferenceString="Source[local].Page[P55_Maint_IO_L3_1]">
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P55_Maint_IO_L3_1].Layer[Default].Control[Bitmap_20].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_StopPB_2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P55_Maint_IO_L3_1].Layer[Default].Control[Bitmap_21].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_SS_PerfPos]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P55_Maint_IO_L3_1].Layer[Default].Control[Bitmap_22].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_PB_MachineStart]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P55_Maint_IO_L3_1].Layer[Default].Control[Bitmap_23].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_EstopPB_1]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P55_Maint_IO_L3_1].Layer[Default].Control[Bitmap_24].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_FasterPB_1]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P55_Maint_IO_L3_1].Layer[Default].Control[Bitmap_26].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_SS_PerfNeg]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P55_Maint_IO_L3_1].Layer[Default].Control[Bitmap_25].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_SS_GluePanUpDown]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P55_Maint_IO_L3_1].Layer[Default].Control[Bitmap_31].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_SS_WebExitNip]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P55_Maint_IO_L3_1].Layer[Default].Control[Bitmap_32].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_SS_HoldingPos]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P55_Maint_IO_L3_1].Layer[Default].Control[Bitmap_33].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_SS_ExitTableSlower]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P55_Maint_IO_L3_1].Layer[Default].Control[Bitmap_34].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_SS_ExitTableFaster]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P55_Maint_IO_L3_1].Layer[Default].Control[Bitmap_35].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_SS_HoldingNeg]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P55_Maint_IO_L3_1].Layer[Default].Control[Bitmap_30].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_SS_TearingNeg]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P55_Maint_IO_L3_1].Layer[Default].Control[Bitmap_29].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_SS_TearingPos]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P55_Maint_IO_L3_1].Layer[Default].Control[Bitmap_27].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_PrintOff_PB]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P55_Maint_IO_L3_1].Layer[Default].Control[Bitmap_28].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_PrintOn_PB]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P55_Maint_IO_L3_1].Layer[Default].Control[Bitmap_11].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_GSW_Door1]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P55_Maint_IO_L3_1].Layer[Default].Control[Bitmap_14].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_GSW_Door2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P55_Maint_IO_L3_1].Layer[Default].Control[Bitmap_15].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_GSW_Tearing]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P55_Maint_IO_L3_1].Layer[Default].Control[Bitmap_36].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_GSW_Drum]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P55_Maint_IO_L3_1].Layer[Default].Control[Bitmap_8].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_EstopPB_2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P55_Maint_IO_L3_1].Layer[Default].Control[Bitmap_9].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_JogPB_1]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P55_Maint_IO_L3_1].Layer[Default].Control[Bitmap_12].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_SlowerPB_2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P55_Maint_IO_L3_1].Layer[Default].Control[Bitmap_16].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_JamPE_RS]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </P55_Maint_IO_L3_1>
+</VCXReferenceList>

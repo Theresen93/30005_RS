@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Crossref Scope="Libraries.HGWeber">
+	<Vars>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="r_trig" Lib="runtime">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/HGWeber/HGW_KeyRepeat.st">
+				<Pos L="19" C="2" PS="Ln:19, Col:2"/>
+				<Pos L="20" C="2" PS="Ln:20, Col:2"/>
+				<Pos L="21" C="2" PS="Ln:21, Col:2"/>
+			</File>
+		</Func>
+		<Func Name="TON" Lib="standard">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/HGWeber/HGW_KeyRepeat.st">
+				<Pos L="15" C="2" PS="Ln:15, Col:2"/>
+				<Pos L="16" C="2" PS="Ln:16, Col:2"/>
+				<Pos L="17" C="2" PS="Ln:17, Col:2"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

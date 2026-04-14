@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<Crossref Scope="BagMachine_Section.Count">
+	<Vars>
+		<Var Name="Count.HGW_2StatePB_0.BackColor_State0" Scope="Local" Type="HGW_2StatePB">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Count/CountInit.st">
+				<Pos L="18" C="2" PS="Ln:18, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Count.HGW_2StatePB_0.ForeColor_State0" Scope="Local" Type="HGW_2StatePB">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Count/CountInit.st">
+				<Pos L="19" C="2" PS="Ln:19, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Count.HGW_2StatePB_0.BackColor_State1" Scope="Local" Type="HGW_2StatePB">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Count/CountInit.st">
+				<Pos L="20" C="2" PS="Ln:20, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Count.HGW_2StatePB_0.ForeColor_State1" Scope="Local" Type="HGW_2StatePB">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Count/CountInit.st">
+				<Pos L="21" C="2" PS="Ln:21, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Count.HMI_CountSelect_Ind" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Count/CountInit.st">
+				<Pos L="14" C="2" PS="Ln:14, Col:2" A="W"/>
+				<Pos L="14" C="31" PS="Ln:14, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Count.HMI_ProductCountVisibility" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Count/CountInit.st">
+				<Pos L="15" C="2" PS="Ln:15, Col:2" A="W"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+		<Const Name="gBlack" Scope="Global" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Count/CountInit.st">
+				<Pos L="21" C="37" PS="Ln:21, Col:37" A="R"/>
+			</File>
+		</Const>
+		<Const Name="gBlue" Scope="Global" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Count/CountInit.st">
+				<Pos L="18" C="37" PS="Ln:18, Col:37" A="R"/>
+			</File>
+		</Const>
+		<Const Name="gGreen" Scope="Global" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Count/CountInit.st">
+				<Pos L="20" C="37" PS="Ln:20, Col:37" A="R"/>
+			</File>
+		</Const>
+		<Const Name="gWhite" Scope="Global" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Count/CountInit.st">
+				<Pos L="19" C="37" PS="Ln:19, Col:37" A="R"/>
+			</File>
+		</Const>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

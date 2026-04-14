@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Crossref Scope="HMI.Recipe_1">
+	<Vars>
+		<Var Name="Recipe_1.RecipeCurrent_Index" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/Recipe_1/Recipe_1Init.st">
+				<Pos L="18" C="2" PS="Ln:18, Col:2" A="W"/>
+				<Pos L="18" C="33" PS="Ln:18, Col:33" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Recipe_1.RecipeLoadPopUp" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/Recipe_1/Recipe_1Init.st">
+				<Pos L="14" C="2" PS="Ln:14, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Recipe_1.RecipeSavePopUp" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/Recipe_1/Recipe_1Init.st">
+				<Pos L="15" C="2" PS="Ln:15, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Recipe_1.RecipeSaveAsPopUp" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/Recipe_1/Recipe_1Init.st">
+				<Pos L="16" C="2" PS="Ln:16, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Recipe_1.RecipeDeletePopUp" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/HMI/Recipe_1/Recipe_1Init.st">
+				<Pos L="17" C="2" PS="Ln:17, Col:2" A="W"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

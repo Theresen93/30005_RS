@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="3.0.90.22 SP04"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="DropDown_MaintenanceScreenV2">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="45"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="465779" Value="MAINTENANCE: BAG MACHINE"/>
+    <Text ID="465780" Value="MAINTENANCE: PASSWORD MANAGEMENT"/>
+    <Text ID="465781" Value="MAINTENANCE: MACHINE INFORMATION"/>
+    <Text ID="465782" Value="MAINTENANCE: MISCELLANEOUS"/>
+    <Text ID="465783" Value="MAINTENANCE: SERVO HOMING"/>
+    <Text ID="465784" Value="MAINTENANCE: MAIN ENCLOSURE I/O 1"/>
+    <Text ID="465785" Value="MAINTENANCE: L3 ENCLOSURE I/O 2"/>
+    <Text ID="465786" Value="MAINTENANCE: L3 ENCLOSURE I/O 1"/>
+    <Text ID="465787" Value="MAINTENANCE: MAIN ENCLOSURE I/O 3"/>
+    <Text ID="465788" Value="MAINTENANCE: L3 ENCLOSURE I/O 3"/>
+    <Text ID="465789" Value="MAINTENANCE: MAIN ENCLOSURE I/O 2"/>
+    <Text ID="465790" Value="MAINTENANCE: MAIN ENCLOSURE I/O 4"/>
+    <Text ID="465791" Value="MAINTENANCE: L15 ENCLOSURE I/O 1"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="465779" Value=""/>
+    <Text ID="465780" Value=""/>
+    <Text ID="465781" Value=""/>
+    <Text ID="465782" Value=""/>
+    <Text ID="465783" Value=""/>
+    <Text ID="465784" Value=""/>
+    <Text ID="465785" Value=""/>
+    <Text ID="465786" Value=""/>
+    <Text ID="465787" Value=""/>
+    <Text ID="465788" Value=""/>
+    <Text ID="465789" Value=""/>
+    <Text ID="465790" Value=""/>
+    <Text ID="465791" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="465779" Value=""/>
+    <Text ID="465780" Value=""/>
+    <Text ID="465781" Value=""/>
+    <Text ID="465782" Value=""/>
+    <Text ID="465783" Value=""/>
+    <Text ID="465784" Value=""/>
+    <Text ID="465785" Value=""/>
+    <Text ID="465786" Value=""/>
+    <Text ID="465787" Value=""/>
+    <Text ID="465788" Value=""/>
+    <Text ID="465789" Value=""/>
+    <Text ID="465790" Value=""/>
+    <Text ID="465791" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="465779" Value="Ylläpito: Pussikone"/>
+    <Text ID="465780" Value="Ylläpito: Salasanan hallinta"/>
+    <Text ID="465781" Value="Ylläpito: Kone informaatio"/>
+    <Text ID="465782" Value="Ylläpito: Sekalaista"/>
+    <Text ID="465783" Value="Ylläpito: Servo kotiutus"/>
+    <Text ID="465784" Value="Ylläpito: Pääkotelo I/O 1"/>
+    <Text ID="465785" Value="Ylläpito: L3 kotelo I/O 2"/>
+    <Text ID="465786" Value="Ylläpito: L3 kotelo I/O 1"/>
+    <Text ID="465787" Value="Ylläpito: Pääkotelo I/O 3"/>
+    <Text ID="465788" Value="Ylläpito: L3 kotelo I/O 3"/>
+    <Text ID="465789" Value="Ylläpito: Pääkotelo I/O 2"/>
+    <Text ID="465790" Value="Ylläpito: Pääkotelo I/O 4"/>
+    <Text ID="465791" Value="Ylläpito: L15 kotelo I/O 1"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="465779" Value="40"/>
+    <Index ID="465780" Value="43"/>
+    <Index ID="465781" Value="44"/>
+    <Index ID="465782" Value="42"/>
+    <Index ID="465783" Value="41"/>
+    <Index ID="465784" Value="50"/>
+    <Index ID="465785" Value="56"/>
+    <Index ID="465786" Value="55"/>
+    <Index ID="465787" Value="52"/>
+    <Index ID="465788" Value="57"/>
+    <Index ID="465789" Value="51"/>
+    <Index ID="465790" Value="53"/>
+    <Index ID="465791" Value="60"/>
+  </IndexMap>
+</TextGroup>

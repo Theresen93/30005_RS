@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <Velocity_FPM_MPM ReferenceString="Source[global].UnitGroup[Velocity_FPM_MPM]">
+      <Connection>
+         <Property ReferenceString="Source[global].UnitGroup[Velocity_FPM_MPM].Property[RuntimeUnitChange]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gInchMetric_Ind]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </Velocity_FPM_MPM>
+</VCXReferenceList>

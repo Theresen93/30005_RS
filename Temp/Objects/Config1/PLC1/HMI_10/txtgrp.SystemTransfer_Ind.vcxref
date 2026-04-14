@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <TextSnippet_3 ReferenceString="Source[local].TextGroup[SystemTransfer_Ind].Snippet[]">
+      <Connection>
+         <Property ReferenceString="Source[local].TextGroup[SystemTransfer_Ind].Snippet[TextSnippet_3].Property[Datapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.HMI.BackUp.byErrorLevel]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].TextGroup[SystemTransfer_Ind].Snippet[TextSnippet_2].Property[Datapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.HMI.BackUp.wError]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].TextGroup[SystemTransfer_Ind].Snippet[TextSnippet_1].Property[Datapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.HMI.BackUp.wStatus]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </TextSnippet_3>
+</VCXReferenceList>

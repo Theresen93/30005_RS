@@ -1,0 +1,2225 @@
+<?xml version="1.0"?>
+<Crossref Scope="SupervisoryControl_Section.Alarm_Section.Alarms1">
+	<Vars>
+		<Var Name="Alarms1.Alarm1" Scope="Local" Type="BOOL[0..200]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="3" EP="1" PS="Net:1, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="1" PS="Net:1, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="2" PS="Net:2, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="2" PS="Net:2, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="3" PS="Net:3, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="3" PS="Net:3, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="4" PS="Net:4, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="4" PS="Net:4, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="5" PS="Net:5, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="5" PS="Net:5, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="6" PS="Net:6, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="6" PS="Net:6, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="7" PS="Net:7, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="7" PS="Net:7, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="8" PS="Net:8, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="8" PS="Net:8, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="9" PS="Net:9, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="9" PS="Net:9, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="11" PS="Net:11, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="11" PS="Net:11, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="12" PS="Net:12, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="12" PS="Net:12, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="13" PS="Net:13, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="13" PS="Net:13, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="1" EP="14" PS="Net:14, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="2" EP="14" PS="Net:14, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="3" EP="14" PS="Net:14, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="4" EP="14" PS="Net:14, Ln:1, Col:4" A="R"/>
+				<Pos L="1" C="5" EP="14" PS="Net:14, Ln:1, Col:5" A="R"/>
+				<Pos L="1" C="6" EP="14" PS="Net:14, Ln:1, Col:6" A="R"/>
+				<Pos L="1" C="7" EP="14" PS="Net:14, Ln:1, Col:7" A="R"/>
+				<Pos L="1" C="2" EP="15" PS="Net:15, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="4" EP="15" PS="Net:15, Ln:1, Col:4" A="R"/>
+				<Pos L="1" C="5" EP="15" PS="Net:15, Ln:1, Col:5" A="R"/>
+				<Pos L="1" C="2" EP="16" PS="Net:16, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="3" EP="16" PS="Net:16, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="4" EP="16" PS="Net:16, Ln:1, Col:4" A="R"/>
+				<Pos L="1" C="5" EP="16" PS="Net:16, Ln:1, Col:5" A="R"/>
+				<Pos L="1" C="6" EP="16" PS="Net:16, Ln:1, Col:6" A="R"/>
+				<Pos L="1" C="7" EP="16" PS="Net:16, Ln:1, Col:7" A="R"/>
+				<Pos L="1" C="3" EP="19" PS="Net:19, Ln:1, Col:3" A="W"/>
+				<Pos L="3" C="1" EP="19" PS="Net:19, Ln:3, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="20" PS="Net:20, Ln:1, Col:3" A="W"/>
+				<Pos L="3" C="1" EP="20" PS="Net:20, Ln:3, Col:1" A="R"/>
+				<Pos L="1" C="4" EP="21" PS="Net:21, Ln:1, Col:4" A="W"/>
+				<Pos L="2" C="1" EP="21" PS="Net:21, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="4" EP="22" PS="Net:22, Ln:1, Col:4" A="W"/>
+				<Pos L="3" C="1" EP="22" PS="Net:22, Ln:3, Col:1" A="R"/>
+				<Pos L="1" C="4" EP="23" PS="Net:23, Ln:1, Col:4" A="W"/>
+				<Pos L="2" C="1" EP="23" PS="Net:23, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="24" PS="Net:24, Ln:1, Col:3" A="W"/>
+				<Pos L="3" C="1" EP="24" PS="Net:24, Ln:3, Col:1" A="R"/>
+				<Pos L="1" C="4" EP="25" PS="Net:25, Ln:1, Col:4" A="W"/>
+				<Pos L="2" C="1" EP="25" PS="Net:25, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="26" PS="Net:26, Ln:1, Col:3" A="W"/>
+				<Pos L="3" C="1" EP="26" PS="Net:26, Ln:3, Col:1" A="R"/>
+				<Pos L="1" C="4" EP="27" PS="Net:27, Ln:1, Col:4" A="W"/>
+				<Pos L="3" C="1" EP="27" PS="Net:27, Ln:3, Col:1" A="R"/>
+				<Pos L="1" C="4" EP="28" PS="Net:28, Ln:1, Col:4" A="W"/>
+				<Pos L="3" C="1" EP="28" PS="Net:28, Ln:3, Col:1" A="R"/>
+				<Pos L="1" C="5" EP="29" PS="Net:29, Ln:1, Col:5" A="W"/>
+				<Pos L="3" C="1" EP="29" PS="Net:29, Ln:3, Col:1" A="R"/>
+				<Pos L="1" C="1" EP="30" PS="Net:30, Ln:1, Col:1" A="R"/>
+				<Pos L="2" C="1" EP="30" PS="Net:30, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="4" EP="31" PS="Net:31, Ln:1, Col:4" A="W"/>
+				<Pos L="3" C="1" EP="31" PS="Net:31, Ln:3, Col:1" A="R"/>
+				<Pos L="1" C="5" EP="32" PS="Net:32, Ln:1, Col:5" A="W"/>
+				<Pos L="3" C="1" EP="32" PS="Net:32, Ln:3, Col:1" A="R"/>
+				<Pos L="1" C="5" EP="33" PS="Net:33, Ln:1, Col:5" A="W"/>
+				<Pos L="3" C="1" EP="33" PS="Net:33, Ln:3, Col:1" A="R"/>
+				<Pos L="1" C="4" EP="34" PS="Net:34, Ln:1, Col:4" A="W"/>
+				<Pos L="3" C="1" EP="34" PS="Net:34, Ln:3, Col:1" A="R"/>
+				<Pos L="1" C="1" EP="35" PS="Net:35, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="2" EP="35" PS="Net:35, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="3" EP="35" PS="Net:35, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="4" EP="35" PS="Net:35, Ln:1, Col:4" A="R"/>
+				<Pos L="1" C="5" EP="35" PS="Net:35, Ln:1, Col:5" A="R"/>
+				<Pos L="1" C="6" EP="35" PS="Net:35, Ln:1, Col:6" A="R"/>
+				<Pos L="1" C="7" EP="35" PS="Net:35, Ln:1, Col:7" A="R"/>
+				<Pos L="1" C="8" EP="35" PS="Net:35, Ln:1, Col:8" A="R"/>
+				<Pos L="1" C="9" EP="35" PS="Net:35, Ln:1, Col:9" A="R"/>
+				<Pos L="1" C="2" EP="36" PS="Net:36, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="3" EP="36" PS="Net:36, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="4" EP="36" PS="Net:36, Ln:1, Col:4" A="R"/>
+				<Pos L="1" C="5" EP="36" PS="Net:36, Ln:1, Col:5" A="R"/>
+				<Pos L="1" C="6" EP="36" PS="Net:36, Ln:1, Col:6" A="R"/>
+				<Pos L="1" C="7" EP="36" PS="Net:36, Ln:1, Col:7" A="R"/>
+				<Pos L="1" C="8" EP="36" PS="Net:36, Ln:1, Col:8" A="R"/>
+				<Pos L="1" C="9" EP="36" PS="Net:36, Ln:1, Col:9" A="R"/>
+				<Pos L="1" C="3" EP="37" PS="Net:37, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="37" PS="Net:37, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="38" PS="Net:38, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="38" PS="Net:38, Ln:2, Col:1" A="R"/>
+				<Pos L="2" C="5" EP="39" PS="Net:39, Ln:2, Col:5" A="W"/>
+				<Pos L="4" C="1" EP="39" PS="Net:39, Ln:4, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="40" PS="Net:40, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="40" PS="Net:40, Ln:2, Col:1" A="R"/>
+				<Pos L="2" C="5" EP="41" PS="Net:41, Ln:2, Col:5" A="W"/>
+				<Pos L="4" C="1" EP="41" PS="Net:41, Ln:4, Col:1" A="R"/>
+				<Pos L="1" C="4" EP="42" PS="Net:42, Ln:1, Col:4" A="W"/>
+				<Pos L="2" C="1" EP="42" PS="Net:42, Ln:2, Col:1" A="R"/>
+				<Pos L="2" C="5" EP="43" PS="Net:43, Ln:2, Col:5" A="W"/>
+				<Pos L="4" C="1" EP="43" PS="Net:43, Ln:4, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="44" PS="Net:44, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="44" PS="Net:44, Ln:2, Col:1" A="R"/>
+				<Pos L="2" C="5" EP="45" PS="Net:45, Ln:2, Col:5" A="W"/>
+				<Pos L="4" C="1" EP="45" PS="Net:45, Ln:4, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="46" PS="Net:46, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="46" PS="Net:46, Ln:2, Col:1" A="R"/>
+				<Pos L="2" C="5" EP="47" PS="Net:47, Ln:2, Col:5" A="W"/>
+				<Pos L="4" C="1" EP="47" PS="Net:47, Ln:4, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="48" PS="Net:48, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="48" PS="Net:48, Ln:2, Col:1" A="R"/>
+				<Pos L="2" C="5" EP="49" PS="Net:49, Ln:2, Col:5" A="W"/>
+				<Pos L="4" C="1" EP="49" PS="Net:49, Ln:4, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="50" PS="Net:50, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="50" PS="Net:50, Ln:2, Col:1" A="R"/>
+				<Pos L="2" C="5" EP="51" PS="Net:51, Ln:2, Col:5" A="W"/>
+				<Pos L="4" C="1" EP="51" PS="Net:51, Ln:4, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="52" PS="Net:52, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="52" PS="Net:52, Ln:2, Col:1" A="R"/>
+				<Pos L="2" C="6" EP="53" PS="Net:53, Ln:2, Col:6" A="W"/>
+				<Pos L="4" C="1" EP="53" PS="Net:53, Ln:4, Col:1" A="R"/>
+				<Pos L="1" C="4" EP="54" PS="Net:54, Ln:1, Col:4" A="W"/>
+				<Pos L="2" C="1" EP="54" PS="Net:54, Ln:2, Col:1" A="R"/>
+				<Pos L="2" C="6" EP="55" PS="Net:55, Ln:2, Col:6" A="W"/>
+				<Pos L="4" C="1" EP="55" PS="Net:55, Ln:4, Col:1" A="R"/>
+				<Pos L="1" C="4" EP="56" PS="Net:56, Ln:1, Col:4" A="W"/>
+				<Pos L="2" C="1" EP="56" PS="Net:56, Ln:2, Col:1" A="R"/>
+				<Pos L="2" C="6" EP="57" PS="Net:57, Ln:2, Col:6" A="W"/>
+				<Pos L="4" C="1" EP="57" PS="Net:57, Ln:4, Col:1" A="R"/>
+				<Pos L="1" C="4" EP="58" PS="Net:58, Ln:1, Col:4" A="W"/>
+				<Pos L="2" C="1" EP="58" PS="Net:58, Ln:2, Col:1" A="R"/>
+				<Pos L="2" C="6" EP="59" PS="Net:59, Ln:2, Col:6" A="W"/>
+				<Pos L="4" C="1" EP="59" PS="Net:59, Ln:4, Col:1" A="R"/>
+				<Pos L="1" C="4" EP="60" PS="Net:60, Ln:1, Col:4" A="W"/>
+				<Pos L="2" C="1" EP="60" PS="Net:60, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="4" EP="61" PS="Net:61, Ln:1, Col:4" A="W"/>
+				<Pos L="2" C="1" EP="61" PS="Net:61, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="62" PS="Net:62, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="62" PS="Net:62, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="6" EP="63" PS="Net:63, Ln:1, Col:6" A="W"/>
+				<Pos L="2" C="1" EP="63" PS="Net:63, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="64" PS="Net:64, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="64" PS="Net:64, Ln:2, Col:1" A="R"/>
+				<Pos L="2" C="6" EP="65" PS="Net:65, Ln:2, Col:6" A="W"/>
+				<Pos L="4" C="1" EP="65" PS="Net:65, Ln:4, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="66" PS="Net:66, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="66" PS="Net:66, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="4" EP="67" PS="Net:67, Ln:1, Col:4" A="W"/>
+				<Pos L="2" C="1" EP="67" PS="Net:67, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="68" PS="Net:68, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="68" PS="Net:68, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="69" PS="Net:69, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="69" PS="Net:69, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="70" PS="Net:70, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="70" PS="Net:70, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="71" PS="Net:71, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="71" PS="Net:71, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="4" EP="72" PS="Net:72, Ln:1, Col:4" A="W"/>
+				<Pos L="2" C="1" EP="72" PS="Net:72, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="4" EP="73" PS="Net:73, Ln:1, Col:4" A="W"/>
+				<Pos L="2" C="1" EP="73" PS="Net:73, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="74" PS="Net:74, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="74" PS="Net:74, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="75" PS="Net:75, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="75" PS="Net:75, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="76" PS="Net:76, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="76" PS="Net:76, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="77" PS="Net:77, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="77" PS="Net:77, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="78" PS="Net:78, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="78" PS="Net:78, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="1" EP="79" PS="Net:79, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="2" EP="79" PS="Net:79, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="3" EP="79" PS="Net:79, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="4" EP="79" PS="Net:79, Ln:1, Col:4" A="R"/>
+				<Pos L="1" C="5" EP="79" PS="Net:79, Ln:1, Col:5" A="R"/>
+				<Pos L="1" C="6" EP="79" PS="Net:79, Ln:1, Col:6" A="R"/>
+				<Pos L="1" C="7" EP="79" PS="Net:79, Ln:1, Col:7" A="R"/>
+				<Pos L="1" C="1" EP="80" PS="Net:80, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="2" EP="80" PS="Net:80, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="3" EP="80" PS="Net:80, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="4" EP="80" PS="Net:80, Ln:1, Col:4" A="R"/>
+				<Pos L="1" C="5" EP="80" PS="Net:80, Ln:1, Col:5" A="R"/>
+				<Pos L="1" C="6" EP="80" PS="Net:80, Ln:1, Col:6" A="R"/>
+				<Pos L="1" C="7" EP="80" PS="Net:80, Ln:1, Col:7" A="R"/>
+				<Pos L="1" C="1" EP="81" PS="Net:81, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="2" EP="81" PS="Net:81, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="3" EP="81" PS="Net:81, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="4" EP="81" PS="Net:81, Ln:1, Col:4" A="R"/>
+				<Pos L="1" C="5" EP="81" PS="Net:81, Ln:1, Col:5" A="R"/>
+				<Pos L="1" C="6" EP="81" PS="Net:81, Ln:1, Col:6" A="R"/>
+				<Pos L="1" C="7" EP="81" PS="Net:81, Ln:1, Col:7" A="R"/>
+				<Pos L="1" C="1" EP="82" PS="Net:82, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="2" EP="82" PS="Net:82, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="3" EP="82" PS="Net:82, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="4" EP="82" PS="Net:82, Ln:1, Col:4" A="R"/>
+				<Pos L="1" C="5" EP="82" PS="Net:82, Ln:1, Col:5" A="R"/>
+				<Pos L="1" C="6" EP="82" PS="Net:82, Ln:1, Col:6" A="R"/>
+				<Pos L="1" C="7" EP="82" PS="Net:82, Ln:1, Col:7" A="R"/>
+				<Pos L="1" C="1" EP="83" PS="Net:83, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="2" EP="83" PS="Net:83, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="3" EP="83" PS="Net:83, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="4" EP="83" PS="Net:83, Ln:1, Col:4" A="R"/>
+				<Pos L="1" C="5" EP="83" PS="Net:83, Ln:1, Col:5" A="R"/>
+				<Pos L="1" C="6" EP="83" PS="Net:83, Ln:1, Col:6" A="R"/>
+				<Pos L="1" C="7" EP="83" PS="Net:83, Ln:1, Col:7" A="R"/>
+				<Pos L="1" C="1" EP="84" PS="Net:84, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="2" EP="84" PS="Net:84, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="3" EP="84" PS="Net:84, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="4" EP="84" PS="Net:84, Ln:1, Col:4" A="R"/>
+				<Pos L="1" C="5" EP="84" PS="Net:84, Ln:1, Col:5" A="R"/>
+				<Pos L="1" C="6" EP="84" PS="Net:84, Ln:1, Col:6" A="R"/>
+				<Pos L="1" C="7" EP="84" PS="Net:84, Ln:1, Col:7" A="R"/>
+				<Pos L="1" C="1" EP="85" PS="Net:85, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="2" EP="85" PS="Net:85, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="3" EP="85" PS="Net:85, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="4" EP="85" PS="Net:85, Ln:1, Col:4" A="R"/>
+				<Pos L="1" C="5" EP="85" PS="Net:85, Ln:1, Col:5" A="R"/>
+				<Pos L="1" C="6" EP="85" PS="Net:85, Ln:1, Col:6" A="R"/>
+				<Pos L="1" C="7" EP="85" PS="Net:85, Ln:1, Col:7" A="R"/>
+				<Pos L="1" C="1" EP="86" PS="Net:86, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="2" EP="86" PS="Net:86, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="3" EP="86" PS="Net:86, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="4" EP="86" PS="Net:86, Ln:1, Col:4" A="R"/>
+				<Pos L="1" C="5" EP="86" PS="Net:86, Ln:1, Col:5" A="R"/>
+				<Pos L="1" C="6" EP="86" PS="Net:86, Ln:1, Col:6" A="R"/>
+				<Pos L="1" C="7" EP="86" PS="Net:86, Ln:1, Col:7" A="R"/>
+				<Pos L="2" C="7" EP="88" PS="Net:88, Ln:2, Col:7" A="W"/>
+				<Pos L="4" C="1" EP="88" PS="Net:88, Ln:4, Col:1" A="R"/>
+				<Pos L="2" C="8" EP="89" PS="Net:89, Ln:2, Col:8" A="W"/>
+				<Pos L="4" C="1" EP="89" PS="Net:89, Ln:4, Col:1" A="R"/>
+				<Pos L="1" C="1" EP="90" PS="Net:90, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="2" EP="90" PS="Net:90, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="4" EP="91" PS="Net:91, Ln:1, Col:4" A="W"/>
+				<Pos L="2" C="1" EP="91" PS="Net:91, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="5" EP="92" PS="Net:92, Ln:1, Col:5" A="W"/>
+				<Pos L="2" C="1" EP="92" PS="Net:92, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="5" EP="93" PS="Net:93, Ln:1, Col:5" A="W"/>
+				<Pos L="2" C="1" EP="93" PS="Net:93, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="1" EP="94" PS="Net:94, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="2" EP="94" PS="Net:94, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="3" EP="94" PS="Net:94, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="4" EP="95" PS="Net:95, Ln:1, Col:4" A="W"/>
+				<Pos L="2" C="1" EP="95" PS="Net:95, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="4" EP="96" PS="Net:96, Ln:1, Col:4" A="W"/>
+				<Pos L="2" C="1" EP="96" PS="Net:96, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="6" EP="101" PS="Net:101, Ln:1, Col:6" A="W"/>
+				<Pos L="2" C="1" EP="101" PS="Net:101, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="6" EP="102" PS="Net:102, Ln:1, Col:6" A="W"/>
+				<Pos L="2" C="1" EP="102" PS="Net:102, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="5" EP="103" PS="Net:103, Ln:1, Col:5" A="W"/>
+				<Pos L="2" C="1" EP="103" PS="Net:103, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="1" EP="104" PS="Net:104, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="2" EP="104" PS="Net:104, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="3" EP="104" PS="Net:104, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="5" EP="105" PS="Net:105, Ln:1, Col:5" A="W"/>
+				<Pos L="2" C="1" EP="105" PS="Net:105, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="5" EP="106" PS="Net:106, Ln:1, Col:5" A="W"/>
+				<Pos L="2" C="1" EP="106" PS="Net:106, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="5" EP="107" PS="Net:107, Ln:1, Col:5" A="W"/>
+				<Pos L="2" C="1" EP="107" PS="Net:107, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="1" EP="108" PS="Net:108, Ln:1, Col:1" A="R"/>
+				<Pos L="2" C="1" EP="108" PS="Net:108, Ln:2, Col:1" A="R"/>
+				<Pos L="3" C="1" EP="108" PS="Net:108, Ln:3, Col:1" A="R"/>
+				<Pos L="1" C="1" EP="109" PS="Net:109, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="2" EP="109" PS="Net:109, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="3" EP="109" PS="Net:109, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="4" EP="109" PS="Net:109, Ln:1, Col:4" A="R"/>
+				<Pos L="1" C="3" EP="110" PS="Net:110, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="110" PS="Net:110, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="111" PS="Net:111, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="111" PS="Net:111, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="112" PS="Net:112, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="112" PS="Net:112, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="113" PS="Net:113, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="113" PS="Net:113, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="1" EP="114" PS="Net:114, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="2" EP="114" PS="Net:114, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="3" EP="114" PS="Net:114, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="4" EP="114" PS="Net:114, Ln:1, Col:4" A="R"/>
+				<Pos L="1" C="3" EP="115" PS="Net:115, Ln:1, Col:3" A="W"/>
+				<Pos L="2" C="1" EP="115" PS="Net:115, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="4" EP="116" PS="Net:116, Ln:1, Col:4" A="W"/>
+				<Pos L="2" C="1" EP="116" PS="Net:116, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="1" EP="117" PS="Net:117, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="2" EP="117" PS="Net:117, Ln:1, Col:2" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.BagMachineBitmap1_Ind" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="119" PS="Net:119, Ln:2, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.bAlarmIO_E1" Scope="Local" Type="BOOL[0..20]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_E1_L3.st">
+				<Pos L="20" C="7" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+				<Pos L="24" C="7" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+				<Pos L="27" C="7" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+				<Pos L="64" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="65" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="66" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="67" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="68" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="69" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="70" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="71" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="72" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="73" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="74" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="75" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="76" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="77" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="78" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="79" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="80" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="81" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="82" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="83" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.bAlarmGenIO_E1" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="100" PS="Net:100, Ln:1, Col:1" A="R"/>
+			</File>
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_E1_L3.st">
+				<Pos L="64" C="3" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.bAlarmIO_L3" Scope="Local" Type="BOOL[0..20]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_E1_L3.st">
+				<Pos L="110" C="7" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+				<Pos L="114" C="7" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+				<Pos L="117" C="7" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+				<Pos L="155" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="156" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="157" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="158" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="159" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="160" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="161" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="162" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="163" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="164" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="165" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="166" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="167" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="168" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="169" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="170" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="171" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="172" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="173" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="174" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.bAlarmGenIO_L3" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="2" EP="100" PS="Net:100, Ln:1, Col:2" A="R"/>
+			</File>
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_E1_L3.st">
+				<Pos L="155" C="3" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.bAlarmIO_L9" Scope="Local" Type="BOOL[0..20]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L9.st">
+				<Pos L="20" C="7" PS="actIO_Ex_FailDetect_L9" A="W"/>
+				<Pos L="25" C="7" PS="actIO_Ex_FailDetect_L9" A="W"/>
+				<Pos L="28" C="7" PS="actIO_Ex_FailDetect_L9" A="W"/>
+				<Pos L="65" C="21" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="66" C="21" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="67" C="21" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="68" C="21" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="69" C="21" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="70" C="21" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="71" C="21" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="72" C="21" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="73" C="21" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="74" C="21" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="75" C="21" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="76" C="21" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="77" C="21" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="78" C="21" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="79" C="21" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="80" C="21" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="81" C="21" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="82" C="21" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="83" C="21" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="84" C="21" PS="actIO_Ex_FailDetect_L9" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.bAlarmGenIO_L9" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="3" EP="100" PS="Net:100, Ln:1, Col:3" A="R"/>
+			</File>
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L9.st">
+				<Pos L="65" C="3" PS="actIO_Ex_FailDetect_L9" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.bAlarmIO_L15" Scope="Local" Type="BOOL[0..20]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L15.st">
+				<Pos L="20" C="7" PS="actIO_Ex_FailDetect_L15" A="W"/>
+				<Pos L="25" C="7" PS="actIO_Ex_FailDetect_L15" A="W"/>
+				<Pos L="28" C="7" PS="actIO_Ex_FailDetect_L15" A="W"/>
+				<Pos L="64" C="22" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="65" C="21" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="66" C="21" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="67" C="21" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="68" C="21" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="69" C="21" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="70" C="21" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="71" C="21" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="72" C="21" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="73" C="21" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="74" C="21" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="75" C="21" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="76" C="21" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="77" C="21" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="78" C="21" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="79" C="21" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="80" C="21" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="81" C="21" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="82" C="21" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="83" C="21" PS="actIO_Ex_FailDetect_L15" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.bAlarmGenIO_L15" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="4" EP="100" PS="Net:100, Ln:1, Col:4" A="R"/>
+			</File>
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L15.st">
+				<Pos L="64" C="3" PS="actIO_Ex_FailDetect_L15" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.iIndex" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_E1_L3.st">
+				<Pos L="18" C="7" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+				<Pos L="19" C="34" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="20" C="19" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="22" C="30" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="24" C="19" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="26" C="8" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="27" C="19" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="39" C="7" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+				<Pos L="40" C="27" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="44" C="9" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+				<Pos L="46" C="29" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="53" C="9" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+				<Pos L="54" C="29" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="59" C="9" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+				<Pos L="60" C="29" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="108" C="7" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+				<Pos L="109" C="34" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="110" C="19" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="112" C="30" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="114" C="19" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="116" C="8" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="117" C="19" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="128" C="7" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+				<Pos L="129" C="27" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="133" C="9" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+				<Pos L="134" C="29" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="141" C="9" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+				<Pos L="142" C="29" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="147" C="9" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+				<Pos L="148" C="29" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+			</File>
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L9.st">
+				<Pos L="18" C="7" PS="actIO_Ex_FailDetect_L9" A="W"/>
+				<Pos L="19" C="34" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="20" C="19" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="22" C="31" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="25" C="19" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="27" C="8" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="28" C="19" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="41" C="7" PS="actIO_Ex_FailDetect_L9" A="W"/>
+				<Pos L="42" C="27" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="46" C="9" PS="actIO_Ex_FailDetect_L9" A="W"/>
+				<Pos L="47" C="29" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="54" C="9" PS="actIO_Ex_FailDetect_L9" A="W"/>
+				<Pos L="55" C="29" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="60" C="9" PS="actIO_Ex_FailDetect_L9" A="W"/>
+				<Pos L="61" C="29" PS="actIO_Ex_FailDetect_L9" A="R"/>
+			</File>
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L15.st">
+				<Pos L="18" C="7" PS="actIO_Ex_FailDetect_L15" A="W"/>
+				<Pos L="19" C="35" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="20" C="20" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="22" C="33" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="25" C="20" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="27" C="8" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="28" C="20" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="39" C="7" PS="actIO_Ex_FailDetect_L15" A="W"/>
+				<Pos L="40" C="28" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="44" C="9" PS="actIO_Ex_FailDetect_L15" A="W"/>
+				<Pos L="45" C="30" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="53" C="9" PS="actIO_Ex_FailDetect_L15" A="W"/>
+				<Pos L="54" C="30" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="59" C="9" PS="actIO_Ex_FailDetect_L15" A="W"/>
+				<Pos L="60" C="30" PS="actIO_Ex_FailDetect_L15" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.bActOut" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="3" EP="97" PS="Net:97, Ln:1, Col:3" A="W"/>
+				<Pos L="1" C="3" EP="98" PS="Net:98, Ln:1, Col:3" A="W"/>
+				<Pos L="1" C="3" EP="99" PS="Net:99, Ln:1, Col:3" A="W"/>
+				<Pos L="1" C="3" EP="120" PS="Net:120, Ln:1, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.BagMachineVisibility1_Ind" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="3" C="4" EP="119" PS="Net:119, Ln:3, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.EstopString1" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="8" EP="14" PS="Net:14, Ln:1, Col:8" A="W"/>
+				<Pos L="1" C="1" EP="15" PS="Net:15, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.EstopString2" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="6" EP="15" PS="Net:15, Ln:1, Col:6" A="W"/>
+				<Pos L="1" C="1" EP="16" PS="Net:16, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.GuardAlarmEnable" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="2" EP="17" PS="Net:17, Ln:1, Col:2" A="W"/>
+				<Pos L="1" C="2" EP="19" PS="Net:19, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="20" PS="Net:20, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="21" PS="Net:21, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="22" PS="Net:22, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="23" PS="Net:23, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="24" PS="Net:24, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="25" PS="Net:25, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="26" PS="Net:26, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="27" PS="Net:27, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="28" PS="Net:28, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="29" PS="Net:29, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="31" PS="Net:31, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="32" PS="Net:32, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="33" PS="Net:33, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="34" PS="Net:34, Ln:1, Col:2" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.HGW_2StateIND1_0.In_State" Scope="Local" Type="HGW_2StateIND1">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="2" EP="119" PS="Net:119, Ln:2, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.HGW_2StateIND1_0.BackColorFlash_Off" Scope="Local" Type="HGW_2StateIND1">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="3" C="2" EP="119" PS="Net:119, Ln:3, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.HGW_2StateIND1_0.BackColorFlash_On" Scope="Local" Type="HGW_2StateIND1">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="5" C="2" EP="119" PS="Net:119, Ln:5, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.HGW_2StateIND1_0.BackColor_State1" Scope="Local" Type="HGW_2StateIND1">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="7" C="2" EP="119" PS="Net:119, Ln:7, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.HGW_2StateIND1_0" Scope="Local" Type="HGW_2StateIND1">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="119" PS="Net:119, Ln:2, Col:4" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.HGW_2StateIND1_0.Text_Ind" Scope="Local" Type="HGW_2StateIND1">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="119" PS="Net:119, Ln:2, Col:4" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.HGW_2StateIND1_0.Color_Ind" Scope="Local" Type="HGW_2StateIND1">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="3" C="4" EP="119" PS="Net:119, Ln:3, Col:4" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.stModuleOK_IO_E1_Slot.bStat" Scope="Local" Type="stIO_Alarm[0..20]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_E1_L3.st">
+				<Pos L="19" C="12" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="22" C="8" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.stModuleOK_IO_E1_Slot.strType" Scope="Local" Type="stIO_Alarm[0..20]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_E1_L3.st">
+				<Pos L="35" C="3" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+				<Pos L="37" C="3" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+				<Pos L="40" C="5" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+				<Pos L="46" C="7" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+				<Pos L="50" C="3" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+				<Pos L="54" C="7" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+				<Pos L="60" C="7" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.stModuleOK_IO_L3_Slot.bStat" Scope="Local" Type="stIO_Alarm[0..20]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_E1_L3.st">
+				<Pos L="109" C="12" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="112" C="8" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.stModuleOK_IO_L3_Slot.strType" Scope="Local" Type="stIO_Alarm[0..20]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_E1_L3.st">
+				<Pos L="126" C="3" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+				<Pos L="129" C="5" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+				<Pos L="134" C="7" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+				<Pos L="138" C="3" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+				<Pos L="142" C="7" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+				<Pos L="148" C="7" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+				<Pos L="152" C="3" PS="actIO_Ex_FailDetect_E1_L3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.stModuleOK_IO_L9_Slot.bStat" Scope="Local" Type="stIO_Alarm[0..20]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L9.st">
+				<Pos L="19" C="12" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="22" C="9" PS="actIO_Ex_FailDetect_L9" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.stModuleOK_IO_L9_Slot.strType" Scope="Local" Type="stIO_Alarm[0..20]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L9.st">
+				<Pos L="39" C="3" PS="actIO_Ex_FailDetect_L9" A="W"/>
+				<Pos L="42" C="5" PS="actIO_Ex_FailDetect_L9" A="W"/>
+				<Pos L="47" C="7" PS="actIO_Ex_FailDetect_L9" A="W"/>
+				<Pos L="51" C="3" PS="actIO_Ex_FailDetect_L9" A="W"/>
+				<Pos L="55" C="7" PS="actIO_Ex_FailDetect_L9" A="W"/>
+				<Pos L="61" C="7" PS="actIO_Ex_FailDetect_L9" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.stModuleOK_IO_L15_Slot.bStat" Scope="Local" Type="stIO_Alarm[0..20]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L15.st">
+				<Pos L="19" C="12" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="22" C="10" PS="actIO_Ex_FailDetect_L15" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.stModuleOK_IO_L15_Slot.strType" Scope="Local" Type="stIO_Alarm[0..20]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L15.st">
+				<Pos L="37" C="3" PS="actIO_Ex_FailDetect_L15" A="W"/>
+				<Pos L="40" C="5" PS="actIO_Ex_FailDetect_L15" A="W"/>
+				<Pos L="45" C="7" PS="actIO_Ex_FailDetect_L15" A="W"/>
+				<Pos L="50" C="3" PS="actIO_Ex_FailDetect_L15" A="W"/>
+				<Pos L="54" C="7" PS="actIO_Ex_FailDetect_L15" A="W"/>
+				<Pos L="60" C="7" PS="actIO_Ex_FailDetect_L15" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.MotorString1" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="8" EP="79" PS="Net:79, Ln:1, Col:8" A="W"/>
+				<Pos L="1" C="1" EP="87" PS="Net:87, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.MotorString2" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="8" EP="80" PS="Net:80, Ln:1, Col:8" A="W"/>
+				<Pos L="1" C="2" EP="87" PS="Net:87, Ln:1, Col:2" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.MotorString3" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="8" EP="81" PS="Net:81, Ln:1, Col:8" A="W"/>
+				<Pos L="1" C="3" EP="87" PS="Net:87, Ln:1, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.MotorString4" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="8" EP="82" PS="Net:82, Ln:1, Col:8" A="W"/>
+				<Pos L="1" C="4" EP="87" PS="Net:87, Ln:1, Col:4" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.MotorString5" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="8" EP="83" PS="Net:83, Ln:1, Col:8" A="W"/>
+				<Pos L="1" C="5" EP="87" PS="Net:87, Ln:1, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.MotorString6" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="8" EP="84" PS="Net:84, Ln:1, Col:8" A="W"/>
+				<Pos L="1" C="6" EP="87" PS="Net:87, Ln:1, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.MotorString7" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="8" EP="85" PS="Net:85, Ln:1, Col:8" A="W"/>
+				<Pos L="1" C="7" EP="87" PS="Net:87, Ln:1, Col:7" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.MotorString8" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="8" EP="86" PS="Net:86, Ln:1, Col:8" A="W"/>
+				<Pos L="1" C="8" EP="87" PS="Net:87, Ln:1, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.bGuardString1" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="10" EP="35" PS="Net:35, Ln:1, Col:10" A="W"/>
+				<Pos L="1" C="1" EP="36" PS="Net:36, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_1.IN" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="2" EP="39" PS="Net:39, Ln:2, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_1.PT" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="3" C="2" EP="39" PS="Net:39, Ln:3, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_1" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="39" PS="Net:39, Ln:2, Col:4" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_1.Q" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="39" PS="Net:39, Ln:2, Col:4" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_2.IN" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="2" EP="41" PS="Net:41, Ln:2, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_2.PT" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="3" C="2" EP="41" PS="Net:41, Ln:3, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_2" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="41" PS="Net:41, Ln:2, Col:4" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_2.Q" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="41" PS="Net:41, Ln:2, Col:4" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_3.IN" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="2" EP="43" PS="Net:43, Ln:2, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_3.PT" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="3" C="2" EP="43" PS="Net:43, Ln:3, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_3" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="43" PS="Net:43, Ln:2, Col:4" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_3.Q" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="43" PS="Net:43, Ln:2, Col:4" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_4.IN" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="2" EP="45" PS="Net:45, Ln:2, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_4.PT" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="3" C="2" EP="45" PS="Net:45, Ln:3, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_4" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="45" PS="Net:45, Ln:2, Col:4" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_4.Q" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="45" PS="Net:45, Ln:2, Col:4" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_5.IN" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="2" EP="47" PS="Net:47, Ln:2, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_5.PT" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="3" C="2" EP="47" PS="Net:47, Ln:3, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_5" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="47" PS="Net:47, Ln:2, Col:4" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_5.Q" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="47" PS="Net:47, Ln:2, Col:4" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_6.IN" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="2" EP="49" PS="Net:49, Ln:2, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_6.PT" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="3" C="2" EP="49" PS="Net:49, Ln:3, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_6" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="49" PS="Net:49, Ln:2, Col:4" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_6.Q" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="49" PS="Net:49, Ln:2, Col:4" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_7.IN" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="2" EP="51" PS="Net:51, Ln:2, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_7.PT" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="3" C="2" EP="51" PS="Net:51, Ln:3, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_7" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="51" PS="Net:51, Ln:2, Col:4" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_7.Q" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="51" PS="Net:51, Ln:2, Col:4" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_8.IN" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="2" EP="53" PS="Net:53, Ln:2, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_8.PT" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="3" C="2" EP="53" PS="Net:53, Ln:3, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_8" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="53" PS="Net:53, Ln:2, Col:4" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_8.Q" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="53" PS="Net:53, Ln:2, Col:4" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_12.IN" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="2" EP="55" PS="Net:55, Ln:2, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_12.PT" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="3" C="2" EP="55" PS="Net:55, Ln:3, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_12" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="55" PS="Net:55, Ln:2, Col:4" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_12.Q" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="55" PS="Net:55, Ln:2, Col:4" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_13.IN" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="2" EP="57" PS="Net:57, Ln:2, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_13.PT" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="3" C="2" EP="57" PS="Net:57, Ln:3, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_13" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="57" PS="Net:57, Ln:2, Col:4" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_13.Q" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="57" PS="Net:57, Ln:2, Col:4" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_15.IN" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="2" EP="59" PS="Net:59, Ln:2, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_15.PT" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="3" C="2" EP="59" PS="Net:59, Ln:3, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_15" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="59" PS="Net:59, Ln:2, Col:4" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_15.Q" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="59" PS="Net:59, Ln:2, Col:4" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_30.IN" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="2" EP="65" PS="Net:65, Ln:2, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_30.PT" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="3" C="2" EP="65" PS="Net:65, Ln:3, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_30" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="65" PS="Net:65, Ln:2, Col:4" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_30.Q" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="65" PS="Net:65, Ln:2, Col:4" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_31.IN" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="88" PS="Net:88, Ln:2, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_31.PT" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="3" C="4" EP="88" PS="Net:88, Ln:3, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_31" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="6" EP="88" PS="Net:88, Ln:2, Col:6" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_31.Q" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="6" EP="88" PS="Net:88, Ln:2, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_32.IN" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="89" PS="Net:89, Ln:2, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_32.PT" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="3" C="4" EP="89" PS="Net:89, Ln:3, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_32" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="6" EP="89" PS="Net:89, Ln:2, Col:6" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.TON_32.Q" Scope="Local" Type="TON">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="6" EP="89" PS="Net:89, Ln:2, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.GuardAlarmEnable1" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="2" EP="18" PS="Net:18, Ln:1, Col:2" A="W"/>
+				<Pos L="2" C="2" EP="19" PS="Net:19, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="20" PS="Net:20, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="24" PS="Net:24, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="26" PS="Net:26, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="27" PS="Net:27, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="28" PS="Net:28, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="29" PS="Net:29, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="31" PS="Net:31, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="32" PS="Net:32, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="33" PS="Net:33, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="34" PS="Net:34, Ln:2, Col:2" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.iVisiblES_BP1" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actAnimAlarmVisu.st">
+				<Pos L="20" C="5" PS="actAnimAlarmVisu" A="W"/>
+				<Pos L="22" C="5" PS="actAnimAlarmVisu" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.iVisiblES_BP2" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actAnimAlarmVisu.st">
+				<Pos L="27" C="5" PS="actAnimAlarmVisu" A="W"/>
+				<Pos L="29" C="5" PS="actAnimAlarmVisu" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.iVisiblES_BP3" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actAnimAlarmVisu.st">
+				<Pos L="34" C="5" PS="actAnimAlarmVisu" A="W"/>
+				<Pos L="36" C="5" PS="actAnimAlarmVisu" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.iVisiblES_BP4" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actAnimAlarmVisu.st">
+				<Pos L="41" C="5" PS="actAnimAlarmVisu" A="W"/>
+				<Pos L="43" C="5" PS="actAnimAlarmVisu" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.iVisiblES_BP5" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actAnimAlarmVisu.st">
+				<Pos L="48" C="5" PS="actAnimAlarmVisu" A="W"/>
+				<Pos L="50" C="5" PS="actAnimAlarmVisu" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.iVisiblES_BP6" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actAnimAlarmVisu.st">
+				<Pos L="56" C="5" PS="actAnimAlarmVisu" A="W"/>
+				<Pos L="58" C="5" PS="actAnimAlarmVisu" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.iVisiblES_BP9" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actAnimAlarmVisu.st">
+				<Pos L="64" C="5" PS="actAnimAlarmVisu" A="W"/>
+				<Pos L="66" C="5" PS="actAnimAlarmVisu" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.iVisiblES_BP10" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actAnimAlarmVisu.st">
+				<Pos L="72" C="5" PS="actAnimAlarmVisu" A="W"/>
+				<Pos L="74" C="5" PS="actAnimAlarmVisu" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.H_FB_Flash_0" Scope="Local" Type="H_FB_Flash">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actAnimAlarmVisu.st">
+				<Pos L="15" C="3" PS="actAnimAlarmVisu" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.H_FB_Flash_0.OUT_bFlash" Scope="Local" Type="H_FB_Flash">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actAnimAlarmVisu.st">
+				<Pos L="19" C="6" PS="actAnimAlarmVisu" A="R"/>
+				<Pos L="26" C="6" PS="actAnimAlarmVisu" A="R"/>
+				<Pos L="33" C="6" PS="actAnimAlarmVisu" A="R"/>
+				<Pos L="40" C="6" PS="actAnimAlarmVisu" A="R"/>
+				<Pos L="47" C="6" PS="actAnimAlarmVisu" A="R"/>
+				<Pos L="55" C="6" PS="actAnimAlarmVisu" A="R"/>
+				<Pos L="63" C="5" PS="actAnimAlarmVisu" A="R"/>
+				<Pos L="71" C="5" PS="actAnimAlarmVisu" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.bTest" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="2" EP="115" PS="Net:115, Ln:1, Col:2" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_InMotion" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="2" EP="10" PS="Net:10, Ln:1, Col:2" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_Enabled" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="3" EP="10" PS="Net:10, Ln:2, Col:3" A="R"/>
+				<Pos L="2" C="4" EP="10" PS="Net:10, Ln:2, Col:4" A="R"/>
+				<Pos L="2" C="5" EP="10" PS="Net:10, Ln:2, Col:5" A="R"/>
+				<Pos L="2" C="6" EP="10" PS="Net:10, Ln:2, Col:6" A="R"/>
+				<Pos L="2" C="7" EP="10" PS="Net:10, Ln:2, Col:7" A="R"/>
+				<Pos L="2" C="8" EP="10" PS="Net:10, Ln:2, Col:8" A="R"/>
+				<Pos L="2" C="9" EP="10" PS="Net:10, Ln:2, Col:9" A="R"/>
+				<Pos L="2" C="10" EP="10" PS="Net:10, Ln:2, Col:10" A="R"/>
+				<Pos L="2" C="11" EP="10" PS="Net:10, Ln:2, Col:11" A="R"/>
+				<Pos L="2" C="12" EP="10" PS="Net:10, Ln:2, Col:12" A="R"/>
+				<Pos L="2" C="13" EP="10" PS="Net:10, Ln:2, Col:13" A="R"/>
+				<Pos L="2" C="14" EP="10" PS="Net:10, Ln:2, Col:14" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.bInMach" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="3" EP="28" PS="Net:28, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="3" EP="29" PS="Net:29, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="3" EP="32" PS="Net:32, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="3" EP="33" PS="Net:33, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="3" EP="34" PS="Net:34, Ln:1, Col:3" A="R"/>
+				<Pos L="2" C="5" EP="55" PS="Net:55, Ln:2, Col:5" A="R"/>
+				<Pos L="1" C="3" EP="56" PS="Net:56, Ln:1, Col:3" A="R"/>
+				<Pos L="2" C="5" EP="57" PS="Net:57, Ln:2, Col:5" A="R"/>
+				<Pos L="1" C="3" EP="58" PS="Net:58, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="2" EP="77" PS="Net:77, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="78" PS="Net:78, Ln:1, Col:2" A="R"/>
+			</File>
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L15.st">
+				<Pos L="23" C="14" PS="actIO_Ex_FailDetect_L15" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Error" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="37" PS="Net:37, Ln:1, Col:1" A="R"/>
+				<Pos L="2" C="4" EP="39" PS="Net:39, Ln:2, Col:4" A="R"/>
+				<Pos L="2" C="4" EP="41" PS="Net:41, Ln:2, Col:4" A="R"/>
+				<Pos L="2" C="4" EP="43" PS="Net:43, Ln:2, Col:4" A="R"/>
+				<Pos L="2" C="4" EP="45" PS="Net:45, Ln:2, Col:4" A="R"/>
+				<Pos L="2" C="4" EP="47" PS="Net:47, Ln:2, Col:4" A="R"/>
+				<Pos L="2" C="4" EP="49" PS="Net:49, Ln:2, Col:4" A="R"/>
+				<Pos L="2" C="4" EP="51" PS="Net:51, Ln:2, Col:4" A="R"/>
+				<Pos L="2" C="4" EP="53" PS="Net:53, Ln:2, Col:4" A="R"/>
+				<Pos L="2" C="4" EP="55" PS="Net:55, Ln:2, Col:4" A="R"/>
+				<Pos L="2" C="4" EP="57" PS="Net:57, Ln:2, Col:4" A="R"/>
+				<Pos L="2" C="4" EP="59" PS="Net:59, Ln:2, Col:4" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_NetworkInit" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="2" EP="38" PS="Net:38, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="40" PS="Net:40, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="42" PS="Net:42, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="44" PS="Net:44, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="46" PS="Net:46, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="48" PS="Net:48, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="50" PS="Net:50, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="52" PS="Net:52, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="54" PS="Net:54, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="56" PS="Net:56, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="58" PS="Net:58, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="60" PS="Net:60, Ln:1, Col:2" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Input_DriveEnable" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="1" EP="39" PS="Net:39, Ln:2, Col:1" A="R"/>
+				<Pos L="2" C="1" EP="41" PS="Net:41, Ln:2, Col:1" A="R"/>
+				<Pos L="2" C="1" EP="43" PS="Net:43, Ln:2, Col:1" A="R"/>
+				<Pos L="2" C="1" EP="45" PS="Net:45, Ln:2, Col:1" A="R"/>
+				<Pos L="2" C="1" EP="47" PS="Net:47, Ln:2, Col:1" A="R"/>
+				<Pos L="2" C="1" EP="49" PS="Net:49, Ln:2, Col:1" A="R"/>
+				<Pos L="2" C="1" EP="51" PS="Net:51, Ln:2, Col:1" A="R"/>
+				<Pos L="2" C="1" EP="53" PS="Net:53, Ln:2, Col:1" A="R"/>
+				<Pos L="2" C="1" EP="55" PS="Net:55, Ln:2, Col:1" A="R"/>
+				<Pos L="2" C="1" EP="57" PS="Net:57, Ln:2, Col:1" A="R"/>
+				<Pos L="2" C="1" EP="59" PS="Net:59, Ln:2, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.bActive" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="5" EP="53" PS="Net:53, Ln:2, Col:5" A="R"/>
+				<Pos L="1" C="3" EP="54" PS="Net:54, Ln:1, Col:3" A="R"/>
+				<Pos L="2" C="5" EP="59" PS="Net:59, Ln:2, Col:5" A="R"/>
+				<Pos L="1" C="3" EP="60" PS="Net:60, Ln:1, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gAlarmReset" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="2" EP="1" PS="Net:1, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="2" PS="Net:2, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="3" PS="Net:3, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="4" PS="Net:4, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="5" PS="Net:5, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="6" PS="Net:6, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="7" PS="Net:7, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="8" PS="Net:8, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="9" PS="Net:9, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="10" PS="Net:10, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="11" PS="Net:11, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="12" PS="Net:12, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="13" PS="Net:13, Ln:2, Col:2" A="R"/>
+				<Pos L="3" C="2" EP="19" PS="Net:19, Ln:3, Col:2" A="R"/>
+				<Pos L="3" C="2" EP="20" PS="Net:20, Ln:3, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="21" PS="Net:21, Ln:2, Col:2" A="R"/>
+				<Pos L="3" C="2" EP="22" PS="Net:22, Ln:3, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="23" PS="Net:23, Ln:2, Col:2" A="R"/>
+				<Pos L="3" C="2" EP="24" PS="Net:24, Ln:3, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="25" PS="Net:25, Ln:2, Col:2" A="R"/>
+				<Pos L="3" C="2" EP="26" PS="Net:26, Ln:3, Col:2" A="R"/>
+				<Pos L="3" C="2" EP="27" PS="Net:27, Ln:3, Col:2" A="R"/>
+				<Pos L="3" C="2" EP="28" PS="Net:28, Ln:3, Col:2" A="R"/>
+				<Pos L="3" C="2" EP="29" PS="Net:29, Ln:3, Col:2" A="R"/>
+				<Pos L="3" C="2" EP="31" PS="Net:31, Ln:3, Col:2" A="R"/>
+				<Pos L="3" C="2" EP="32" PS="Net:32, Ln:3, Col:2" A="R"/>
+				<Pos L="3" C="2" EP="33" PS="Net:33, Ln:3, Col:2" A="R"/>
+				<Pos L="3" C="2" EP="34" PS="Net:34, Ln:3, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="37" PS="Net:37, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="38" PS="Net:38, Ln:2, Col:2" A="R"/>
+				<Pos L="4" C="2" EP="39" PS="Net:39, Ln:4, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="40" PS="Net:40, Ln:2, Col:2" A="R"/>
+				<Pos L="4" C="2" EP="41" PS="Net:41, Ln:4, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="42" PS="Net:42, Ln:2, Col:2" A="R"/>
+				<Pos L="4" C="2" EP="43" PS="Net:43, Ln:4, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="44" PS="Net:44, Ln:2, Col:2" A="R"/>
+				<Pos L="4" C="2" EP="45" PS="Net:45, Ln:4, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="46" PS="Net:46, Ln:2, Col:2" A="R"/>
+				<Pos L="4" C="2" EP="47" PS="Net:47, Ln:4, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="48" PS="Net:48, Ln:2, Col:2" A="R"/>
+				<Pos L="4" C="2" EP="49" PS="Net:49, Ln:4, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="50" PS="Net:50, Ln:2, Col:2" A="R"/>
+				<Pos L="4" C="2" EP="51" PS="Net:51, Ln:4, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="52" PS="Net:52, Ln:2, Col:2" A="R"/>
+				<Pos L="4" C="2" EP="53" PS="Net:53, Ln:4, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="54" PS="Net:54, Ln:2, Col:2" A="R"/>
+				<Pos L="4" C="2" EP="55" PS="Net:55, Ln:4, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="56" PS="Net:56, Ln:2, Col:2" A="R"/>
+				<Pos L="4" C="2" EP="57" PS="Net:57, Ln:4, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="58" PS="Net:58, Ln:2, Col:2" A="R"/>
+				<Pos L="4" C="2" EP="59" PS="Net:59, Ln:4, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="60" PS="Net:60, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="61" PS="Net:61, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="62" PS="Net:62, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="63" PS="Net:63, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="64" PS="Net:64, Ln:2, Col:2" A="R"/>
+				<Pos L="4" C="2" EP="65" PS="Net:65, Ln:4, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="66" PS="Net:66, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="67" PS="Net:67, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="68" PS="Net:68, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="69" PS="Net:69, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="70" PS="Net:70, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="71" PS="Net:71, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="72" PS="Net:72, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="73" PS="Net:73, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="74" PS="Net:74, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="75" PS="Net:75, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="76" PS="Net:76, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="77" PS="Net:77, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="78" PS="Net:78, Ln:2, Col:2" A="R"/>
+				<Pos L="4" C="2" EP="88" PS="Net:88, Ln:4, Col:2" A="R"/>
+				<Pos L="4" C="2" EP="89" PS="Net:89, Ln:4, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="91" PS="Net:91, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="92" PS="Net:92, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="93" PS="Net:93, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="95" PS="Net:95, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="96" PS="Net:96, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="101" PS="Net:101, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="102" PS="Net:102, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="103" PS="Net:103, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="105" PS="Net:105, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="106" PS="Net:106, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="107" PS="Net:107, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="110" PS="Net:110, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="111" PS="Net:111, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="112" PS="Net:112, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="113" PS="Net:113, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="115" PS="Net:115, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="116" PS="Net:116, Ln:2, Col:2" A="R"/>
+			</File>
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_E1_L3.st">
+				<Pos L="23" C="8" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="113" C="8" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+			</File>
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L9.st">
+				<Pos L="24" C="8" PS="actIO_Ex_FailDetect_L9" A="R"/>
+			</File>
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L15.st">
+				<Pos L="24" C="8" PS="actIO_Ex_FailDetect_L15" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gBagMachine_AlarmsOK" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="11" EP="118" PS="Net:118, Ln:1, Col:11" A="W"/>
+				<Pos L="2" C="1" EP="119" PS="Net:119, Ln:2, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gBagMachine_EstopAlarmsOK" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="8" EP="16" PS="Net:16, Ln:1, Col:8" A="W"/>
+				<Pos L="1" C="1" EP="118" PS="Net:118, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gBagMachine_GuardAlarmsOK" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="10" EP="36" PS="Net:36, Ln:1, Col:10" A="W"/>
+				<Pos L="1" C="2" EP="118" PS="Net:118, Ln:1, Col:2" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gBagMachine_IOAlarmsOK" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="5" EP="100" PS="Net:100, Ln:1, Col:5" A="W"/>
+				<Pos L="1" C="7" EP="118" PS="Net:118, Ln:1, Col:7" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gBagMachine_JamAlarmsOK" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="3" EP="90" PS="Net:90, Ln:1, Col:3" A="W"/>
+				<Pos L="1" C="5" EP="118" PS="Net:118, Ln:1, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gBagMachine_MotorAlarmsOK" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="9" EP="87" PS="Net:87, Ln:1, Col:9" A="W"/>
+				<Pos L="1" C="3" EP="118" PS="Net:118, Ln:1, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_bBagMachine_GenAlarmsOK" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="3" EP="117" PS="Net:117, Ln:1, Col:3" A="W"/>
+				<Pos L="1" C="4" EP="118" PS="Net:118, Ln:1, Col:4" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_bBagMachine_EndReelAlarmsOK" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="4" EP="104" PS="Net:104, Ln:1, Col:4" A="W"/>
+				<Pos L="1" C="8" EP="118" PS="Net:118, Ln:1, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_bBagMachine_DryerAlarmsOK" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="5" EP="109" PS="Net:109, Ln:1, Col:5" A="W"/>
+				<Pos L="1" C="9" EP="118" PS="Net:118, Ln:1, Col:9" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_bBagMachine_CamProfCalcOK" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="5" EP="114" PS="Net:114, Ln:1, Col:5" A="W"/>
+				<Pos L="1" C="10" EP="118" PS="Net:118, Ln:1, Col:10" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_230Vac_OK" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="116" PS="Net:116, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_AirPressureOK" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="115" PS="Net:115, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_EstopPB_1" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="1" PS="Net:1, Ln:1, Col:1" A="R"/>
+			</File>
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actAnimAlarmVisu.st">
+				<Pos L="18" C="6" PS="actAnimAlarmVisu" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_EstopPB_2" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="3" PS="Net:3, Ln:1, Col:1" A="R"/>
+			</File>
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actAnimAlarmVisu.st">
+				<Pos L="25" C="6" PS="actAnimAlarmVisu" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_EstopPB_3" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="4" PS="Net:4, Ln:1, Col:1" A="R"/>
+			</File>
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actAnimAlarmVisu.st">
+				<Pos L="32" C="6" PS="actAnimAlarmVisu" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_EstopPB_4" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="5" PS="Net:5, Ln:1, Col:1" A="R"/>
+			</File>
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actAnimAlarmVisu.st">
+				<Pos L="39" C="6" PS="actAnimAlarmVisu" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_EstopPB_5" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="6" PS="Net:6, Ln:1, Col:1" A="R"/>
+			</File>
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actAnimAlarmVisu.st">
+				<Pos L="46" C="6" PS="actAnimAlarmVisu" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_EstopPB_Unwind" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="2" PS="Net:2, Ln:1, Col:1" A="R"/>
+			</File>
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actAnimAlarmVisu.st">
+				<Pos L="70" C="6" PS="actAnimAlarmVisu" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_GSW_Door1" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="19" PS="Net:19, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_GSW_Door2" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="20" PS="Net:20, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_GSW_Drum" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="21" PS="Net:21, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_GSW_PerfDoors" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="22" PS="Net:22, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_GSW_PerfDoor2" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="1" EP="22" PS="Net:22, Ln:2, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_GSW_RSEntry" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="24" PS="Net:24, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_GSW_SlittingDoor" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="23" PS="Net:23, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_GSW_Tearing" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="25" PS="Net:25, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_JamPE_RS" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="1" EP="88" PS="Net:88, Ln:2, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_JogPB_1" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="8" PS="Net:8, Ln:1, Col:1" A="R"/>
+			</File>
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actAnimAlarmVisu.st">
+				<Pos L="54" C="6" PS="actAnimAlarmVisu" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_MP_DrumFan" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="61" PS="Net:61, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_MP_GlueSlowRotation" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="62" PS="Net:62, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_MP_PerfFan" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="63" PS="Net:63, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_MP_Vacuum" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="64" PS="Net:64, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_SafetyRelay_EStopOK" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="7" PS="Net:7, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="2" EP="8" PS="Net:8, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="1" EP="10" PS="Net:10, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="4" EP="63" PS="Net:63, Ln:1, Col:4" A="R"/>
+			</File>
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actAnimAlarmVisu.st">
+				<Pos L="53" C="10" PS="actAnimAlarmVisu" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_SafetyRelay_GuardOK" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="26" PS="Net:26, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="5" EP="63" PS="Net:63, Ln:1, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_WebBreakPE_1" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="91" PS="Net:91, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_WebBreakPE_2" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="92" PS="Net:92, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_EstopPB_FlexoPress" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actAnimAlarmVisu.st">
+				<Pos L="62" C="6" PS="actAnimAlarmVisu" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_UNW_EndReelPolyPE" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="102" PS="Net:102, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_UNW_EndReelPapPE" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="101" PS="Net:101, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_MP_UNW_HydroPump" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="67" PS="Net:67, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_MP_FP_MotorFan" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="74" PS="Net:74, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_MP_FP_SlowRot5" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="72" PS="Net:72, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_MP_FP_SlowRot6" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="73" PS="Net:73, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_GSW_FP_Doors" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="28" PS="Net:28, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_GSW_FP_Gates" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="29" PS="Net:29, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_MP_FP_SlowRot1" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="68" PS="Net:68, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_MP_FP_SlowRot3" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="70" PS="Net:70, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_MP_FP_SlowRot2" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="69" PS="Net:69, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_MP_FP_SlowRot4" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="71" PS="Net:71, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_HMP_EStopPB" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="13" PS="Net:13, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_GSW_HMPerf" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="32" PS="Net:32, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_HMP_WebBreakPE" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="93" PS="Net:93, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_MP_HP_WasteSuction" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="77" PS="Net:77, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_3W_EndReelPolyPE" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="103" PS="Net:103, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_MP_3W_Fan" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="75" PS="Net:75, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_3W_EStopPB" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="12" PS="Net:12, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_GSW_3W" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="31" PS="Net:31, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_DRY_Thermostat" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="106" PS="Net:106, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_MP_DRY_Blower" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="76" PS="Net:76, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_MP_DRY_Heater" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="105" PS="Net:105, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_GSW_CMPerfDoor" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="34" PS="Net:34, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_GSW_CMPerfGates" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="33" PS="Net:33, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_MP_EB_WasteSuction" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="78" PS="Net:78, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gNever" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="1" EP="17" PS="Net:17, Ln:2, Col:1" A="R"/>
+				<Pos L="2" C="1" EP="18" PS="Net:18, Ln:2, Col:1" A="R"/>
+				<Pos L="1" C="3" EP="42" PS="Net:42, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="3" EP="61" PS="Net:61, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="2" EP="67" PS="Net:67, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="3" EP="72" PS="Net:72, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="3" EP="73" PS="Net:73, Ln:1, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gPowerUp_Complete" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="38" PS="Net:38, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="1" EP="40" PS="Net:40, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="1" EP="42" PS="Net:42, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="1" EP="44" PS="Net:44, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="1" EP="46" PS="Net:46, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="1" EP="48" PS="Net:48, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="1" EP="50" PS="Net:50, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="1" EP="52" PS="Net:52, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="1" EP="54" PS="Net:54, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="1" EP="56" PS="Net:56, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="1" EP="58" PS="Net:58, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="1" EP="60" PS="Net:60, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gQ_CR_MainPowerOn" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="5" EP="65" PS="Net:65, Ln:2, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gRecipeActive.bSelFPProd" Scope="Global" Type="Recipe">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="2" EP="68" PS="Net:68, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="69" PS="Net:69, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="70" PS="Net:70, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="71" PS="Net:71, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="72" PS="Net:72, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="73" PS="Net:73, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="74" PS="Net:74, Ln:1, Col:2" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gJog_ToZeroSpeed" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="18" PS="Net:18, Ln:1, Col:1" A="R"/>
+				<Pos L="2" C="2" EP="88" PS="Net:88, Ln:2, Col:2" A="R"/>
+				<Pos L="2" C="2" EP="89" PS="Net:89, Ln:2, Col:2" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gRun_ToZeroSpeed" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="17" PS="Net:17, Ln:1, Col:1" A="R"/>
+				<Pos L="3" C="2" EP="88" PS="Net:88, Ln:3, Col:2" A="R"/>
+				<Pos L="3" C="2" EP="89" PS="Net:89, Ln:3, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="91" PS="Net:91, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="3" EP="92" PS="Net:92, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="2" EP="93" PS="Net:93, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="101" PS="Net:101, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="102" PS="Net:102, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="103" PS="Net:103, Ln:1, Col:2" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gSetupMode_On" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="3" EP="21" PS="Net:21, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="3" EP="22" PS="Net:22, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="3" EP="23" PS="Net:23, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="3" EP="25" PS="Net:25, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="4" EP="29" PS="Net:29, Ln:1, Col:4" A="R"/>
+				<Pos L="1" C="4" EP="32" PS="Net:32, Ln:1, Col:4" A="R"/>
+				<Pos L="1" C="4" EP="33" PS="Net:33, Ln:1, Col:4" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gSP_TubeSelect" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="2" EP="92" PS="Net:92, Ln:1, Col:2" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gBagMachine_WebBreakOK" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="4" EP="94" PS="Net:94, Ln:1, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gWebBreakBypass_On" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="3" EP="91" PS="Net:91, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="4" EP="92" PS="Net:92, Ln:1, Col:4" A="R"/>
+				<Pos L="1" C="3" EP="93" PS="Net:93, Ln:1, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_bEndReelPapBypass_On" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="3" EP="101" PS="Net:101, Ln:1, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_bEndReelPolyBypass_On" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="3" EP="102" PS="Net:102, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="3" EP="103" PS="Net:103, Ln:1, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_bMainPower_OnDelay" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="3" EP="63" PS="Net:63, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="3" EP="116" PS="Net:116, Ln:1, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_bCamPerfCalc_Error" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="66" PS="Net:66, Ln:1, Col:1" A="R"/>
+				<Pos L="1" C="1" EP="110" PS="Net:110, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_bGetMaPosCamProfError_1" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="111" PS="Net:111, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_bGetMaPosCamProfError_2" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="112" PS="Net:112, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_bHomeCamProfError" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="113" PS="Net:113, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_bIndEStop" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="3" EP="7" PS="Net:7, Ln:2, Col:3" A="W"/>
+				<Pos L="1" C="3" EP="15" PS="Net:15, Ln:1, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_bIndEStopStandstill" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="15" EP="10" PS="Net:10, Ln:1, Col:15" A="W"/>
+				<Pos L="2" C="1" EP="10" PS="Net:10, Ln:2, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_bUnwindInMach" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="3" EP="67" PS="Net:67, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="5" EP="101" PS="Net:101, Ln:1, Col:5" A="R"/>
+				<Pos L="1" C="5" EP="102" PS="Net:102, Ln:1, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_bUnwindEndRelPapInMach" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="4" EP="101" PS="Net:101, Ln:1, Col:4" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_bUnwindEndRelPolyInMach" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="4" EP="102" PS="Net:102, Ln:1, Col:4" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_b3WebUnitInMach" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="2" EP="12" PS="Net:12, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="3" EP="31" PS="Net:31, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="2" EP="75" PS="Net:75, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="4" EP="103" PS="Net:103, Ln:1, Col:4" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_bFP_GuardFault" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="2" EP="30" PS="Net:30, Ln:1, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="g_stHMPerfCyc.bSelProd" Scope="Global" Type="CycHMPerf">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="4" EP="93" PS="Net:93, Ln:1, Col:4" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_bDryerInMach" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="2" EP="76" PS="Net:76, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="4" EP="105" PS="Net:105, Ln:1, Col:4" A="R"/>
+				<Pos L="1" C="4" EP="106" PS="Net:106, Ln:1, Col:4" A="R"/>
+				<Pos L="1" C="4" EP="107" PS="Net:107, Ln:1, Col:4" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_bHeatDryInMach" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="2" EP="105" PS="Net:105, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="106" PS="Net:106, Ln:1, Col:2" A="R"/>
+				<Pos L="1" C="2" EP="107" PS="Net:107, Ln:1, Col:2" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_bSelDryerProd" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="3" EP="105" PS="Net:105, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="3" EP="106" PS="Net:106, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="3" EP="107" PS="Net:107, Ln:1, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_DRY_bTempSensorAlarm" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="107" PS="Net:107, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_DRY_bHeaterAlarm" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="2" EP="108" PS="Net:108, Ln:1, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="g_DRY_bBlowerAlarm" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="3" EP="76" PS="Net:76, Ln:2, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="g_EnvB_bWasteSucMPAlarm" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="3" EP="78" PS="Net:78, Ln:2, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="g_bBypassGuard" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="1" EP="36" PS="Net:36, Ln:2, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_bIndSelBundProd" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="3" EP="27" PS="Net:27, Ln:1, Col:3" A="R"/>
+				<Pos L="2" C="4" EP="65" PS="Net:65, Ln:2, Col:4" A="R"/>
+				<Pos L="2" C="7" EP="89" PS="Net:89, Ln:2, Col:7" A="R"/>
+				<Pos L="1" C="3" EP="95" PS="Net:95, Ln:1, Col:3" A="R"/>
+				<Pos L="1" C="3" EP="96" PS="Net:96, Ln:1, Col:3" A="R"/>
+			</File>
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L9.st">
+				<Pos L="20" C="30" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="23" C="13" PS="actIO_Ex_FailDetect_L9" A="R"/>
+			</File>
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L15.st">
+				<Pos L="20" C="31" PS="actIO_Ex_FailDetect_L15" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_bBundGuard_OK" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="27" PS="Net:27, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_bBundJamFault" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="3" C="8" EP="89" PS="Net:89, Ln:3, Col:8" A="W"/>
+			</File>
+		</Var>
+		<Var Name="g_bBundDriveFault" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="3" C="6" EP="65" PS="Net:65, Ln:3, Col:6" A="W"/>
+			</File>
+		</Var>
+		<Var Name="g_bBundAlarm_OK" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="6" EP="118" PS="Net:118, Ln:1, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_bBund_SensorFault" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="96" PS="Net:96, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_bBund_TimOutFault" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="95" PS="Net:95, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_Bund_DriveFault" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="1" EP="65" PS="Net:65, Ln:2, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_Bund_S109" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="1" EP="89" PS="Net:89, Ln:2, Col:1" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gI_Bund_EStopPB" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="1" EP="9" PS="Net:9, Ln:1, Col:1" A="R"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+		<Const Name="Alarms1.C_iMaxAlmIO_E1" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_E1_L3.st">
+				<Pos L="18" C="22" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+			</File>
+		</Const>
+		<Const Name="Alarms1.C_iNumBefFirstIO_E1" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_E1_L3.st">
+				<Pos L="26" C="15" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="39" C="19" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="39" C="54" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="44" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="44" C="56" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="50" C="25" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="53" C="19" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="53" C="68" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="59" C="19" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="59" C="80" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+			</File>
+		</Const>
+		<Const Name="Alarms1.C_iNumDI_E1" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_E1_L3.st">
+				<Pos L="26" C="35" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="39" C="42" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="44" C="41" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="44" C="76" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="50" C="45" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="53" C="39" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="53" C="88" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="59" C="39" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="59" C="100" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+			</File>
+		</Const>
+		<Const Name="Alarms1.C_iNumAI_E1" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_E1_L3.st">
+				<Pos L="26" C="47" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="43" C="7" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="44" C="88" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="50" C="57" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="53" C="51" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="53" C="100" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="59" C="51" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="59" C="112" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+			</File>
+		</Const>
+		<Const Name="Alarms1.C_iNumDO_E1" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_E1_L3.st">
+				<Pos L="26" C="61" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="52" C="7" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="53" C="114" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="59" C="65" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="59" C="126" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+			</File>
+		</Const>
+		<Const Name="Alarms1.C_iNumAO_E1" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_E1_L3.st">
+				<Pos L="26" C="73" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="58" C="7" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="59" C="138" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+			</File>
+		</Const>
+		<Const Name="Alarms1.C_iMaxAlmIO_L3" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_E1_L3.st">
+				<Pos L="108" C="22" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+			</File>
+		</Const>
+		<Const Name="Alarms1.C_iNumBefFirstIO_L3" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_E1_L3.st">
+				<Pos L="116" C="15" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="128" C="19" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="128" C="42" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="133" C="21" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="133" C="56" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="138" C="25" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="141" C="19" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="141" C="68" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="147" C="19" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="147" C="80" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="152" C="25" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+			</File>
+		</Const>
+		<Const Name="Alarms1.C_iNumDI_L3" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_E1_L3.st">
+				<Pos L="116" C="35" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="128" C="62" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="133" C="41" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="133" C="76" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="138" C="45" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="141" C="39" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="141" C="88" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="147" C="39" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="147" C="100" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="152" C="45" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+			</File>
+		</Const>
+		<Const Name="Alarms1.C_iNumAI_L3" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_E1_L3.st">
+				<Pos L="116" C="47" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="132" C="7" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="133" C="88" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="138" C="57" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="141" C="51" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="141" C="100" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="147" C="51" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="147" C="112" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="152" C="57" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+			</File>
+		</Const>
+		<Const Name="Alarms1.C_iNumDO_L3" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_E1_L3.st">
+				<Pos L="116" C="61" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="140" C="7" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="141" C="114" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="147" C="65" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="147" C="126" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="152" C="71" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+			</File>
+		</Const>
+		<Const Name="Alarms1.C_iNumAO_L3" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_E1_L3.st">
+				<Pos L="116" C="73" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="146" C="7" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="147" C="138" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+				<Pos L="152" C="83" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+			</File>
+		</Const>
+		<Const Name="Alarms1.C_iX2XExt_L3" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_E1_L3.st">
+				<Pos L="116" C="85" PS="actIO_Ex_FailDetect_E1_L3" A="R"/>
+			</File>
+		</Const>
+		<Const Name="Alarms1.C_iMaxAlmIO_L9" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L9.st">
+				<Pos L="18" C="22" PS="actIO_Ex_FailDetect_L9" A="R"/>
+			</File>
+		</Const>
+		<Const Name="Alarms1.C_iNumBefFirstIO_L9" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L9.st">
+				<Pos L="27" C="15" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="41" C="19" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="41" C="42" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="46" C="21" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="46" C="56" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="51" C="25" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="54" C="19" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="54" C="68" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="60" C="19" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="60" C="80" PS="actIO_Ex_FailDetect_L9" A="R"/>
+			</File>
+		</Const>
+		<Const Name="Alarms1.C_iNumDI_L9" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L9.st">
+				<Pos L="27" C="35" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="41" C="62" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="46" C="41" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="46" C="76" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="51" C="45" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="54" C="39" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="54" C="88" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="60" C="39" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="60" C="100" PS="actIO_Ex_FailDetect_L9" A="R"/>
+			</File>
+		</Const>
+		<Const Name="Alarms1.C_iNumAI_L9" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L9.st">
+				<Pos L="27" C="47" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="45" C="7" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="46" C="88" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="51" C="57" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="54" C="51" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="54" C="100" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="60" C="51" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="60" C="112" PS="actIO_Ex_FailDetect_L9" A="R"/>
+			</File>
+		</Const>
+		<Const Name="Alarms1.C_iNumDO_L9" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L9.st">
+				<Pos L="27" C="61" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="53" C="7" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="54" C="114" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="60" C="65" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="60" C="126" PS="actIO_Ex_FailDetect_L9" A="R"/>
+			</File>
+		</Const>
+		<Const Name="Alarms1.C_iNumAO_L9" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L9.st">
+				<Pos L="27" C="73" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="59" C="7" PS="actIO_Ex_FailDetect_L9" A="R"/>
+				<Pos L="60" C="138" PS="actIO_Ex_FailDetect_L9" A="R"/>
+			</File>
+		</Const>
+		<Const Name="Alarms1.C_iX2XExt_L9" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L9.st">
+				<Pos L="27" C="85" PS="actIO_Ex_FailDetect_L9" A="R"/>
+			</File>
+		</Const>
+		<Const Name="Alarms1.C_iMaxAlmIO_L15" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L15.st">
+				<Pos L="18" C="22" PS="actIO_Ex_FailDetect_L15" A="R"/>
+			</File>
+		</Const>
+		<Const Name="Alarms1.C_iNumBefFirstIO_L15" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L15.st">
+				<Pos L="27" C="15" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="39" C="19" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="44" C="21" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="44" C="58" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="50" C="26" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="53" C="19" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="53" C="71" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="59" C="19" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="59" C="84" PS="actIO_Ex_FailDetect_L15" A="R"/>
+			</File>
+		</Const>
+		<Const Name="Alarms1.C_iNumDI_L15" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L15.st">
+				<Pos L="27" C="36" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="39" C="43" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="44" C="42" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="44" C="79" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="50" C="47" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="53" C="40" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="53" C="92" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="59" C="40" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="59" C="105" PS="actIO_Ex_FailDetect_L15" A="R"/>
+			</File>
+		</Const>
+		<Const Name="Alarms1.C_iNumAI_L15" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L15.st">
+				<Pos L="27" C="49" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="43" C="7" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="44" C="92" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="50" C="60" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="53" C="53" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="53" C="105" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="59" C="53" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="59" C="118" PS="actIO_Ex_FailDetect_L15" A="R"/>
+			</File>
+		</Const>
+		<Const Name="Alarms1.C_iNumDO_L15" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L15.st">
+				<Pos L="27" C="64" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="52" C="7" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="53" C="120" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="59" C="68" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="59" C="133" PS="actIO_Ex_FailDetect_L15" A="R"/>
+			</File>
+		</Const>
+		<Const Name="Alarms1.C_iNumAO_L15" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L15.st">
+				<Pos L="27" C="77" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="58" C="7" PS="actIO_Ex_FailDetect_L15" A="R"/>
+				<Pos L="59" C="146" PS="actIO_Ex_FailDetect_L15" A="R"/>
+			</File>
+		</Const>
+		<Const Name="Alarms1.C_iX2XExt_L15" Scope="Local" Type="INT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actIO_Ex_FailDetect_L15.st">
+				<Pos L="27" C="90" PS="actIO_Ex_FailDetect_L15" A="R"/>
+			</File>
+		</Const>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="HGW_2StateIND1" Lib="HGWeber">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="119" PS="Net:119, Ln:2, Col:4"/>
+			</File>
+		</Func>
+		<Func Name="H_FB_Flash" Lib="HGWeber">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/actAnimAlarmVisu.st">
+				<Pos L="15" C="3" PS="actAnimAlarmVisu"/>
+			</File>
+		</Func>
+		<Func Name="TON" Lib="standard">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="2" C="4" EP="39" PS="Net:39, Ln:2, Col:4"/>
+				<Pos L="2" C="4" EP="41" PS="Net:41, Ln:2, Col:4"/>
+				<Pos L="2" C="4" EP="43" PS="Net:43, Ln:2, Col:4"/>
+				<Pos L="2" C="4" EP="45" PS="Net:45, Ln:2, Col:4"/>
+				<Pos L="2" C="4" EP="47" PS="Net:47, Ln:2, Col:4"/>
+				<Pos L="2" C="4" EP="49" PS="Net:49, Ln:2, Col:4"/>
+				<Pos L="2" C="4" EP="51" PS="Net:51, Ln:2, Col:4"/>
+				<Pos L="2" C="4" EP="53" PS="Net:53, Ln:2, Col:4"/>
+				<Pos L="2" C="4" EP="55" PS="Net:55, Ln:2, Col:4"/>
+				<Pos L="2" C="4" EP="57" PS="Net:57, Ln:2, Col:4"/>
+				<Pos L="2" C="4" EP="59" PS="Net:59, Ln:2, Col:4"/>
+				<Pos L="2" C="4" EP="65" PS="Net:65, Ln:2, Col:4"/>
+				<Pos L="2" C="6" EP="88" PS="Net:88, Ln:2, Col:6"/>
+				<Pos L="2" C="6" EP="89" PS="Net:89, Ln:2, Col:6"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+		<Action Name="Alarms1.actAnimAlarmVisu">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="2" EP="120" PS="Net:120, Ln:1, Col:2" Q="N"/>
+			</File>
+		</Action>
+		<Action Name="Alarms1.actIO_Ex_FailDetect_E1_L3">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="2" EP="97" PS="Net:97, Ln:1, Col:2" Q="N"/>
+			</File>
+		</Action>
+		<Action Name="Alarms1.actIO_Ex_FailDetect_L15">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="2" EP="99" PS="Net:99, Ln:1, Col:2" Q="N"/>
+			</File>
+		</Action>
+		<Action Name="Alarms1.actIO_Ex_FailDetect_L9">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/SupervisoryControl_Section/Alarm_Section/Alarms1/Alarms1Cyclic.ld">
+				<Pos L="1" C="2" EP="98" PS="Net:98, Ln:1, Col:2" Q="N"/>
+			</File>
+		</Action>
+	</Actions>
+</Crossref>

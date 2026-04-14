@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0?>
+<Crossref Scope="" Desc="" xmlns="http://br-automation.co.at/AS/Crossreference">
+	<Vars>
+		<Var Name="gQ_CR_FP_Print" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="144" PS=" Ln:144" A="R" O="%QX.SL1.SS1.IF2.ST11.IF1.ST8.DigitalOutput02"/>
+			</File>
+		</Var>
+		<Var Name="gQ_CR_ColdGlue" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="143" PS=" Ln:143" A="R" O="%QX.SL1.SS1.IF2.ST11.IF1.ST7.DigitalOutput09"/>
+			</File>
+		</Var>
+		<Var Name="gQ_CON_Vacuum" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="136" PS=" Ln:136" A="R" O="%QX.SL1.SS1.IF2.ST11.IF1.ST7.DigitalOutput05"/>
+			</File>
+		</Var>
+		<Var Name="gI_MP_FP_SlowRot1" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="110" PS=" Ln:110" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST3.DigitalInput05"/>
+			</File>
+		</Var>
+		<Var Name="gI_MP_Vacuum" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="104" PS=" Ln:104" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST2.DigitalInput10"/>
+			</File>
+		</Var>
+		<Var Name="gI_JogPB_3" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="95" PS=" Ln:95" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST2.DigitalInput02"/>
+			</File>
+		</Var>
+		<Var Name="gQ_CMD_RS_GluePressure" Scope="Global" Type="INT" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="86" PS=" Ln:86" A="R" O="%QW.SL1.SS1.IF1.ST8.AnalogOutput01"/>
+			</File>
+		</Var>
+		<Var Name="gI_JogPB_2" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="81" PS=" Ln:81" A="W" O="%IX.SL1.SS1.IF1.ST5.DigitalInput10"/>
+			</File>
+		</Var>
+		<Var Name="gI_AirPressureOK" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="55" PS=" Ln:55" A="W" O="%IX.SL1.SS1.IF1.ST4.DigitalInput11"/>
+			</File>
+		</Var>
+		<Var Name="gI_GSW_Tearing" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="42" PS=" Ln:42" A="W" O="%IX.SL1.SS1.IF1.ST3.DigitalInput11"/>
+			</File>
+		</Var>
+		<Var Name="gI_JogPB_1" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="40" PS=" Ln:40" A="W" O="%IX.SL1.SS1.IF1.ST3.DigitalInput08"/>
+			</File>
+		</Var>
+		<Var Name="gI_JamPE_RS" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="38" PS=" Ln:38" A="W" O="%IX.SL1.SS1.IF1.ST3.DigitalInput07"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_TearingNeg" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="29" PS=" Ln:29" A="W" O="%IX.SL1.SS1.IF1.ST2.DigitalInput11"/>
+			</File>
+		</Var>
+		<Var Name="gI_PB_MachineStart" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="23" PS=" Ln:23" A="W" O="%IX.SL1.SS1.IF1.ST2.DigitalInput05"/>
+			</File>
+		</Var>
+		<Var Name="gQ_CR_UNW_Brake" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="148" PS=" Ln:148" A="R" O="%QX.SL1.SS1.IF2.ST11.IF1.ST8.DigitalOutput05"/>
+			</File>
+		</Var>
+		<Var Name="gI_StopPB_1" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="96" PS=" Ln:96" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST2.DigitalInput03"/>
+			</File>
+		</Var>
+		<Var Name="gQ_PL_MainPower" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="65" PS=" Ln:65" A="R" O="%QX.SL1.SS1.IF1.ST7.DigitalOutput06"/>
+			</File>
+		</Var>
+		<Var Name="gQ_SOL_GluePan" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="62" PS=" Ln:62" A="R" O="%QX.SL1.SS1.IF1.ST7.DigitalOutput03"/>
+			</File>
+		</Var>
+		<Var Name="gQ_SOL_BagCount" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="60" PS=" Ln:60" A="R" O="%QX.SL1.SS1.IF1.ST7.DigitalOutput01"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_ExitTableFaster" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="35" PS=" Ln:35" A="W" O="%IX.SL1.SS1.IF1.ST3.DigitalInput04"/>
+			</File>
+		</Var>
+		<Var Name="gI_PrintOff_PB" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="27" PS=" Ln:27" A="W" O="%IX.SL1.SS1.IF1.ST2.DigitalInput09"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_WebExitNip" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="26" PS=" Ln:26" A="W" O="%IX.SL1.SS1.IF1.ST2.DigitalInput08"/>
+			</File>
+		</Var>
+		<Var Name="gQ_CR_MainPowerOn" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="135" PS=" Ln:135" A="R" O="%QX.SL1.SS1.IF2.ST11.IF1.ST7.DigitalOutput04"/>
+			</File>
+		</Var>
+		<Var Name="gQ_CR_WarningHorn" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="132" PS=" Ln:132" A="R" O="%QX.SL1.SS1.IF2.ST11.IF1.ST7.DigitalOutput01"/>
+			</File>
+		</Var>
+		<Var Name="gI_GSW_FP_Gates" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="115" PS=" Ln:115" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST3.DigitalInput10"/>
+			</File>
+		</Var>
+		<Var Name="gI_FP_PrintOff_PB" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="109" PS=" Ln:109" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST3.DigitalInput04"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_MainPowerOff" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="75" PS=" Ln:75" A="W" O="%IX.SL1.SS1.IF1.ST5.DigitalInput02"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.stModuleOK_IO_E1_Slot[10].bStat" Scope="Local" Type="stIO_Alarm[0..20]" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="15" PS=" Ln:15" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST9.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="gI_StopPB_3" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="80" PS=" Ln:80" A="W" O="%IX.SL1.SS1.IF1.ST5.DigitalInput09"/>
+			</File>
+		</Var>
+		<Var Name="gI_230Vac_OK" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="101" PS=" Ln:101" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST2.DigitalInput08"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.stModuleOK_IO_E1_Slot[9].bStat" Scope="Local" Type="stIO_Alarm[0..20]" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="93" PS=" Ln:93" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST8.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.stModuleOK_IO_E1_Slot[8].bStat" Scope="Local" Type="stIO_Alarm[0..20]" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="92" PS=" Ln:92" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST7.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.stModuleOK_IO_E1_Slot[6].bStat" Scope="Local" Type="stIO_Alarm[0..20]" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="91" PS=" Ln:91" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST5.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.stModuleOK_IO_E1_Slot[5].bStat" Scope="Local" Type="stIO_Alarm[0..20]" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="90" PS=" Ln:90" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST4.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.stModuleOK_IO_E1_Slot[4].bStat" Scope="Local" Type="stIO_Alarm[0..20]" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="89" PS=" Ln:89" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST3.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.stModuleOK_IO_E1_Slot[3].bStat" Scope="Local" Type="stIO_Alarm[0..20]" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="88" PS=" Ln:88" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST2.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="gI_GSW_RSEntry" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="79" PS=" Ln:79" A="W" O="%IX.SL1.SS1.IF1.ST5.DigitalInput07"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.stModuleOK_IO_L3_Slot[5].bStat" Scope="Local" Type="stIO_Alarm[0..20]" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="73" PS=" Ln:73" A="W" O="%IX.SL1.SS1.IF1.ST5.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.stModuleOK_IO_L3_Slot[6].bStat" Scope="Local" Type="stIO_Alarm[0..20]" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="72" PS=" Ln:72" A="W" O="%IX.SL1.SS1.IF1.ST6.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="gQ_SOL_WebEntryNip" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="64" PS=" Ln:64" A="R" O="%QX.SL1.SS1.IF1.ST7.DigitalOutput05"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.stModuleOK_IO_L3_Slot[7].bStat" Scope="Local" Type="stIO_Alarm[0..20]" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="59" PS=" Ln:59" A="W" O="%IX.SL1.SS1.IF1.ST7.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.stModuleOK_IO_L3_Slot[8].bStat" Scope="Local" Type="stIO_Alarm[0..20]" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="58" PS=" Ln:58" A="W" O="%IX.SL1.SS1.IF1.ST8.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.stModuleOK_IO_L3_Slot[9].bStat" Scope="Local" Type="stIO_Alarm[0..20]" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="57" PS=" Ln:57" A="W" O="%IX.SL1.SS1.IF1.ST8.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.stModuleOK_IO_L3_Slot[4].bStat" Scope="Local" Type="stIO_Alarm[0..20]" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="44" PS=" Ln:44" A="W" O="%IX.SL1.SS1.IF1.ST4.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="gI_GSW_Door2" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="41" PS=" Ln:41" A="W" O="%IX.SL1.SS1.IF1.ST3.DigitalInput10"/>
+			</File>
+		</Var>
+		<Var Name="gI_GSW_Door1" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="39" PS=" Ln:39" A="W" O="%IX.SL1.SS1.IF1.ST3.DigitalInput09"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.stModuleOK_IO_L3_Slot[3].bStat" Scope="Local" Type="stIO_Alarm[0..20]" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="31" PS=" Ln:31" A="W" O="%IX.SL1.SS1.IF1.ST3.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.stModuleOK_IO_L3_Slot[2].bStat" Scope="Local" Type="stIO_Alarm[0..20]" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="19" PS=" Ln:19" A="W" O="%IX.SL1.SS1.IF1.ST2.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="gI_StopPB_2" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="18" PS=" Ln:18" A="W" O="%IX.SL1.SS1.IF1.ST2.DigitalInput01"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.stModuleOK_IO_E1_Slot[7].bStat" Scope="Local" Type="stIO_Alarm[0..20]" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="14" PS=" Ln:14" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST6.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.stModuleOK_IO_L3_Slot[1].bStat" Scope="Local" Type="stIO_Alarm[0..20]" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="13" PS=" Ln:13" A="W" O="%IX.SL1.SS1.IF1.ST1.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.stModuleOK_IO_E1_Slot[2].bStat" Scope="Local" Type="stIO_Alarm[0..20]" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="12" PS=" Ln:12" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST1.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="Alarms1.stModuleOK_IO_E1_Slot[1].bStat" Scope="Local" Type="stIO_Alarm[0..20]" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="11" PS=" Ln:11" A="W" O="%IX.SL1.SS1.IF2.ST11.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_UNW_Brake" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="125" PS=" Ln:125" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST4.DigitalInput07"/>
+			</File>
+		</Var>
+		<Var Name="gQ_CR_DRY_HeatRegul" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="153" PS=" Ln:153" A="R" O="%QX.SL1.SS1.IF2.ST11.IF1.ST8.DigitalOutput08"/>
+			</File>
+		</Var>
+		<Var Name="gAI_DRY_Pt100_Temp" Scope="Global" Type="INT" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="130" PS=" Ln:130" A="W" O="%IW.SL1.SS1.IF2.ST11.IF1.ST5.Temperature01"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_UNW_ForkDown" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="123" PS=" Ln:123" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST4.DigitalInput02"/>
+				<Pos L="150" PS=" Ln:150" A="R" O="%QX.SL1.SS1.IF2.ST11.IF1.ST8.DigitalOutput07"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_DrumNeg" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="47" PS=" Ln:47" A="W" O="%IX.SL1.SS1.IF1.ST4.DigitalInput03"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_ExitTableSlower" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="34" PS=" Ln:34" A="W" O="%IX.SL1.SS1.IF1.ST3.DigitalInput03"/>
+			</File>
+		</Var>
+		<Var Name="gQ_CR_FP_NipRol" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="145" PS=" Ln:145" A="R" O="%QX.SL1.SS1.IF2.ST11.IF1.ST8.DigitalOutput01"/>
+			</File>
+		</Var>
+		<Var Name="gQ_CR_EstopReset" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="133" PS=" Ln:133" A="R" O="%QX.SL1.SS1.IF2.ST11.IF1.ST7.DigitalOutput02"/>
+			</File>
+		</Var>
+		<Var Name="gI_EstopPB_Unwind" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="118" PS=" Ln:118" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST4.DigitalInput04"/>
+			</File>
+		</Var>
+		<Var Name="gQ_PL_GenFailure" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="66" PS=" Ln:66" A="R" O="%QX.SL1.SS1.IF1.ST7.DigitalOutput07"/>
+			</File>
+		</Var>
+		<Var Name="gI_ResetPB_1" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="53" PS=" Ln:53" A="W" O="%IX.SL1.SS1.IF1.ST4.DigitalInput09"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_WebEntryNipOn_2" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="51" PS=" Ln:51" A="W" O="%IX.SL1.SS1.IF1.ST4.DigitalInput07"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_WebEntryNipOn_1" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="49" PS=" Ln:49" A="W" O="%IX.SL1.SS1.IF1.ST4.DigitalInput05"/>
+			</File>
+		</Var>
+		<Var Name="gI_FasterPB_1" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="24" PS=" Ln:24" A="W" O="%IX.SL1.SS1.IF1.ST2.DigitalInput06"/>
+			</File>
+		</Var>
+		<Var Name="gQ_CMD_UNW_GluePressure" Scope="Global" Type="INT" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="17" PS=" Ln:17" A="R" O="%QW.SL1.SS1.IF2.ST11.IF1.ST9.AnalogOutput01"/>
+			</File>
+		</Var>
+		<Var Name="gI_MP_UNW_HydroPump" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="126" PS=" Ln:126" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST4.DigitalInput08"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_HoldingNeg" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="32" PS=" Ln:32" A="W" O="%IX.SL1.SS1.IF1.ST3.DigitalInput01"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_GluePanUpDown" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="25" PS=" Ln:25" A="W" O="%IX.SL1.SS1.IF1.ST2.DigitalInput07"/>
+			</File>
+		</Var>
+		<Var Name="gQ_CON_GlueSlowRotation" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="137" PS=" Ln:137" A="R" O="%QX.SL1.SS1.IF2.ST11.IF1.ST7.DigitalOutput06"/>
+			</File>
+		</Var>
+		<Var Name="gI_DRY_Thermostat" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="129" PS=" Ln:129" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST4.DigitalInput10"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_UNW_ForkUp" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="122" PS=" Ln:122" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST4.DigitalInput01"/>
+				<Pos L="149" PS=" Ln:149" A="R" O="%QX.SL1.SS1.IF2.ST11.IF1.ST8.DigitalOutput06"/>
+			</File>
+		</Var>
+		<Var Name="gI_GSW_FP_Doors" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="114" PS=" Ln:114" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST3.DigitalInput09"/>
+			</File>
+		</Var>
+		<Var Name="gI_FP_PrintOn_PB" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="108" PS=" Ln:108" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST3.DigitalInput03"/>
+			</File>
+		</Var>
+		<Var Name="gI_MP_FP_MotorFan" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="107" PS=" Ln:107" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST3.DigitalInput02"/>
+			</File>
+		</Var>
+		<Var Name="gI_L3_Spare4" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="85" PS=" Ln:85" A="W" O="%IX.SL1.SS1.IF1.ST5.DigitalInput12"/>
+			</File>
+		</Var>
+		<Var Name="gI_L3_Spare3" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="84" PS=" Ln:84" A="W" O="%IX.SL1.SS1.IF1.ST5.DigitalInput11"/>
+			</File>
+		</Var>
+		<Var Name="gI_L3_Spare2" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="83" PS=" Ln:83" A="W" O="%IX.SL1.SS1.IF1.ST5.DigitalInput08"/>
+			</File>
+		</Var>
+		<Var Name="gI_L3_Spare1" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="82" PS=" Ln:82" A="W" O="%IX.SL1.SS1.IF1.ST5.DigitalInput06"/>
+			</File>
+		</Var>
+		<Var Name="gI_GSW_PerfDoors" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="78" PS=" Ln:78" A="W" O="%IX.SL1.SS1.IF1.ST5.DigitalInput05"/>
+			</File>
+		</Var>
+		<Var Name="gQ_L3_Spare6" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="71" PS=" Ln:71" A="R" O="%QX.SL1.SS1.IF1.ST7.DigitalOutput12"/>
+			</File>
+		</Var>
+		<Var Name="gQ_L3_Spare5" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="70" PS=" Ln:70" A="R" O="%QX.SL1.SS1.IF1.ST7.DigitalOutput11"/>
+			</File>
+		</Var>
+		<Var Name="gQ_L3_Spare4" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="69" PS=" Ln:69" A="R" O="%QX.SL1.SS1.IF1.ST7.DigitalOutput10"/>
+			</File>
+		</Var>
+		<Var Name="gQ_L3_Spare3" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="68" PS=" Ln:68" A="R" O="%QX.SL1.SS1.IF1.ST7.DigitalOutput09"/>
+			</File>
+		</Var>
+		<Var Name="gQ_L3_Spare2" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="67" PS=" Ln:67" A="R" O="%QX.SL1.SS1.IF1.ST7.DigitalOutput08"/>
+			</File>
+		</Var>
+		<Var Name="gQ_L3_Spare1" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="63" PS=" Ln:63" A="R" O="%QX.SL1.SS1.IF1.ST7.DigitalOutput04"/>
+			</File>
+		</Var>
+		<Var Name="g_usiAI_DRY_Pt100_TempStatus" Scope="Global" Type="USINT" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="156" PS=" Ln:156" A="W" O="%IB.SL1.SS1.IF2.ST11.IF1.ST5.StatusInput01"/>
+			</File>
+		</Var>
+		<Var Name="gQ_CR_UNW_HydroPump" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="146" PS=" Ln:146" A="R" O="%QX.SL1.SS1.IF2.ST11.IF1.ST8.DigitalOutput03"/>
+			</File>
+		</Var>
+		<Var Name="gI_UNW_EndReelPapPE" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="124" PS=" Ln:124" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST4.DigitalInput06"/>
+			</File>
+		</Var>
+		<Var Name="gI_SafetyRelay_GuardOK" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="97" PS=" Ln:97" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST2.DigitalInput04"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_MainPowerOn" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="74" PS=" Ln:74" A="W" O="%IX.SL1.SS1.IF1.ST5.DigitalInput01"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_TearingPos" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="30" PS=" Ln:30" A="W" O="%IX.SL1.SS1.IF1.ST2.DigitalInput12"/>
+			</File>
+		</Var>
+		<Var Name="gQ_CR_WatchDog" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="134" PS=" Ln:134" A="R" O="%QX.SL1.SS1.IF2.ST11.IF1.ST7.DigitalOutput03"/>
+			</File>
+		</Var>
+		<Var Name="gI_MP_GlueSlowRotation" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="103" PS=" Ln:103" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST2.DigitalInput09"/>
+			</File>
+		</Var>
+		<Var Name="gQ_SOL_WebExitNip" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="61" PS=" Ln:61" A="R" O="%QX.SL1.SS1.IF1.ST7.DigitalOutput02"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_WebEntryNipOff_2" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="52" PS=" Ln:52" A="W" O="%IX.SL1.SS1.IF1.ST4.DigitalInput08"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_DrumPos" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="46" PS=" Ln:46" A="W" O="%IX.SL1.SS1.IF1.ST4.DigitalInput02"/>
+			</File>
+		</Var>
+		<Var Name="gAI_E1_Spare1" Scope="Global" Type="INT" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="131" PS=" Ln:131" A="W" O="%IW.SL1.SS1.IF2.ST11.IF1.ST5.Temperature02"/>
+			</File>
+		</Var>
+		<Var Name="gI_MP_FP_SlowRot4" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="113" PS=" Ln:113" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST3.DigitalInput08"/>
+			</File>
+		</Var>
+		<Var Name="gI_MP_PerfFan" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="105" PS=" Ln:105" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST2.DigitalInput11"/>
+			</File>
+		</Var>
+		<Var Name="gQ_CMD_RS_ExitTableSpeed" Scope="Global" Type="INT" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="16" PS=" Ln:16" A="R" O="%QW.SL1.SS1.IF2.ST11.IF1.ST9.AnalogOutput02"/>
+			</File>
+		</Var>
+		<Var Name="gQ_CR_DRY_HeatContinu" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="152" PS=" Ln:152" A="R" O="%QX.SL1.SS1.IF2.ST11.IF1.ST8.DigitalOutput09"/>
+			</File>
+		</Var>
+		<Var Name="gQ_CR_UNW_PIDRegul" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="147" PS=" Ln:147" A="R" O="%QX.SL1.SS1.IF2.ST11.IF1.ST8.DigitalOutput04"/>
+			</File>
+		</Var>
+		<Var Name="gI_MP_DRY_Heater" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="128" PS=" Ln:128" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST4.DigitalInput11"/>
+			</File>
+		</Var>
+		<Var Name="gI_WebBreakPE_1" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="56" PS=" Ln:56" A="W" O="%IX.SL1.SS1.IF1.ST4.DigitalInput12"/>
+			</File>
+		</Var>
+		<Var Name="gI_PrintOn_PB" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="28" PS=" Ln:28" A="W" O="%IX.SL1.SS1.IF1.ST2.DigitalInput10"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_PerfNeg" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="22" PS=" Ln:22" A="W" O="%IX.SL1.SS1.IF1.ST2.DigitalInput03"/>
+			</File>
+		</Var>
+		<Var Name="gI_MP_FP_SlowRot2" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="111" PS=" Ln:111" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST3.DigitalInput06"/>
+			</File>
+		</Var>
+		<Var Name="gI_SlowerPB_1" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="98" PS=" Ln:98" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST2.DigitalInput05"/>
+			</File>
+		</Var>
+		<Var Name="gAQ_L3_Spare1" Scope="Global" Type="INT" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="87" PS=" Ln:87" A="R" O="%QW.SL1.SS1.IF1.ST8.AnalogOutput02"/>
+			</File>
+		</Var>
+		<Var Name="gI_EstopPB_5" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="77" PS=" Ln:77" A="W" O="%IX.SL1.SS1.IF1.ST5.DigitalInput04"/>
+			</File>
+		</Var>
+		<Var Name="gI_EstopPB_4" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="76" PS=" Ln:76" A="W" O="%IX.SL1.SS1.IF1.ST5.DigitalInput03"/>
+			</File>
+		</Var>
+		<Var Name="gI_EstopPB_3" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="54" PS=" Ln:54" A="W" O="%IX.SL1.SS1.IF1.ST4.DigitalInput10"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_WebEntryNipOff_1" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="50" PS=" Ln:50" A="W" O="%IX.SL1.SS1.IF1.ST4.DigitalInput06"/>
+			</File>
+		</Var>
+		<Var Name="gI_FstopPB_1" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="45" PS=" Ln:45" A="W" O="%IX.SL1.SS1.IF1.ST4.DigitalInput01"/>
+			</File>
+		</Var>
+		<Var Name="gI_EstopPB_2" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="36" PS=" Ln:36" A="W" O="%IX.SL1.SS1.IF1.ST3.DigitalInput05"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_PerfPos" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="21" PS=" Ln:21" A="W" O="%IX.SL1.SS1.IF1.ST2.DigitalInput04"/>
+			</File>
+		</Var>
+		<Var Name="gI_EstopPB_1" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="20" PS=" Ln:20" A="W" O="%IX.SL1.SS1.IF1.ST2.DigitalInput02"/>
+			</File>
+		</Var>
+		<Var Name="gQ_E1_Spare6" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="155" PS=" Ln:155" A="R" O="%QX.SL1.SS1.IF2.ST11.IF1.ST8.DigitalOutput12"/>
+			</File>
+		</Var>
+		<Var Name="gQ_E1_Spare5" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="154" PS=" Ln:154" A="R" O="%QX.SL1.SS1.IF2.ST11.IF1.ST8.DigitalOutput11"/>
+			</File>
+		</Var>
+		<Var Name="gQ_E1_Spare4" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="142" PS=" Ln:142" A="R" O="%QX.SL1.SS1.IF2.ST11.IF1.ST7.DigitalOutput12"/>
+			</File>
+		</Var>
+		<Var Name="gQ_E1_Spare3" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="141" PS=" Ln:141" A="R" O="%QX.SL1.SS1.IF2.ST11.IF1.ST7.DigitalOutput11"/>
+			</File>
+		</Var>
+		<Var Name="gQ_E1_Spare2" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="140" PS=" Ln:140" A="R" O="%QX.SL1.SS1.IF2.ST11.IF1.ST7.DigitalOutput10"/>
+			</File>
+		</Var>
+		<Var Name="gQ_E1_Spare1" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="139" PS=" Ln:139" A="R" O="%QX.SL1.SS1.IF2.ST11.IF1.ST7.DigitalOutput08"/>
+			</File>
+		</Var>
+		<Var Name="gQ_CR_GuardBypass" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="138" PS=" Ln:138" A="R" O="%QX.SL1.SS1.IF2.ST11.IF1.ST7.DigitalOutput07"/>
+			</File>
+		</Var>
+		<Var Name="gI_MP_DRY_Blower" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="127" PS=" Ln:127" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST4.DigitalInput12"/>
+			</File>
+		</Var>
+		<Var Name="gI_E1_Spare8" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="121" PS=" Ln:121" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST4.DigitalInput09"/>
+			</File>
+		</Var>
+		<Var Name="gI_E1_Spare7" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="120" PS=" Ln:120" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST4.DigitalInput05"/>
+			</File>
+		</Var>
+		<Var Name="gI_E1_Spare6" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="119" PS=" Ln:119" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST4.DigitalInput03"/>
+			</File>
+		</Var>
+		<Var Name="gI_E1_Spare5" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="117" PS=" Ln:117" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST3.DigitalInput12"/>
+			</File>
+		</Var>
+		<Var Name="gI_E1_Spare4" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="116" PS=" Ln:116" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST3.DigitalInput11"/>
+			</File>
+		</Var>
+		<Var Name="gI_MP_FP_SlowRot3" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="112" PS=" Ln:112" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST3.DigitalInput07"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_FP_NipRol" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="106" PS=" Ln:106" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST3.DigitalInput01"/>
+			</File>
+		</Var>
+		<Var Name="gI_E1_Spare3" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="102" PS=" Ln:102" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST2.DigitalInput12"/>
+			</File>
+		</Var>
+		<Var Name="gI_E1_Spare2" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="100" PS=" Ln:100" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST2.DigitalInput07"/>
+			</File>
+		</Var>
+		<Var Name="gI_E1_Spare1" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="99" PS=" Ln:99" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST2.DigitalInput06"/>
+			</File>
+		</Var>
+		<Var Name="gI_GSW_Drum" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="43" PS=" Ln:43" A="W" O="%IX.SL1.SS1.IF1.ST3.DigitalInput12"/>
+			</File>
+		</Var>
+		<Var Name="gI_SlowerPB_2" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="37" PS=" Ln:37" A="W" O="%IX.SL1.SS1.IF1.ST3.DigitalInput06"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_HoldingPos" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="33" PS=" Ln:33" A="W" O="%IX.SL1.SS1.IF1.ST3.DigitalInput02"/>
+			</File>
+		</Var>
+		<Var Name="gQ_CR_DRY_Blower" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="151" PS=" Ln:151" A="R" O="%QX.SL1.SS1.IF2.ST11.IF1.ST8.DigitalOutput10"/>
+			</File>
+		</Var>
+		<Var Name="gI_SafetyRelay_EStopOK" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="94" PS=" Ln:94" A="W" O="%IX.SL1.SS1.IF2.ST11.IF1.ST2.DigitalInput01"/>
+			</File>
+		</Var>
+		<Var Name="gI_SS_SeamGlueOnOff" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/IoMap.iom" Desc="">
+				<Pos L="48" PS=" Ln:48" A="W" O="%IX.SL1.SS1.IF1.ST4.DigitalInput04"/>
+			</File>
+		</Var>
+	</Vars>
+</Crossref>

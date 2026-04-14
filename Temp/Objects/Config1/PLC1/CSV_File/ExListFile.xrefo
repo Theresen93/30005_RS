@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<Crossref Scope="Libraries.CSV_File">
+	<Vars>
+	</Vars>
+	<Consts>
+		<Const Name="FILE_FILE" Scope="Global" Type="USINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/ExListFile.ab">
+				<Pos L="314" C="27" PS="Ln:314, Col:27" A="R"/>
+			</File>
+		</Const>
+		<Const Name="FILE_R" Scope="Global" Type="USINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/ExListFile.ab">
+				<Pos L="379" C="22" PS="Ln:379, Col:22" A="R"/>
+			</File>
+		</Const>
+		<Const Name="ARRAY_TO_LESS" Scope="Global" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/ExListFile.ab">
+				<Pos L="306" C="14" PS="Ln:306, Col:14" A="R"/>
+			</File>
+		</Const>
+		<Const Name="ERRF_NO_ERROR" Scope="Global" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/ExListFile.ab">
+				<Pos L="272" C="33" PS="Ln:272, Col:33" A="R"/>
+				<Pos L="283" C="33" PS="Ln:283, Col:33" A="R"/>
+				<Pos L="293" C="34" PS="Ln:293, Col:34" A="R"/>
+			</File>
+		</Const>
+		<Const Name="ERR_NO_MEM_ALLOC" Scope="Global" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/ExListFile.ab">
+				<Pos L="263" C="14" PS="Ln:263, Col:14" A="R"/>
+			</File>
+		</Const>
+		<Const Name="ERR_ZERO_POINTER_OPTION" Scope="Global" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/ExListFile.ab">
+				<Pos L="462" C="13" PS="Ln:462, Col:13" A="R"/>
+			</File>
+		</Const>
+		<Const Name="FOCUSPOS_OUT_OF_LISTBOX" Scope="Global" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/ExListFile.ab">
+				<Pos L="250" C="14" PS="Ln:250, Col:14" A="R"/>
+			</File>
+		</Const>
+		<Const Name="FiJOB_CREATE_FILE_LIST" Scope="Global" Type="USINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/ExListFile.ab">
+				<Pos L="56" C="21" PS="Ln:56, Col:21" A="R"/>
+			</File>
+		</Const>
+		<Const Name="FiJOB_LIST_DOWN" Scope="Global" Type="USINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/ExListFile.ab">
+				<Pos L="99" C="21" PS="Ln:99, Col:21" A="R"/>
+			</File>
+		</Const>
+		<Const Name="FiJOB_LIST_PG_DOWN" Scope="Global" Type="USINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/ExListFile.ab">
+				<Pos L="187" C="21" PS="Ln:187, Col:21" A="R"/>
+			</File>
+		</Const>
+		<Const Name="FiJOB_LIST_PG_UP" Scope="Global" Type="USINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/ExListFile.ab">
+				<Pos L="139" C="21" PS="Ln:139, Col:21" A="R"/>
+			</File>
+		</Const>
+		<Const Name="FiJOB_LIST_UP" Scope="Global" Type="USINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/ExListFile.ab">
+				<Pos L="61" C="21" PS="Ln:61, Col:21" A="R"/>
+			</File>
+		</Const>
+		<Const Name="FiJOB_SET_FOCUS" Scope="Global" Type="USINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/ExListFile.ab">
+				<Pos L="240" C="21" PS="Ln:240, Col:21" A="R"/>
+			</File>
+		</Const>
+		<Const Name="MAX_NAMELENGHT_TO_LONG" Scope="Global" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/ExListFile.ab">
+				<Pos L="51" C="14" PS="Ln:51, Col:14" A="R"/>
+			</File>
+		</Const>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="memset" Lib="asstring">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/ExListFile.ab">
+				<Pos L="274" C="7" PS="Ln:274, Col:7"/>
+				<Pos L="287" C="8" PS="Ln:287, Col:8"/>
+				<Pos L="509" C="3" PS="Ln:509, Col:3"/>
+				<Pos L="511" C="3" PS="Ln:511, Col:3"/>
+				<Pos L="559" C="3" PS="Ln:559, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="memcpy" Lib="asstring">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/ExListFile.ab">
+				<Pos L="331" C="9" PS="Ln:331, Col:9"/>
+				<Pos L="473" C="3" PS="Ln:473, Col:3"/>
+				<Pos L="502" C="6" PS="Ln:502, Col:6"/>
+				<Pos L="521" C="3" PS="Ln:521, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="memcmp" Lib="asstring">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/ExListFile.ab">
+				<Pos L="480" C="22" PS="Ln:480, Col:22"/>
+			</File>
+		</Func>
+		<Func Name="strcat" Lib="asstring">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/ExListFile.ab">
+				<Pos L="533" C="3" PS="Ln:533, Col:3"/>
+				<Pos L="558" C="3" PS="Ln:558, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="strlen" Lib="asstring">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/ExListFile.ab">
+				<Pos L="328" C="12" PS="Ln:328, Col:12"/>
+				<Pos L="330" C="30" PS="Ln:330, Col:30"/>
+				<Pos L="342" C="0" PS="Ln:342, Col:0"/>
+				<Pos L="511" C="42" PS="Ln:511, Col:42"/>
+				<Pos L="511" C="127" PS="Ln:511, Col:127"/>
+				<Pos L="512" C="8" PS="Ln:512, Col:8"/>
+				<Pos L="515" C="22" PS="Ln:515, Col:22"/>
+				<Pos L="521" C="73" PS="Ln:521, Col:73"/>
+				<Pos L="525" C="8" PS="Ln:525, Col:8"/>
+				<Pos L="528" C="22" PS="Ln:528, Col:22"/>
+				<Pos L="563" C="39" PS="Ln:563, Col:39"/>
+			</File>
+		</Func>
+		<Func Name="strcpy" Lib="asstring">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/ExListFile.ab">
+				<Pos L="279" C="5" PS="Ln:279, Col:5"/>
+				<Pos L="562" C="3" PS="Ln:562, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="strcmp" Lib="asstring">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/ExListFile.ab">
+				<Pos L="332" C="26" PS="Ln:332, Col:26"/>
+				<Pos L="333" C="22" PS="Ln:333, Col:22"/>
+			</File>
+		</Func>
+		<Func Name="DT_TO_DTStructure" Lib="astime">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/ExListFile.ab">
+				<Pos L="535" C="3" PS="Ln:535, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="FileOpen" Lib="FileIO">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/ExListFile.ab">
+				<Pos L="380" C="20" PS="Ln:380, Col:20"/>
+			</File>
+		</Func>
+		<Func Name="FileClose" Lib="FileIO">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/ExListFile.ab">
+				<Pos L="439" C="22" PS="Ln:439, Col:22"/>
+			</File>
+		</Func>
+		<Func Name="FileRead" Lib="FileIO">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/ExListFile.ab">
+				<Pos L="410" C="21" PS="Ln:410, Col:21"/>
+			</File>
+		</Func>
+		<Func Name="DirRead" Lib="FileIO">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/ExListFile.ab">
+				<Pos L="317" C="22" PS="Ln:317, Col:22"/>
+			</File>
+		</Func>
+		<Func Name="DirInfo" Lib="FileIO">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/ExListFile.ab">
+				<Pos L="269" C="22" PS="Ln:269, Col:22"/>
+			</File>
+		</Func>
+		<Func Name="TMP_alloc" Lib="sys_lib">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/Libraries/CSV_File/ExListFile.ab">
+				<Pos L="385" C="28" PS="Ln:385, Col:28"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

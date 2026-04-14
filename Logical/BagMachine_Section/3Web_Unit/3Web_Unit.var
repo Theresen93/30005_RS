@@ -1,0 +1,20 @@
+(********************************************************************
+ * COPYRIGHT -- .
+ ********************************************************************
+ * Program: 3Web_Unit
+ * File: 3Web_Unit.var
+ * Author: dominique
+ * Created: November 05, 2011
+ ********************************************************************
+ * Local variables of program 3Web_Unit
+ ********************************************************************)
+
+VAR    
+  HMI_bDeflectorFanOnOff_PB : BOOL;
+  bDeflectorFan_On        : BOOL;
+  uiDeflectorFanColor_Ind : UINT;
+  uiDeflectorFanText_Ind  : UINT;
+END_VAR
+VAR RETAIN
+  HGW_2StatePB_0 : HGW_2StatePB;
+END_VAR

@@ -1,0 +1,5 @@
+VAR
+	zzRTR000000000:r_trig:=(0);
+	zzRTR000000001:r_trig:=(0);
+	zzRTR000000002:r_trig:=(0);
+END_VAR

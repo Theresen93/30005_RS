@@ -1,0 +1,91 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: HMI_Control
+ * File: HMI_Control.var
+ * Author: pkiel
+ * Created: September 17, 2009
+ ********************************************************************
+ * Local variables of program HMI_Control
+ ********************************************************************)
+VAR
+	CfgSetDefaultGateway_0 : CfgSetDefaultGateway;
+	DataLock_Motion : UINT;
+	HMI_ActualVelocity : REAL;
+	HMI_AlarmFilterControl : INT;
+	HMI_AlarmFilterGroup : INT;
+	HMI_AlarmInputStatus : INT;
+	HMI_Error : BOOL;
+	HMI_ErrorAck : BOOL;
+	HMI_ErrorCount : UINT;
+	HMI_ErrorID : UINT;
+	HMI_ErrorStop : BOOL;
+	HMI_ErrorText : ARRAY[0..3] OF STRING[79];
+	HMI_Ind_ContinuousMotion : BOOL;
+	HMI_Ind_ControllerStatus : BOOL;
+	HMI_Ind_DiscreteMotion : BOOL;
+	HMI_Ind_Enabled : BOOL;
+	HMI_Ind_Homed : BOOL;
+	HMI_Ind_InMotion : BOOL;
+	HMI_Ind_NetworkInit : BOOL;
+	HMI_Ind_SynchronizedMotion : BOOL;
+	HMI_Input_DriveEnable : BOOL;
+	HMI_Input_Home : BOOL;
+	HMI_Input_Trigger1 : BOOL;
+	HMI_Input_Trigger2 : BOOL;
+	HMI_MainScreenGroup : UINT;
+	HMI_MaintenanceScreenGroup : UINT;
+	HMI_PositionDeg : REAL;
+	HMI_PositionInch : REAL;
+	HMI_Screen2Group_Ind : UINT;
+	HMI_ScreenGroup_Ind : UINT;
+	HMI_SetupScreenGroup : UINT;
+	HMI_Status_Ind : UINT;
+  HMI_StatusScreenGroup : UINT;
+  HMI_bMaxSpeedPerf_PB : BOOL;
+  HMI_iSelCurvMaxSpeedPerf : INT;
+  HMI_uiCurvVisibl         : UINT;
+  HMI_uiNeverVisibl        : UINT := 1 ;
+  
+  HMI_strMP_UNW_HydroPump    : STRING[10] ;
+  HMI_strMP_FP_MotorFan      : STRING[10] ;
+  HMI_strMP_FP_SlowRot1      : STRING[10] ;
+  HMI_strMP_FP_SlowRot2      : STRING[10] ;
+  HMI_strMP_FP_SlowRot3      : STRING[10] ;
+  HMI_strMP_FP_SlowRot4      : STRING[10] ;
+  HMI_strMP_FP_SlowRot5      : STRING[10] ;
+  HMI_strMP_FP_SlowRot6      : STRING[10] ;
+  HMI_strMP_GlueSlowRotation : STRING[10] ;
+  HMI_strMP_PerfFan          : STRING[10] ;
+  HMI_strMP_Vacuum           : STRING[10] ; 
+  HMI_strMP_3W_MotorFan      : STRING[10] ;
+  HMI_strMP_DRY_Blower       : STRING[12] ;
+  HMI_strMP_DRY_Heater       : STRING[10] ;
+  HMI_strSS_DRY_Thermostat   : STRING[10] ;
+  HMI_strMP_CMP_WasteSuc     : STRING[10] ;
+  HMI_strMP_EB_WasteSuc      : STRING[10] ; (*Envelope Bag Waste Suction*) 
+  
+  HMI_iAnimHoldTearEnvB_1 : INT ;
+  HMI_iAnimHoldTearEnvB_2 : INT ;
+  HMI_iNumbPliers_1 : INT ;
+  HMI_iNumbPliers_2 : INT ;
+  HMI_iAnimPictHoldTearEnvB : INT ;
+  HMI_bPBShowEnvBConf : BOOL ;
+  HMI_rTubLInf_1 : REAL ;
+  HMI_rTubLInf_2 : REAL ;
+  HMI_rTubLSup_1 : REAL ;
+  HMI_rTubLSup_2 : REAL ;
+  HMI_iAnimPict2Visibl : INT ; 
+  HMI_iAnimTubLVisibl : INT ;  
+  HMI_rPosHoldEnvB : REAL ; 
+  rPosHoldEnvB : REAL ;
+  
+  HMI_iAnimSynchroAxis       :  INT ;
+  HMI_iAnimSynchroAxisVisibl : INT ;
+  
+  HMI_iHTEnvBOffsetVisibl : INT ;
+  
+  iAnimStep   : INT ;
+  iCountCycl  : INT ;
+  iIndex      : INT ;
+END_VAR

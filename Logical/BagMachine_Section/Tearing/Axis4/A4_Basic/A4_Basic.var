@@ -1,0 +1,67 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Program: A4_Basic
+ * File: A4_Basic.var
+ * Author: pkiel
+ * Created: July 13, 2011
+ ********************************************************************
+ * Local variables of program A4_Basic
+ ********************************************************************)
+VAR
+	AutoAck : BOOL;
+	AxisErrorNcAccess : UINT;
+	DriveStatus : MC_DRIVESTATUS_TYP;
+	HomeRestore : BOOL;
+	InitEndlessPosition : BOOL;
+	InitModPos_Done : BOOL;
+	InitModPosition : BOOL;
+	MC_BR_InitEndlessPosition_0 : MC_BR_InitEndlessPosition;
+	MC_BR_InitModPos_0 : MC_BR_InitModPos;
+  uiInitModPos0_ErrorID : UINT ;
+  MC_BR_Phasing_0 : MC_BR_Phasing;
+  MC_BR_Phasing_1 : MC_BR_Phasing;
+	MC_BR_ReadDriveStatus_0 : MC_BR_ReadDriveStatus;
+	MC_Home_0 : MC_Home;
+  MC_Home_1 : MC_Home;
+  MC_Home_2 : MC_Home;
+	MC_MoveVelocity_0 : MC_MoveVelocity;
+	MC_Power_0 : MC_Power;
+	MC_ReadActualPosition_0 : MC_ReadActualPosition;
+	MC_ReadActualTorque_0 : MC_ReadActualTorque;
+	MC_ReadActualVelocity_0 : MC_ReadActualVelocity;
+	MC_ReadAxisError_0 : MC_ReadAxisError;
+	MC_ReadStatus_0 : MC_ReadStatus;
+	MC_Reset_0 : MC_Reset;
+  MC_Stop_0 : MC_Stop;
+  MC_Stop_1 : MC_Stop;
+  st_TON_0 : TON ;
+	ResetError : BOOL;
+  rAxisTimSet_SP_Vel  : REAL ; (*Set point Velocity for Axis manual timing setting cycle, in units/s*)  
+  rAxisTimSet_SP_Acc  : REAL ; (*Set point Acceleration for Axis manual timing setting cycle, in units/s²*)
+  rAxisTimSet_SP_Dec  : REAL ; (*Set point Deceleration for Axis manual timing setting cycle, in units/s²*)
+  uiAxisTimSet_SP_Dir : USINT ; (*Set point Direction for Axis manual timing setting cycle*)
+  uiAxisTimSet_SP_ShiftAppMode : UINT ; (*Set point Shit Application mode for phasing Axis manual timing setting cycle*)
+  rTempActPhasDeg : REAL;
+  iTest_ : ARRAY[0..9] OF INT ;
+  rTest_ : ARRAY[0..9] OF REAL ;
+  rTemp_ : ARRAY[0..9] OF REAL ;  
+  iIndx : INT ;
+  rA9PosCorDeg  : REAL;
+  rRepeatMetric : REAL;
+  MC_SetOverride_0 : MC_SetOverride;
+  
+  iiSP_SlPos_U  : DINT ; (*On Slave side, input set point position of the position controller ParID 428, in unit*)
+  rSP_SlPos_Deg : REAL ; (*On Slave side, input set point position of the position controller ParID 428, in deg*)
+  iiSP_MaPos_U  : DINT ; (*On Master side, input set point position of the position controller ParID 412, in unit*)
+  rSP_MaPos_Deg : REAL ; (*On Master side, input set point position of the position controller ParID 412, in deg*)
+  MC_BR_CyclicRead_0 : MC_BR_CyclicRead ;
+  MC_BR_CyclicRead_1 : MC_BR_CyclicRead ;
+  
+  bChangeModReq      : BOOL ;
+  rRedefPosTear      : REAL ;
+  rPosTear4Pliers    : REAL ;
+  rSP_PhaseOffset    : REAL ;
+  rSP_PhaseOffsetVal : REAL ;
+  rSP_ShiftTearing   : REAL ;
+END_VAR

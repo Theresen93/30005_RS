@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<Crossref Scope="BagMachine_Section.EntryPull.Axis5.A5_Basic">
+	<Vars>
+		<Var Name="A5_Basic.AxisErrorNcAccess" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Basic/A5_BasicInit.st">
+				<Pos L="31" C="3" PS="Ln:31, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A5_Basic.InitModPosition" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Basic/A5_BasicInit.st">
+				<Pos L="34" C="3" PS="Ln:34, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.SP_MotorPPR" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Basic/A5_BasicInit.st">
+				<Pos L="15" C="3" PS="Ln:15, Col:3" A="W"/>
+				<Pos L="18" C="24" PS="Ln:18, Col:24" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.SP_GearBoxInput" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Basic/A5_BasicInit.st">
+				<Pos L="16" C="3" PS="Ln:16, Col:3" A="W"/>
+				<Pos L="18" C="42" PS="Ln:18, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.SP_GearBoxOutput" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Basic/A5_BasicInit.st">
+				<Pos L="17" C="3" PS="Ln:17, Col:3" A="W"/>
+				<Pos L="18" C="64" PS="Ln:18, Col:64" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.AxisPeriod" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Basic/A5_BasicInit.st">
+				<Pos L="18" C="3" PS="Ln:18, Col:3" A="W"/>
+				<Pos L="19" C="24" PS="Ln:19, Col:24" A="R"/>
+				<Pos L="20" C="25" PS="Ln:20, Col:25" A="R"/>
+				<Pos L="21" C="25" PS="Ln:21, Col:25" A="R"/>
+				<Pos L="22" C="33" PS="Ln:22, Col:33" A="R"/>
+				<Pos L="24" C="25" PS="Ln:24, Col:25" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.UnitsPerDeg" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Basic/A5_BasicInit.st">
+				<Pos L="19" C="3" PS="Ln:19, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.SP_Accel" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Basic/A5_BasicInit.st">
+				<Pos L="20" C="3" PS="Ln:20, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.SP_Decel" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Basic/A5_BasicInit.st">
+				<Pos L="21" C="3" PS="Ln:21, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.SP_EStopDecel" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Basic/A5_BasicInit.st">
+				<Pos L="22" C="3" PS="Ln:22, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.UnitsPerInch" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Basic/A5_BasicInit.st">
+				<Pos L="24" C="3" PS="Ln:24, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.rSP_CorPosVel" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Basic/A5_BasicInit.st">
+				<Pos L="25" C="5" PS="Ln:25, Col:5" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.rSP_OverrideV" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Basic/A5_BasicInit.st">
+				<Pos L="26" C="5" PS="Ln:26, Col:5" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.rSP_OverrideA" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Basic/A5_BasicInit.st">
+				<Pos L="27" C="5" PS="Ln:27, Col:5" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Cmd_EStopDisable" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Basic/A5_BasicInit.st">
+				<Pos L="28" C="5" PS="Ln:28, Col:5" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ident" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Basic/A5_BasicInit.st">
+				<Pos L="31" C="63" PS="Ln:31, Col:63" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_rSizeEntryPullRol_mm" Scope="Global" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Basic/A5_BasicInit.st">
+				<Pos L="24" C="47" PS="Ln:24, Col:47" A="R"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+		<Const Name="ncACP10MAN" Scope="Global" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Basic/A5_BasicInit.st">
+				<Pos L="31" C="33" PS="Ln:31, Col:33" A="R"/>
+			</File>
+		</Const>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="ncaccess" Lib="Ncglobal">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Basic/A5_BasicInit.st">
+				<Pos L="31" C="24" PS="Ln:31, Col:24"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

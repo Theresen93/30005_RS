@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Crossref Scope="BagMachine_Section.Holding.Axis3.A3_Cycle">
+	<Vars>
+		<Var Name="gstCycA.CycManTimSet.uiMasterParID" Scope="Global" Type="stCycAxis[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Holding/Axis3/A3_Cycle/A3_CycleInit.st">
+				<Pos L="14" C="3" PS="Ln:14, Col:3" A="W"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Crossref Scope="BagMachine_Section.FP.FP_Heater">
+	<Vars>
+		<Var Name="FP_Heater.rPT1_t" Scope="Local" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Heater/FP_HeaterInit.st">
+				<Pos L="14" C="3" PS="Ln:14, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="FP_Heater.rDeltaTStopPicChauf" Scope="Local" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Heater/FP_HeaterInit.st">
+				<Pos L="15" C="3" PS="Ln:15, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="FP_Heater.rSeuilConsTempActBattTOR" Scope="Local" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Heater/FP_HeaterInit.st">
+				<Pos L="16" C="3" PS="Ln:16, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="FP_Heater.rPIDRegTChaufKP" Scope="Local" Type="REAL[1..1]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Heater/FP_HeaterInit.st">
+				<Pos L="18" C="3" PS="Ln:18, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="FP_Heater.rPIDRegTChaufKI" Scope="Local" Type="REAL[1..1]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Heater/FP_HeaterInit.st">
+				<Pos L="19" C="3" PS="Ln:19, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="FP_Heater.rPIDRegTChaufKD" Scope="Local" Type="REAL[1..1]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/FP/FP_Heater/FP_HeaterInit.st">
+				<Pos L="20" C="3" PS="Ln:20, Col:3" A="W"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <P100_Main_Bundler ReferenceString="Source[local].Page[P100_Main_Bundler]">
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Numeric_18].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.Tilter.rHMI_PosTiltAct]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Text_1].Property[HighlightingDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.gQ_Bund_SOL_14C1Out]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Button_46].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.Control.uiBundManCol_Ind]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Button_46].Property[PressedColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.Control.uiBundManCol_Ind]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Button_46].Property[TextIndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.Control.uiBundManTxt_Ind]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Button_47].Property[LockingDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.g_bIndBundManu]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Button_47].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.Control.uiBundInitCol_Ind]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Button_47].Property[PressedColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.Control.uiBundInitCol_Ind]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Button_47].Property[TextIndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.Control.uiBundInitTxt_Ind]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Text_2].Property[HighlightingDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.gQ_Bund_SOL_14C2Out]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Text_3].Property[HighlightingDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.gQ_Bund_SOL_14C3Out]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Text_4].Property[HighlightingDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.gQ_Bund_SOL_14C4Out]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Text_6].Property[HighlightingDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.gQ_Bund_SOL_14C5Out]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Shape_2].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.Separator.iHMI_Bund_S101]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Shape_3].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.Separator.iHMI_Bund_S102]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Shape_4].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.Separator.iHMI_Bund_S103]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Shape_5].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.Separator.iHMI_Bund_S109]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Shape_6].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.Tilter.iHMI_Bund_S106]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Shape_8].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.Tilter.iHMI_Bund_S108]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Shape_9].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.Tilter.iHMI_Bund_S110]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Shape_11].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.Tilter.iHMI_Bund_S111]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Shape_12].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.Tilter.iHMI_Bund_S112]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Shape_13].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.Tilter.iHMI_Bund_S104]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Numeric_12].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.gHMI_Bund_iBagCountStartTilt]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Numeric_12].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.HMI.Password.DataLock_2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Bitmap_20].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.g_bIndBundReady]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Numeric_13].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.Count.iCurrentpackCountTilt]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Numeric_13].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.HMI.Password.DataLock_2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[P100_Main_Bundler].Layer[Default].Control[Numeric_3].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.SupervisoryControl_Section.Speed.rBundSpeedLimit]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </P100_Main_Bundler>
+</VCXReferenceList>

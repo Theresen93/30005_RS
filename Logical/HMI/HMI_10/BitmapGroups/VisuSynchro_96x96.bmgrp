@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="3.0.90.22 SP04"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="VisuSynchro_96x96">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="18"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="18134" Value="Source[local].Bitmap[zahnrad1_96x96]"/>
+    <BitmapRef ID="18135" Value="None"/>
+    <BitmapRef ID="18136" Value="Source[local].Bitmap[zahnrad2_96x96]"/>
+    <BitmapRef ID="18137" Value="Source[local].Bitmap[zahnrad3_96x96]"/>
+    <BitmapRef ID="18138" Value="Source[local].Bitmap[zahnrad4_96x96]"/>
+    <BitmapRef ID="18139" Value="Source[local].Bitmap[zahnrad5_96x96]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="18134" Value="1"/>
+    <Index ID="18135" Value="0"/>
+    <Index ID="18136" Value="2"/>
+    <Index ID="18137" Value="3"/>
+    <Index ID="18138" Value="4"/>
+    <Index ID="18139" Value="5"/>
+  </IndexMap>
+</BitmapGroup>

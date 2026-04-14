@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="3.0.90.22 SP04"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="NotOK_Ind">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="10"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="414" Value="Source[local].Bitmap[OK_14x14]"/>
+    <BitmapRef ID="415" Value="Source[local].Bitmap[NotOK_14x14]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="414" Value="0"/>
+    <Index ID="415" Value="1"/>
+  </IndexMap>
+</BitmapGroup>

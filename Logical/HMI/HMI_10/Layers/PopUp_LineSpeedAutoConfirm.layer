@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="3.0.90.22 SP04"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="PopUp_LineSpeedAutoConfirm">
+  <Property Name="BackColor" Value="249"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.BagMachine_Section.MasterAxis.A9_Init.SetSpeedMode.HMI_uiConfirmSetSpeedVisibl]"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="640"/>
+  <TextGroup>
+    <TextLayer LanguageId="en">
+      <Text ID="396735" Value="Confirm : SET SPEED AUTO"/>
+      <Text ID="396736" Value="YES"/>
+      <Text ID="396738" Value="NO"/>
+    </TextLayer>
+    <TextLayer LanguageId="de">
+      <Text ID="396735" Value=""/>
+      <Text ID="396736" Value=""/>
+      <Text ID="396738" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fr-FR">
+      <Text ID="396735" Value=""/>
+      <Text ID="396736" Value=""/>
+      <Text ID="396738" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fi-FI">
+      <Text ID="396735" Value="Vahvista: Aseta nopeus AUTO"/>
+      <Text ID="396736" Value="Kyllä"/>
+      <Text ID="396738" Value="Ei"/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="396735" Value="2"/>
+      <Index ID="396736" Value="3"/>
+      <Index ID="396738" Value="6"/>
+    </IndexMap>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001003" Name="HotSpot_1">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[HMI_ConfirmSetSpeedAutoAbort_PB]"/>
+      <Property Name="Width" Value="640"/>
+    </Control>
+    <Control ClassId="0x00001001" Name="Shape_2">
+      <Property Name="BackColor" Value="0"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="0"/>
+      <Property Name="Height" Value="150"/>
+      <Property Name="Left" Value="171"/>
+      <Property Name="LineWidth" Value="2"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+      <Property Name="Top" Value="95"/>
+      <Property Name="Width" Value="300"/>
+    </Control>
+    <Control ClassId="0x00001001" Name="Shape_1">
+      <Property Name="BackColor" Value="40"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="0"/>
+      <Property Name="Height" Value="150"/>
+      <Property Name="Left" Value="166"/>
+      <Property Name="LineWidth" Value="2"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+      <Property Name="Top" Value="92"/>
+      <Property Name="Width" Value="300"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_3">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial_14_Bold]"/>
+      <Property Name="Height" Value="41"/>
+      <Property Name="Left" Value="198"/>
+      <Property Name="Multiline" Value="Automatic"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="2"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="112"/>
+      <Property Name="Width" Value="241"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Button_25">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="BackColor" Value="59"/>
+      <Property Name="Bitmap" Value="Source[local].Bitmap[OK_24x24]"/>
+      <Property Name="BitmapAlignmentHorizontal" Value="Left of Text"/>
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="Border" Value="Source[local].Border[Button1_Active]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial_14_Bold]"/>
+      <Property Name="ForeColor" Value="0"/>
+      <Property Name="Height" Value="40"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="182"/>
+      <Property Name="Multiline" Value="Automatic"/>
+      <Property Name="PressedBackColor" Value="15"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedBorder" Value="Source[local].Border[Button1_Pressed]"/>
+      <Property Name="PressedForeColor" Value="0"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndex" Value="3"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="187"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[HMI_ConfirmSetSpeedAuto_PB]"/>
+      <Property Name="Width" Value="110"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Button_26">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="BackColor" Value="59"/>
+      <Property Name="Bitmap" Value="Source[local].Bitmap[Alarm_24x24]"/>
+      <Property Name="BitmapAlignmentHorizontal" Value="Left of Text"/>
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="Border" Value="Source[local].Border[Button1_Active]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial_14_Bold]"/>
+      <Property Name="ForeColor" Value="0"/>
+      <Property Name="Height" Value="40"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="342"/>
+      <Property Name="Multiline" Value="Automatic"/>
+      <Property Name="PressedBackColor" Value="15"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedBorder" Value="Source[local].Border[Button1_Pressed]"/>
+      <Property Name="PressedForeColor" Value="0"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndex" Value="6"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="187"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[HMI_ConfirmSetSpeedAutoAbort_PB]"/>
+      <Property Name="Width" Value="110"/>
+    </Control>
+  </Controls>
+  <KeyMapping/>
+</Layer>

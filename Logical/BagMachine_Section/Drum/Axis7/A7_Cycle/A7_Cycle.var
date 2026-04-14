@@ -1,0 +1,23 @@
+(********************************************************************
+ * COPYRIGHT -- .
+ ********************************************************************
+ * Program: A7_Cycle
+ * File: A7_Cycle.var
+ * Author: dominique
+ * Created: August 01, 2011
+ ********************************************************************
+ * Local variables of program A7_Cycle
+ ********************************************************************)
+
+VAR         
+  bTest_          : ARRAY [0..9] OF BOOL ;
+  iTest_          : ARRAY [0..9] OF INT ;
+  rTempActPhasDeg : ARRAY[0..9] OF REAL ;
+  rTempActOffsetInch : ARRAY[0..9] OF REAL ;
+  rTemp_          : ARRAY[0..9] OF REAL ;
+  stTON_01        : TON ;
+END_VAR
+
+VAR CONSTANT
+
+END_VAR

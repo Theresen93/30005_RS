@@ -1,0 +1,23 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Program: A5_Reg2
+ * File: A5_Reg2.var
+ * Author: pkiel
+ * Created: July 19, 2011
+ ********************************************************************
+ * Local variables of program A5_Reg2
+ ********************************************************************)
+VAR
+	Background : UINT;
+	Count : DINT;
+	Diameter_Old : REAL;
+	FirstAverage : BOOL;
+	Foreground : UINT;
+	Format_Old : REAL;
+	HGW_Average_0 : HGW_Average;
+	MissedMark_Count : DINT;
+	Offset_Old : REAL;
+	OutOfTolerance_Count : DINT;
+	Repeat_Old : REAL;
+END_VAR

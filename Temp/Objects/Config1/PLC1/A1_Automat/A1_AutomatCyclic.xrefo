@@ -1,0 +1,637 @@
+<?xml version="1.0"?>
+<Crossref Scope="BagMachine_Section.Perf.Axis1.A1_Automat">
+	<Vars>
+		<Var Name="A1_Automat.AutData.MasterParID" Scope="Local" Type="MC_AUTDATA_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="52" C="4" PS="Ln:52, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.AutData.StartPosition" Scope="Local" Type="MC_AUTDATA_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="53" C="4" PS="Ln:53, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.AutData.StartInterval" Scope="Local" Type="MC_AUTDATA_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="54" C="4" PS="Ln:54, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.AutData.MaxMasterVelocity" Scope="Local" Type="MC_AUTDATA_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="55" C="4" PS="Ln:55, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.AutData.State.Event.Type" Scope="Local" Type="MC_AUTDATA_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="75" C="9" PS="Ln:75, Col:9" A="W"/>
+				<Pos L="87" C="5" PS="Ln:87, Col:5" A="W"/>
+				<Pos L="115" C="5" PS="Ln:115, Col:5" A="W"/>
+				<Pos L="123" C="5" PS="Ln:123, Col:5" A="W"/>
+				<Pos L="151" C="5" PS="Ln:151, Col:5" A="W"/>
+				<Pos L="165" C="7" PS="Ln:165, Col:7" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.AutData.State.Event.Attribute" Scope="Local" Type="MC_AUTDATA_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="76" C="9" PS="Ln:76, Col:9" A="W"/>
+				<Pos L="88" C="5" PS="Ln:88, Col:5" A="W"/>
+				<Pos L="116" C="5" PS="Ln:116, Col:5" A="W"/>
+				<Pos L="124" C="5" PS="Ln:124, Col:5" A="W"/>
+				<Pos L="152" C="5" PS="Ln:152, Col:5" A="W"/>
+				<Pos L="166" C="7" PS="Ln:166, Col:7" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.AutData.State.Event.NextState" Scope="Local" Type="MC_AUTDATA_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="77" C="9" PS="Ln:77, Col:9" A="W"/>
+				<Pos L="89" C="5" PS="Ln:89, Col:5" A="W"/>
+				<Pos L="117" C="5" PS="Ln:117, Col:5" A="W"/>
+				<Pos L="125" C="5" PS="Ln:125, Col:5" A="W"/>
+				<Pos L="153" C="5" PS="Ln:153, Col:5" A="W"/>
+				<Pos L="167" C="7" PS="Ln:167, Col:7" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.AutData.State.CamProfileIndex" Scope="Local" Type="MC_AUTDATA_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="82" C="5" PS="Ln:82, Col:5" A="W"/>
+				<Pos L="92" C="5" PS="Ln:92, Col:5" A="W"/>
+				<Pos L="128" C="5" PS="Ln:128, Col:5" A="W"/>
+				<Pos L="158" C="7" PS="Ln:158, Col:7" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.AutData.State.MasterFactor" Scope="Local" Type="MC_AUTDATA_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="83" C="5" PS="Ln:83, Col:5" A="W"/>
+				<Pos L="93" C="5" PS="Ln:93, Col:5" A="W"/>
+				<Pos L="96" C="121" PS="Ln:96, Col:121" A="R"/>
+				<Pos L="129" C="5" PS="Ln:129, Col:5" A="W"/>
+				<Pos L="159" C="7" PS="Ln:159, Col:7" A="W"/>
+				<Pos L="162" C="64" PS="Ln:162, Col:64" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.AutData.State.SlaveFactor" Scope="Local" Type="MC_AUTDATA_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="84" C="5" PS="Ln:84, Col:5" A="W"/>
+				<Pos L="94" C="5" PS="Ln:94, Col:5" A="W"/>
+				<Pos L="97" C="82" PS="Ln:97, Col:82" A="R"/>
+				<Pos L="130" C="5" PS="Ln:130, Col:5" A="W"/>
+				<Pos L="160" C="7" PS="Ln:160, Col:7" A="W"/>
+				<Pos L="163" C="63" PS="Ln:163, Col:63" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.AutData.State.CompMode" Scope="Local" Type="MC_AUTDATA_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="85" C="5" PS="Ln:85, Col:5" A="W"/>
+				<Pos L="95" C="5" PS="Ln:95, Col:5" A="W"/>
+				<Pos L="131" C="5" PS="Ln:131, Col:5" A="W"/>
+				<Pos L="161" C="7" PS="Ln:161, Col:7" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.AutData.State.MasterCompDistance" Scope="Local" Type="MC_AUTDATA_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="96" C="5" PS="Ln:96, Col:5" A="W"/>
+				<Pos L="102" C="9" PS="Ln:102, Col:9" A="R"/>
+				<Pos L="103" C="29" PS="Ln:103, Col:29" A="R"/>
+				<Pos L="105" C="6" PS="Ln:105, Col:6" A="W"/>
+				<Pos L="106" C="10" PS="Ln:106, Col:10" A="R"/>
+				<Pos L="107" C="7" PS="Ln:107, Col:7" A="W"/>
+				<Pos L="107" C="46" PS="Ln:107, Col:46" A="R"/>
+				<Pos L="111" C="10" PS="Ln:111, Col:10" A="R"/>
+				<Pos L="112" C="6" PS="Ln:112, Col:6" A="W"/>
+				<Pos L="112" C="45" PS="Ln:112, Col:45" A="R"/>
+				<Pos L="132" C="5" PS="Ln:132, Col:5" A="W"/>
+				<Pos L="138" C="9" PS="Ln:138, Col:9" A="R"/>
+				<Pos L="139" C="29" PS="Ln:139, Col:29" A="R"/>
+				<Pos L="141" C="6" PS="Ln:141, Col:6" A="W"/>
+				<Pos L="142" C="10" PS="Ln:142, Col:10" A="R"/>
+				<Pos L="143" C="7" PS="Ln:143, Col:7" A="W"/>
+				<Pos L="143" C="46" PS="Ln:143, Col:46" A="R"/>
+				<Pos L="147" C="10" PS="Ln:147, Col:10" A="R"/>
+				<Pos L="148" C="6" PS="Ln:148, Col:6" A="W"/>
+				<Pos L="148" C="45" PS="Ln:148, Col:45" A="R"/>
+				<Pos L="162" C="7" PS="Ln:162, Col:7" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.AutData.State.SlaveCompDistance" Scope="Local" Type="MC_AUTDATA_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="97" C="5" PS="Ln:97, Col:5" A="W"/>
+				<Pos L="99" C="9" PS="Ln:99, Col:9" A="R"/>
+				<Pos L="100" C="6" PS="Ln:100, Col:6" A="W"/>
+				<Pos L="100" C="44" PS="Ln:100, Col:44" A="R"/>
+				<Pos L="111" C="76" PS="Ln:111, Col:76" A="R"/>
+				<Pos L="133" C="5" PS="Ln:133, Col:5" A="W"/>
+				<Pos L="135" C="9" PS="Ln:135, Col:9" A="R"/>
+				<Pos L="136" C="6" PS="Ln:136, Col:6" A="W"/>
+				<Pos L="136" C="44" PS="Ln:136, Col:44" A="R"/>
+				<Pos L="147" C="76" PS="Ln:147, Col:76" A="R"/>
+				<Pos L="163" C="7" PS="Ln:163, Col:7" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.AutData" Scope="Local" Type="MC_AUTDATA_TYP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="172" C="42" PS="Ln:172, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.AutomatStart" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="178" C="5" PS="Ln:178, Col:5" A="W"/>
+				<Pos L="188" C="6" PS="Ln:188, Col:6" A="R"/>
+				<Pos L="190" C="4" PS="Ln:190, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.ErrorID" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="36" C="8" PS="Ln:36, Col:8" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.InMatched" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="72" C="9" PS="Ln:72, Col:9" A="W"/>
+				<Pos L="120" C="5" PS="Ln:120, Col:5" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MasterOffset" Scope="Local" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="65" C="4" PS="Ln:65, Col:4" A="W"/>
+				<Pos L="96" C="86" PS="Ln:96, Col:86" A="R"/>
+				<Pos L="132" C="84" PS="Ln:132, Col:84" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MasterParID" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="30" C="8" PS="Ln:30, Col:8" A="W"/>
+				<Pos L="52" C="30" PS="Ln:52, Col:30" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MatchedSpeed_Inch" Scope="Local" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="60" C="9" PS="Ln:60, Col:9" A="W"/>
+				<Pos L="63" C="9" PS="Ln:63, Col:9" A="W"/>
+				<Pos L="83" C="55" PS="Ln:83, Col:55" A="R"/>
+				<Pos L="84" C="54" PS="Ln:84, Col:54" A="R"/>
+				<Pos L="93" C="57" PS="Ln:93, Col:57" A="R"/>
+				<Pos L="94" C="56" PS="Ln:94, Col:56" A="R"/>
+				<Pos L="129" C="54" PS="Ln:129, Col:54" A="R"/>
+				<Pos L="130" C="53" PS="Ln:130, Col:53" A="R"/>
+				<Pos L="159" C="60" PS="Ln:159, Col:60" A="R"/>
+				<Pos L="160" C="60" PS="Ln:160, Col:60" A="R"/>
+				<Pos L="217" C="53" PS="Ln:217, Col:53" A="R"/>
+				<Pos L="218" C="52" PS="Ln:218, Col:52" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_AutControl_0.Enable" Scope="Local" Type="MC_BR_AutControl">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="171" C="4" PS="Ln:171, Col:4" A="W"/>
+				<Pos L="182" C="5" PS="Ln:182, Col:5" A="W"/>
+				<Pos L="198" C="5" PS="Ln:198, Col:5" A="W"/>
+				<Pos L="204" C="29" PS="Ln:204, Col:29" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_AutControl_0.AdrAutData" Scope="Local" Type="MC_BR_AutControl">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="172" C="4" PS="Ln:172, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_AutControl_0.InitAutData" Scope="Local" Type="MC_BR_AutControl">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="173" C="4" PS="Ln:173, Col:4" A="W"/>
+				<Pos L="177" C="5" PS="Ln:177, Col:5" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_AutControl_0.AutDataInitialized" Scope="Local" Type="MC_BR_AutControl">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="176" C="9" PS="Ln:176, Col:9" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_AutControl_0.ErrorID" Scope="Local" Type="MC_BR_AutControl">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="181" C="8" PS="Ln:181, Col:8" A="R"/>
+				<Pos L="183" C="18" PS="Ln:183, Col:18" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_AutControl_0.Start" Scope="Local" Type="MC_BR_AutControl">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="189" C="4" PS="Ln:189, Col:4" A="W"/>
+				<Pos L="195" C="4" PS="Ln:195, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_AutControl_0.Stop" Scope="Local" Type="MC_BR_AutControl">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="194" C="4" PS="Ln:194, Col:4" A="W"/>
+				<Pos L="199" C="5" PS="Ln:199, Col:5" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_AutControl_0.Running" Scope="Local" Type="MC_BR_AutControl">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="197" C="8" PS="Ln:197, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_AutControl_0.ActualStateIndex" Scope="Local" Type="MC_BR_AutControl">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="205" C="34" PS="Ln:205, Col:34" A="R"/>
+				<Pos L="207" C="28" PS="Ln:207, Col:28" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_AutControl_0.Slave" Scope="Local" Type="MC_BR_AutControl">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="209" C="2" PS="Ln:209, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_AutControl_0" Scope="Local" Type="MC_BR_AutControl">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="210" C="2" PS="Ln:210, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_InitAutState_0.Master" Scope="Local" Type="MC_BR_InitAutState">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="213" C="2" PS="Ln:213, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_InitAutState_0.Slave" Scope="Local" Type="MC_BR_InitAutState">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="214" C="2" PS="Ln:214, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_InitAutState_0.StateIndex" Scope="Local" Type="MC_BR_InitAutState">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="215" C="2" PS="Ln:215, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_InitAutState_0.CamProfileIndex" Scope="Local" Type="MC_BR_InitAutState">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="216" C="2" PS="Ln:216, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_InitAutState_0.MasterFactor" Scope="Local" Type="MC_BR_InitAutState">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="217" C="2" PS="Ln:217, Col:2" A="W"/>
+				<Pos L="219" C="63" PS="Ln:219, Col:63" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_InitAutState_0.SlaveFactor" Scope="Local" Type="MC_BR_InitAutState">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="218" C="2" PS="Ln:218, Col:2" A="W"/>
+				<Pos L="220" C="61" PS="Ln:220, Col:61" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_InitAutState_0.MasterCompDistance" Scope="Local" Type="MC_BR_InitAutState">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="219" C="2" PS="Ln:219, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_InitAutState_0.SlaveCompDistance" Scope="Local" Type="MC_BR_InitAutState">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="220" C="2" PS="Ln:220, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_InitAutState_0.Execute" Scope="Local" Type="MC_BR_InitAutState">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="221" C="2" PS="Ln:221, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_InitAutState_0" Scope="Local" Type="MC_BR_InitAutState">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="222" C="2" PS="Ln:222, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_InitAutState_0.Done" Scope="Local" Type="MC_BR_InitAutState">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="224" C="7" PS="Ln:224, Col:7" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_InitAutState_0.Error" Scope="Local" Type="MC_BR_InitAutState">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="224" C="36" PS="Ln:224, Col:36" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_InitMasterParIDTransfer_0.Master" Scope="Local" Type="MC_BR_InitMasterParIDTransfer">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="24" C="5" PS="Ln:24, Col:5" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_InitMasterParIDTransfer_0.Slave" Scope="Local" Type="MC_BR_InitMasterParIDTransfer">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="25" C="6" PS="Ln:25, Col:6" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_InitMasterParIDTransfer_0.MasterParID" Scope="Local" Type="MC_BR_InitMasterParIDTransfer">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="26" C="6" PS="Ln:26, Col:6" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_InitMasterParIDTransfer_0.SlaveChannel" Scope="Local" Type="MC_BR_InitMasterParIDTransfer">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="27" C="6" PS="Ln:27, Col:6" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_InitMasterParIDTransfer_0.Execute" Scope="Local" Type="MC_BR_InitMasterParIDTransfer">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="28" C="6" PS="Ln:28, Col:6" A="W"/>
+				<Pos L="31" C="8" PS="Ln:31, Col:8" A="W"/>
+				<Pos L="38" C="8" PS="Ln:38, Col:8" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_InitMasterParIDTransfer_0.Done" Scope="Local" Type="MC_BR_InitMasterParIDTransfer">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="29" C="10" PS="Ln:29, Col:10" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_InitMasterParIDTransfer_0.ReceiveParID" Scope="Local" Type="MC_BR_InitMasterParIDTransfer">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="30" C="21" PS="Ln:30, Col:21" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_InitMasterParIDTransfer_0.Error" Scope="Local" Type="MC_BR_InitMasterParIDTransfer">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="33" C="13" PS="Ln:33, Col:13" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_InitMasterParIDTransfer_0.ErrorID" Scope="Local" Type="MC_BR_InitMasterParIDTransfer">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="36" C="17" PS="Ln:36, Col:17" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.MC_BR_InitMasterParIDTransfer_0" Scope="Local" Type="MC_BR_InitMasterParIDTransfer">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="41" C="2" PS="Ln:41, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.ParID_Ready" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="23" C="28" PS="Ln:23, Col:28" A="R"/>
+				<Pos L="32" C="8" PS="Ln:32, Col:8" A="W"/>
+				<Pos L="37" C="8" PS="Ln:37, Col:8" A="W"/>
+				<Pos L="44" C="19" PS="Ln:44, Col:19" A="R"/>
+				<Pos L="196" C="4" PS="Ln:196, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.Slave_AxisPeriod" Scope="Local" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="66" C="4" PS="Ln:66, Col:4" A="W"/>
+				<Pos L="97" C="44" PS="Ln:97, Col:44" A="R"/>
+				<Pos L="100" C="79" PS="Ln:100, Col:79" A="R"/>
+				<Pos L="111" C="116" PS="Ln:111, Col:116" A="R"/>
+				<Pos L="133" C="43" PS="Ln:133, Col:43" A="R"/>
+				<Pos L="136" C="79" PS="Ln:136, Col:79" A="R"/>
+				<Pos L="147" C="116" PS="Ln:147, Col:116" A="R"/>
+				<Pos L="163" C="46" PS="Ln:163, Col:46" A="R"/>
+				<Pos L="220" C="44" PS="Ln:220, Col:44" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.Synch_Request" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="22" C="2" PS="Ln:22, Col:2" A="W"/>
+				<Pos L="23" C="6" PS="Ln:23, Col:6" A="R"/>
+				<Pos L="176" C="57" PS="Ln:176, Col:57" A="R"/>
+				<Pos L="193" C="11" PS="Ln:193, Col:11" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.Value1" Scope="Local" Type="DINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="103" C="6" PS="Ln:103, Col:6" A="W"/>
+				<Pos L="105" C="58" PS="Ln:105, Col:58" A="R"/>
+				<Pos L="139" C="6" PS="Ln:139, Col:6" A="W"/>
+				<Pos L="141" C="58" PS="Ln:141, Col:58" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.Value2" Scope="Local" Type="DINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="104" C="6" PS="Ln:104, Col:6" A="W"/>
+				<Pos L="105" C="69" PS="Ln:105, Col:69" A="R"/>
+				<Pos L="140" C="6" PS="Ln:140, Col:6" A="W"/>
+				<Pos L="141" C="69" PS="Ln:141, Col:69" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.bInitCamAuto" Scope="Local" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="44" C="3" PS="Ln:44, Col:3" A="W"/>
+				<Pos L="48" C="14" PS="Ln:48, Col:14" A="R"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.uiErrorID" Scope="Local" Type="UINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="183" C="5" PS="Ln:183, Col:5" A="W"/>
+			</File>
+		</Var>
+		<Var Name="A1_Automat.rTempPosA1_Inch" Scope="Local" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="79" C="9" PS="Ln:79, Col:9" A="W"/>
+				<Pos L="83" C="73" PS="Ln:83, Col:73" A="R"/>
+				<Pos L="84" C="72" PS="Ln:84, Col:72" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.rRSynNum" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="16" C="6" PS="Ln:16, Col:6" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.rRSynDen" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="17" C="6" PS="Ln:17, Col:6" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Cmd_SynchronizedMotion" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="22" C="19" PS="Ln:22, Col:19" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ident" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="24" C="45" PS="Ln:24, Col:45" A="R"/>
+				<Pos L="25" C="45" PS="Ln:25, Col:45" A="R"/>
+				<Pos L="209" C="29" PS="Ln:209, Col:29" A="R"/>
+				<Pos L="213" C="33" PS="Ln:213, Col:33" A="R"/>
+				<Pos L="214" C="32" PS="Ln:214, Col:32" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.AxisPeriod" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="54" C="30" PS="Ln:54, Col:30" A="R"/>
+				<Pos L="66" C="25" PS="Ln:66, Col:25" A="R"/>
+				<Pos L="96" C="45" PS="Ln:96, Col:45" A="R"/>
+				<Pos L="104" C="29" PS="Ln:104, Col:29" A="R"/>
+				<Pos L="107" C="82" PS="Ln:107, Col:82" A="R"/>
+				<Pos L="111" C="51" PS="Ln:111, Col:51" A="R"/>
+				<Pos L="112" C="82" PS="Ln:112, Col:82" A="R"/>
+				<Pos L="132" C="44" PS="Ln:132, Col:44" A="R"/>
+				<Pos L="140" C="29" PS="Ln:140, Col:29" A="R"/>
+				<Pos L="143" C="82" PS="Ln:143, Col:82" A="R"/>
+				<Pos L="147" C="51" PS="Ln:147, Col:51" A="R"/>
+				<Pos L="148" C="82" PS="Ln:148, Col:82" A="R"/>
+				<Pos L="162" C="46" PS="Ln:162, Col:46" A="R"/>
+				<Pos L="219" C="45" PS="Ln:219, Col:45" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.InchPerDeg" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="79" C="54" PS="Ln:79, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.PositionInch" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="79" C="100" PS="Ln:79, Col:100" A="R"/>
+				<Pos L="96" C="66" PS="Ln:96, Col:66" A="R"/>
+				<Pos L="132" C="64" PS="Ln:132, Col:64" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.UnitsPerInch" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="83" C="90" PS="Ln:83, Col:90" A="R"/>
+				<Pos L="84" C="89" PS="Ln:84, Col:89" A="R"/>
+				<Pos L="93" C="75" PS="Ln:93, Col:75" A="R"/>
+				<Pos L="94" C="74" PS="Ln:94, Col:74" A="R"/>
+				<Pos L="96" C="100" PS="Ln:96, Col:100" A="R"/>
+				<Pos L="129" C="72" PS="Ln:129, Col:72" A="R"/>
+				<Pos L="130" C="71" PS="Ln:130, Col:71" A="R"/>
+				<Pos L="132" C="98" PS="Ln:132, Col:98" A="R"/>
+				<Pos L="159" C="78" PS="Ln:159, Col:78" A="R"/>
+				<Pos L="160" C="78" PS="Ln:160, Col:78" A="R"/>
+				<Pos L="217" C="71" PS="Ln:217, Col:71" A="R"/>
+				<Pos L="218" C="70" PS="Ln:218, Col:70" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.PositionCount" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="97" C="62" PS="Ln:97, Col:62" A="R"/>
+				<Pos L="133" C="60" PS="Ln:133, Col:60" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_AutomatEnabled" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="204" C="3" PS="Ln:204, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_CurrentAutomatState" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="205" C="3" PS="Ln:205, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_bSynchroOK" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="207" C="3" PS="Ln:207, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gA.Ind_SynchronizedMotion" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="207" C="74" PS="Ln:207, Col:74" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gA.Cmd_SynchronizedMotionUpdate" Scope="Global" Type="AxisBasic[0..15]">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="221" C="34" PS="Ln:221, Col:34" A="R"/>
+				<Pos L="225" C="3" PS="Ln:225, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gPerf_ParkRequired" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="203" C="10" PS="Ln:203, Col:10" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gRecipeActive.bSelEnvBProd" Scope="Global" Type="Recipe">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="58" C="10" PS="Ln:58, Col:10" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gSP_EnvBPerf.rZoneBefPerf_in" Scope="Global" Type="AxisSP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="60" C="30" PS="Ln:60, Col:30" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gSP_EnvBPerf.rZoneAftPerf_in" Scope="Global" Type="AxisSP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="60" C="61" PS="Ln:60, Col:61" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gSP_StandPerf.rZoneBefPerf_in" Scope="Global" Type="AxisSP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="63" C="30" PS="Ln:63, Col:30" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gSP_StandPerf.rZoneAftPerf_in" Scope="Global" Type="AxisSP">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="63" C="62" PS="Ln:63, Col:62" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gSP_PerfKnifeCount" Scope="Global" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="66" C="42" PS="Ln:66, Col:42" A="R"/>
+				<Pos L="79" C="71" PS="Ln:79, Col:71" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_bPerfInMatchedSpeed" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="71" C="10" PS="Ln:71, Col:10" A="R"/>
+			</File>
+		</Var>
+		<Var Name="g_bCameProf_OK" Scope="Global" Type="BOOL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="45" C="19" PS="Ln:45, Col:19" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gr_rMachMaxSpeed_BPM" Scope="Global" Type="REAL">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="55" C="33" PS="Ln:55, Col:33" A="R"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+		<Const Name="ncAT_ONCE" Scope="Global" Type="USINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="76" C="48" PS="Ln:76, Col:48" A="R"/>
+				<Pos L="124" C="44" PS="Ln:124, Col:44" A="R"/>
+			</File>
+		</Const>
+		<Const Name="ncOFF" Scope="Global" Type="USINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="85" C="39" PS="Ln:85, Col:39" A="R"/>
+			</File>
+		</Const>
+		<Const Name="ncONLYCOMP" Scope="Global" Type="USINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="95" C="42" PS="Ln:95, Col:42" A="R"/>
+				<Pos L="131" C="39" PS="Ln:131, Col:39" A="R"/>
+				<Pos L="161" C="46" PS="Ln:161, Col:46" A="R"/>
+			</File>
+		</Const>
+		<Const Name="ncST_END" Scope="Global" Type="USINT">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="75" C="48" PS="Ln:75, Col:48" A="R"/>
+				<Pos L="87" C="42" PS="Ln:87, Col:42" A="R"/>
+				<Pos L="88" C="44" PS="Ln:88, Col:44" A="R"/>
+				<Pos L="115" C="40" PS="Ln:115, Col:40" A="R"/>
+				<Pos L="116" C="44" PS="Ln:116, Col:44" A="R"/>
+				<Pos L="123" C="42" PS="Ln:123, Col:42" A="R"/>
+				<Pos L="151" C="42" PS="Ln:151, Col:42" A="R"/>
+				<Pos L="152" C="44" PS="Ln:152, Col:44" A="R"/>
+				<Pos L="165" C="46" PS="Ln:165, Col:46" A="R"/>
+				<Pos L="166" C="46" PS="Ln:166, Col:46" A="R"/>
+			</File>
+		</Const>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="H_FC_Modulus" Lib="HGWeber">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="79" C="28" PS="Ln:79, Col:28"/>
+			</File>
+		</Func>
+		<Func Name="MC_BR_AutControl" Lib="acp10_mc">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="210" C="2" PS="Ln:210, Col:2"/>
+			</File>
+		</Func>
+		<Func Name="MC_BR_InitAutState" Lib="acp10_mc">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="222" C="2" PS="Ln:222, Col:2"/>
+			</File>
+		</Func>
+		<Func Name="MC_BR_InitMasterParIDTransfer" Lib="acp10_mc">
+			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Perf/Axis1/A1_Automat/A1_AutomatCyclic.st">
+				<Pos L="41" C="2" PS="Ln:41, Col:2"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

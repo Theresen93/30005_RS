@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.80.31 SP01?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="IEC" Description="HMI Splash Screen Control">Splash</Object>
+    <Object Type="Program" Language="IEC" Description="General HMI Control">HMI_Control</Object>
+    <Object Type="Program" Language="IEC" Description="HMI Inch/Metric Control">Units</Object>
+    <Object Type="Program" Language="IEC" Description="HMI Language Control">Language</Object>
+    <Object Type="Program" Language="IEC" Description="Password Control">Password</Object>
+    <Object Type="Program" Language="IEC" Description="Network Command Trace Transfer">Cmd_Trace</Object>
+    <Object Type="Program" Language="IEC" Description="General Recipe Code">Recipe_1</Object>
+    <Object Type="Program" Language="IEC" Description="Recipe Backup &amp; Restore">Recipe_2</Object>
+    <Object Type="Program" Language="IEC" Description="Message Display #1 Code">Message_1</Object>
+    <Object Type="Program" Language="IEC" Description="Message Display #2 Code">Message_2</Object>
+    <Object Type="Program" Language="IEC" Description="Variable Back Up Routine">BackUp</Object>
+    <Object Type="Program" Language="IEC" Description="A new program">CPURestart</Object>
+    <Object Type="DataObject" Language="Vc">HMI_10</Object>
+  </Objects>
+</Package>

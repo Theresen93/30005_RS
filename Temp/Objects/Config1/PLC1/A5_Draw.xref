@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<Crossref Scope="BagMachine_Section.EntryPull.Axis5.A5_Draw">
+  <Vars>
+    <Var Name="A5_Draw.Draw_Old" Scope="Local" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Draw/A5_DrawCyclic.st">
+        <Pos L="35" C="27" PS="Ln:35, Col:27" A="R" />
+        <Pos L="37" C="5" PS="Ln:37, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="A5_Draw.First" Scope="Local" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Draw/A5_DrawCyclic.st">
+        <Pos L="35" C="45" PS="Ln:35, Col:45" A="R" />
+        <Pos L="38" C="5" PS="Ln:38, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="A5_Draw.iLockEntryWebDraw" Scope="Local" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Draw/A5_DrawCyclic.st">
+        <Pos L="22" C="5" PS="Ln:22, Col:5" A="W" />
+        <Pos L="27" C="5" PS="Ln:27, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="A5_Draw.iBackColor" Scope="Local" Type="INT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Draw/A5_DrawCyclic.st">
+        <Pos L="23" C="5" PS="Ln:23, Col:5" A="W" />
+        <Pos L="28" C="5" PS="Ln:28, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="A5_Draw.rEntry_Draw_SP" Scope="Local" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Draw/A5_DrawCyclic.st">
+        <Pos L="25" C="5" PS="Ln:25, Col:5" A="W" />
+        <Pos L="30" C="5" PS="Ln:30, Col:5" A="W" />
+        <Pos L="35" C="9" PS="Ln:35, Col:9" A="R" />
+        <Pos L="36" C="99" PS="Ln:36, Col:99" A="R" />
+        <Pos L="37" C="17" PS="Ln:37, Col:17" A="R" />
+      </File>
+    </Var>
+    <Var Name="A5_Draw.HMI_rEntry_Draw_Set" Scope="Local" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Draw/A5_DrawCyclic.st">
+        <Pos L="19" C="5" PS="Ln:19, Col:5" A="W" />
+        <Pos L="24" C="5" PS="Ln:24, Col:5" A="W" />
+        <Pos L="29" C="33" PS="Ln:29, Col:33" A="R" />
+      </File>
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Draw/A5_DrawInit.st">
+        <Pos L="15" C="5" PS="Ln:15, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA.Ind_SynchronizedMotion" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Draw/A5_DrawCyclic.st">
+        <Pos L="35" C="74" PS="Ln:35, Col:74" A="R" />
+        <Pos L="39" C="8" PS="Ln:39, Col:8" A="R" />
+      </File>
+    </Var>
+    <Var Name="gA.UnitsPerInch" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Draw/A5_DrawCyclic.st">
+        <Pos L="36" C="22" PS="Ln:36, Col:22" A="R" />
+      </File>
+    </Var>
+    <Var Name="gA.Cmd_SynchronizedMotionUpdate" Scope="Global" Type="AxisBasic[0..15]">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Draw/A5_DrawCyclic.st">
+        <Pos L="40" C="7" PS="Ln:40, Col:7" A="W" />
+      </File>
+    </Var>
+    <Var Name="gA5_GearValue" Scope="Global" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Draw/A5_DrawCyclic.st">
+        <Pos L="36" C="5" PS="Ln:36, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="gRecipeActive.Entry_Draw" Scope="Global" Type="Recipe">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Draw/A5_DrawCyclic.st">
+        <Pos L="15" C="2" PS="Ln:15, Col:2" A="W" />
+        <Pos L="15" C="41" PS="Ln:15, Col:41" A="R" />
+        <Pos L="19" C="28" PS="Ln:19, Col:28" A="R" />
+        <Pos L="29" C="5" PS="Ln:29, Col:5" A="W" />
+        <Pos L="30" C="23" PS="Ln:30, Col:23" A="R" />
+      </File>
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Draw/A5_DrawInit.st">
+        <Pos L="15" C="28" PS="Ln:15, Col:28" A="R" />
+      </File>
+    </Var>
+    <Var Name="gRecipeActive.Repeat" Scope="Global" Type="Recipe">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Draw/A5_DrawCyclic.st">
+        <Pos L="36" C="43" PS="Ln:36, Col:43" A="R" />
+      </File>
+    </Var>
+    <Var Name="gReg.Enable" Scope="Global" Type="Registration[0..15]">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Draw/A5_DrawCyclic.st">
+        <Pos L="18" C="14" PS="Ln:18, Col:14" A="R" />
+        <Pos L="21" C="6" PS="Ln:21, Col:6" A="R" />
+        <Pos L="40" C="49" PS="Ln:40, Col:49" A="R" />
+      </File>
+    </Var>
+    <Var Name="gRepeatChange" Scope="Global" Type="BOOL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Draw/A5_DrawCyclic.st">
+        <Pos L="35" C="55" PS="Ln:35, Col:55" A="R" />
+      </File>
+    </Var>
+    <Var Name="gr_rMaxRangeWebDraw" Scope="Global" Type="REAL">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Draw/A5_DrawCyclic.st">
+        <Pos L="36" C="70" PS="Ln:36, Col:70" A="R" />
+      </File>
+    </Var>
+  </Vars>
+  <Consts>
+    <Const Name="gBlack" Scope="Global" Type="UINT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Draw/A5_DrawCyclic.st">
+        <Pos L="23" C="28" PS="Ln:23, Col:28" A="R" />
+        <Pos L="28" C="28" PS="Ln:28, Col:28" A="R" />
+      </File>
+    </Const>
+    <Const Name="gGray1" Scope="Global" Type="UINT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Draw/A5_DrawCyclic.st">
+        <Pos L="23" C="19" PS="Ln:23, Col:19" A="R" />
+      </File>
+    </Const>
+    <Const Name="gWhite" Scope="Global" Type="UINT">
+      <File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/EntryPull/Axis5/A5_Draw/A5_DrawCyclic.st">
+        <Pos L="28" C="19" PS="Ln:28, Col:19" A="R" />
+      </File>
+    </Const>
+  </Consts>
+  <Enums>
+  </Enums>
+  <Funcs>
+  </Funcs>
+  <Actions>
+  </Actions>
+</Crossref>

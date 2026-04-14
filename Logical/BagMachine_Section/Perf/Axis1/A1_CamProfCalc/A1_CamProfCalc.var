@@ -1,0 +1,48 @@
+(********************************************************************
+ * COPYRIGHT -- .
+ ********************************************************************
+ * Program: A1_CamProfCalc
+ * File: A1_CamProfCalc.var
+ * Author: dominique
+ * Created: August 24, 2011
+ ********************************************************************
+ * Local variables of program A1_CamProfCalc
+ ********************************************************************)
+
+VAR
+  stPerfCamSect : MC_CAM_SECTIONS_TYP ;
+  stPerfCamProf : MC_CAMPROFILE_TYP ;
+  MC_BR_CalcCamFromSections_0    : MC_BR_CalcCamFromSections ;
+  MC_BR_DownloadCamProfileData_0 : MC_BR_DownloadCamProfileData ;
+  MC_BR_GetCamMasterPosition_1   : MC_BR_GetCamMasterPosition ;
+  MC_BR_GetCamMasterPosition_2   : MC_BR_GetCamMasterPosition ;
+  MC_BR_GetCamSlavePosition_0    : MC_BR_GetCamSlavePosition ;
+  MC_Home_0                      : MC_Home ;
+
+  
+  rMaInterval    : REAL ;
+  rSlInterval    : REAL ;
+  rSlPeriod      : REAL ;
+  iiSlEndPoint   : DINT ;
+  rSpeedInterval : REAL ;
+  iStepCalPerfCam : INT ;
+  bNextStep : BOOL ;
+  bTestMode : BOOL ; 
+  
+  iStepPosPerfCam : INT ;
+  rCamMaPosition  : REAL ;
+  rCamMaPos       : REAL ;
+  rCamMaStartPos  : REAL ;
+  rCamSlPosition  : REAL ;
+  rCamSlPos       : REAL ;
+  rCamSlPosCalc   : REAL ;
+  rPosParkSlaveCamDeg   : REAL ;
+  rTempPosParkSlaveCam  : REAL ; 
+  rTempPosParkMasterCam : REAL ; 
+  rMastMatchedSpeed : REAL ; 
+  bCmd_CalcCam_Test : BOOL ;
+END_VAR
+
+VAR CONSTANT
+
+END_VAR

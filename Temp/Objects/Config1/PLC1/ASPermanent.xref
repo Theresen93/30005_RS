@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0?>
+<Crossref xmlns="http://br-automation.co.at/AS/Crossreference">
+	<Vars>
+		<Var Name="gEndPosData" Scope="Global" Type="MC_ENDLESS_POSITION[0..15]">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/Cpu.per">
+				<Pos L="11" C="1" PS="Ln:11" O="M0"></Pos>
+			</File>
+		</Var>
+		<Var Name="gMachineTime" Scope="Global" Type="HourMeter">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/Cpu.per">
+				<Pos L="12" C="1" PS="Ln:12" O="M720"></Pos>
+			</File>
+		</Var>
+		<Var Name="gSP_A" Scope="Global" Type="AxisSP[0..15]">
+			<File Name="C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Physical/Config1/PLC1/Cpu.per">
+				<Pos L="13" C="1" PS="Ln:13" O="M832"></Pos>
+			</File>
+		</Var>
+	</Vars>
+</Crossref>

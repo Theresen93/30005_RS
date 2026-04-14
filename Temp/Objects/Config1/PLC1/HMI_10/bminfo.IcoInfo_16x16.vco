@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="IcoInfo_16x16" ClsId="0x306" Version="1" TargetIndex="4" Type="GFX" RefString="Source[local].Bitmap[IcoInfo_16x16]">
+        <UInt16 Name="Width">16</UInt16>
+        <UInt16 Name="Height">16</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">4</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">Qk02BAAAAAAAADYAAAAoAAAAEAAAABAAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA2Y6N/+dubf/ob27/6W5t/+ltbf/ma2r/5Wtq/+Vraf/la2n/5Wto/+Zrav/nbm3/6W5u/+lubP/lcGz/1YWD/946O//yAAD/8hoa//AbGv/xHBv//Scn//8rK///KCj//ykp//8qKv/+KSj/8x0c//EaGv/wHBz/9wAA/9EWF//kODn/6iYn//Pj4//58fD/6OHh/6mnp/+joqH/q6mp/6upqf+mpKP/oqKh/+Xf3v/58PD/8PDw//A8PP/WHh//5jU2/+smJf/38PD//f////b4+P+/wcH/Fxoa/wAAAP8AAAD/BwoK/66xsf/3+vn/+/////b////xPTz/1hwb/+Y3N//sJCP/9uzs//z9/f/59/f//////2VjY/8AAAD/AAAA/zo5Of///////Pv7//n6+v/2+/z/8Do8/9cdHf/mNzf/7CMk//bt7f/+////+Pf3//39/f9lZWX/AAAA/wAAAP87Ozv//f39//z7+//6/Pz/9vz+//E6Pf/WHBz/5zY3/+0kJP/27e3//f7+//j39//+/v7/Y2Nj/wAAAP8AAAD/Ozs7//7+/v/9+/v//Pz7//X9/f/xOzz/1x0d/+Y3N//uJCT/9+7u//7////49/f//////2xsbP8BAQH/AQEB/z4+Pv/+/v7//Pz8//v9/P/2/f7/8Ts9/9cdHf/nNzf/7SQk//ft7f/8/v7/+fj4/+fn5/8lJSX/AAAA/wAAAP8sLCz///////38/P/7/Pv/9v39//E7Pf/XHR3/5zc3/+4jI//37e3//f7+/+vq6v+MjY3/c3Nz/1BQUP8+Pj7/lZWV//z8/P/8+/z//P38//b9/v/xOz3/1x0d/+c3N//uJCT/9+3t//3////39fX//////7CwsP8XFxf/DQ0N/4iIiP/+/v7/+vr6//z9/P/2/f3/8Ts9/9cdHf/mNzf/7SQk//bt7f/9/v7/+/n5//38/P8vLi7/AAAA/wAAAP8GBQX/8/Pz//79/f/7+/v/9fz8//A6PP/WHR3/5zc3/+4jI//37e3///7+//n39////v7/f35+/wAAAP8AAAD/U1JS//z8/P/8+/v//fz8//b8/f/xOjz/1xwd/+Y2Nv/qJib/9O/v//r+/v/4+vr/+v39//f6+v+aoKD/jZSU/+7x8f/5/v7/+Pv6//r8/P/0////8D4//9YcHP/iQUD/8AoJ//BAP//zQ0L/8kFB//JBQf/zQkL//1JR//9TU//1REP/8kFB//NBQf/zQUH/7kVE//UODv/VISH/201O/+wREf/vAgL/7wAA/+8BAP/wAQD/7gAA/+gAAP/oAAD/7QAA//ABAP/vAAD/7wEA/+0AAP/pDg3/0DU2/w==</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <ZZZ ReferenceString="Source[local].Page[ZZZ]">
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Button_26].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.SupervisoryControl_Section.ManMode.uiPhasSetLock]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Numeric_10].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gRecipeActive.Perf_Offset]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Numeric_10].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.SupervisoryControl_Section.ManMode.uiPhasSetLock]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Button_27].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.SupervisoryControl_Section.ManMode.uiPhasSetLock]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Button_30].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.SupervisoryControl_Section.ManMode.uiPhasTearingSetLock]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Numeric_18].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.BagBundler.Tilter.rHMI_PosTiltAct]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Numeric_12].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gRecipeActive.Tearing_Offset]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Numeric_12].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.SupervisoryControl_Section.ManMode.uiPhasTearingSetLock]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Button_31].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.SupervisoryControl_Section.ManMode.uiPhasTearingSetLock]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Button_3].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.HMI.HMI_Control.DataLock_Motion]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Button_19].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.GlueTray.GlueTrayColor_Ind]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Button_19].Property[PressedColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.GlueTray.GlueTrayColor_Ind]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Button_19].Property[TextIndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.GlueTray.GlueTrayText_Ind]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Button_28].Property[LockingDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.FP.Axis2.A2_Cycle.bLockOffsetPB_Man]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Numeric_14].Property[LockingDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.ColdMicroPerf.CMPerf_Gen.bToolSizeLock]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Numeric_11].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.FP.Axis2.A2_Cycle.rSP_PrintRolOffsetInch]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Numeric_11].Property[LockingDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.g_bLockSP_OffsetPrintRol]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Text_3].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_GSW_FP_Gates]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Text_3].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_GSW_FP_Gates]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Button_47].Property[LockingDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.FP.Axis2.A2_Cycle.bLockOffsetPB]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Button_47].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.FP.Axis2.A2_Cycle.uiSP_OffsetCol_Ind]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Button_47].Property[PressedColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.FP.Axis2.A2_Cycle.uiSP_OffsetCol_Ind]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Button_47].Property[TextIndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.FP.Axis2.A2_Cycle.uiSP_OffsetTxt_Ind]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Numeric_13].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gRecipeActive.rHMPerf_OffsetIn]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Numeric_15].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gRecipeActive.rCMPerf_Draw]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Numeric_15].Property[LockingDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gReg[5].Enable]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Bitmap_9].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_E1_Spare2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Bitmap_19].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_SS_UNW_HotGlue]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Bitmap_11].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_UNW_EndReelPolyPE]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Button_4].Property[LockingDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gNever]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Button_4].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.HMI.HMI_Control.DataLock_Motion]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Button_49].Property[LockingDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.g_bMachineRun]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Button_49].Property[TextIndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gRecipeActive.bSelTypeOtherRSGlue]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Bitmap_21].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_SS_3W_GlueOn]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Bitmap_22].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_MP_3W_Fan]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Bitmap_23].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_SS_3W_FanOnOff]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Bitmap_27].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_3W_EndReelPolyPE]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Bitmap_30].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_SS_3W_Glue2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Bitmap_31].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_3W_EStopPB]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Bitmap_32].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_MP_HP_WasteSuction]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Bitmap_24].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_GSW_3W]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Bitmap_33].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_E1_Spare3]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Bitmap_35].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_MP_DRY_Blower]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Button_15].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.HMI.Password.DataLock_2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Button_15].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.EnvBag.Axis12.A12_Ref.uiRefPBColor_Ind]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Button_15].Property[PressedColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.EnvBag.Axis12.A12_Ref.uiRefPBColor_Ind]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Button_15].Property[TextIndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.EnvBag.Axis12.A12_Ref.uiRefPBTxt_Ind]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Button_43].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.FP.FP_Dryer.HMI_Cmd_HeatHalfPowerOnPB]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Button_43].Property[PressedColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.FP.FP_Dryer.HMI_Cmd_HeatHalfPowerOnPB]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Button_43].Property[TextIndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.BagMachine_Section.FP.FP_Dryer.uiHeatHalfPowerOnPBTxt_Ind]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Bitmap_36].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gI_GSW_PerfDoor2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Numeric_3].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.gQ_CMD_OtherRS_GluePressure]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[ZZZ].Layer[Default].Control[Text_1].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.g_iPerfType]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </ZZZ>
+</VCXReferenceList>

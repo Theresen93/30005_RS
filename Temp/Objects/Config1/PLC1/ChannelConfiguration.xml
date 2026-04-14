@@ -1,0 +1,505 @@
+<?xml version="1.0"?>
+<?AutomationRuntimeIOSystem Version = 2.5.0.7?>
+<ChannelConfiguration xmlns="http://www.br-automation.com/AR/IO"><Module ID="SL1.SS1.IF2.ST11" Hardware="X20BC0083"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="10" Type="UDINT"/><Parameter ID="BusType" Value="Powerlink"/></LegacyAddressInfo><Channel ID="ModuleOk" Position="1" FromVersion="C2.87" Description-de="Modul Status (1 = Modul gesteckt)" Description-en="Module status (1 = module present)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="EthRxLost" Position="6" FromVersion="C2.87" Description-de="Anzahl verlorener Rx-Frames" Description-en="Number of lost Rx-Frames" Ext="/INFO" Address="0x80000402" Direction="IN" Type="DINT" Sig_St_Dint="1">
+		</Channel>
+		<Channel ID="EthRxOversize" Position="7" FromVersion="C2.87" Description-de="Anzahl empfangener uebergrosser Frames &gt; 1500 Bytes" Description-en="Number of received oversized frames &gt; 1500 Bytes" Ext="/INFO" Address="0x80000403" Direction="IN" Type="DINT" Sig_St_Dint="1">
+		</Channel>
+		<Channel ID="EthRxCRCError" Position="8" FromVersion="C2.87" Description-de="Anzahl von Rx-Frames mit falscher CRC" Description-en="Number of Rx-Frames with wrong CRC" Ext="/INFO" Address="0x80000404" Direction="IN" Type="DINT" Sig_St_Dint="1">
+		</Channel>
+		<Channel ID="EthRxOverflow" Position="9" FromVersion="C2.87" Description-de="Anzahl von verlorenen Rx-Frames wegen Performance-Engpass am BC" Description-en="Number of lost Rx-Frames due to performance shortage on BC" Ext="/INFO" Address="0x80000405" Direction="IN" Type="DINT" Sig_St_Dint="1">
+		</Channel>
+		<Channel ID="EthTxCollision" Position="10" FromVersion="C2.87" Description-de="Anzahl von Kollisionen am Ethernet waehrend BC sendet" Description-en="Number of collisions on ethernet while BC sending" Ext="/INFO" Address="0x80000406" Direction="IN" Type="DINT" Sig_St_Dint="1">
+		</Channel>
+		<Channel ID="EthPhy1LinkOk" Position="11" FromVersion="A2.94" Description-de="Link auf Schnittstelle 1 aktiv" Description-en="Link of interface 1 is active" Ext="/INFO" Address="0x80000417" BitOffset="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="EthPhy1LinkLoss" Position="12" FromVersion="C2.87" Description-de="Zaehlt um 1 hoch wenn Link der ersten Schnittstelle verloren geht" Description-en="Increments each time when link of physical interface 1 is lost" Ext="/INFO" Address="0x80000410" Direction="IN" Type="DINT" Sig_Counter_Dint="1">
+		</Channel>
+		<Channel ID="EthPhy2LinkOk" Position="13" FromVersion="A2.94" Description-de="Link auf Schnittstelle 2 aktiv" Description-en="Link of interface 2 is active" Ext="/INFO" Address="0x80000417" BitOffset="1" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="EthPhy2LinkLoss" Position="14" FromVersion="C2.87" Description-de="Zaehlt um 1 hoch wenn Link der zweiten Schnittstelle verloren geht" Description-en="Increments each time when link of physical interface 2 is lost" Ext="/INFO" Address="0x80000411" Direction="IN" Type="DINT" Sig_Counter_Dint="1">
+		</Channel>
+		<Channel ID="IF1.CycleCount" Position="1" FromVersion="C2.87" Description-de="Anzahl der Buszyklen" Description-en="Number of bus cycles" Ext="/INFO" Address="0x80000100" Direction="IN" Type="DINT" Sig_St_Dint="1" Resource="IF1">
+		</Channel>
+		<Channel ID="IF1.BreakCount" Position="2" FromVersion="C2.87" Description-de="Anzahl der Buszyklen mit gesetztem Break-Signal" Description-en="Number of bus cycles with set break signal" Ext="/INFO" Address="0x80000101" Direction="IN" Type="DINT" Sig_St_Dint="1" Resource="IF1">
+		</Channel>
+		<Channel ID="IF1.SyncErrorCount" Position="3" FromVersion="C2.87" Description-de="Anzahl der fehlerhaften synchronen Frames" Description-en="Number of failed synchronous frames" Ext="/INFO" Address="0x80000102" Direction="IN" Type="DINT" Sig_St_Dint="1" Resource="IF1">
+		</Channel>
+		<Channel ID="IF1.SyncBusyErrorCount" Position="5" FromVersion="C2.87" Description-de="Anzahl der nicht versendeten synchronen Frames (Sender nicht bereit)" Description-en="Number of not sent synchronous frames (sender not ready)" Ext="/INFO" Address="0x80000105" Direction="IN" Type="DINT" Sig_St_Dint="1" Resource="IF1">
+		</Channel>
+		<Channel ID="IF1.SyncNoRxErrorCount" Position="6" FromVersion="C2.87" Description-de="Anzahl der nicht empfangenen synchronen Frames (Timeout)" Description-en="Number of not received synchronous frames (timeout)" Ext="/INFO" Address="0x80000106" Direction="IN" Type="DINT" Sig_St_Dint="1" Resource="IF1">
+		</Channel>
+		<Channel ID="IF1.SyncFormatErrorCount" Position="7" FromVersion="C2.87" Description-de="Anzahl der zerstoerten synchronen Frames" Description-en="Number of faulty synchronous frames" Ext="/INFO" Address="0x80000107" Direction="IN" Type="DINT" Sig_St_Dint="1" Resource="IF1">
+		</Channel>
+		<Channel ID="IF1.SyncPendingErrorCount" Position="8" FromVersion="C2.87" Description-de="Anzahl der synchronen Frames, die nicht versendet werden konnten, weil gerade ein anderer empfangen wurde" Description-en="Number of synchronous frames which could not be sent because of receiving a frame" Ext="/INFO" Address="0x80000108" Direction="IN" Type="DINT" Sig_St_Dint="1" Resource="IF1">
+		</Channel>
+		<Channel ID="IF1.AsyncErrorCount" Position="9" FromVersion="C2.87" Description-de="Anzahl der fehlerhaften asynchronen Frames" Description-en="Number of failed asynchronous frames" Ext="/INFO" Address="0x80000103" Direction="IN" Type="DINT" Sig_St_Dint="1" Resource="IF1">
+		</Channel>
+		<Channel ID="IF1.AsyncBusyErrorCount" Position="11" FromVersion="C2.87" Description-de="Anzahl der nicht versendeten asynchronen Frames (Sender nicht bereit)" Description-en="Number of not sent asynchronous frames (sender not ready)" Ext="/INFO" Address="0x8000010A" Direction="IN" Type="DINT" Sig_St_Dint="1" Resource="IF1">
+		</Channel>
+		<Channel ID="IF1.AsyncNoRxErrorCount" Position="12" FromVersion="C2.87" Description-de="Anzahl der nicht empfangenen asynchronen Frames (Timeout)" Description-en="Number of not received asynchronous frames (timeout)" Ext="/INFO" Address="0x8000010B" Direction="IN" Type="DINT" Sig_St_Dint="1" Resource="IF1">
+		</Channel>
+		<Channel ID="IF1.AsyncFormatErrorCount" Position="13" FromVersion="C2.87" Description-de="Anzahl der zerstoerten asynchronen Frames" Description-en="Number of faulty asynchronous frames" Ext="/INFO" Address="0x8000010C" Direction="IN" Type="DINT" Sig_St_Dint="1" Resource="IF1">
+		</Channel>
+		<Channel ID="IF1.AsyncPendingErrorCount" Position="14" FromVersion="C2.87" Description-de="Anzahl der asynchronen Frames, die nicht versendet werden konnten, weil gerade ein anderer empfangen wurde" Description-en="Number of asynchronous frames which could not be sent because of receiving a frame" Ext="/INFO" Address="0x8000010D" Direction="IN" Type="DINT" Sig_St_Dint="1" Resource="IF1">
+		</Channel>
+		<Channel ID="IF1.ModuleLostWhileOperational" Position="15" FromVersion="C2.87" Description-de="Hardwarekonfiguration geaendert: Modul waehrend Betrieb entfernt" Description-en="Hardware configuration changed: module disconnected while operational" Ext="/INFO" Address="0x8000010E" Direction="IN" Type="DINT" Sig_St_Dint="1" Resource="IF1">
+		</Channel>
+		<Channel ID="IF1.ModuleNewWhileOperational" Position="16" FromVersion="C2.87" Description-de="Hardwarekonfiguration geaendert: neues Modul waehrend Betrieb erkannt" Description-en="Hardware configuration changed: new module detected while operational" Ext="/INFO" Address="0x8000010F" Direction="IN" Type="DINT" Sig_St_Dint="1" Resource="IF1">
+		</Channel>
+	</Module><Module ID="$root" Hardware="4PP420.1043-B5"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="4" Type="UDINT"/><Parameter ID="ModuleAddress" Value="0" Type="UDINT"/></LegacyAddressInfo><Channel ID="SerialNumber" Position="1" Description-de="Seriennummer" Description-en="Serial number" Ext="/HW" Address="0" Direction="IN" Type="UDINT" Sig_St_Udint="1" ChannelType="SerialNumber">
+		</Channel>
+		<Channel ID="ModuleID" Position="2" FromVersion="C2.94" Description-de="Module ID" Description-en="Modul ID" Ext="/HW" Address="1" Direction="IN" Type="UINT" Sig_St_Uint="1" ChannelType="GenericFuncCall" Function="mtcxGetDeviceId">
+		</Channel>
+		<Channel ID="PowerOnCycles" Position="10" FromVersion="C2.94" Description-de="Einschaltzyklen des PC" Description-en="PowerOnCycles of PC" Ext="/HW" Address="2" Direction="IN" Type="UDINT" Sig_St_Udint="1" ChannelType="GenericFuncCall" Function="mtcxGetPowerOnCycles">
+		</Channel>
+		<Channel ID="OperatingHoursPP" Position="11" FromVersion="C2.94" Description-de="Betriebsstunden des PP [h]" Description-en="Operating hours of PP [h]" Ext="/HW" Address="3" Direction="IN" Type="UDINT" Sig_St_Udint="1" ChannelType="GenericFuncCall" Function="mtcxGetOperatingHoursPC" CyclicUpdate="1">
+		</Channel>
+		<Channel ID="BatteryStatusCPU" Position="20" Description-de="Batterie Status CPU (0 = Batterie leer oder nicht vorhanden, 1 = Batterie OK)" Description-en="Battery status CPU (0 = battery low or missing, 1 = battery ok,)" Ext="/HW" Address="4" Direction="IN" Type="USINT" Sig_St_Byte="1" ChannelType="Battery" BatteryDetectionMethod="1" Ordinal="2">
+		</Channel>
+		<Channel ID="TemperatureCPU" Position="30" Description-de="Temperatur CPU [1/10C]" Description-en="Temperature CPU [1/10C]" Ext="/HW" Address="5" Direction="IN" Type="UINT" Sig_Temp_CpuTemp="1" ChannelType="Temp" Ordinal="1">
+		</Channel>
+		<Channel ID="TemperatureENV" Position="31" Description-de="Temperatur Kuehlblech [1/10C]" Description-en="Temperature cooling plate [1/10C]" Ext="/HW" Address="6" Direction="IN" Type="UINT" Sig_Temp_CpuTemp="1" ChannelType="Temp" Ordinal="2">
+		</Channel>
+		<Channel ID="SystemTime" Position="40" FromVersion="I2.90" Description-de="Systemzeit beim Start des aktuellen Taskklassenzyklus [us]" Description-en="System time at the start of the current task cycle [us]" Ext="/HW" Address="7" Direction="IN" Type="DINT" Sig_St_Dint="1" ChannelType="SystemTime">
+		</Channel>
+		<Channel ID="IF5.NodeSwitch" Position="1" Description-de="Node Schalter" Description-en="Node switch" Ext="/HW" Address="8" Direction="IN" Type="USINT" Sig_St_Byte="1" ChannelType="Node" Device="PCI.IF5">
+		</Channel>
+	</Module><Module ID="SL1.SS1" Hardware="3IF789.9-1"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="1" Type="UDINT"/><Parameter ID="ModuleAddress" Value="1" Type="UDINT"/><Parameter ID="Slot" Value="1" Type="UDINT"/></LegacyAddressInfo><Channel ID="IF1.CycleCount" Position="100" FromVersion="I2.85" Description-de="Anzahl der Buszyklen" Description-en="Number of bus cycles" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF1.BreakCount" Position="101" FromVersion="I2.85" Description-de="Anzahl der Buszyklen mit gesetztem Break-Signal" Description-en="Number of bus cycles with set break signal" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF1.Nettime" Position="103" FromVersion="I2.90" Description-de="Zeitstempel bei dem der aktuelle Inputframe gestartet wurde [us]" Description-en="Timestamp when the current input frame was started  [us]" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF1.SyncErrorCount" Position="105" FromVersion="I2.85" Description-de="Anzahl der fehlerhaften synchronen Frames" Description-en="Number of failed synchronous frames" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF1.SyncSramErrorCount" Position="106" FromVersion="I2.85" Description-de="Anzahl der Speicherzugriffsfehler beim synchronen Frame (Overflow/Underrun)" Description-en="Number of memory access errors within synchronous frame (overflow/underrun)" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF1.SyncBusyErrorCount" Position="107" FromVersion="I2.85" Description-de="Anzahl der nicht versendeten synchronen Frames (Sender nicht bereit)" Description-en="Number of not sent synchronous frames (sender not ready)" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF1.SyncNoRxErrorCount" Position="108" FromVersion="I2.85" Description-de="Anzahl der nicht empfangenen synchronen Frames (Timeout)" Description-en="Number of not received synchronous frames (timeout)" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF1.SyncFormatErrorCount" Position="109" FromVersion="I2.85" Description-de="Anzahl der zerstÃ¶rten synchronen Frames" Description-en="Number of faulty synchronous frames" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF1.SyncPendingErrorCount" Position="110" FromVersion="I2.85" Description-de="Anzahl der synchronen Frames, die nicht versendet werden konnten, weil gerade ein anderer empfangen wurde" Description-en="Number of synchronous frames which could not be sent because of receiving a frame" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF1.AsyncErrorCount" Position="112" FromVersion="I2.85" Description-de="Anzahl der fehlerhaften asynchronen Frames" Description-en="Number of failed asynchronous frames" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF1.AsyncSramErrorCount" Position="113" FromVersion="I2.85" Description-de="Anzahl der Speicherzugriffsfehler beim asynchronen Frame (Overflow/Underrun)" Description-en="Number of memory access errors within asynchronous frame (overflow/underrun)" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF1.AsyncBusyErrorCount" Position="114" FromVersion="I2.85" Description-de="Anzahl der nicht versendeten asynchronen Frames (Sender nicht bereit)" Description-en="Number of not sent asynchronous frames (sender not ready)" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF1.AsyncNoRxErrorCount" Position="115" FromVersion="I2.85" Description-de="Anzahl der nicht empfangenen asynchronen Frames (Timeout)" Description-en="Number of not received asynchronous frames (timeout)" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF1.AsyncFormatErrorCount" Position="116" FromVersion="I2.85" Description-de="Anzahl der zerstÃ¶rten asynchronen Frames" Description-en="Number of faulty asynchronous frames" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF1.AsyncPendingErrorCount" Position="117" FromVersion="I2.85" Description-de="Anzahl der asynchronen Frames, die nicht versendet werden konnten, weil gerade ein anderer empfangen wurde" Description-en="Number of asynchronous frames which could not be sent because of receiving a frame" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF1.DMALateOutputErrorCount" Position="118" FromVersion="G2.93" Description-de="Anzahl der Zyklen in denen der Output-DMA-Zugriff zu spÃ¤t gestartet wurde" Description-en="Number of cycles when DMA for cyclic outputs was too late" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF2.NodeSwitch" Position="1" Description-de="Wert am Knotennummernschalter" Description-en="Selected node switch value" Ext="/INFO" Address="0x80000019" Direction="IN" Type="USINT" Sig_St_Byte="1">
+		</Channel>
+		<Channel ID="IF2.LinkOk" Position="200" FromVersion="P2.90" Description-de="Link-Status" Description-en="Link state" Ext="/INFO" Address="0x8000001A" BitOffset="0" Direction="IN" Type="BOOL" Sig_St_Bool="1" HWDResource="IF2" ChannelPrefix="">
+		</Channel>
+		<Channel ID="IF2.NodeNumber" Position="2" FromVersion="B2.87" HWDEntry="false" Description-de="Verwendete POWERLINK Knotennummer" Description-en="Node number currently in use" Ext="/INFO" Direction="IN" Type="USINT">
+		</Channel>
+		<Channel ID="IF2.CycleOk" Position="102" FromVersion="B2.87" HWDEntry="false" Description-de="Indikator fÃ¼r zyklischen Betrieb (1 = in Betrieb)" Description-en="Indication for proper cyclic operation (1 = operational)" Ext="/INFO" Direction="IN" Type="BOOL">
+		</Channel>
+		<Channel ID="IF2.SyncOk" Position="103" FromVersion="B2.87" HWDEntry="false" Description-de="Indikator fÃ¼r ein synchronisiertes POWERLINK-System (1 = synchronisiert)" Description-en="Indication for a synchronized POWERLINK-system (1 = synchronized)" Ext="/INFO" Direction="IN" Type="BOOL">
+		</Channel>
+		<Channel ID="IF2.TimeSeconds" Position="300" FromVersion="M2.90" HWDEntry="false" Description-de="Absolute Zeit aus aktuellem SoC-Frame (NetTime in POWERLINK V2) - Sekunden" Description-en="Absolute time extracted from current SoC-Frame (NetTime in POWERLINK V2) - Seconds" Ext="/INFO" Direction="IN" Type="UDINT">
+		</Channel>
+		<Channel ID="IF2.TimeNanoseconds" Position="301" FromVersion="M2.90" HWDEntry="false" Description-de="Absolute Zeit aus aktuellem SoC-Frame (NetTime in POWERLINK V2) - Nanosekunden" Description-en="Absolute time extracted from current SoC-Frame (NetTime in POWERLINK V2) - Nanoseconds" Ext="/INFO" Direction="IN" Type="UDINT">
+		</Channel>
+		<Channel ID="IF2.NettimeSoC" Position="302" FromVersion="B2.87" HWDEntry="false" Description-de="Netzwerkzeit aus aktuellem SoC-Frame [us] (RelativeTime in POWERLINK V2)" Description-en="Network time extracted from current SoC-Frame [us] (RelativeTime in POWERLINK V2)" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF2.NettimeOffset" Position="303" FromVersion="B2.87" HWDEntry="false" Description-de="Zeitversatz der Netzwerkzeit zur lokalen Systemzeit [us]" Description-en="Network time offset to local system time [us]" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF2.CycleCount" Position="310" FromVersion="I2.85" HWDEntry="false" Description-de="Anzahl aller Buszyklen" Description-en="Overall number of bus cycles" Ext="/INFO" Direction="IN" Type="UDINT">
+		</Channel>
+		<Channel ID="IF2.FailedCycleCount" Position="311" FromVersion="I2.85" HWDEntry="false" Description-de="Anzahl der fehlerhaften Buszyklen" Description-en="Number of failed bus cycles" Ext="/INFO" Direction="IN" Type="UDINT">
+		</Channel>
+		<Channel ID="IF2.CycleTimeViolationCount" Position="312" FromVersion="I2.85" HWDEntry="false" Description-de="Anzahl der Zykluszeitverletzungen" Description-en="Number of cycle time violations" Ext="/INFO" Direction="IN" Type="UDINT">
+		</Channel>
+		<Channel ID="IF2.CycleIdleTime" Position="313" FromVersion="B2.87" HWDEntry="false" Description-de="UngenÃ¼tzte Zeit wÃ¤hrend eines POWERLINK Zyklus [us]" Description-en="Unoccupied time during one POWERLINK cycle [us]" Ext="/INFO" Direction="IN" Type="UDINT">
+		</Channel>
+		<Channel ID="IF2.CycleCongestionCount" Position="314" FromVersion="B2.87" HWDEntry="false" Description-de="Immer 0, verfuegbar wegen Abwaertskompatibilitaet" Description-en="allways 0, available for legacy projects" Ext="/INFO" Direction="IN" Type="UDINT">
+		</Channel>
+	</Module><Module ID="SL1.SS1.IF2.ST11.IF1.ST1" Hardware="X20PS9400a" Simulatable="true"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="10" Type="UDINT"/><Parameter ID="ModuleAddress" Value="0" Type="UDINT"/><Parameter ID="BusType" Value="X2X"/></LegacyAddressInfo><Channel ID="ModuleOk" Position="1" Description-de="Modul Status (1 = Modul gesteckt)" Description-en="Module status (1 = module present)" Description-fr="Etat module (1 = module présent)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusInput01" Position="6" Description-de="Busversorgungswarnung (1 = Ueberstrom &gt;2,3 A oder Unterspannung &lt;4,7 V)" Description-en="Bus power supply warning (1 = over current &gt;2.3 A or low voltage &lt;4.7 V)" Ext="/FIXED" Address="1" BitOffset="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusInput02" Position="8" Description-de="I/O Versorgungswarnung (0 = DC OK)" Description-en="I/O power supply warning (0 = DC OK)" Ext="/FIXED" Address="1" BitOffset="2" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+	</Module><Module ID="SL1.SS1.IF2.ST10" Hardware="8BVPxxxxxxxx.xxx-x"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="-1" Type="UDINT"/><Parameter ID="ModuleAddress" Value="0" Type="UDINT"/><Parameter ID="BusType" Value="Powerlink"/></LegacyAddressInfo></Module><Module ID="SL1.SS1.IF2.ST7" Hardware="8BVIxxxxxxSx.xxx-x"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="-1" Type="UDINT"/><Parameter ID="ModuleAddress" Value="0" Type="UDINT"/><Parameter ID="BusType" Value="Powerlink"/></LegacyAddressInfo></Module><Module ID="SL1.SS1.IF2.ST11.IF1.ST6" Hardware="X20PS3300" Simulatable="true"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="10" Type="UDINT"/><Parameter ID="ModuleAddress" Value="0" Type="UDINT"/><Parameter ID="BusType" Value="X2X"/></LegacyAddressInfo><Channel ID="ModuleOk" Position="1" Description-de="Modul Status (1 = Modul gesteckt)" Description-en="Module status (1 = module present)" Description-fr="Etat module (1 = module présent)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusInput01" Position="6" FromVersion="A2.83" Description-de="Busversorgungswarnung (1 = Ueberstrom &gt;2,3 A oder Unterspannung &lt;4,7 V)" Description-en="Bus power supply warning (1 = over current &gt;2.3 A or low voltage &lt;4.7 V)" Ext="/FIXED" Address="1" BitOffset="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusInput02" Position="8" FromVersion="A2.83" Description-de="I/O Versorgungswarnung (0 = DC OK)" Description-en="I/O power supply warning (0 = DC OK)" Ext="/FIXED" Address="1" BitOffset="2" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+	</Module><Module ID="SL1.SS1.IF2.ST3" Hardware="8BVIxxxxxxDx.xxx-x"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="-1" Type="UDINT"/><Parameter ID="ModuleAddress" Value="0" Type="UDINT"/><Parameter ID="BusType" Value="Powerlink"/></LegacyAddressInfo></Module><Module ID="SL1.SS1.IF1.ST4" Hardware="X20DI9371" Simulatable="true"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="10" Type="UDINT"/><Parameter ID="ModuleAddress" Value="0" Type="UDINT"/><Parameter ID="BusType" Value="X2X"/></LegacyAddressInfo><Channel ID="ModuleOk" Position="1" Description-de="Modul Status (1 = Modul gesteckt)" Description-en="Module status (1 = module present)" Description-fr="Etat module (1 = module présent)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="DigitalInput01" Position="6" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="0" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput02" Position="8" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="1" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput03" Position="10" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="2" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput04" Position="12" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="3" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput05" Position="14" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="4" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput06" Position="16" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="5" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput07" Position="18" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="6" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput08" Position="20" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="7" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput09" Position="22" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="2" BitOffset="0" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput10" Position="24" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="2" BitOffset="1" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput11" Position="26" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="2" BitOffset="2" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput12" Position="28" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="2" BitOffset="3" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+	</Module><Module ID="SL1.SS1.IF2.ST5" Hardware="8BVIxxxxxxDx.xxx-x"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="-1" Type="UDINT"/><Parameter ID="ModuleAddress" Value="0" Type="UDINT"/><Parameter ID="BusType" Value="Powerlink"/></LegacyAddressInfo></Module><Module ID="SL1.SS1.IF1.ST3" Hardware="X20DI9371" Simulatable="true"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="10" Type="UDINT"/><Parameter ID="ModuleAddress" Value="0" Type="UDINT"/><Parameter ID="BusType" Value="X2X"/></LegacyAddressInfo><Channel ID="ModuleOk" Position="1" Description-de="Modul Status (1 = Modul gesteckt)" Description-en="Module status (1 = module present)" Description-fr="Etat module (1 = module présent)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="DigitalInput01" Position="6" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="0" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput02" Position="8" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="1" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput03" Position="10" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="2" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput04" Position="12" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="3" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput05" Position="14" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="4" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput06" Position="16" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="5" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput07" Position="18" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="6" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput08" Position="20" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="7" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput09" Position="22" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="2" BitOffset="0" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput10" Position="24" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="2" BitOffset="1" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput11" Position="26" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="2" BitOffset="2" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput12" Position="28" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="2" BitOffset="3" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+	</Module><Module ID="SL1.SS1.IF1.ST2" Hardware="X20DI9371" Simulatable="true"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="10" Type="UDINT"/><Parameter ID="ModuleAddress" Value="0" Type="UDINT"/><Parameter ID="BusType" Value="X2X"/></LegacyAddressInfo><Channel ID="ModuleOk" Position="1" Description-de="Modul Status (1 = Modul gesteckt)" Description-en="Module status (1 = module present)" Description-fr="Etat module (1 = module présent)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="DigitalInput01" Position="6" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="0" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput02" Position="8" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="1" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput03" Position="10" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="2" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput04" Position="12" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="3" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput05" Position="14" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="4" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput06" Position="16" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="5" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput07" Position="18" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="6" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput08" Position="20" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="7" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput09" Position="22" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="2" BitOffset="0" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput10" Position="24" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="2" BitOffset="1" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput11" Position="26" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="2" BitOffset="2" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput12" Position="28" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="2" BitOffset="3" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+	</Module><Module ID="SL1.SS1.IF1.ST6" Hardware="X20PS3300" Simulatable="true"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="10" Type="UDINT"/><Parameter ID="ModuleAddress" Value="0" Type="UDINT"/><Parameter ID="BusType" Value="X2X"/></LegacyAddressInfo><Channel ID="ModuleOk" Position="1" Description-de="Modul Status (1 = Modul gesteckt)" Description-en="Module status (1 = module present)" Description-fr="Etat module (1 = module présent)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusInput01" Position="6" FromVersion="A2.83" Description-de="Busversorgungswarnung (1 = Ueberstrom &gt;2,3 A oder Unterspannung &lt;4,7 V)" Description-en="Bus power supply warning (1 = over current &gt;2.3 A or low voltage &lt;4.7 V)" Ext="/FIXED" Address="1" BitOffset="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusInput02" Position="8" FromVersion="A2.83" Description-de="I/O Versorgungswarnung (0 = DC OK)" Description-en="I/O power supply warning (0 = DC OK)" Ext="/FIXED" Address="1" BitOffset="2" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+	</Module><Module ID="SL1.SS1.IF1.ST1" Hardware="X20BR9300" Simulatable="true"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="10" Type="UDINT"/><Parameter ID="ModuleAddress" Value="0" Type="UDINT"/><Parameter ID="BusType" Value="X2X"/></LegacyAddressInfo><Channel ID="ModuleOk" Position="1" Description-de="Modul Status (1 = Modul gesteckt)" Description-en="Module status (1 = module present)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusInput01" Position="6" FromVersion="A2.83" Description-de="Busversorgungswarnung (1 = Ueberstrom &gt;2,3 A oder Unterspannung &lt;4,7 V)" Description-en="Bus power supply warning (1 = over current &gt;2.3 A or low voltage &lt;4.7 V)" Ext="/FIXED" Address="1" BitOffset="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusInput02" Position="8" FromVersion="A2.83" Description-de="I/O Versorgungswarnung (0 = DC OK)" Description-en="I/O power supply warning (0 = DC OK)" Ext="/FIXED" Address="1" BitOffset="2" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+	</Module><Module ID="SL1.SS1.IF1.ST7" Hardware="X20DO9322" Simulatable="true"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="10" Type="UDINT"/><Parameter ID="ModuleAddress" Value="0" Type="UDINT"/><Parameter ID="BusType" Value="X2X"/></LegacyAddressInfo><Channel ID="ModuleOk" Position="1" Description-de="Modul Status (1 = Modul gesteckt)" Description-en="Module status (1 = module present)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="DigitalOutput01" Position="20" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="0" BitOffset="0" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput02" Position="21" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="0" BitOffset="1" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput03" Position="22" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="0" BitOffset="2" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput04" Position="23" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="0" BitOffset="3" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput05" Position="24" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="0" BitOffset="4" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput06" Position="25" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="0" BitOffset="5" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput07" Position="26" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="0" BitOffset="6" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput08" Position="27" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="0" BitOffset="7" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput09" Position="28" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="1" BitOffset="0" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput10" Position="29" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="1" BitOffset="1" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput11" Position="30" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="1" BitOffset="2" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput12" Position="31" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="1" BitOffset="3" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput01" Position="40" FromVersion="A2.83" Description-de="Status digitaler Ausgang 01 (0 = OK)" Description-en="Status digital output 01 (0 = OK)" Ext="/FIXED" Address="1" BitOffset="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput02" Position="41" FromVersion="A2.83" Description-de="Status digitaler Ausgang 02 (0 = OK)" Description-en="Status digital output 02 (0 = OK)" Ext="/FIXED" Address="1" BitOffset="1" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput03" Position="42" FromVersion="A2.83" Description-de="Status digitaler Ausgang 03 (0 = OK)" Description-en="Status digital output 03 (0 = OK)" Ext="/FIXED" Address="1" BitOffset="2" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput04" Position="43" FromVersion="A2.83" Description-de="Status digitaler Ausgang 04 (0 = OK)" Description-en="Status digital output 04 (0 = OK)" Ext="/FIXED" Address="1" BitOffset="3" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput05" Position="44" FromVersion="A2.83" Description-de="Status digitaler Ausgang 05 (0 = OK)" Description-en="Status digital output 05 (0 = OK)" Ext="/FIXED" Address="1" BitOffset="4" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput06" Position="45" FromVersion="A2.83" Description-de="Status digitaler Ausgang 06 (0 = OK)" Description-en="Status digital output 06 (0 = OK)" Ext="/FIXED" Address="1" BitOffset="5" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput07" Position="46" FromVersion="A2.83" Description-de="Status digitaler Ausgang 07 (0 = OK)" Description-en="Status digital output 07 (0 = OK)" Ext="/FIXED" Address="1" BitOffset="6" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput08" Position="47" FromVersion="A2.83" Description-de="Status digitaler Ausgang 08 (0 = OK)" Description-en="Status digital output 08 (0 = OK)" Ext="/FIXED" Address="1" BitOffset="7" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput09" Position="48" FromVersion="A2.83" Description-de="Status digitaler Ausgang 09 (0 = OK)" Description-en="Status digital output 09 (0 = OK)" Ext="/FIXED" Address="2" BitOffset="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput10" Position="49" FromVersion="A2.83" Description-de="Status digitaler Ausgang 10 (0 = OK)" Description-en="Status digital output 10 (0 = OK)" Ext="/FIXED" Address="2" BitOffset="1" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput11" Position="50" FromVersion="A2.83" Description-de="Status digitaler Ausgang 11 (0 = OK)" Description-en="Status digital output 11 (0 = OK)" Ext="/FIXED" Address="2" BitOffset="2" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput12" Position="51" FromVersion="A2.83" Description-de="Status digitaler Ausgang 12 (0 = OK)" Description-en="Status digital output 12 (0 = OK)" Ext="/FIXED" Address="2" BitOffset="3" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+	</Module><Module ID="SL1.SS1.IF2.ST11.IF1.ST2" Hardware="X20DI9371" Simulatable="true"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="10" Type="UDINT"/><Parameter ID="ModuleAddress" Value="0" Type="UDINT"/><Parameter ID="BusType" Value="X2X"/></LegacyAddressInfo><Channel ID="ModuleOk" Position="1" Description-de="Modul Status (1 = Modul gesteckt)" Description-en="Module status (1 = module present)" Description-fr="Etat module (1 = module présent)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="DigitalInput01" Position="6" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="0" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput02" Position="8" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="1" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput03" Position="10" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="2" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput04" Position="12" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="3" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput05" Position="14" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="4" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput06" Position="16" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="5" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput07" Position="18" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="6" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput08" Position="20" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="7" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput09" Position="22" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="2" BitOffset="0" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput10" Position="24" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="2" BitOffset="1" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput11" Position="26" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="2" BitOffset="2" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput12" Position="28" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="2" BitOffset="3" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+	</Module><Module ID="SL1.SS1.IF2.ST11.IF1.ST4" Hardware="X20DI9371" Simulatable="true"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="10" Type="UDINT"/><Parameter ID="ModuleAddress" Value="0" Type="UDINT"/><Parameter ID="BusType" Value="X2X"/></LegacyAddressInfo><Channel ID="ModuleOk" Position="1" Description-de="Modul Status (1 = Modul gesteckt)" Description-en="Module status (1 = module present)" Description-fr="Etat module (1 = module présent)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="DigitalInput01" Position="6" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="0" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput02" Position="8" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="1" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput03" Position="10" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="2" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput04" Position="12" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="3" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput05" Position="14" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="4" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput06" Position="16" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="5" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput07" Position="18" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="6" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput08" Position="20" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="7" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput09" Position="22" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="2" BitOffset="0" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput10" Position="24" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="2" BitOffset="1" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput11" Position="26" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="2" BitOffset="2" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput12" Position="28" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="2" BitOffset="3" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+	</Module><Module ID="SL1.SS1.IF2.ST11.IF1.ST3" Hardware="X20DI9371" Simulatable="true"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="10" Type="UDINT"/><Parameter ID="ModuleAddress" Value="0" Type="UDINT"/><Parameter ID="BusType" Value="X2X"/></LegacyAddressInfo><Channel ID="ModuleOk" Position="1" Description-de="Modul Status (1 = Modul gesteckt)" Description-en="Module status (1 = module present)" Description-fr="Etat module (1 = module présent)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="DigitalInput01" Position="6" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="0" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput02" Position="8" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="1" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput03" Position="10" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="2" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput04" Position="12" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="3" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput05" Position="14" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="4" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput06" Position="16" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="5" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput07" Position="18" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="6" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput08" Position="20" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="7" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput09" Position="22" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="2" BitOffset="0" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput10" Position="24" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="2" BitOffset="1" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput11" Position="26" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="2" BitOffset="2" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput12" Position="28" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="2" BitOffset="3" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+	</Module><Module ID="SL1.SS1.IF2.ST11.IF1.ST5" Hardware="X20AT2222" Simulatable="true"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="10" Type="UDINT"/><Parameter ID="ModuleAddress" Value="0" Type="UDINT"/><Parameter ID="BusType" Value="X2X"/></LegacyAddressInfo><Channel ID="ModuleOk" Position="1" Description-de="Modul Status (1 = Modul gesteckt)" Description-en="Module status (1 = module present)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="Temperature01" Position="10" Description-de="PT100, PT1000, 2-Leiteranschluss" Description-en="PT100, PT1000, 2-wire connection" Address="0" Direction="IN" Type="INT" Sig_Temp_PT100_m200C_p850C="1">
+		</Channel>
+		<Channel ID="Temperature02" Position="12" Description-de="PT100, PT1000, 2-Leiteranschluss" Description-en="PT100, PT1000, 2-wire connection" Address="2" Direction="IN" Type="INT" Sig_Temp_PT100_m200C_p850C="1">
+		</Channel>
+		<Channel ID="StatusInput01" Position="15" Description-de="Status der analogen Eingaenge" Description-en="Status of analog inputs" Ext="/PSEUDOCYCLIC" Address="30" Direction="IN" Type="USINT" Sig_St_Byte="1">
+		</Channel>
+	</Module><Module ID="SL1.SS1.IF2.ST11.IF1.ST8" Hardware="X20DO9322" Simulatable="true"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="10" Type="UDINT"/><Parameter ID="ModuleAddress" Value="0" Type="UDINT"/><Parameter ID="BusType" Value="X2X"/></LegacyAddressInfo><Channel ID="ModuleOk" Position="1" Description-de="Modul Status (1 = Modul gesteckt)" Description-en="Module status (1 = module present)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="DigitalOutput01" Position="20" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="0" BitOffset="0" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput02" Position="21" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="0" BitOffset="1" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput03" Position="22" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="0" BitOffset="2" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput04" Position="23" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="0" BitOffset="3" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput05" Position="24" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="0" BitOffset="4" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput06" Position="25" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="0" BitOffset="5" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput07" Position="26" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="0" BitOffset="6" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput08" Position="27" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="0" BitOffset="7" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput09" Position="28" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="1" BitOffset="0" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput10" Position="29" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="1" BitOffset="1" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput11" Position="30" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="1" BitOffset="2" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput12" Position="31" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="1" BitOffset="3" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput01" Position="40" FromVersion="A2.83" Description-de="Status digitaler Ausgang 01 (0 = OK)" Description-en="Status digital output 01 (0 = OK)" Ext="/FIXED" Address="1" BitOffset="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput02" Position="41" FromVersion="A2.83" Description-de="Status digitaler Ausgang 02 (0 = OK)" Description-en="Status digital output 02 (0 = OK)" Ext="/FIXED" Address="1" BitOffset="1" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput03" Position="42" FromVersion="A2.83" Description-de="Status digitaler Ausgang 03 (0 = OK)" Description-en="Status digital output 03 (0 = OK)" Ext="/FIXED" Address="1" BitOffset="2" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput04" Position="43" FromVersion="A2.83" Description-de="Status digitaler Ausgang 04 (0 = OK)" Description-en="Status digital output 04 (0 = OK)" Ext="/FIXED" Address="1" BitOffset="3" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput05" Position="44" FromVersion="A2.83" Description-de="Status digitaler Ausgang 05 (0 = OK)" Description-en="Status digital output 05 (0 = OK)" Ext="/FIXED" Address="1" BitOffset="4" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput06" Position="45" FromVersion="A2.83" Description-de="Status digitaler Ausgang 06 (0 = OK)" Description-en="Status digital output 06 (0 = OK)" Ext="/FIXED" Address="1" BitOffset="5" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput07" Position="46" FromVersion="A2.83" Description-de="Status digitaler Ausgang 07 (0 = OK)" Description-en="Status digital output 07 (0 = OK)" Ext="/FIXED" Address="1" BitOffset="6" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput08" Position="47" FromVersion="A2.83" Description-de="Status digitaler Ausgang 08 (0 = OK)" Description-en="Status digital output 08 (0 = OK)" Ext="/FIXED" Address="1" BitOffset="7" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput09" Position="48" FromVersion="A2.83" Description-de="Status digitaler Ausgang 09 (0 = OK)" Description-en="Status digital output 09 (0 = OK)" Ext="/FIXED" Address="2" BitOffset="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput10" Position="49" FromVersion="A2.83" Description-de="Status digitaler Ausgang 10 (0 = OK)" Description-en="Status digital output 10 (0 = OK)" Ext="/FIXED" Address="2" BitOffset="1" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput11" Position="50" FromVersion="A2.83" Description-de="Status digitaler Ausgang 11 (0 = OK)" Description-en="Status digital output 11 (0 = OK)" Ext="/FIXED" Address="2" BitOffset="2" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput12" Position="51" FromVersion="A2.83" Description-de="Status digitaler Ausgang 12 (0 = OK)" Description-en="Status digital output 12 (0 = OK)" Ext="/FIXED" Address="2" BitOffset="3" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+	</Module><Module ID="SL1.SS1.IF2.ST11.IF1.ST7" Hardware="X20DO9322" Simulatable="true"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="10" Type="UDINT"/><Parameter ID="ModuleAddress" Value="0" Type="UDINT"/><Parameter ID="BusType" Value="X2X"/></LegacyAddressInfo><Channel ID="ModuleOk" Position="1" Description-de="Modul Status (1 = Modul gesteckt)" Description-en="Module status (1 = module present)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="DigitalOutput01" Position="20" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="0" BitOffset="0" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput02" Position="21" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="0" BitOffset="1" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput03" Position="22" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="0" BitOffset="2" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput04" Position="23" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="0" BitOffset="3" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput05" Position="24" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="0" BitOffset="4" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput06" Position="25" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="0" BitOffset="5" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput07" Position="26" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="0" BitOffset="6" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput08" Position="27" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="0" BitOffset="7" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput09" Position="28" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="1" BitOffset="0" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput10" Position="29" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="1" BitOffset="1" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput11" Position="30" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="1" BitOffset="2" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput12" Position="31" Description-de="24 VDC / 0,5 A, Source" Description-en="24 VDC / 0.5 A, source" Ext="/FIXED" Address="1" BitOffset="3" Direction="OUT" Type="BOOL" Sig_Dig_05A_24VDC="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput01" Position="40" FromVersion="A2.83" Description-de="Status digitaler Ausgang 01 (0 = OK)" Description-en="Status digital output 01 (0 = OK)" Ext="/FIXED" Address="1" BitOffset="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput02" Position="41" FromVersion="A2.83" Description-de="Status digitaler Ausgang 02 (0 = OK)" Description-en="Status digital output 02 (0 = OK)" Ext="/FIXED" Address="1" BitOffset="1" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput03" Position="42" FromVersion="A2.83" Description-de="Status digitaler Ausgang 03 (0 = OK)" Description-en="Status digital output 03 (0 = OK)" Ext="/FIXED" Address="1" BitOffset="2" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput04" Position="43" FromVersion="A2.83" Description-de="Status digitaler Ausgang 04 (0 = OK)" Description-en="Status digital output 04 (0 = OK)" Ext="/FIXED" Address="1" BitOffset="3" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput05" Position="44" FromVersion="A2.83" Description-de="Status digitaler Ausgang 05 (0 = OK)" Description-en="Status digital output 05 (0 = OK)" Ext="/FIXED" Address="1" BitOffset="4" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput06" Position="45" FromVersion="A2.83" Description-de="Status digitaler Ausgang 06 (0 = OK)" Description-en="Status digital output 06 (0 = OK)" Ext="/FIXED" Address="1" BitOffset="5" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput07" Position="46" FromVersion="A2.83" Description-de="Status digitaler Ausgang 07 (0 = OK)" Description-en="Status digital output 07 (0 = OK)" Ext="/FIXED" Address="1" BitOffset="6" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput08" Position="47" FromVersion="A2.83" Description-de="Status digitaler Ausgang 08 (0 = OK)" Description-en="Status digital output 08 (0 = OK)" Ext="/FIXED" Address="1" BitOffset="7" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput09" Position="48" FromVersion="A2.83" Description-de="Status digitaler Ausgang 09 (0 = OK)" Description-en="Status digital output 09 (0 = OK)" Ext="/FIXED" Address="2" BitOffset="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput10" Position="49" FromVersion="A2.83" Description-de="Status digitaler Ausgang 10 (0 = OK)" Description-en="Status digital output 10 (0 = OK)" Ext="/FIXED" Address="2" BitOffset="1" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput11" Position="50" FromVersion="A2.83" Description-de="Status digitaler Ausgang 11 (0 = OK)" Description-en="Status digital output 11 (0 = OK)" Ext="/FIXED" Address="2" BitOffset="2" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="StatusDigitalOutput12" Position="51" FromVersion="A2.83" Description-de="Status digitaler Ausgang 12 (0 = OK)" Description-en="Status digital output 12 (0 = OK)" Ext="/FIXED" Address="2" BitOffset="3" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+	</Module><Module ID="SL1.SS1.IF1.ST5" Hardware="X20DI9371" Simulatable="true"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="10" Type="UDINT"/><Parameter ID="ModuleAddress" Value="0" Type="UDINT"/><Parameter ID="BusType" Value="X2X"/></LegacyAddressInfo><Channel ID="ModuleOk" Position="1" Description-de="Modul Status (1 = Modul gesteckt)" Description-en="Module status (1 = module present)" Description-fr="Etat module (1 = module présent)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="DigitalInput01" Position="6" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="0" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput02" Position="8" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="1" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput03" Position="10" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="2" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput04" Position="12" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="3" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput05" Position="14" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="4" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput06" Position="16" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="5" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput07" Position="18" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="6" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput08" Position="20" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="1" BitOffset="7" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput09" Position="22" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="2" BitOffset="0" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput10" Position="24" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="2" BitOffset="1" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput11" Position="26" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="2" BitOffset="2" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalInput12" Position="28" FromVersion="V2.92" Description-de="24 VDC, 0,1 bis 25 ms Schaltverzoegerung, Sink" Description-en="24 VDC, 0.1 to 25 ms switching delay, sink" Description-fr="24 VDC, retard de commutation 0ms - 25ms" Ext="/FIXED" Address="2" BitOffset="3" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1">
+		</Channel>
+	</Module><Module ID="SL1.SS1.IF1.ST8" Hardware="X20AO2622" Simulatable="true"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="10" Type="UDINT"/><Parameter ID="ModuleAddress" Value="0" Type="UDINT"/><Parameter ID="BusType" Value="X2X"/></LegacyAddressInfo><Channel ID="ModuleOk" Position="1" Description-de="Modul Status (1 = Modul gesteckt)" Description-en="Module status (1 = module present)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="AnalogOutput01" Position="8" FromVersion="V2.92" Description-de="±10 V / 0 bis 20 mA / 4 bis 20 mA, Aufloesung 12 Bit" Description-en="±10 V / 0 to 20 mA / 4 to 20 mA, resolution 12 bit" Address="0" Direction="OUT" Type="INT" MSB="12" Sig_Ana_m10V_p10V="1" Sig_Ana_0V_p10V="1">
+		</Channel>
+		<Channel ID="AnalogOutput02" Position="9" FromVersion="V2.92" Description-de="±10 V / 0 bis 20 mA / 4 bis 20 mA, Aufloesung 12 Bit" Description-en="±10 V / 0 to 20 mA / 4 to 20 mA, resolution 12 bit" Address="2" Direction="OUT" Type="INT" MSB="12" Sig_Ana_m10V_p10V="1" Sig_Ana_0V_p10V="1">
+		</Channel>
+	</Module><Module ID="SL1.SS1.IF2.ST1" Hardware="8BVIxxxxxxSx.xxx-x"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="-1" Type="UDINT"/><Parameter ID="ModuleAddress" Value="0" Type="UDINT"/><Parameter ID="BusType" Value="Powerlink"/></LegacyAddressInfo></Module><Module ID="SL1.SS1.IF2.ST11.IF1.ST9" Hardware="X20AO2622" Simulatable="true"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="10" Type="UDINT"/><Parameter ID="ModuleAddress" Value="0" Type="UDINT"/><Parameter ID="BusType" Value="X2X"/></LegacyAddressInfo><Channel ID="ModuleOk" Position="1" Description-de="Modul Status (1 = Modul gesteckt)" Description-en="Module status (1 = module present)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="AnalogOutput01" Position="8" FromVersion="V2.92" Description-de="±10 V / 0 bis 20 mA / 4 bis 20 mA, Aufloesung 12 Bit" Description-en="±10 V / 0 to 20 mA / 4 to 20 mA, resolution 12 bit" Address="0" Direction="OUT" Type="INT" MSB="12" Sig_Ana_m10V_p10V="1" Sig_Ana_0V_p10V="1">
+		</Channel>
+		<Channel ID="AnalogOutput02" Position="9" FromVersion="V2.92" Description-de="±10 V / 0 bis 20 mA / 4 bis 20 mA, Aufloesung 12 Bit" Description-en="±10 V / 0 to 20 mA / 4 to 20 mA, resolution 12 bit" Address="2" Direction="OUT" Type="INT" MSB="12" Sig_Ana_m10V_p10V="1" Sig_Ana_0V_p10V="1">
+		</Channel>
+	</Module><Module ID="SL1.SS1.IF2.ST2" Hardware="8BVIxxxxxxSx.xxx-x"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="-1" Type="UDINT"/><Parameter ID="ModuleAddress" Value="0" Type="UDINT"/><Parameter ID="BusType" Value="Powerlink"/></LegacyAddressInfo></Module></ChannelConfiguration>
