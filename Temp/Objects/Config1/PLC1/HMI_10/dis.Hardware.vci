@@ -60,7 +60,7 @@
         <Property Name="Parity" Value="" />
         <Property Name="PackageSize" Value="" />
         <Property Name="Timeout" Value="20" />
-        <Property Name="MaxClients" Value="1" />
+        <Property Name="MaxClients" Value="4" />
         <Property Name="HorizontalResolution" Value="640" />
         <Property Name="VerticalResolution" Value="480" />
         <Property Name="Title" Value="" />

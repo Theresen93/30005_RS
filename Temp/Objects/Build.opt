@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=3.0.90.27 SP09?>
+<?AutomationStudio Version=3.0.90.32 SP14?>
 <BuildOptions>
   <Project>
     <IECNamingConvention>true</IECNamingConvention>
     <IecKeywordsAsStructureMembers>false</IecKeywordsAsStructureMembers>
     <IecExtendedConstants>true</IecExtendedConstants>
-    <ProjectLogicalDirectory>C:\Job_Files\Holweg\CompleteBackup_RS15_RX_30005_r0_130220\Logical\</ProjectLogicalDirectory>
-    <ProjectTempDirectory>C:\Job_Files\Holweg\CompleteBackup_RS15_RX_30005_r0_130220\Temp\</ProjectTempDirectory>
-    <ASVersion>3.0.90.27 SP09</ASVersion>
+    <ProjectLogicalDirectory>C:\Job_Files\Holweg\RX_Systems_RS15\RS15_RX_30005_r0_072215\Logical\</ProjectLogicalDirectory>
+    <ProjectTempDirectory>C:\Job_Files\Holweg\RX_Systems_RS15\RS15_RX_30005_r0_072215\Temp\</ProjectTempDirectory>
+    <ASVersion>3.0.90.32 SP14</ASVersion>
     <Edition>Standard</Edition>
     <CrossReference>true</CrossReference>
     <ActiveConfiguration>Config1</ActiveConfiguration>

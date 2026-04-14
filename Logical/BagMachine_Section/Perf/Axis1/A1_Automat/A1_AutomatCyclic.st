@@ -197,6 +197,7 @@ PROGRAM _CYCLIC
 			IF (MC_BR_AutControl_0.Running=0) THEN
 				MC_BR_AutControl_0.Enable := 0;
 				MC_BR_AutControl_0.Stop := 0;
+				ParID_Ready := 0;
 			END_IF
 	END_IF
 

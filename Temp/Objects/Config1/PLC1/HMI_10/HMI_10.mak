@@ -603,7 +603,7 @@ VCR_SOURCE_HMI_10=$(SRC_PATH_HMI_10)/package.vcp
 #Panel Hardware
 $(PANEL_HW_OBJECT_HMI_10): $(PANEL_HW_SOURCE_HMI_10) $(PALFILE_HMI_10) $(VC_LIBRARY_LIST_HMI_10) $(KEYMAP_SOURCES_HMI_10)
 	$(VCHWPP) -f '$<' -o '$(subst .vco,.vci,$@)' -n HMI_10 -d HMI_10 -m '$(AS_PROJECT_PATH)/Physical/$(AS_CONFIGURATION)/$(AS_PLC)/Visual.vcm' -pal '$(PALFILE_HMI_10)' -c '$(AS_CONFIGURATION)' -p '$(AS_PLC)' -B F3.01.0 -L ' Visapi: V*' -verbose 'False' -profile 'False' -hw '$(CPUHWC)' -warninglevel 2 -so $(VC_STATIC_OPTIONS_HMI_10) -sfas -vcr 3734
-	$(VCC) -f '$(subst .vco,.vci,$@)' -o '$@' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -k '$(VCVK_SOURCES_HMI_10)' $(VCCFLAGS_HMI_10) -p HMI_10
+	$(VCC) -f '$(subst .vco,.vci,$@)' -o '$@' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -k '$(VCVK_SOURCES_HMI_10)' $(VCCFLAGS_HMI_10) -p HMI_10 -so $(VC_STATIC_OPTIONS_HMI_10) -vcr 3734
 
 
 # Pages
@@ -2527,7 +2527,7 @@ LFNT_OBJECTS_HMI_10=$(TEMP_PATH_HMI_10)/lfnt.en.vco $(TEMP_PATH_HMI_10)/lfnt.fr-
 
 #Runtime Object
 $(VCR_OBJECT_HMI_10) : $(VCR_SOURCE_HMI_10)
-	$(VCC) -f '$<' -o '$@' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -sl en $(VCCFLAGS_HMI_10) -rt  -p HMI_10 -so $(VC_STATIC_OPTIONS_HMI_10)
+	$(VCC) -f '$<' -o '$@' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -sl en $(VCCFLAGS_HMI_10) -rt  -p HMI_10 -so $(VC_STATIC_OPTIONS_HMI_10) -vcr 3734
 # Local resources Library rules
 LIB_LOCAL_RES_HMI_10=$(TEMP_PATH_HMI_10)/localres.vca
 $(LIB_LOCAL_RES_HMI_10) : $(TEMP_PATH_HMI_10)/HMI_1002.ccf
@@ -2567,7 +2567,7 @@ $(TEMP_PATH_ROOT_HMI_10)/Objects/$(AS_CONFIGURATION)/$(AS_PLC)/VCShared/HMI_10.v
 $(TEMP_PATH_HMI_10)/HMI_10.prj: $(TEMP_PATH_ROOT_HMI_10)/Objects/$(AS_CONFIGURATION)/$(AS_PLC)/VCShared/HMI_10.vcm
 	$(VCDEP) -m '$(TEMP_PATH_ROOT_HMI_10)/Objects/$(AS_CONFIGURATION)/$(AS_PLC)/VCShared/HMI_10.vcm' -s '$(AS_CPU_PATH)/VCShared/Shared.vcm' -p '$(AS_PATH)/AS/VC/Firmware' -c '$(AS_CPU_PATH)' -o HMI_10 -proj HMI_10 -fw '$(VCFIRMWAREPATH)' -hw '$(CPUHWC)'
 	$(VCPL) $(notdir $(PROJECT_MODULES_HMI_10:.br=,4)) HMI_10,2 -o '$@' -p HMI_10 -vc 'HMI_10' -verbose 'False' -fl '$(TEMP_PATH_ROOT_HMI_10)/Objects/$(AS_CONFIGURATION)/$(AS_PLC)/VCShared/HMI_10.vcm' -vcr '$(VCR_SOURCE_HMI_10)' -prj '$(AS_PROJECT_PATH)' -warningLevel2 -sfas
-	$(VCREFHANDLER) -X 'C:/Job_Files/Holweg/CompleteBackup_RS15_RX_30005_r0_130220/Temp/Objects/Config1/PLC1/vcxref.build' -o '$(TEMP_PATH_ROOT_HMI_10)/Objects/$(AS_CONFIGURATION)/$(AS_PLC)/' -verbose 'False' -profile 'False' -ds '$(TEMP_PATH_ROOT_HMI_10)/Objects/$(AS_CONFIGURATION)/$(AS_PLC)/VCShared/dpt.DataPointList.vcxref' -warninglevel 2 -sfas
+	$(VCREFHANDLER) -X 'C:/Job_Files/Holweg/RX_Systems_RS15/RS15_RX_30005_r0_072215/Temp/Objects/Config1/PLC1/vcxref.build' -o '$(TEMP_PATH_ROOT_HMI_10)/Objects/$(AS_CONFIGURATION)/$(AS_PLC)/' -verbose 'False' -profile 'False' -ds '$(TEMP_PATH_ROOT_HMI_10)/Objects/$(AS_CONFIGURATION)/$(AS_PLC)/VCShared/dpt.DataPointList.vcxref' -warninglevel 2 -sfas
 	$(VCXREFEXTENDER) '$(TEMP_PATH_ROOT_HMI_10)/Objects/$(AS_CONFIGURATION)/$(AS_PLC)/HMI_10/HMI_10.xrefvc' -o '$(TEMP_PATH_ROOT_HMI_10)/Objects/$(AS_CONFIGURATION)/$(AS_PLC)/HMI_10.xref' -P '$(AS_PROJECT_PATH)/' -c '$(AS_CONFIGURATION)' -S '$(AS_PLC)' -t '$(AS_TEMP_PATH)' 
 
 # 01 Module
@@ -2624,6 +2624,6 @@ $(TEMP_PATH_HMI_10)/HMI_1003.ccf: $(LIB_SHARED) $(SHARED_CCF) $(BMGRP_OBJECTS_HM
 .PHONY : vcPostBuild_HMI_10
 
 vcPostBuild_HMI_10 :
-	$(VCC) -pb -vcm '$(TEMP_PATH_HMI_10)/MODULEFILES.vcm' -fw '$(VCFIRMWAREPATH)' $(VCCFLAGS_HMI_10) -p HMI_10
+	$(VCC) -pb -vcm '$(TEMP_PATH_HMI_10)/MODULEFILES.vcm' -fw '$(VCFIRMWAREPATH)' $(VCCFLAGS_HMI_10) -p HMI_10 -so $(VC_STATIC_OPTIONS_HMI_10) -vcr 3734
 
 # Post Build Steps END

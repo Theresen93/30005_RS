@@ -84,7 +84,8 @@ typedef struct SdcDrvIf16_typ
 	plcbit oBoostCurrent;
 	plcbit oStandStillCurrent;
 	plcbit iStatusEnable;
-	plcbit reserve[3];
+	plcbit oBrake;
+	plcbit reserve[2];
 } SdcDrvIf16_typ;
 
 typedef struct SdcDrvIf32_typ
@@ -95,7 +96,7 @@ typedef struct SdcDrvIf32_typ
 	plcbit oBoostCurrent;
 	plcbit oStandStillCurrent;
 	plcbit iStatusEnable;
-	plcbit reserve;
+	plcbit oBrake;
 } SdcDrvIf32_typ;
 
 typedef struct SdcTrigIf_typ

@@ -10,7 +10,11 @@
  ********************************************************************)
 
 PROGRAM _CYCLIC
-
+//		IF gPowerUp_Complete AND (Count<5) THEN
+//			gA[0].ErrorAck := 1;
+//			Count := Count + 1;
+//		END_IF
+		
 (* Screen GoTo Control on Main HMI For Main, Setup, & Status Screens *)
 	IF (gHMI_GoToMain_PB) THEN
 		gScreenControl:=HMI_MainScreenGroup;

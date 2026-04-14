@@ -2,16 +2,16 @@
 <?AutomationStudio Version=3.0.90.22 SP04?>
 <Diagnosis ConnectionString='NCMGR="acp10";NCVER="2240";IFTYP="Powerlink";NCOBJNAM="Axis3";OBJTYP="ncAXIS";CHL="1";ADDR="SL1.SS1.IF2.ST3";IP_MOD="A3_Init";'>
 <Watch>
-  <Row Parameter="network.init" Value="ncTRUE" />
+  <Row Parameter="network.init" Value="ncFALSE" />
   <Row Parameter="network.service.data_text" />
-  <Row Parameter="network.service.request.par_id" Value="428; SGEN_S_SET" />
-  <Row Parameter="network.service.response.par_id" Value="4" />
-  <Row Parameter="monitor.s" Value="501120317" Unit="Units" />
+  <Row Parameter="network.service.request.par_id" Value="0" />
+  <Row Parameter="network.service.response.par_id" Value="65534" />
+  <Row Parameter="monitor.s" Value="0" Unit="Units" />
   <Row Parameter="monitor.v" Value="0" Unit="Units/s" />
-  <Row Parameter="message.count.error" Value="0" />
+  <Row Parameter="message.count.error" Value="1" />
   <Row Parameter="message.count.warning" Value="0" />
-  <Row Parameter="message.record.par_id" Value="0" />
-  <Row Parameter="message.record.number" Value="0" />
+  <Row Parameter="message.record.par_id" Value="119" />
+  <Row Parameter="message.record.number" Value="32011" />
   <Row Parameter="message.record.info" Value="0" />
 </Watch>
 <Action>

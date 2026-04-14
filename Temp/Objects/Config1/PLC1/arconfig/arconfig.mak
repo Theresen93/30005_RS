@@ -3,6 +3,6 @@ $(AS_CPU_PATH)/arconfig.br: \
 	$(AS_PROJECT_PATH)/physical/$(AS_CONFIGURATION)/hardware.hc \
 	$(AS_PROJECT_PATH)/physical/$(AS_CONFIGURATION)/$(AS_PLC)/sysconf.syc \
 	$(AS_PROJECT_PATH)/physical/$(AS_CONFIGURATION)/$(AS_PLC)/iomap.iom 
-	@"$(AS_BIN_PATH)/BR.AS.ConfigurationBuilder.exe" "$(AS_PROJECT_PATH)/Physical/$(AS_CONFIGURATION)/$(AS_PLC)/ArConfig.rtc" "$(AS_PROJECT_PATH)/Physical/$(AS_CONFIGURATION)/Hardware.hc" "$(AS_PROJECT_PATH)/Physical/$(AS_CONFIGURATION)/$(AS_PLC)/sysconf.syc" "$(AS_ACTIVE_CONFIG_PATH)/IoMap.iom"  -c Config1 -arconfig -L "Acp10_MC: V2.24.0, Acp10man: V2.24.0, Acp10par: V2.24.0, NcGlobal: V0.60.3" -v V1.00.0 -S PLC1 -o "$(AS_CPU_PATH)/arconfig.br" "$(AS_CPU_PATH)/ChannelConfiguration.xml" -T SG4  -B F3.01 -P "$(AS_PROJECT_PATH)" -s PLC1 -secret "$(AS_PROJECT_PATH)_br.as.configurationbuilder.exe"
+	@"$(AS_BIN_PATH)/BR.AS.ConfigurationBuilder.exe" "$(AS_PROJECT_PATH)/Physical/$(AS_CONFIGURATION)/$(AS_PLC)/ArConfig.rtc" "$(AS_PROJECT_PATH)/Physical/$(AS_CONFIGURATION)/Hardware.hc" "$(AS_PROJECT_PATH)/Physical/$(AS_CONFIGURATION)/$(AS_PLC)/sysconf.syc" "$(AS_ACTIVE_CONFIG_PATH)/IoMap.iom"  -c Config1 -arconfig -L "Acp10_MC: V3.18.2, Acp10man: V3.18.2, Acp10par: V3.18.2, NcGlobal: V3.18.2" -v V1.00.0 -S PLC1 -o "$(AS_CPU_PATH)/arconfig.br" "$(AS_CPU_PATH)/ChannelConfiguration.xml" -T SG4  -B F3.01 -P "$(AS_PROJECT_PATH)" -s PLC1 -secret "$(AS_PROJECT_PATH)_br.as.configurationbuilder.exe"
 
 -include $(AS_CPU_PATH)/Force.mak 

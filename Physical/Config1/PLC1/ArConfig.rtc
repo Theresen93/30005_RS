@@ -19,7 +19,7 @@
       <Parameter ID="MtuSize" Value="300" />
       <Group ID="PL2">
         <Parameter ID="ActivatePowerlink" Value="1" />
-        <Parameter ID="CycleTime" Value="400" />
+        <Parameter ID="CycleTime" Value="800" />
         <Parameter ID="MuxPrescaler" Value="8" />
         <Selector ID="Mode" Value="MN">
           <Group ID="Advanced">
@@ -47,7 +47,7 @@
   </Module>
   <Module ID="IF8.ST1" Hardware="VNCXGA">
     <Group ID="VNC">
-      <Parameter ID="MaxConnections" Value="1" />
+      <Parameter ID="MaxConnections" Value="4" />
       <Parameter ID="RefreshRate" Value="200" />
       <Parameter ID="ConnectionTimeOut" Value="20" />
       <Parameter ID="ClientTitle" />

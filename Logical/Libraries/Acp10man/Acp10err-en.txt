@@ -41,14 +41,19 @@
        Info('PARID'): Parameter ID
    71: Value of a necessary parameter too low
        Info('PARID'): Parameter ID
+   72: firmware version less than minimal necessary firmware version
+       Info(UINT): minimal version
+   73: Invalid R4 floating point format
+   74: Parameter can only be written via channel 1 (Axis 1)
+   75: Parameter is not allowed for selected motor type
  1001: Error-FIFO overflow
  1002: Parameter outside the valid range
  1003: Parameter cannot be written while loop control is active
  1004: Timeout in network life sign monitor
  1005: Parameter cannot be written while a movement is active
  1006: Invalid parameter for trigger event (digital input + edge)
- 1007: Master for network coupling deactivated - one master is already sending
  1008: Master for network coupling deactivated - Encoder error
+       Info(USINT): Sending object number 
  1009: Error during memory allocation
  1011: Quickstop input active
  1012: Breakdown of cyclic network communication
@@ -64,6 +69,15 @@
  1022: Timeout in life sign monitoring of cyclic data to drive
  1023: Network coupling with the cyclic communication mode not allowed
  1024: Cyclic communication mode with current network configuration not possible
+ 1025: Value of parameter in connection with holding brake not allowed
+ 1026: Value of parameter in connection with SAFETY modules not allowed
+ 1027: Function is not available for this hardware
+ 1028: Maximum number of network couplings exceeded
+ 1029: Parameter cannot be written: Stop ramp active
+ 1030: Function is available with ACP10SIM only in simulation mode 'Complete'
+ 1031: Position controller cycle time exceeded - CPU load too high
+ 1032: Internal bus error
+       Info(UDINT): Error code
  2001: Upload of trace data not allowed: Recording active
  2003: Trace start not allowed: Recording active
  2006: Initialization of trace parameters not allowed: Recording active
@@ -78,6 +92,9 @@
        Info('PARID'): Parameter ID
  4014: Two encoder control: Stop limit of positions difference exceeded
        Info(REAL): Current positions difference
+ 4015: Error triggered by command
+       Info(UINT): Command parameter
+ 4016: Taskclass cycle time invalid
  5001: Target position exceeds positive SW limit
  5002: Target position exceeds negative SW limit
  5003: Positive SW limit reached
@@ -87,7 +104,6 @@
  5010: Move in pos. direction not possible: Pos. limit switch is closed
  5011: Move in neg. direction not possible: Neg. limit switch is closed
  5012: Start of movement not possible: Stop ramp active
- 5013: Cyclic set value mode cannot be switched on: Movement active
  5015: Start of movement not possible: Homing procedure active
  5016: Parameter cannot be written: Homing procedure active
  5017: Homing procedure mode not possible: Position controller inactive
@@ -98,71 +114,58 @@
  5021: Limit switch closed: No direction change for this homing mode
  5022: Second limit switch signal received: Reference switch not found
  5023: Incorrect limit switch signal received for current movement direction
- 5024: Cyclic set value mode aborted: Set positions missing
  5025: Homing offset with counting range correction cannot be set
  5026: Basis movement parameters (with override) exceed speed limit value
  5027: Basis movement parameters (with override) exceed acceleration limit value
  5028: Current movement is not a basis movement
  5029: Trigger ignored - remaining distance exceeds SW limit
- 5030: Homing procedure mode not possible: Position controller active
- 5031: Homing procedure mode not possible: Cyclic set values mode is off
  5032: Acceleration too low - braking distance exceeds positive SW limit
  5033: Acceleration too low - braking distance exceeds negative SW limit
  5034: Homing procedure not possible: Encoder error
  5035: Reference marks not detected
  5036: Acceleration stop limit exceeded
        Info(REAL): Acceleration
- 5101: Cam profile compensation gears: Limit values exceeded
- 5102: Too many changes of cam profile per cycle (master period too short)
- 5103: Slave trigger FIFO full
- 5104: Slave trigger FIFO empty
- 5105: Master trigger FIFO full
- 5106: Master trigger FIFO empty
+ 5037: Homing procedure mode not possible: Wrong encoder type
+ 5038: Homing procedure mode not possible: Restore data invalid
+       Info(UINT): Detail
+ 5039: Function not possible: Encoder error
+ 5043: Homing procedure mode not possible: Compensation active
+ 5101: Compensation gear: Limit values exceeded
+       Info(USINT): State index
+ 5102: Too many changes of cam per cycle (master period too short)
+       Info(USINT): State index
  5107: Cam coupling cannot be started: Parameter outside the valid range
        Info('PARID'): Parameter ID
- 5108: Master compensation trigger FIFO full
- 5109: Master compensation trigger FIFO empty
  5110: Cam coupling aborted: Cyclic set positions missing
+       Info(USINT): State index
  5111: Cam coupling aborted: Encoder error
- 5112: Command not allowed: Cam profile coupling not active
- 5113: Command not allowed: Controller is already active
- 5114: Parameter cannot be written: Cam coupling active
+       Info(USINT): State index
  5115: Restart command not possible: The cam automat is not active
- 5201: Parameter cannot be written: Drumsequencer active
  5202: Cam Control: Switch positions not in ascending order
  5300: Data block for upload is not available
  5301: Start cam automat linkage not possible: Parameter outside the valid range
        Info('PARID'): Parameter ID
  5302: Parameter cannot be written: Cam automat active
- 5303: Cam profile data not available at index
- 5304: Format error in cam profile data
+ 5303: Cam data not available at index
+ 5304: Format error in cam data
        Info(UINT): Detail
  5311: Cam automat: Event leads to non initialized state
- 5315: Download error: Cam profile data in use by cam automat or function block
+ 5315: Download error: Cam data in use by cam automat or function block
  5316: Event type is not possible for entry in compensation gears
- 5319: Cam profile data not allowed for state 0
- 5329: No valid cam profile data or state deactivated
+ 5319: Cam data not allowed for state 0
+ 5329: No valid cam data
  6000: Master sampling time is not a multiple of position controller sampling time
- 6001: Sync controller: Timeout for sync telegram occurred
  6002: Sync controller: Error tolerance of system time difference exceeded
  6008: Controller is already active
- 6011: Controller is not in speed mode
  6014: Drive initialization active
- 6015: CAN controller: CAN bus disturbance (receive error counter greater 96)
-       Info(USINT): Slot
- 6016: CAN controller: CAN bus disturbance (transmit error counter greater 96)
-       Info(USINT): Slot
  6017: Software: Watchdog active
- 6018: Hardware: 15V power supply fail
+ 6018: Hardware: Internal power supply failure
  6019: ACOPOS: Overcurrent
- 6020: Hardware: 24V power supply fail
+ 6020: 24 VDC supply: Undervoltage
  6021: Low level at controller enable input
  6023: Voltage sag at controller enable input
- 6024: Current was latched before conversion (OpSys error in ABLS)
- 6025: Temperature was latched before conversion (OpSys error in ABLS)
  6026: Holding brake: Stator current limit exceeded during release
  6027: Holding brake: Manual operation not permitted
- 6028: Holding brake: Undervoltage/-current (wire breakage, check 24V supply)
  6029: Holding brake: Control signal on and output status off 
  6030: Holding brake: Brake output is active, but no brake entered in motor data
  6031: System module already deleted
@@ -175,19 +178,16 @@
        Info('PARID'): Parameter ID
  6038: Torque limit higher than peak motor torque
        Info(REAL): Peak motor torque
- 6040: Operating system version is less than allowed minimum version
- 6041: Operating system version is greater than allowed maximum version
- 6042: Operating system version is not in the allowed range
  6043: PHASING_MODE is not valid
        Info(UINT): PHASING_MODE
  6044: Phasing: Rotational direction or position not valid
-       Info(REAL): Calculated number of polepairs
- 6045: Power stage: Connection X5: No current flow
+       Info(INT): Calculated number of polepairs
+ 6045: Inverter: Output: No current flow
        Info(USINT): Phase
  6046: Phasing: No rotor movement
  6047: Holding brake: Control signal off and output status on 
  6048: Motor holding brake movement monitor: Position error too large
- 6049: Power stage: Connection X5: Current measurement faulty
+ 6049: Inverter: Output: Current measurement faulty
        Info(USINT): Phase
  6050: Write parameter not allowed: Set current filter or notch filter active
  6051: Phasing: Speed to high
@@ -207,10 +207,28 @@
  6062: CTRL Speed controller: Speed error stop limit exceeded
        Info(REAL): Limit value AXLIM_DV_STOP
  6063: Holding brake: External voltage on output over 24V
+ 6064: Parameter cannot be written: Repetitive Control active
+ 6065: Initialization active 
+       Info(UINT): Initialization number
+ 6066: Index overflow while initilization of matrices 
+       Info(UINT): Index overflow
+ 6067: Error during initialization of the dynamical system
+       Info(UINT): Error code
+ 6068: Parameter cannot be written while a brake test is active
+       Info(UINT): Error code
+ 6069: Holding brake: Overcurrent
+ 6070: Parameter cannot be written: Phasing procedure active
+ 6071: Phasing: Number of polepairs MOTOR_POLEPAIRS not valid
+       Info(INT): Calculated number of polepairs
+ 6072: Holding brake: High voltage
+ 6073: Additional control function in error state
+       Info(UINT): Error status
+ 6074: 24 VDC supply: Overvoltage
+       Info(REAL): Limit value
  7012: Encoder: Hiperface error bit
        Info(USINT): Slot
  7013: Encoder: Status message
-       Info(USINT): Status code
+       Info(UDINT): Status code
  7014: Encoder: CRC error during parameter transfer
        Info(USINT): Slot
  7015: Encoder: Timeout error during parameter transfer
@@ -275,38 +293,90 @@
        Info(USINT): Slot
  7055: Encoder: Invalid content type 'frame end'
        Info(USINT): Slot
- 7056: Encoder: Register read forbidden or not implemented
-       Info(USINT): Slot
- 7057: Encoder: Register write forbidden or not implemented
+ 7057: Encoder: Register read/write forbidden or not implemented
        Info(USINT): Slot
  7058: Encoder: Alarm bit is set
        Info(USINT): Slot
+ 7059: Virtual Encoder: Error state
+       Info(UDINT): PARID_ENCOD0_STATUS
+ 7060: Virtual Encoder: Transition error
+       Info(UDINT): PARID_ENCOD0_STATUS
+ 7061: Virtual Encoder: stall detection
+       Info(UDINT): PARID_ENCOD0_STATUS
+ 7062: Encoder: SMC module not ready
+       Info(USINT): Slot
+ 7063: Encoder: Error in the UART communication
+       Info(USINT): Slot
+ 7064: Encoder: Error in the SMC communication
+       Info(USINT): Slot
+ 7065: Encoder: Encod type invalid
+       Info(USINT): Slot
+ 7066: Encoder: Encoder not ready
+       Info(USINT): Slot
+ 7067: EnDat encoder: SMC modul not in operational state
+       Info(USINT): Slot
+ 7068: Encoder: Maximum cycle time exceeded
+       Info(USINT): Slot
+ 7069: Encoder: encoder error filter activ
+       Info(USINT): Slot
+ 7070: Encoder: Lag error stop limit exceeded
+       Info(REAL): Current lag error
+ 7071: Encoder: Limit speed error exceeded
+       Info(REAL): Speed error
+ 7072: Encoder: Transfer time position exceeded
+       Info(USINT): Slot
+ 7073: Encoder: Multiturn failure
+       Info(USINT): Slot
+ 7074: Encoder: SafeMOTION error
+       Info(USINT): Slot
+ 7075: Encoder: Incorrect configuration encoder type
+       Info(USINT): Slot
+ 7076: Encoder: Data transfer active
+       Info(UINT): Motor: Dataset index
+ 7077: Encoder: Encoder evaluation blocked by the SafeMOTION configuration
+       Info(USINT): Slot
+ 7078: Encoder: Intersegment communication failure
+ 7079: Encoder: Internal Error
+       Info(UDINT): -
+ 7080: Encoder: Error in the encoder communication
+       Info(USINT): Slot
+ 7081: Encoder: Timeout during initialization
+       Info(USINT): Slot
+ 7082: Encoder: Link to encoder disturbed
+       Info(USINT): Slot
  7100: Parameter function not supported. (Module ?)
+ 7103: Incompatible interface
+       Info(UDINT): Interface + additional info
  7200: DC bus: Overvoltage
- 7210: DC bus: Charging: Voltage unstable 
- 7211: DC bus: Voltage drop
+ 7210: DC bus: Pre-charging: Voltage unstable 
+ 7211: DC bus: Voltage dip
        Info(REAL): Low voltage limit
- 7212: DC bus: High voltage drop
+ 7212: DC bus: Large voltage dip
        Info(REAL): Low voltage limit
- 7214: DC bus: Charging resistor hot (too many power line fails)
+ 7214: DC bus: Pre-charging resistor hot (too many power line fails)
  7215: Power mains: At least one phase of the power line failed
  7217: DC bus: Nominal voltage detection: Voltage too high
        Info(REAL): Maximum DC bus voltage
  7218: DC bus: Nominal voltage detection: Voltage too low
        Info(REAL): Minimum required DC bus voltage
- 7219: DC bus: Charging: Voltage too low
+ 7219: DC bus: Pre-charging: Voltage too low
        Info(REAL): Minimum required DC bus voltage
  7220: DC bus: Nominal voltage detection: Voltage not allowed
        Info(REAL): DC bus voltage
  7221: Mains: Failure
        Info(REAL): Line frequency
- 7222: Power stage: Connection X5: Ground fault
+ 7222: Inverter: Output: Summation current: Overcurrent (Ground fault)
+       Info(REAL): Limit
  7223: DC bus: Overvoltage DC-GND
  7224: Connector to back plane: 24V-GND contact monitoring: Voltage too low
  7225: DC bus: Overvoltage
  7226: DC bus: Overcurrent
  7227: Bleeder: Overcurrent
        Info(REAL): Limit
+ 7228: DC bus: Nominal voltage detection: High inrush current
+       Info(REAL): Voltage boost factor
+ 7229: Chopper: Overcurrent
+ 7230: DC bus: measurement site 2 out of bounds
  7300: Digital IO: IO Configuration invalid
        Info(UINT): Slot
  7401: Parameter position exceeds maximum data length
@@ -322,59 +392,332 @@
        Info(UINT): EEPROM Parameter ID
  8007: Value of EEPROM parameter is not valid
        Info(UINT): EEPROM Parameter ID
+ 8011: EPROM: Data not valid
+       Info(UDINT): CODE
+ 8012: EPROM: Controller-ID not valid
+       Info(USINT): CODE
+ 8013: EPROM: CRC error
+       Info(USINT): CODE
  8020: Invalid switch frequency 
- 9000: Heatsink temperature sensor: Overtemperature - Movement stopped
+ 9000: Heatsink temperature sensor: Stop limit exceeded
        Info(REAL): Temperature limit
- 9001: Heatsink temperature sensor: Overtemperature - Limiter active
-       Info(REAL): Temperature limit
- 9002: Heatsink temperature sensor: Not connected or destroyed
+ 9001: Heatsink temperature sensor: Switch off limit exceeded
        Info(REAL): Temperature limit
  9003: Heatsink temperature sensor: Not connected or destroyed
        Info(REAL): Temperature limit
- 9010: Temperature sensor (Motor|Choke|External): Overtemperature
+ 9010: Temperature sensor (Motor|Choke|External): Stop limit exceeded
        Info(REAL): Temperature limit
- 9011: Temperature sensor (Motor|Choke|External): Overtemperature - Limiter active
+ 9011: Temperature sensor (Motor|Choke|External): Switch off limit exceeded
        Info(REAL): Temperature limit
  9012: Temperature sensor (Motor|Choke|External): Not connected or destroyed
        Info(REAL): Temperature
  9013: Temperature sensor (Motor|Choke|External): Short circuit
        Info(REAL): Temperature
- 9030: Junction temperature model: Overtemperature - Movement stopped
+ 9030: Junction temperature model: Stop limit exceeded
        Info(REAL): Temperature limit
- 9031: Junction temperature model: Overtemperature - Limiter active
+ 9031: Junction temperature model: Switch off limit exceeded
        Info(REAL): Temperature limit
- 9040: Bleeder temperature model: Overtemperature - Movement stopped
+ 9040: Bleeder temperature model: Stop limit exceeded
        Info(REAL): Temperature limit
- 9041: Bleeder temperature model: Overtemperature - Limiter active
+ 9041: Bleeder temperature model: Switch off limit exceeded
        Info(REAL): Temperature limit
- 9050: ACOPOS peak current: Overload - Movement stopped
+ 9050: ACOPOS peak current: Stop limit exceeded
        Info(REAL): Load limit
- 9051: ACOPOS peak current: Overload - Limiter active
+ 9051: ACOPOS peak current: Switch off limit exceeded
        Info(REAL): Load limit
- 9060: ACOPOS continuous current: Overload - Movement stopped
+ 9060: ACOPOS continuous current: Stop limit exceeded
        Info(REAL): Load limit
- 9061: ACOPOS continuous current: Overload - Limiter active
+ 9061: ACOPOS continuous current: Switch off limit exceeded
        Info(REAL): Load limit
- 9070: Motor temperature model: Overload - Movement stopped
+ 9070: Motor temperature model: Stop limit exceeded
        Info(REAL): Load limit
- 9071: Motor temperature model: Overload - Limiter active
+ 9071: Motor temperature model: Switch off limit exceeded
        Info(REAL): Load limit
- 9075: ACOPOS continuous power: Overload - Movement stopped
+ 9075: ACOPOS continuous power: Stop limit exceeded
        Info(REAL): Load limit
- 9076: ACOPOS continuous power: Overload - Limiter active
+ 9076: ACOPOS continuous power: Switch off limit exceeded
        Info(REAL): Load limit
- 9078: ACOPOS temperature sensor: Overtemperature - Movement stopped
+ 9078: Power stage: Temperature sensor 1: Stop limit exceeded
+       Info(REAL): Temperature
+ 9079: Power stage: Temperature sensor 1: Switch off limit exceeded
+       Info(REAL): Temperature
+ 9080: Pre-charging resistor temperature model: Stop limit exceeded
        Info(REAL): Temperature limit
- 9079: ACOPOS temperature sensor: Overtemperature - Limiter active
-       Info(REAL): Temperature limit
+ 9081: Power stage temperature model: Stop limit exceeded
+       Info(REAL): Temperature
+ 9082: Power stage temperature model: Switch off limit exceeded
+       Info(REAL): Temperature
+ 9083: Power stage: Temperature sensor 2: Stop limit exceeded
+       Info(REAL): Temperature
+ 9084: Power stage: Temperature sensor 2: Switch off limit exceeded
+       Info(REAL): Temperature
+ 9085: Power stage: Temperature sensor 3: Stop limit exceeded
+       Info(REAL): Temperature
+ 9086: Power stage: Temperature sensor 3: Switch off limit exceeded
+       Info(REAL): Temperature
+ 9087: Power stage: Temperature sensor 4: Stop limit exceeded
+       Info(REAL): Temperature
+ 9088: Power stage: Temperature sensor 4: Switch off limit exceeded
+       Info(REAL): Temperature
+ 9089: Motor encoder temperature sensor: Stop limit exceeded
+       Info(REAL): Temperature
+ 9090: Motor encoder temperature sensor: Temperature value not valid
+ 9091: 24V Supply/Main relay temperature sensor: Stop limit exceeded
+ 9092: Power stage: Temperature sensor 5: Stop limit exceeded
+       Info(REAL): Temperature
+ 9093: Power stage: Temperature sensor 5: Switch off limit exceeded
+       Info(REAL): Temperature
+ 9094: Rectifier temperature model: Stop limit exceeded
+       Info(REAL): Temperature
+ 9095: Rectifier temperature model: Switch off limit exceeded
+       Info(REAL): Temperature
+ 9096: DC bus relay temperature model: Stop limit exceeded
+       Info(REAL): Temperature
+ 9097: DC bus relay temperature model: Switch off limit exceeded
+       Info(REAL): Temperature
+ 9098: DC bus capacitor temperature model: Stop limit exceeded
+       Info(REAL): Temperature
+ 9099: DC bus capacitor temperature model: Switch off limit exceeded
+       Info(REAL): Temperature
+ 9100: DC bus: Continuous total power: Stop limit exceeded
+       Info(REAL): Load limit
+ 9101: DC bus: Continuous total power: Switch off limit exceeded
+       Info(REAL): Load limit
+ 9102: DC bus: Peak total power: Stop limit exceeded
+       Info(REAL): Load limit
+ 9103: DC bus: Peak total power: Switch off limit exceeded
+       Info(REAL): Load limit
+ 9104: DC connector temperature model: Stop limit exceeded
+       Info(REAL): Temperature
+ 9105: DC connector temperature model: Switch off limit exceeded
+       Info(REAL): Temperature
+ 9106: Power stage: Temperature sensor: Stop limit exceeded
+       Info(UINT): sensor
+ 9107: Power stage: Temperature sensor: Stop limit exceeded
+       Info(UINT): sensor
  9300: Current controller: Overcurrent
        Info(REAL): Limit
+ 9302: Current controller: Cycle time invalid
 10000: Identification parameter(s) missing
 10001: Parameter identification: Invalid sub-mode
 10100: Parameter identification: Quality factor not fulfilled
+       Info(UINT): Detail
 10101: No ISQ-filter free
 10102: No resonance-frequency for ISQ-filter (band-stop) found
        Info(UINT): Filter
+10103: Autotuning: Maximum lag error exceeded
+       Info(REAL): Current lag error
+10500: Induction stop was terminated
+29200: The axis object is invalid
+       Info(UINT): PLCopen_FB
+29203: Drive is not ready
+       Info(UINT): PLCopen_FB
+29204: Invalid parameter number
+       Info(UINT): PLCopen_FB
+29205: The axis is not homed
+       Info(UINT): PLCopen_FB
+29206: The controller is off
+       Info(UINT): PLCopen_FB
+29207: This movement type is currently not allowed
+       Info(UINT): PLCopen_FB
+29208: The axis object was changed since last FB call
+       Info(UINT): PLCopen_FB
+29209: The drive is in error state
+       Info(UINT): PLCopen_FB
+29210: Parameter initialization (Global-init) failed
+       Info(UINT): PLCopen_FB
+29211: Holding brake cannot be switched. The controller is on
+       Info(UINT): PLCopen_FB
+29214: Homing procedure not possible
+       Info(UINT): PLCopen_FB
+29215: Discrete movement not possible
+       Info(UINT): PLCopen_FB
+29216: Continuous movement not possible
+       Info(UINT): PLCopen_FB
+29217: Invalid input parameter
+       Info(UINT): PLCopen_FB
+29218: Unknown PLCopen axis state
+       Info(UINT): PLCopen_FB
+29219: Invalid value for PLCopen parameter 
+       Info(UINT): PLCopen_FB
+29221: No cam name
+       Info(UINT): PLCopen_FB
+29222: Error at cam download
+       Info(UINT): PLCopen_FB
+29225: The target position is outside the axis period
+       Info(UINT): PLCopen_FB
+29226: Drive error. Call MC_(BR_)ReadAxisError for details
+       Info(UINT): PLCopen_FB
+29227: Drive unable to transmit additional master positions on network
+       Info(UINT): PLCopen_FB
+29228: This drive cannot read any more master positions from the network
+       Info(UINT): PLCopen_FB
+29229: Synchronized movement not possible
+       Info(UINT): PLCopen_FB
+29230: Internal error: Error transferring the parameter list 
+       Info(UINT): PLCopen_FB
+29231: The master velocity is invalid, 0 or negative
+       Info(UINT): PLCopen_FB
+29232: Internal error: Invalid SPT resource type 
+       Info(UINT): PLCopen_FB
+29233: SPT resources of required type not available
+       Info(UINT): PLCopen_FB
+29234: Internal error: Number of requested SPT resources is not available
+       Info(UINT): PLCopen_FB
+29235: Functionality not available for the current axis type
+       Info(UINT): PLCopen_FB
+29237: Error in TriggerInput parameters
+       Info(UINT): PLCopen_FB
+29238: The FB cannot be used in the current state
+       Info(UINT): PLCopen_FB
+29239: This functionality is not available on CAN-Bus
+       Info(UINT): PLCopen_FB
+29240: The specified ParID cannot be used due to the data type size
+       Info(UINT): PLCopen_FB
+29241: Wrong data type for specified ParID
+       Info(UINT): PLCopen_FB
+29242: Cyclic read data full
+       Info(UINT): PLCopen_FB
+29244: Internal error while configuring cyclic data 
+       Info(UINT): PLCopen_FB
+29246: Invalid TouchProbe window 
+       Info(UINT): PLCopen_FB
+29247: Master synchronous position cannot be reached
+       Info(UINT): PLCopen_FB
+29250: Invalid CamTableID 
+       Info(UINT): PLCopen_FB
+29251: Error downloading the ACOPOS parameter tables
+       Info(UINT): PLCopen_FB
+29252: Error initializing the parameter list
+       Info(UINT): PLCopen_FB
+29253: Error downloading the parameter sequence
+       Info(UINT): PLCopen_FB
+29254: Error initializing the parameter sequence 
+       Info(UINT): PLCopen_FB
+29255: Initialization not possible, axis coupling is active
+       Info(UINT): PLCopen_FB
+29256: Multiple simultaneous commands not possible
+       Info(UINT): PLCopen_FB
+29257: The specified data address is invalid
+       Info(UINT): PLCopen_FB
+29260: No data object name specified
+       Info(UINT): PLCopen_FB
+29261: Invalid data object index
+       Info(UINT): PLCopen_FB
+29262: Master channel already in use
+       Info(UINT): PLCopen_FB
+29263: Slave channel already in use
+       Info(UINT): PLCopen_FB
+29264: Cyclic write data full
+       Info(UINT): PLCopen_FB
+29265: Loss of communication with the drive
+       Info(UINT): PLCopen_FB
+29266: The MasterParID has changed since last function block call 
+       Info(UINT): PLCopen_FB
+29267: Invalid number of cam profile polynomials
+       Info(UINT): PLCopen_FB
+29268: Function block aborted by another function block
+       Info(UINT): PLCopen_FB
+29269: Error saving NC-INIT parameter module
+       Info(UINT): PLCopen_FB
+29270: Error loading NC-INIT parameter module
+       Info(UINT): PLCopen_FB
+29271: The selected FB with the type MC_TouchProbe is not enabled
+       Info(UINT): PLCopen_FB
+29272: Cam Profile Automat data not initialized
+       Info(UINT): PLCopen_FB
+29273: The specified 'Subject' is invalid
+       Info(UINT): PLCopen_FB
+29274: An error has occurred while initializing the data
+       Info(UINT): PLCopen_FB
+29275: At least one input value was changed while 'Enable = TRUE'
+       Info(UINT): PLCopen_FB
+29276: A phase shift is already in progress
+       Info(UINT): PLCopen_FB
+29277: A offset shift is already in progress
+       Info(UINT): PLCopen_FB
+29278: No period for Axis, Master, Slave or FB input defined
+       Info(UINT): PLCopen_FB
+29279: Output value cannot be calculated
+       Info(UINT): PLCopen_FB
+29280: No valid master axis defined
+       Info(UINT): PLCopen_FB
+29281: This functionality is not available for ACOPOSmulti
+       Info(UINT): PLCopen_FB
+29282: Command can't currently be executed
+       Info(UINT): PLCopen_FB
+29283: Master or slave position of the first cam profile point not equal to 0
+       Info(UINT): PLCopen_FB
+29284: Too few curve points
+       Info(UINT): PLCopen_FB
+29285: Invalid type for cam profile section
+       Info(UINT): PLCopen_FB
+29286: Invalid mode for the last cam profile point
+       Info(UINT): PLCopen_FB
+29287: Invalid master or slave position for last cam profile point
+       Info(UINT): PLCopen_FB
+29288: Master positions are not strictly monotonic increasing
+       Info(UINT): PLCopen_FB
+29289: Invalid boundary parameters
+       Info(UINT): PLCopen_FB
+29290: Too many cam profile polynomials
+       Info(UINT): PLCopen_FB
+29291: Turning point outside of cam profile section
+       Info(UINT): PLCopen_FB
+29292: Identical slave boundary positions not permitted
+       Info(UINT): PLCopen_FB
+29293: Specified data length is 0 or too low
+       Info(UINT): PLCopen_FB
+29294: Not able to determine error text. For details, see error text string 
+       Info(UINT): PLCopen_FB
+29295: An error has occurred. For details, see 'ErrorRecord' output 
+       Info(UINT): PLCopen_FB
+29297: Problem with variable in permanent memory
+       Info(UINT): PLCopen_FB
+29299: Error occurred during the setup operation
+       Info(UINT): PLCopen_FB
+29300: Invalid number of polynomials in cam profile
+       Info(UINT): PLCopen_FB
+29301: Unable to calculate cam profile value
+       Info(UINT): PLCopen_FB
+29302: Instance of function block already active on this axis
+       Info(UINT): PLCopen_FB
+29303: The specified IntervalTime is too small
+       Info(UINT): PLCopen_FB
+29305: ParID cannot be read with the specified mode
+       Info(UINT): PLCopen_FB
+29306: Invalid interpolation mode
+       Info(UINT): PLCopen_FB
+29307: Master period is zero
+       Info(UINT): PLCopen_FB
+29308: Internal calculation error
+       Info(UINT): PLCopen_FB
+29309: General internal error
+       Info(UINT): PLCopen_FB
+29310: Calculated compensation exceeds limit values
+       Info(UINT): PLCopen_FB
+29311: The maximum time was exceeded 
+       Info(UINT): PLCopen_FB
+29312: Error occurred during the holding brake test
+       Info(UINT): PLCopen_FB
+29313: FIFO - Maximum amount of available elements exceeded
+       Info(UINT): PLCopen_FB
+29314: The function block is called in a wrong task class
+       Info(UINT): PLCopen_FB
+29315: Abortion of cyclic position transfer due to axis error
+       Info(UINT): PLCopen_FB
+29489: Internal values in the axis structure are invalid
+       Info(UINT): PLCopen_FB
+29490: Internal initialization error (global init)
+       Info(UINT): PLCopen_FB
+29491: Internal initialization error (SW limits)
+       Info(UINT): PLCopen_FB
+29492: Internal initialization error (homing of virtual axis)
+       Info(UINT): PLCopen_FB
+29498: ACP10_MC library: Initialization aborted
+       Info(UINT): PLCopen_FB
+29499: ACP10_MC library: Error with details in 'ASCII Data'
+       Info(UINT): PLCopen_FB
 31201: Di/Do Interface: Drive not ready
 31220: Encoder error: Encoder not configured
        Info(UINT): EncIf Index
@@ -389,6 +732,7 @@
 31249: Drive Interface: HW Module not OK
 31250: Di/Do Interface: HW Module not OK
 31260: Current axis configuration only possible in simulation mode
+31261: Change mode for servo drive adjustment not allowed
 32001: Error calling CAN_xopen()
        Info(UINT): Status of CAN_xopen()
 32002: Error defining Write COB for Broadcast Command
@@ -443,10 +787,6 @@
 32035: Error at SW Reset after download
 32036: Different system module data after download
 32037: Error message(s) lost because of FIFO overflow (acknowledge errors)
-32038: Error searching for INIT parameter module
-       Info(UINT): Status of function MO_modul_search()
-32039: Error reading INIT parameter module
-       Info(UINT): Status of function MO_read()
 32040: Version of INIT parameter module is not compatible to NC manager
        Info(UINT): Version of INIT parameter module
 32041: The module acp10cfg does not exist
@@ -460,7 +800,6 @@
 32048: A CAN node number in module acp10cfg is used repeatedly
 32049: This NC action is not allowed during Trace is active
 32050: A Trace Data Upload is already active
-32051: Invalid Trace Status for Trace Data Upload
 32053: Error defining Write COB for Parameter Read Request 2
        Info(UDINT): CAN-ID (in HB and MHB) and Status of CAN_defineCOB() (in MLB and LB)
 32054: Error defining Write COB for Parameter Write Request 2
@@ -497,15 +836,12 @@
 32076: FIFO for messages with high priority to NC Manager Task is full
 32077: A POWERLINK node number in module acp10cfg is invalid
 32078: A POWERLINK node number in module acp10cfg is used repeatedly
-32079: With this version one CAN interface must be in module acp10cfg
-32080: With this version one POWERLINK interface must be in module acp10cfg
-32081: With this version only one POWERLINK interface is allowed in module acp10cfg
-32082: Module acp10cfg contains a CAN interface without any drive node
-32083: Module acp10cfg contains a POWERLINK interface without any drive node
+32079: With this variant one CAN interface must be in module acp10cfg
+32080: With this variant one POWERLINK interface must be in module acp10cfg
 32084: The NC configuration does not contain any ACOPOS module
 32085: Module acp10cfg invalid (AutomationStudio V2.2 or higher necessary)
-32086: With this version no CAN interface is allowed in module acp10cfg
-32087: With this version no POWERLINK interface is allowed in module acp10cfg
+32086: With this variant no CAN interface is allowed in module acp10cfg
+32087: With this variant no POWERLINK interface is allowed in module acp10cfg
 32088: The INIT parameter module specified in the NC Mapping Table does not exist
 32089: NC-HW-ID of INIT parameter module is not compatible to NC manager
        Info(UINT): NC-HW-ID of INIT parameter module
@@ -519,15 +855,11 @@
 32094: NetworkInit is defined repeatedly for ncMANAGER with different values
 32095: Value of drive group in CAN-CFG-Module higher than maximum value
        Info(UINT): Maximum value
-32096: Size of data buffer for trace data upload in module acp10cfg too small
-32097: All counts of used network interfaces in module acp10cfg are zero
 32098: Version of the module acp10cfg is not compatible with NC manager
 32099: Length of data section of module acp10cfg is too small
        Info(UINT): Number of data section
 32100: Memory for NC error text management cannot be allocated
        Info(UINT): Status of SM_malloc()
-32101: Error accessing NC error text module in BR module table
-       Info(UINT): Status of SS_get_entry()
 32102: Version ID of error text module not equal to that of NC manager
 32103: Data section of error text module cannot be read
        Info(UINT): Number of data section
@@ -581,7 +913,7 @@
        Info(UINT): Status of function MO_read()
 32135: The data address of the specified NC data module cannot be read
        Info(UINT): Status of function MO_read()
-32136: The Data section of the specified NC data module is empty
+32136: The data section of the specified NC data module is empty
        Info(UINT): Number of data section
 32137: Data address of structure for a data block operation is zero
 32138: Data address zero (user data for data block operation)
@@ -592,18 +924,18 @@
        Info(UDINT): Index of this parameter in the parameter sequence
 32143: Data of a parameter in a parameter sequence longer than 6 bytes
        Info(UDINT): Index of this parameter in the parameter sequence
-32144: Error for an ACOPOS Parameter Table specified in the NC Mapping Table
-       Info(UINT): Index of this ACOPOS Parameter Table (name in Logger)
-32145: The ACOPOS Parameter Table does not exist
-32146: The ACOPOS Parameter Table is not an NC data module
-32147: The NC module type of the ACOPOS Parameter Table is invalid
-32148: The NC module type of the ACOPOS Parameter Table cannot be read
-32149: The data address in the ACOPOS Parameter Table cannot be read
-32150: The data section of the ACOPOS Parameter Table is empty
+32144: Error for an ACOPOS parameter table specified in the NC Mapping Table
+       Info(UINT): Index of this ACOPOS parameter table (name in Logger)
+32145: The ACOPOS parameter table does not exist
+32146: The ACOPOS parameter table is not an NC data module
+32147: The NC module type of the ACOPOS parameter table is invalid
+32148: The NC module type of the ACOPOS parameter table cannot be read
+32149: The data address in the ACOPOS parameter table cannot be read
+32150: The data section of the ACOPOS parameter table is empty
 32151: Error initializing memory buffer for XML parser
-32152: No XML elements present in an ACOPOS Parameter Table
-32153: The first XML element is invalid in the ACOPOS Parameter Table
-32154: The ACOPOS Parameter Table does not contain any ACOPOS parameters
+32152: No XML elements present in an ACOPOS parameter table
+32153: The first XML element is invalid in the ACOPOS parameter table
+32154: The ACOPOS parameter table does not contain any ACOPOS parameters
 32155: Nesting depth for ACOPOS parameter groups exceeded
        Info(UINT): Maximum nesting depth
 32156: ID or type of an ACOPOS parameter invalid for text conversion
@@ -611,16 +943,14 @@
 32157: Length of parameter data too large for ACOPOS parameter in XML data
        Info(UINT): Parameter ID
 32158: ACOPOS parameter: An attribute is not defined (ID)
-       Info(UINT): Number of this Parameter in the ACOPOS Parameter Table
+       Info(UINT): Number of this Parameter in the ACOPOS parameter table
 32159: ACOPOS parameter: An attribute is not defined (Value)
-       Info(UINT): Number of this Parameter in the ACOPOS Parameter Table
-32160: Basis movements with mode ncTRG_STOP are not allowed for ncV_AXIS
+       Info(UINT): Number of this Parameter in the ACOPOS parameter table
 32161: ncNC_SYS_RESTART,ncACKNOWLEDGE is not allowed (network.init=ncFALSE)
-32162: Internal task class number wrong (from now on operation is blocked !!!)
 32163: A system module download to all drives is not possible with SwNodeSelect
 32164: The text defined with NetworkInit (global) is invalid
 32165: A CAN node number is equal to NodeNr_SwNodeSelect
-32166: Network initialization during active network initialization not allowed
+32166: Network initialization not allowed during active network initialization
 32167: The text defined with NetworkInit is invalid
 32168: NodeNr_SwNodeSelect is defined repeatedly with different values
 32169: The node number defined with NodeNr_SwNodeSelect is invalid
@@ -734,15 +1064,26 @@
        Info(UINT): Status of SM_malloc()
 32240: NC object data invalid (PV with INIT value in variable declaration ?) 
 32241: Data block operation: Data module name must be zero
-32242: Conditions for cam profile transfer via Systick-Task are not fullfilled
 32243: Error using plAction(GET_PDO_INFO) (additional info in Logger)
        Info(UINT): Status of plAction()
 32244: No PDO defined in the cyclic frame for this channel: NC object is disabled
 32245: The Memory for operating the broadcast channel cannot be allocated
 32246: 'Direction' of the POWERLINK broadcast channel is not 'Output'
+32247: Error using plAction(GET_TC_INFO) (additional info in Logger)
+       Info(UINT): Status of plAction()
+32248: Invalid ACOPOS parameter header in module acp10cfg (section exceeded)
+       Info(UINT): Interface index (in HB) and node number (in LB) of this drive
+32249: Invalid ACOPOS parameter descriptor in module acp10cfg (section exceeded)
+32250: ACOPOS parameter in module acp10cfg: Length of parameter data too large
+       Info(UINT): Maximum allowed length
 32251: NcNetCyc: Response timeout
        Info(UDINT): Timeout [usec]
 32252: NcNetCyc: Unexpected Response (invalid counter value)
+32253: The task class for POWERLINK output cycle trigger is invalid
+       Info(USINT): Maximum task class number
+32254: No PDO mapping defined (PDO mapping is required for this ACOPOS ID)
+       Info(USINT): ACOPOS ID
+32259: There are currently no trace data to be saved
 32260: Trace: No valid test data point is defined
 32261: Trace trigger: The NC object is invalid
 32262: Trace test data point: The NC object is invalid
@@ -751,66 +1092,65 @@
 32264: Trace test data point: The NC object is not enabled for this ACOPOS
        Info(UINT): Index of test data point
 32265: Trace trigger: Trace for this NC object already active at trace start
-       Info(UINT): Index of test data point
 32266: Trace test data point: Trace for this NC object already active at trace start
        Info(UINT): Index of test data point
-32267: Trace trigger: The trace interface for this NC object is occupied
-       Info(UINT): Index of test data point
-32268: Trace test data point: The trace interface for this NC object is occupied
+32267: Trace trigger: The NC object is not enabled for trace commands
+32268: Trace test data point: The NC object is not enabled for trace commands
        Info(UINT): Index of test data point
 32269: Trace: Too many test data points defined for one trace channel
        Info(UINT): Max. number of test data points
-32270: ACOPOS coupling: The channel number of send data is invalid
-32271: ACOPOS coupling: The channel number of receive data is invalid
+32270: ACOPOS coupling: The channel number of the send data is invalid
+       Info(USINT): Channel number of the send data
+32271: ACOPOS coupling: The channel number of the receive data is invalid
+       Info(USINT): Channel number of the receive data
 32272: ACOPOS coupling: Send data with this channel number are not configured
-32273: ACOPOS coupling: The NC object of send data is invalid
+       Info(USINT): Channel number of the send data (number of coupling object)
+32273: ACOPOS coupling: The NC object of the send data is invalid
 32274: Network coupling: The broadcast channel was not configured
 32275: Network coupling: The broadcast channel was not successfully initialized
 32276: Network coupling: Cycle times not equal (network interfaces, NC task class)
 32277: Network coupling: In the broadcast channel no more data record has place
-32278: ACOPOS coupling: Zero as Parameter ID of send data is not allowed
+32278: ACOPOS coupling: Zero as Parameter ID of the send data is not allowed
 32279: Service interface: Data address zero
 32280: Timeout for enable of acyclic network communication
        Info(UDINT): Timeout [sec]
-32294: NC Manager error: Pointer of function nctune_sequ() is zero
-32295: NC Manager error: Data structure address zero when calling nctune_sequ()
-32296: NC Manager error: Data structure size invalid when calling nctune_sequ()
-32297: NC Manager error: NC object address zero when calling nctune_sequ()
-32298: NC Manager error: Unknown error number when calling nctune_sequ()
-       Info(UINT): Error number
-32300: For controller setup the library acp10tun must be transferred to the target
-32301: Setup start not allowed: 'count.error' is greater than zero
+32281: Version of SafeMC lower than minimum version (see Logger)
+32282: Network coupling: Incompatible cycle times (network interfaces, NC task class)
+32283: INIT broadcast data point: Call of NC action only allowed in NC Manager TC
+       Info(USINT): Number of NC Manager task class
+32284: Ext. coupling data: With this AR/NC version only for TC1 with synchr. output
+       Info(USINT): Number of NC Manager task class
+32285: INIT broadcast data point: Incompatible cycle times (POWERLINK, NC manager)
+       Info(USINT): Extended coupling data for ACP10_MC_BROADCAST (0/1: No/Yes)
+32286: Network coupling: Incompatible cycle times (network interfaces, NC task class)
+       Info(USINT): Extended coupling data for ACP10_MC_BROADCAST (0/1: No/Yes)
+32287: Extended coupling data not possible (OutTime difference too large)
+       Info(UDINT): Difference between maxOutTime and minOutTime
+32288: Extended coupling data not possible (task class tolerance is not zero)
+       Info(USINT): Number of NC Manager task class
+32289: Network coupling: SDC/SIM master and slave in different task classes
+32290: INIT broadcast data point: Call of NC action only allowed in SDC task class
+       Info(USINT): Task class number of the corresponding SDC interface
+32291: INIT broadcast data point: "dp_data_bits" or "dp_task_class" is zero
 32302: Start setup not possible: A setup operation is already active
-32303: Setup start not possible: The axis is not global initialized
-32304: Setup start not possible: The controller is not switched off
-32305: Setup start not possible: The controller is not ready
-32306: Setup start not possible: The trace is already active
-32307: Setup for controller: Percentage for rated current higher than maximum value
-       Info(DINT): Maximum value
-32308: Setup for controller: Percentage for rated current lower than minimum value
-       Info(DINT): Minimum value
-32309: Setup for controller: Percentage for speed higher than maximum value
-       Info(DINT): Maximum value
-32310: Setup for controller: Percentage for speed lower than minimum value
-       Info(DINT): Minimum value
-32311: Setup for controller: Move distance higher than maximum value
-       Info(DINT): Maximum value
-32312: Setup for controller: Move distance lower than minimum value
-       Info(DINT): Minimum value
-32313: Setup start not possible with this mode: The axis is not referenced
-32314: Setup for controller: Mode invalid
-32315: Setup for controller: Mode invalid (Library)
-       Info(UDINT): Mode
-32316: Setup for controller: The calculated inertia is zero
-32317: Setup for controller: SCTRL_KV is zero
-32318: Setup for controller: POS_CTRL_KV is zero
-32319: Setup for controller: Calculation of result parameters was not possible
-32320: Setup for controller: Speed limit values too high for MOTOR_SPEED_RATED
-       Info(REAL): Maximum allowed speed limit value
-32321: Setup for controller: Coefficient a0 is zero ('+ ncISQ_F1_NOTCH' not possible)
+32322: Data block upload/download: The data object name is zero
+32323: Data block upload/download: The data block parameter ID is invalid
+32324: Data block upload/download: The parameter ID of data block index 1 is invalid
+32325: Data block upload/download: The parameter ID of data block index 2 is invalid
+32326: Data block upload/download: Address of data buffer is zero
+32327: Data block upload/download: Length of data buffer is zero
+32328: Data block upload: Length of data buffer lower than length of data block
+32329: Setup: Maximum number of initial ACOPOS parameters exceeded
+       Info(UDINT): Maximum number
+32330: Setup: Data of an ACOPOS parameter longer than 6 bytes
+       Info(UINT): Parameter ID
+32396: Changing the cycle time is not allowed for this ACOPOS hardware type
+32397: NCSYS version on the target system is not compatible with NCMAN version
+32398: acp10sys does not contain an operating system for this ACOPOS hardware type
+32399: Manual ACOPOS restart (POWER-OFF/-ON) after NCSYS download necessary
 32400: Memory cannot be allocated
        Info(UDINT): Memory size
-32401: No file name specified
+32401: No data object name specified
 32402: The specified file cannot be opened
 32403: The specified file cannot be created
 32404: Error at writing into a file
@@ -835,13 +1175,17 @@
 32418: No XML elements present in MTC data
 32419: MTC data: XML elements invalid or in wrong order
 32420: The MTC data contain an invalid configuration
-32421: The MTC data contain noconfiguration for Multi Axes Trace
+32421: The MTC data contain no configuration for Multi Axes Trace
 32422: The MTC data contain more than one configuration for Multi Axes Trace
-32423: MTC-Daten: Trigger.NcObject ist invalid
-32424: MTC-Daten: Trigger.Condition ist invalid
-32425: MTC-Daten: Channel.NcObject ist invalid
+32423: MTC data: Trigger.NcObject is invalid
+32424: MTC data: Trigger.Condition is invalid
+32425: MTC data: Channel.NcObject is invalid
 32426: Trace trigger: The event is invalid
 32427: Trace trigger: Parameter ID zero not allowed if event unequal to OFF
+32428: The data object format is invalid
+32429: MTC data: Maximum number of test data points exceeded
+       Info(UINT): Maximum number
+32492: ACOPOS Simulation: TC for cyclic PLCopen data not equal to NC Manager TC
 32494: AcoposSimulation=Off for one channel although activated for the other channel
        Info(USINT): Channel number with AcoposSimulation=Off
 32495: AcoposSimulation: Different values defined for real and virtual axis
@@ -877,7 +1221,39 @@
 32513: The Critical Section for global variables already exists
 32514: Error creating Critical Section for global variables
        Info(UINT): Status of RtkCreateCriticalSection()
-33000: Master cycle time is not a multiple of communication cycle time
+32515: The Critical Section for network coupling already exists
+32516: Error creating Critical Section for network coupling
+       Info(UINT): Status of RtkCreateCriticalSection()
+32738: Error writing into SDM Motion FIFO
+32739: Error creating SDM Motion FIFO (see Logger)
+32740: Error deleting SDM Motion FIFO (see Logger)
+32741: Error creating SDM Motion task (see Logger)
+32742: Error deleting SDM Motion task (see Logger)
+32743: SDM_Motion_Action: ncaction() did not return with ncOK
+32744: SDM_Motion_Action not allowed (still no Trace configuration loaded)
+32745: SDM_Motion_Action not allowed (Motion Trace already started by application)
+32746: SDM_Motion_Action not allowed (Motion Trace already started by SDM)
+32747: SDM_Motion_Action: DataAddress is zero or defined
+32748: SDM_Motion_Action: DataLen is zero or defined
+32749: SDM_Motion_Action: BrModName is too long
+32750: SDM_Motion_Action: BrModName is not defined
+32751: SDM_Motion_Action: FileName is not defined
+32752: SDM_Motion Action not possible: AR function does not exist (see Logger)
+32753: SDM_Motion_Action: CREATE_NCOBJ_LIST must be called before this action
+32754: SDM_Motion_Action: The NC object type is invalid for this action
+32755: SDM_Motion_Action: Memory free error
+32756: SDM_Motion_Action: Memory alloc error
+32757: SDM_Motion_Action: This action is not yet implemented
+32758: SDM_Motion_Action: The NC object ident is invalid for this action
+32759: SDM_Motion_Action: The NC object ident must be zero for this action
+32760: SDM_Motion_Action: Pointer of exit function arguments is zero or not defined
+32761: SDM_Motion_Action: Pointer of exit function is zero or not defined
+32762: SDM_Motion_Action: The first XML element in input data is invalid
+32763: SDM_Motion_Action: No XML element in input data
+32764: SDM_Motion_Action: Error initializing memory buffer for XML parser
+32765: SDM_Motion_Action: Length of XML input data is zero
+32766: SDM_Motion_Action: Pointer of XML input data is zero
+32767: SDM_Motion_Action: Invalid actionID
 33002: Floating-Point exception
        Info(UDINT): EPC
 33003: Address error exception
@@ -890,32 +1266,351 @@
        Info(UDINT): EPC
 33007: Violation address
        Info(UDINT): ADDR
+35000: SMC FS: Internal error, Program flow
+       Info(UDINT): Switch ID
+35001: SMC FS: Internal error, NULL pointer access
+       Info(UDINT): Pointer ID
+35002: SMC FS: Internal error, SPI transfer
+       Info(UDINT): Additional info
+35003: SMC FS: Internal error, MFW NVM data memory
+35004: SMC FS: Internal error, Communication EnDat Master
+       Info(UDINT): Additional info
+35005: SMC FS: Internal error, Communication ACOPOS
+       Info(UDINT): Additional info
+35006: SMC FS: Internal error, Communication Encoder
+       Info(UDINT): Additional info
+35007: SMC FS: Module/compensation data is incompatible!
+       Info(UDINT): Additional info
+35008: SMC FS: CRC of the module/compensation data is not correct!
+       Info(UDINT): Additional info
+35009: SMC FS: SOS and STO not connected but needed for RSP
+35010: SMC FS: Internal error, Axis index out of range
+       Info(UDINT): Pointer ID
+35011: SMC FS: Internal error, Function parameter out of range
+       Info(UDINT): 
+35016: SMC FS: Internal error, Cross communication of checkpoints
+       Info(UDINT): Checkpoint ID
+35017: SMC FS: Internal error, Cross communication of status word
+       Info(UDINT): Statusword
+35018: SMC FS: Internal error, Cross communication of output state 
+       Info(UDINT): Output state
+35019: SMC FS: Internal error, Cross communication of EnDat position
+       Info(UDINT): EnDat position
+35020: SMC FS: Internal error, Cross communication of EnDat error register
+       Info(UDINT): EnDat error register
+35021: SMC FS: Internal error, Cross communication of Encoder state machine
+       Info(UDINT): EnDat state machine
+35022: SMC FS: Internal error, Cross communication of EnDat state machine
+       Info(UDINT): EnDat state machine
+35023: SMC FS: Internal error, Cross communication of EnDat state machine
+       Info(UDINT): EnDat state machine
+35024: SMC FS: "EUS - Units per count of physical reference system" invalid
+35025: SMC FS: "EUS - Maximum speed to normalize speed range" invalid
+35026: SMC FS: EUS - Encoder resolution too low
+35027: SMC FS: EUS - Encoder resolution too high
+35028: SMC FS: EUS - Units resolution too high
+35029: SMC FS: EUS - One unit is shorter than one nm
+35030: SMC FS: Encoder mismatch - Configuration data changed several times
+35031: SMC FS: Encoder mismatch - Configuration data changed
+35032: SMC FS: Wrong parameterization
+       Info(UDINT): Additional info
+35033: SMC FS: Module cycle time is not valid 
+35034: SMC FS: Parameterization - Deceleration ramp is too steep
+35035: SMC FS: Internal state machine is in Fail Safe State
+35036: SMC FS: Deactivated safety function was requested
+35037: SMC FS: SMS - Speed limit is out of range
+35038: SMC FS: SLS1 - Speed limit is out of range
+35039: SMC FS: SLS2 - Speed limit is out of range
+35040: SMC FS: SLS3 - Speed limit is out of range
+35041: SMC FS: SLS4 - Speed limit is out of range
+35042: SMC FS: Standstill speed limit is out of range
+35043: SMC FS: SLS1 - Speed limit violates the configuration instruction
+35044: SMC FS: SLS2 - Speed limit violates the configuration instruction
+35045: SMC FS: SLS3 - Speed limit violates the configuration instruction
+35046: SMC FS: SLS4 - Speed limit violates the configuration instruction
+35047: SMC FS: Standstill Speed limit violates the configuration instruction
+35048: SMC FS: Violation of parameter limits
+       Info(UDINT): Additional info
+35049: SMC FS: SMP is used but Homing was not configured
+35050: SMC FS: SMP - Lower position limit is greater or equal than upper limit
+35051: SMC FS: SLP is used but Homing was not configured
+35052: SMC FS: SLP - Lower position limit is greater or equal than upper limit
+35053: SMC FS: SLP - Position window outside SMP position window
+35054: SMC FS: SMP - Tolerance is greater than SMP position window
+35055: SMC FS: SLP - Tolerance is greater than SLP position window
+35056: SMC FS: Value of Deceleration ramp is out of range
+35068: SMC FS: "Homing - Maximum trigger speed" is out of range 
+35069: SMC FS: Homing - Ref Switch: No reference switch connected
+35070: SMC FS: Homing - Home Offset: No absolute encoder connected
+35071: SMC FS: Homing - Home Offset with Correction: SMP not configured
+35072: SMC FS: Homing - SMP window is greater than safe absolute encoder range
+35073: SMC FS: Homing - SLP window is greater than safe absolute encoder range
+35074: SMC FS: Homing - Encoder doesn't support a safe reference pulse
+35075: SMC FS: Homing - Speed tolerance is out of range
+35076: SMC FS: Homing - reference pulse : Max. trigger speed is too big 
+35077: SMC FS: Homing - Function is requested but not configured
+35078: SMC FS: Homing - RefSwitch bit is set but not configured
+35079: SMC FS: Homing - Position is out of SMP window
+35080: SMC FS: Homing - Direct with reference pulse: Not supported
+35081: SMC FS: Internal error, Cross communication of output signals
+       Info(UDINT): Output signals
+35082: SMC FS: Internal error, Cross communication of output state machine
+       Info(UDINT): Output state machine
+35084: SMC FS: Program error in PreOperational state
+       Info(UDINT): Checkpoint
+35085: SMC FS: Safe output - Stuck at high detected
+       Info(UDINT): Output signal
+35086: SMC FS: Safe output - Test state has changed
+       Info(UDINT): Output state
+35087: SMC FS: Encoder - Speed limit exceeded
+       Info(DINT): Actual speed [inc/cycle]
+35088: SMC FS: Encoder - Acceleration limit exceeded
+       Info(DINT): Actual acceleration [inc/cycle^2]
+35091: SMC FS: Encoder mismatch detected
+       Info(UDINT): Additional info
+35092: SMC FS: Internal error, Lockbit set
+       Info(UDINT): Lockbits
+35093: SMC FS: Velocity error tolerance too large
+35094: SMC FS: Lag error tolerance too large
+35095: SMC FS: Encoder - Configuration error
+       Info(UDINT): Additional info
+35096: SMC FS: Homing - Configuration error
+       Info(UDINT): Additional info
+35097: SMC FS: Internal error, Invalid current sensor resolution
+       Info(UDINT): Additional info
+35098: SMC FS: Internal error, Invalid current sensor measurement range
+35099: SMC FS: Internal error, Current values sum not plausible
+35100: SMC FS: Internal error, Cross communication of stator current vector
+       Info(UDINT): Additional info
+35101: SMC FS: Internal error, Cross communication of current vector angle
+       Info(UDINT): Additional info
+35102: SMC FS: Internal error, Cross communication of the status register IPWM
+       Info(UDINT): Additional info
+35103: SMC FS: Internal error, Cross communication FPGACom state machine
+       Info(UDINT): Additional info
+35104: SMC FS: Internal error, FPGA communication
+       Info(UDINT): Additional info
+35105: SMC FS: Internal error, FPGA SinCos - Reference voltage Channel A
+       Info(UDINT): Additional info
+35106: SMC FS: Internal error, FPGA SinCos - Reference voltage Channel B
+       Info(UDINT): Additional info
+35107: SMC FS: Internal error, FPGA SinCos - Configuration
+       Info(UDINT): Additional info
+35108: SMC FS: Internal error, Hardware tests - Voltage monitoring
+       Info(UDINT): Additional info
+35109: SMC FS: Internal error, ADC compensation data - Flash validation
+       Info(UDINT): Additional info
+35110: SMC FS: Internal error, FPGA current measurement - ADC processing
+       Info(UDINT): Additional info
+35111: SMC FS: Internal error, FPGA current measurement - Reference monitoring
+       Info(UDINT): Additional info
+35112: SMC FS: Internal error, FPGA current measurement - Efficiency test
+       Info(UDINT): Additional info
+35113: SMC FS: Internal error, FPGA current measurement - Configuration
+       Info(UDINT): Additional info
+35114: SMC FS: Internal error, FPGA SinCos - Efficiency test
+       Info(UDINT): Additional info
+35115: SMC FS: SBT Parameterization - Current threshold too high
+       Info(UDINT): Additional info
+35116: SMC FS: SBT Parameterization - External load greater than threshold
+35117: SMC FS: SBT Parameterization - External load too small
+       Info(UDINT): Additional info
+35118: SMC FS: Internal error, extended flashdata is wrong
+       Info(UDINT): Additional info
+35119: SMC FS: SBT Parameterization - External load too high
+       Info(UDINT): Additional info
+35120: SMC FS: Homing - S_SwitchHomingMode is set but not connected
+35121: SMC FS: Homing - S_SwitchHomingMode is connected but ReqHoming not
+35122: SMC FS: Homing - S_SwitchHomingMode connection and configuration not conform
+35123: SMC FS: Internal error, Cross communication of RSP receive data frame
+       Info(UDINT): Additional info
+35124: SMC FS: Internal error, Cross communication of RSP send data frame
+       Info(UDINT): Additional info
+35125: SMC FS: RSP - Save operation failed
+       Info(UDINT): Additional info
+35126: SMC FS: RSP - Homing, SOS position tolerance too big
+35127: SMC FS: Internal error, Invalid current sensor measurement offset
+35128: SMC FS: Internal error, Sigma delta conversion is not plausible
+35129: SMC FS: Internal error, gain and offset corrected current out of range
+35150: SMC FS: Additional safety parameters: Disbld. function enable bit is set
+       Info(UDINT): Additional info
+35151: SMC FS: Additional safety parameters: Placeholder enable bit is set
+       Info(UDINT): Additional info
+35152: SMC FS: Additional safety parameters: Invalid payload size
+       Info(UDINT): Additional info
+35153: SMC: Interner error, CUnit test
+35154: SMC FS: Additional safety parameters: Invalid structure size
+       Info(UDINT): Additional info
+35155: SMC FS: Received data for additional safety parameters too big
+       Info(UDINT): Additional info
+35156: SMC FS: CRC chekc of the additional safety parameters failed
+       Info(UDINT): Additional info
+35161: SMC FS: Incompatible parameter structure
+       Info(UDINT): Additional info
+35162: SMC FS: Incompatible axis type
+       Info(UDINT): Additional info
+35163: SMC FS: Error in PreOperational function
+       Info(UDINT): Additional info
+35164: SMC FS: Cross communication SinCos status during FPGA boot phase
+       Info(UDINT): Additional info
+35165: SMC FS: Encoder not configured but needed for safety functions
+35166: SMC FS: Squared vector length too large
+35167: SMC FS: Cross communication vector control trigger counter
+       Info(UDINT): Additional info
+35170: SMC FS: SBT Current threshold too small
+       Info(UDINT): Additional info
+35171: SMC FS: Internal error while processing the additional paramters
+       Info(UDINT): Additional info
+35172: SMC FS: Homing - RefSwitch is connected but ReqHoming not
+35173: SMC FS: Additional safety parameters: Invalid axis type ID
+       Info(UDINT): Additional info
+35174: SMC FS: Additional safety parameters: Invalid structure version
+35175: SMC: Safely Limited Acceleration - Violation of the acceleration monitoring
+       Info(DINT): Acceleration at the violation
+35176: SMC: Safe Brake Test - SBT: Timeout
+35177: SMC: Safe Brake Test - SBT: SBC is active
+35178: SMC: Safe Brake Test - Illegal sector change
+       Info(UDINT): Additional info
+35179: SMC: additional parameters - Error during download
+       Info(UDINT): Additional info
+35180: SMC FFS: RSP - Homing, stored position invalid
+       Info(UDINT): Additional info
+35181: SMC: Safe Brake Test - Rho has left the actual sector too early
+35182: SMC: Safe Brake Test - Measured and parametrized external load differ
+       Info(UDINT): Square of the actual stator current vector
+35183: SMC: Safe Brake Test - Current fell below parametrized test current threshold
+       Info(UDINT): Square of the actual stator current vector
+35184: SMC FFS: Drift of raw positions between uP1 and uP2 to big
+       Info(UDINT): Additional info
+35185: SMC FFS: internal error
+35186: SMC FFS: Encoder not ready
+35189: SMC: Safe Brake Test - Violation of the position tolerance
+35190: SMC FFS: Encoder error SinCos processing
+       Info(UDINT): Additional info
+35191: SMC: Safe Brake Test - Test interval elapsed, test required
+35192: SMC: Current sum exeeded tolerance range
+       Info(DINT): Actual current sum [uA]
+35193: SMC: Current sensor range exceeded phase U
+       Info(DINT): Actual current [uA]
+35194: SMC: Current sensor range exceeded phase V
+       Info(DINT): Actual current [uA]
+35195: SMC: Current sensor range exceeded phase W
+       Info(DINT): Actual current [uA]
+35196: SMC: Compensation data incomplete
+       Info(UDINT): Detail information
+35197: SMC FFS: SS2, SOS Violation of standstill position tolerance
+35198: SMC FFS: Encoder error was detected
+35199: SMC FFS: SDI - Violations of the safe direction
+35200: SMC FFS: SDI - Violation of the positive direction
+35201: SMC FFS: SDI - Violation of the negative direction
+35202: SMC FFS: SLI - Violation of standstill speed limit
+35203: SMC FFS: SLI - Violation of position window (increments)
+35204: SMC FFS: Violation of the actual speed limit
+35205: SMC FFS: Violation of the deceleration ramp
+35206: SMC FFS: SMS - Violation of the speed limit
+35207: SMC FFS: SOS - Violation of the speed limit
+35208: SMC FFS: SS2 - Violation of the speed limit
+35209: SMC FFS: SLS1 - Violation of the speed limit
+35210: SMC FFS: SLS2 - Violation of the speed limit
+35211: SMC FFS: SLS3 - Violation of the speed limit
+35212: SMC FFS: SLS4 - Violation of the speed limit
+35213: SMC FFS: Alive test of set position was not executed
+35214: SMC FFS: Warning on output was not acknowledged
+35215: SMC FFS: Alive test - Monitoring timeout
+35216: SMC FFS: SMP - Homing timeout exceeded
+35217: SMC FFS: SMP - Violation of the deceleration ramp
+35218: SMC FFS: SLP - Violation of the deceleration ramp
+35219: SMC FFS: SMP - Violation of lower SMP limit
+35220: SMC FFS: SMP - Violation of upper SMP limit
+35221: SMC FFS: SLP - Violation of lower SLP limit
+35222: SMC FFS: SLP - Violation of upper SLP limit
+35223: SMC FFS: SMP - Movement in neg. direction outside SMP limit
+35224: SMC FFS: SMP - Movement in pos. direction outside SMP limit
+35225: SMC FFS: SLP requested, axis is not homed yet
+35226: SMC FFS: SMP, SLP - Internal error
+35227: SMC FFS: SMP, SLP - INT32 overflow of S_SafePosition
+35228: SMC FFS: Homing - Timeout elapsed
+35229: SMC FFS: Homing - Standstill Speed tolerance violated
+35230: SMC FFS: Homing reference pulse - Max. trigger speed exceeded
+35231: SMC FFS: Homing - Movement invalid
+35232: SMC FFS: Homing offset - Position outside INT32 range
+35233: SMC FFS: Homing offset - Violation of safe encoder range
+35234: SMC: Encoder mismatch - Length of encoder configuration data changed 
+35235: SMC: Encoder mismatch - Serial number of encoder changed 
+35236: SMC: Encoder mismatch - Version changed or no encoder data stored
+35237: SMC: Encoder mismatch - EnDat master data or encoder data changed
+       Info(UDINT): Additional info
+35238: SMC: Encoder - EnDat Master state error register is set
+       Info(UDINT): Status register
+35239: SMC FFS: Homing failed
+       Info(UDINT): Additional info
+35240: SMC FFS: Violation of safety function
+       Info(UDINT): Additional info
+35241: SMC FFS: Function block switched back into IDLE state
+       Info(UDINT): Additional info
+35243: SMC FFS: Safe output - Teststate has changed
+       Info(UDINT): Output state
+35244: SMC: Encoder - Received position not valid
+       Info(UDINT): Additional info
+35245: SMC: Encoder mismatch detected
+       Info(UDINT): Additional info
+35246: SMC: Encoder - Initialization error
+       Info(UDINT): Additional info
+35247: SMC: Encoder - Debug information
+       Info(UDINT): Additional info
+35248: SMC: Internal warning, Lockbit set
+       Info(UDINT): Lockbits
+35249: SMC: Encoder - SafeSpeed exceeded INT16 range
+35250: SMC: Encoder - EnDat Master encoder error register is set
+       Info(UDINT): Fehler register
+35251: SMC: Velocity error limit exceeded
+       Info(DINT): Speed error [U/s*2^16]
+35252: SMC: Position lag error limit exceeded
+       Info(DINT): Lag error [units]
+35253: SMC: Encoder - Rounding error due to parametrization
+       Info(UDINT): Additional info
+35254: SMC: Encoder - Length of physical reference system too large
+       Info(UDINT): Additional info
+35255: SMC FS: Encoder - Acceleration limit exceeded
+35504: SMC FFS: RSP - Homing, INT32 overflow of S_SafePosition
+       Info(UDINT): Additional info
+35506: SMC FFS: RSP - Homing, Positional change during power off too big
+       Info(UDINT): Additional info
+35507: SMC FFS: RSP - Homing, Config changed
+       Info(UDINT): Additional info
+35508: SMC FFS: Internal error, FPGA communication
+       Info(UDINT): Additional info
+35509: SMC FFS: RSP - Homing, CRC error while receiving the remanent safe position
+       Info(UDINT): Additional info
+35510: SMC FFS: RSP - Homing, Homing already done without RSP
+       Info(UDINT): Additional info
+35511: SMC: RSP - State RSP Valid changed during safe operation
 36001: Parameter limited to valid range
 36002: Total time for the position loop controller limited to prediction time
+36003: Braking distance exceeds positive SW limit - Deceleration parameter increased
+36004: Braking distance exceeds negative SW limit - Deceleration parameter increased
+36005: Warning triggered by command
+       Info(UINT): Command parameter
 37101: Calculated compensation distance on slave axis limited to maximum
+       Info(USINT): State index
 37102: Calculated compensation distance on slave axis limited to minimum
-37103: Slave trigger outside of window
-37104: Slave trigger missing
-37105: Master compensation trigger outside of window
-37107: Displacement actual/set position too high during 'controller switch on'
+       Info(USINT): State index
 37108: Calculated compensation distance of master axis limited to minimum
-37109: Master trigger outside of window
-37110: Master position at start higher than first trigger position
-37111: Cam profile data: Difference between polynomial value y(xn) and slave period
+       Info(USINT): State index
+37111: Cam data: Difference between polynomial value y(xn) and slave period
        Info(REAL): Difference
-37112: Polynomial within cam profile data exceeds limit value
+37112: Polynomial within cam data exceeds limit value
        Info(UINT): Detail
-37113: Cam profile compensation gears: Limit values exceeded
+37113: Compensation gear: Limit values exceeded
+       Info(USINT): State index
 38000: Current controller: Motor speed is too high during switching on
-38001: Torque limiter: Limit value too high
-       Info(REAL): Current limit value
+38001: Torque limiter: Limit value higher than maximum value
+       Info(REAL): Maximum value
 38003: Motor holding brake: Test torque was limited
 38004: Motor holding brake: Test torque less than load torque
 38005: Motor test: Speed is too high during switch on
        Info(REAL): Speed limit
 38006: Current controller: Permissible current offset values exceeded
-38007: System administration: BsLoader activ: Jumper plugged
-       Info(UINT): BsLoader version
 38008: Bleeder: No current flow
 39001: Encoder: Position correction active
        Info(USINT): Slot
@@ -945,6 +1640,8 @@
        Info(USINT): Slot
 39014: EnDat encoder: Warning bit - Battery charge too low
        Info(USINT): Slot
+39015: EnDat encoder: Warning bit - Reference point not reached
+       Info(USINT): Slot
 39016: Incremental encoder emulation: Frequency too high
        Info(UINT): Slot
 39017: Encoder: CRC error while reading position
@@ -961,15 +1658,75 @@
        Info(USINT): Slot
 39023: EnDat encoder: CRC error while reading EnDat2.2 additional information
        Info(USINT): Slot
-39024: EnDat encoder: Alarm bit - Power failure
+39024: EnDat encoder: Operating status error sources: M ALL Power down 
        Info(USINT): Slot
-39025: EnDat encoder: Alarm bit - multiturn overflow
+39025: EnDat encoder: Operating status error sources: M Overflow / Underflow
        Info(USINT): Slot
 39026: EnDat encoder: Type 3 error while reading EnDat2.2 additional information
        Info(USINT): Slot
 39027: Encoder Emulation: 5V power supply fail
        Info(UINT): Slot
 39028: Encoder: Multiturn failure
+       Info(USINT): Slot
+39029: Encoder: Battery charge too low
+       Info(USINT): Slot
+39030: Encoder: Warning bit is set
+       Info(USINT): Slot
+39032: EnDat encoder: Operating status error sources: Lighting
+       Info(USINT): Slot
+39033: EnDat encoder: Operating status error sources: Signal amplitude
+       Info(USINT): Slot
+39034: EnDat encoder: Operating status error sources: S Pos 1
+       Info(USINT): Slot
+39035: EnDat encoder: Operating status error sources: Overvoltage
+       Info(USINT): Slot
+39036: EnDat encoder: Operating status error sources: Undervoltage
+       Info(USINT): Slot
+39037: EnDat encoder: Operating status error sources: over current
+       Info(USINT): Slot
+39038: EnDat encoder: Operating status error sources: Temperature exceeded
+       Info(USINT): Slot
+39039: EnDat encoder: Operating status error sources: S Pos 
+       Info(USINT): Slot
+39040: EnDat encoder: Operating status error sources: S sytem
+       Info(USINT): Slot
+39041: EnDat encoder: Operating status error sources: S ALL power down
+       Info(USINT): Slot
+39042: EnDat encoder: Operating status error sources: M Pos 1
+       Info(USINT): Slot
+39043: EnDat encoder: Operating status error sources: M Pos 2
+       Info(USINT): Slot
+39044: EnDat encoder: Operating status error sources: M System
+       Info(USINT): Slot
+39045: EnDat encoder: Operating status error sources: M battery
+       Info(USINT): Slot
+39046: Encoder: Incorrect encoder address acknowledgment
+       Info(USINT): Slot
+39047: Encoder: Position value not synchronous with absolute value
+       Info(USINT): Slot
+39048: Encoder: Incorrect command code acknowledgment
+       Info(USINT): Slot
+39049: Encoder: Timeout during parameter transfer
+       Info(USINT): Slot
+39050: Encoder: Parity
+       Info(USINT): Slot
+39051: Encoder: Hiperface error bit
+       Info(USINT): Slot
+39052: Encoder: Measurement range exceeded
+       Info(USINT): Slot
+39053: Encoder: Internal check of the encoder interface failed
+       Info(USINT): Slot
+39054: Encoder: Invalid supply voltage
+       Info(USINT): Slot
+39055: Encoder: Incremental signal amplitude too small
+       Info(USINT): Slot
+39056: Encoder: Incremental signal amplitude too large
+       Info(USINT): Slot
+39059: Encoder: Status message
+       Info(UDINT): Status code
+39060: Encoder: Sync bit error
+       Info(USINT): Slot
+39061: Encoder: UART Transmission error
        Info(USINT): Slot
 39301: Digital IO: 24V power supply fail
        Info(UINT): Slot
@@ -983,24 +1740,118 @@
        Info(UINT): Slot
 39307: Digital IO: outputs deactivated by output mask after network error
        Info(UINT): Slot
-41001: Heatsink temperature sensor: Overtemperature
+39500: Encoder: HIPERFACE: Status: Incorrect alignment data (01h)
+       Info(USINT): Slot
+39501: Encoder: HIPERFACE: Status: Sensor not adjusted or in adjustment mode (20h)
+       Info(USINT): Slot
+39502: Encoder: HIPERFACE: Status: Distance measure/sensor too high (21h)
+       Info(USINT): Slot
+39504: Encoder: HIPERFACE: Status: Linear position fault (23h)
+       Info(USINT): Slot
+39510: Encoder: HIPERFACE: Status: The encoder has not detected any faults (00h)
+       Info(USINT): Slot
+39511: Encoder: HIPERFACE: Status: Analog signals outside specification (01h)
+       Info(USINT): Slot
+39512: Encoder: HIPERFACE: Status: Incorrect internal angular offset (02h)
+       Info(USINT): Slot
+39513: Encoder: HIPERFACE: Status: Data field partitioning table destroyed (03h)
+       Info(USINT): Slot
+39514: Encoder: HIPERFACE: Status: Analog limit values not available (04h)
+       Info(USINT): Slot
+39515: Encoder: HIPERFACE: Status: Internal I²C bus not operational (05h)
+       Info(USINT): Slot
+39516: Encoder: HIPERFACE: Status: Internal checksum error (06h)
+       Info(USINT): Slot
+39517: Encoder: HIPERFACE: Status: Program watchdog fault (07h)
+       Info(USINT): Slot
+39518: Encoder: HIPERFACE: Status: Counter overflow (08h)
+       Info(USINT): Slot
+39519: Encoder: HIPERFACE: Status: Parity error (09h)
+       Info(USINT): Slot
+39520: Encoder: HIPERFACE: Status: Checksum error (0Ah)
+       Info(USINT): Slot
+39521: Encoder: HIPERFACE: Status: Unknown command (0Bh)
+       Info(USINT): Slot
+39522: Encoder: HIPERFACE: Status: Wrong command length (0Ch)
+       Info(USINT): Slot
+39523: Encoder: HIPERFACE: Status: Wrong command argument (0Dh)
+       Info(USINT): Slot
+39524: Encoder: HIPERFACE: Status: Read-only data field (0Eh)
+       Info(USINT): Slot
+39525: Encoder: HIPERFACE: Status: Incorrect access code (0Fh)
+       Info(USINT): Slot
+39526: Encoder: HIPERFACE: Status: Out of memory fault (10h)
+       Info(USINT): Slot
+39527: Encoder: HIPERFACE: Status: Wrong data field offset (11h)
+       Info(USINT): Slot
+39528: Encoder: HIPERFACE: Status: Wrong data field number (12h)
+       Info(USINT): Slot
+39538: Encoder: HIPERFACE: Status: Value monitoring analog signals (1Ch)
+       Info(USINT): Slot
+39539: Encoder: HIPERFACE: Status: Transmitter current critical (1Dh)
+       Info(USINT): Slot
+39540: Encoder: HIPERFACE: Status: Encoder temperature critical (1Eh)
+       Info(USINT): Slot
+39541: Encoder: HIPERFACE: Status: Speed too high (1Fh)
+       Info(USINT): Slot
+39542: Encoder: HIPERFACE: Status: Singleturn position unreliable (20h)
+       Info(USINT): Slot
+39543: Encoder: HIPERFACE: Status: Multiturn amplitude fault (21h)
+       Info(USINT): Slot
+39544: Encoder: HIPERFACE: Status: Multiturn sync fault (22h)
+       Info(USINT): Slot
+39545: Encoder: HIPERFACE: Status: Multiturn vectorlength fault (23h)
+       Info(USINT): Slot
+39546: Encoder: HIPERFACE: Status: Multiturn counter fault (24h)
+       Info(USINT): Slot
+41001: Heatsink temperature sensor: Warning limit exceeded
        Info(REAL): Heatsink temperature
-41011: Temperature sensor (Motor|Choke|External): Overtemperature
-       Info(REAL): Temperature
-41031: Junction temperature model: Overtemperature
-       Info(REAL): Junction temperature
-41041: Bleeder temperature model: Overtemperature
-       Info(REAL): Bleeder temperature
-41051: ACOPOS peak current: Overload
-       Info(REAL): Peak current load
-41061: ACOPOS continuous current: Overload
-       Info(REAL): Continuous current load
-41070: Motor temperature model: Overtemperature
-       Info(REAL): Calculated motor temperature
-41075: ACOPOS continuous power: Overload
-41078: ACOPOS temperature sensor: Overtemperature
+41002: Heatsink temperature sensor: Not connected or damaged
        Info(REAL): Temperature limit
-64001: ncalloc in slower task class than defined for NC Manager Task
+41011: Temperature sensor (Motor|Choke|External): Warning limit exceeded
+       Info(REAL): Temperature
+41031: Junction temperature model: Warning limit exceeded
+       Info(REAL): Junction temperature
+41041: Bleeder temperature model: Warning limit exceeded
+       Info(REAL): Bleeder temperature
+41051: ACOPOS peak current: Warning limit exceeded
+       Info(REAL): Peak current load
+41061: ACOPOS continuous current: Warning limit exceeded
+       Info(REAL): Continuous current load
+41070: Motor temperature model: Warning limit exceeded
+       Info(REAL): Calculated motor temperature
+41075: ACOPOS continuous power: Warning limit exceeded
+41078: Power stage: Temperature sensor 1: Warning limit exceeded
+       Info(REAL): Temperature
+41080: Pre-charging resistor temperature model: Warning limit exceeded
+       Info(REAL): Temperature limit
+41081: Power stage temperature model: Warning limit exceeded
+       Info(REAL): Temperature
+41083: Power stage: Temperature sensor 2: Warning limit exceeded
+       Info(REAL): Temperature
+41085: Power stage: Temperature sensor 3: Warning limit exceeded
+       Info(REAL): Temperature
+41087: Power stage: Temperature sensor 4: Warning limit exceeded
+       Info(REAL): Temperature
+41089: Motor encoder temperature sensor: Warning limit exceeded
+       Info(REAL): Temperature
+41090: 24V Supply/Main relay temperature sensor: Warning limit exceeded
+41091: Power stage: Temperature sensor 5: Warning limit exceeded
+       Info(REAL): Temperature
+41092: Rectifier temperature model: Warning limit exceeded
+       Info(REAL): Temperature
+41093: DC bus relay temperature model: Warning limit exceeded
+       Info(REAL): Temperature
+41094: DC bus capacitor temperature model: Warning limit exceeded
+       Info(REAL): Temperature
+41095: DC bus: Continuous total power: Warning limit exceeded
+       Info(REAL): Load limit
+41096: DC bus: Peak total power: Warning limit exceeded
+       Info(REAL): Load limit
+41097: DC connector temperature model: Warning limit exceeded
+       Info(REAL): Temperature
+41098: Power stage: Temperature sensor: Warning limit exceeded
+       Info(UINT): sensor
 64002: Delay before SW Reset (network with ascending node numbers ?)
 64003: Delay before NC System Start (network with ascending node numbers ?)
 64004: The following boot error could be entered here with a delay
@@ -1015,11 +1866,11 @@
 64009: Acp10cfg contains a POWERLINK interface, for which no axis is defined
        Info(UINT): Index of POWERLINK interface in Acp10cfg (name in Logger)
 64010: NC software test version (validity period in Logger)
-64500: Positive speed limiter active
-64501: Negative speed limiter active
-64502: Positive direction acceleration torque limiter active
-64503: Negative direction acceleration torque limiter active
-64504: Positive direction deceleration torque limiter active
-64505: Negative direction deceleration torque limiter active
-64506: Recovery power limiter active (deceleration too high)
+64011: Timeout for completion of encoder initialization
+64012: acp10sys does not contain an operating system for this ACOPOS hardware type
+64013: The basis initialization was aborted due to an error
+64014: No integral cycle time ratio between NetCyc and POWERLINK
+       Info(UDINT): NetCyc cycle time [usec]
+64015: No integral cycle time ratio between NetCyc and POWERLINK "multiplexed"
+       Info(UDINT): NetCyc cycle time [usec]
 65535: Response error

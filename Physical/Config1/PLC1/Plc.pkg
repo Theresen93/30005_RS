@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=3.0.90.27 SP09?>
+<?AutomationStudio Version=3.0.90.32 SP14?>
 <PLC xmlns="http://br-automation.co.at/AS/PLC">
   <Objects>
     <Object Type="File" Description="Software configuration">Cpu.sw</Object>
@@ -18,13 +18,13 @@
       <DefaultTaskClass Name="Cyclic4" />
       <IO DefaultTaskClass="Automatic" ArConfigDataModule="false" ArConfigDataModulePath="$(AS_CPU_PATH)\AS\CfgData.br" IoMapDataModule="false" IoMapDataModulePath="$(AS_CPU_PATH)\AS\IomData.br" />
       <OS Version="3.01.0" Status="F" />
-      <Transfer DownloadMode="Copy" PromptBeforeProject="true" PromptBeforeTask="false" PackedArConfig="false" PackedIoMap="false" IgnoreTargetOnlyObjects="false" GeneratePviTransferList="true" TransferOnlyRelevantChanges="false" AllowWarmRestart="true" IgnoreBrDependencies="false" />
+      <Transfer DownloadMode="Overload" PromptBeforeProject="true" PromptBeforeTask="false" PackedArConfig="false" PackedIoMap="false" IgnoreTargetOnlyObjects="false" GeneratePviTransferList="true" TransferOnlyRelevantChanges="false" AllowWarmRestart="true" IgnoreBrDependencies="false" />
       <Build />
       <VC FirmwareVersion="V3.73.4" />
       <OPC />
     </CpuModule>
   </CpuModules>
   <Communication>
-    <OnlineConfiguration Name="RS15_RX_30005" DeviceType="TCPIP" DeviceParameters="/IF=tcpip /LOPO=11159 /SA=4" ConnectionParameters="/RT=1000 /DAIP=12.230.126.203 /REPO=11159 /ANSL=1" Description="" />
+    <OnlineConfiguration Name="RS15_RX_30005" DeviceType="TCPIP" DeviceParameters="/IF=tcpip /LOPO=11159 /SA=4" ConnectionParameters="/RT=1000 /SP=C:\Job_Files\Holweg\RX_Systems_RS15\Monitor /DAIP=12.230.126.203 /REPO=11159 /ANSL=1" Description="" />
   </Communication>
 </PLC>

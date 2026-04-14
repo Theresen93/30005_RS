@@ -2,7 +2,7 @@ $(AS_PROJECT_PATH)/Logical/Libraries/HGWeber/HGWeber.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/Acp10_MC/acp10_mc.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/Acp10_MC/acp10_mc.typ
 $(AS_PROJECT_PATH)/Logical/BagMachine_Section/Perf/Axis11_VirtualAxis/A11_Automat/A11_Automat.var
-$(AS_PROJECT_PATH)/Logical/Libraries/NcGlobal/Ncglobal.var
+$(AS_PROJECT_PATH)/Logical/Libraries/NcGlobal/NcGlobal.var
 $(AS_PROJECT_PATH)/Logical/Cycles/GenCycles.var
 $(AS_PROJECT_PATH)/Logical/Cycles/GenCycles.typ
 $(AS_PROJECT_PATH)/Logical/Global.var

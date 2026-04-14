@@ -40,7 +40,8 @@ TYPE
         oBoostCurrent       :BOOL;
         oStandStillCurrent  :BOOL;
         iStatusEnable       :BOOL;
-        reserve             :ARRAY[0..2] OF BOOL;
+        oBrake              :BOOL;
+        reserve             :ARRAY[0..1] OF BOOL;
     END_STRUCT;
     SdcDrvIf32_typ : STRUCT
         iLifeCnt            :SINT;
@@ -50,7 +51,7 @@ TYPE
         oBoostCurrent       :BOOL;
         oStandStillCurrent  :BOOL;
         iStatusEnable       :BOOL;
-        reserve             :BOOL;
+        oBrake              :BOOL;
     END_STRUCT;
     SdcTrigIf_typ : STRUCT
         iLifeCnt            :SINT;

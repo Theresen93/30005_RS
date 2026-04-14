@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=3.0.90.22 SP04?>
+<?AutomationStudio Version=3.0.90.32 SP14?>
 <SwConfiguration CpuAddress="SL0" xmlns="http://br-automation.co.at/AS/SwConfiguration">
   <TaskClass Name="Cyclic#1">
     <Task Name="GlobProgCa" Source="BagMachine_Section.GlobProgCalc.prg" Memory="UserROM" Language="IEC" Debugging="true" />
@@ -267,5 +267,6 @@
     <LibraryObject Name="Acp10_MC" Source="Libraries.Acp10_MC.lby" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="astcp" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="LoopConR" Source="Libraries.LoopConR.lby" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="Acp10sdc" Source="Libraries.Acp10sdc.lby" Memory="UserROM" Language="Binary" Debugging="true" />
   </Libraries>
 </SwConfiguration>

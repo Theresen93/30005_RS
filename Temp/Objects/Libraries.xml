@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=3.0.90.27 SP09?>
+<?AutomationStudio Version=3.0.90.32 SP14?>
 <LibraryInfos>
   <Library Name="Acp10_MC" IsDeployed="true" IsStatic="false" />
   <Library Name="Acp10man" IsDeployed="true" IsStatic="false" />
   <Library Name="Acp10par" IsDeployed="true" IsStatic="false" />
-  <Library Name="Acp10sdc" IsDeployed="false" IsStatic="false" />
+  <Library Name="Acp10sdc" IsDeployed="true" IsStatic="false" />
   <Library Name="AsARCfg" IsDeployed="true" IsStatic="false" />
   <Library Name="AsIOAcc" IsDeployed="true" IsStatic="false" />
   <Library Name="AsMath" IsDeployed="true" IsStatic="false" />

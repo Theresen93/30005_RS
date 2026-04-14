@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=3.0.80.31 SP01?>
-<Library Version="2.24.0" Description="ACOPOS Parameters" xmlns="http://br-automation.co.at/AS/Library">
+<?AutomationStudio Version=3.0.90.32 SP14?>
+<Library Version="3.18.2" Description="ACOPOS Parameters" xmlns="http://br-automation.co.at/AS/Library">
   <Files>
     <File>Acp10par.var</File>
   </Files>

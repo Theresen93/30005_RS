@@ -6,8 +6,8 @@
   <Row Parameter="network.service.data_text" />
   <Row Parameter="network.service.request.par_id" Value="887; ENCOD_RANGE_REV" />
   <Row Parameter="network.service.response.par_id" Value="887" />
-  <Row Parameter="monitor.s" Value="84618476" Unit="Units" />
-  <Row Parameter="monitor.v" Value="0" Unit="Units/s" />
+  <Row Parameter="monitor.s" Value="-29095" Unit="Units" />
+  <Row Parameter="monitor.v" Value="-10.9863" Unit="Units/s" />
   <Row Parameter="message.count.error" Value="0" />
   <Row Parameter="message.count.warning" Value="0" />
   <Row Parameter="message.record.par_id" Value="0" />

@@ -1579,7 +1579,7 @@
         <UInt16 Name="ResolutionY">480</UInt16>
         <UInt16 Name="Port">5900</UInt16>
         <UInt16 Name="RefreshRate">60</UInt16>
-        <UInt16 Name="MaxClients">1</UInt16>
+        <UInt16 Name="MaxClients">4</UInt16>
         <UInt16 Name="Reserved">0</UInt16>
         <Binary Name="Password" Encoding="Base64">M93ViKwn4MI=</Binary>
         <Binary Name="Password" Encoding="Base64">n9PhJoaQhm4=</Binary>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=3.0.80.31 SP01?>
+<?AutomationStudio Version=3.0.90.32 SP14?>
 <PLC xmlns="http://br-automation.co.at/AS/PLC">
   <Objects>
     <Object Type="File" Description="Software configuration">Cpu.sw</Object>
@@ -13,7 +13,7 @@
     <Object Type="Package">Motion</Object>
   </Objects>
   <CpuModules>
-    <CpuModule LocalVariablesMemory="MemoryPool" GeneratePPCode="false" HasNcOperatingSystem="true" Target="SG4" Address="SL1" ModuleID="AR000" ClassID="1A4000.00" GccVersion="V4.1.1" OnlineConfigurationName="AR000_TCPIP">
+    <CpuModule LocalVariablesMemory="MemoryPool" GeneratePPCode="false" HasNcOperatingSystem="true" Target="SG4" ModuleID="AR000" ClassID="1A4000.00" GccVersion="V4.1.1" OnlineConfigurationName="AR000_TCPIP">
       <DefaultTargetMemory Tasks="UserROM" Libraries="UserROM" DataObjects="UserROM" />
       <DefaultTaskClass Name="Cyclic4" />
       <IO DefaultTaskClass="Automatic" ArConfigDataModule="false" ArConfigDataModulePath="$(AS_CPU_PATH)\AS\CfgData.br" IoMapDataModule="false" IoMapDataModulePath="$(AS_CPU_PATH)\AS\IomData.br" />

@@ -2,19 +2,19 @@
 <Crossref Scope="BagMachine_Section.Servo_Power_Supply.Axis0.A0_Basic">
 	<Vars>
 		<Var Name="A0_Basic.AxisErrorNcAccess" Scope="Local" Type="UINT">
-			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicInit.st">
+			<File Name="C:/Job_Files/Holweg/RX_Systems_RS15/RS15_RX_30005_r0_072215/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicInit.st">
 				<Pos L="15" C="3" PS="Ln:15, Col:3" A="W"/>
 			</File>
 		</Var>
 		<Var Name="gA.Ident" Scope="Global" Type="AxisBasic[0..15]">
-			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicInit.st">
+			<File Name="C:/Job_Files/Holweg/RX_Systems_RS15/RS15_RX_30005_r0_072215/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicInit.st">
 				<Pos L="15" C="63" PS="Ln:15, Col:63" A="R"/>
 			</File>
 		</Var>
 	</Vars>
 	<Consts>
 		<Const Name="ncACP10MAN" Scope="Global" Type="UINT">
-			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicInit.st">
+			<File Name="C:/Job_Files/Holweg/RX_Systems_RS15/RS15_RX_30005_r0_072215/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicInit.st">
 				<Pos L="15" C="33" PS="Ln:15, Col:33" A="R"/>
 			</File>
 		</Const>
@@ -22,8 +22,8 @@
 	<Enums>
 	</Enums>
 	<Funcs>
-		<Func Name="ncaccess" Lib="Ncglobal">
-			<File Name="D:/DOSSIER_MACHINE/RX_30005/Programme/RS15_RX_30005_r00/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicInit.st">
+		<Func Name="ncaccess" Lib="NcGlobal">
+			<File Name="C:/Job_Files/Holweg/RX_Systems_RS15/RS15_RX_30005_r0_072215/Logical/BagMachine_Section/Servo_Power_Supply/Axis0/A0_Basic/A0_BasicInit.st">
 				<Pos L="15" C="24" PS="Ln:15, Col:24"/>
 			</File>
 		</Func>
