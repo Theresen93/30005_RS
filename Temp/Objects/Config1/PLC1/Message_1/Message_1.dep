@@ -1,7 +1,7 @@
 $(AS_PROJECT_PATH)/Logical/Libraries/HGWeber/HGWeber.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/Runtime/runtime.fun
-$(AS_PROJECT_PATH)/Logical/BagMachine_Section/BagBundler/BagBundler.var
 $(AS_PROJECT_PATH)/Logical/Global.var
-$(AS_PROJECT_PATH)/Logical/Global.typ
+$(AS_PROJECT_PATH)/Logical/BagMachine_Section/BagBundler/BagBundler.var
 $(AS_PROJECT_PATH)/Logical/HMI/Message_1/Message_1.var
+$(AS_PROJECT_PATH)/Logical/Global.typ

@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=3.0.90.32 SP14?>
+<?AutomationStudio Version=3.0.90.37 SP19?>
 <BuildOptions>
   <Project>
     <IECNamingConvention>true</IECNamingConvention>
     <IecKeywordsAsStructureMembers>false</IecKeywordsAsStructureMembers>
     <IecExtendedConstants>true</IecExtendedConstants>
-    <ProjectLogicalDirectory>B:\Holweg\RX_Systems_RS15_30005\AS_3090\Rev_1\RS15_RX_30005_r1\Logical\</ProjectLogicalDirectory>
-    <ProjectTempDirectory>B:\Holweg\RX_Systems_RS15_30005\AS_3090\Rev_1\RS15_RX_30005_r1\Temp\</ProjectTempDirectory>
-    <ASVersion>3.0.90.32 SP14</ASVersion>
+    <ProjectLogicalDirectory>C:\HolwegWeber\Holweg\RS15_RX_30005_r00\Logical\</ProjectLogicalDirectory>
+    <ProjectTempDirectory>C:\HolwegWeber\Holweg\RS15_RX_30005_r00\Temp\</ProjectTempDirectory>
+    <ASVersion>3.0.90.37 SP19</ASVersion>
     <Edition>Standard</Edition>
     <CrossReference>true</CrossReference>
     <ActiveConfiguration>Config1</ActiveConfiguration>

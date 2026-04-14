@@ -27,6 +27,7 @@
       <UInt32 Name="TrendSampleOffsetDatapoint">4294967295</UInt32>
       <UInt32 Name="TrendSampleCountDatapoint">4294967295</UInt32>
       <UInt32 Name="TrendSampleDateTimeDatapoint">4294967295</UInt32>
+      <UInt32 Name="SampleRateDatapoint">4294967295</UInt32>
     </Object>
   </Folder>
 </Intermediate>

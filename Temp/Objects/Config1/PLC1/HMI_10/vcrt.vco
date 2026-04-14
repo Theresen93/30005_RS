@@ -47,7 +47,29 @@
       <Reference Name="CalibrationDP" Type="DP">None</Reference>
       <Reference Name="CalibrationStateDP" Type="DP">None</Reference>
       <Reference Name="HelpControlDP" Type="DP">None</Reference>
-      <String Name="AdvancedOptions" Encoding="ASCII">&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;</String>
+      <Reference Name="WheelCountDatapoint" Type="DP">None</Reference>
+      <Reference Name="WheelEnterDatapoint" Type="DP">None</Reference>
+      <String Name="TargetResourceRoot" Encoding="ASCII">&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;</String>
+      <String Name="AdvancedOptions" Encoding="ASCII">&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;</String>
+      <UInt16 Name="BeepKeyDuration">130</UInt16>
+      <UInt16 Name="BeepKeyFrequency">750</UInt16>
+      <Reference Name="BeepKeyMuteDatapoint" Type="DP">None</Reference>
+      <UInt16 Name="BeepTouchDuration">130</UInt16>
+      <UInt16 Name="BeepTouchFrequency">750</UInt16>
+      <Reference Name="BeepTouchMuteDatapoint" Type="DP">None</Reference>
+      <Reference Name="BeepKeyDurationDatapoint" Type="DP">None</Reference>
+      <Reference Name="BeepKeyFrequencyDatapoint" Type="DP">None</Reference>
+      <Reference Name="BeepTouchDurationDatapoint" Type="DP">None</Reference>
+      <Reference Name="BeepTouchFrequencyDatapoint" Type="DP">None</Reference>
+      <UInt32 Name="Reserved">0</UInt32>
+      <UInt32 Name="Reserved">0</UInt32>
+      <UInt32 Name="Reserved">0</UInt32>
+      <UInt32 Name="Reserved">0</UInt32>
+      <UInt32 Name="Reserved">0</UInt32>
+      <UInt32 Name="Reserved">0</UInt32>
+      <UInt32 Name="Reserved">0</UInt32>
+      <UInt32 Name="Reserved">0</UInt32>
+      <UInt32 Name="Reserved">0</UInt32>
     </Object>
   </Folder>
 </Intermediate>

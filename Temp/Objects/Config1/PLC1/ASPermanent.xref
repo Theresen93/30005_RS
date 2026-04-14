@@ -3,17 +3,17 @@
 <Crossref xmlns="http://br-automation.co.at/AS/Crossreference">
 	<Vars>
 		<Var Name="gEndPosData" Scope="Global" Type="MC_ENDLESS_POSITION[0..15]">
-			<File Name="B:/Holweg/RX_Systems_RS15_30005/AS_3090/Rev_1/RS15_RX_30005_r1/Physical/Config1/PLC1/Cpu.per">
+			<File Name="C:/HolwegWeber/Holweg/RS15_RX_30005_r00/Physical/Config1/PLC1/Cpu.per">
 				<Pos L="11" C="1" PS="Ln:11" O="M0"></Pos>
 			</File>
 		</Var>
 		<Var Name="gMachineTime" Scope="Global" Type="HourMeter">
-			<File Name="B:/Holweg/RX_Systems_RS15_30005/AS_3090/Rev_1/RS15_RX_30005_r1/Physical/Config1/PLC1/Cpu.per">
+			<File Name="C:/HolwegWeber/Holweg/RS15_RX_30005_r00/Physical/Config1/PLC1/Cpu.per">
 				<Pos L="12" C="1" PS="Ln:12" O="M720"></Pos>
 			</File>
 		</Var>
 		<Var Name="gSP_A" Scope="Global" Type="AxisSP[0..15]">
-			<File Name="B:/Holweg/RX_Systems_RS15_30005/AS_3090/Rev_1/RS15_RX_30005_r1/Physical/Config1/PLC1/Cpu.per">
+			<File Name="C:/HolwegWeber/Holweg/RS15_RX_30005_r00/Physical/Config1/PLC1/Cpu.per">
 				<Pos L="13" C="1" PS="Ln:13" O="M832"></Pos>
 			</File>
 		</Var>

@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=3.0.80.31 SP01?>
+<?AutomationStudio FileVersion="4.9"?>
 <AcoposParameterTable>
   <Root Name="Parameters">
     <Parameter Name="CMD_SIMULATION" ID="110" Value="ncSW_OFF" Description="Simulation mode: Command" />
-    <Parameter Name="UDC_NOMINAL" ID="390" Value="565" Unit="V" Description="CTRL DC bus: Nominal voltage" />
     <Parameter Name="SGEN_SW_END_IGNORE" ID="128" Value="1" Description="SGEN_SW_END_IGNORE" />
     <Group Name="Axis Parameter Identification Induction Motor">
       <Group Name="General Parameters">
@@ -38,7 +37,7 @@
         <Parameter Name="MOTOR_VOLTAGE_CONST" ID="49" Value="0" Unit="mV*min" Description="Motor: Voltage constant" />
         <Parameter Name="MOTOR_SPEED_RATED" ID="50" Value="1000" Unit="1/min" Description="Motor: Rated speed" />
         <Parameter Name="MOTOR_SPEED_MAX" ID="51" Value="8000" Unit="1/min" Description="Motor: Maximum speed" />
-        <Parameter Name="MOTOR_TORQ_STALL" ID="52" Value="162,34" Unit="Nm" Description="Motor: Stall torque" />
+        <Parameter Name="MOTOR_TORQ_STALL" ID="52" Value="162.34" Unit="Nm" Description="Motor: Stall torque" />
         <Parameter Name="MOTOR_TORQ_RATED" ID="53" Value="162.34" Unit="Nm" Description="Motor: Rated torque" />
         <Parameter Name="MOTOR_TORQ_MAX" ID="54" Value="577.34" Unit="Nm" Description="Motor: Peak torque" />
         <Parameter Name="MOTOR_TORQ_CONST" ID="55" Value="0" Unit="Nm/A" Description="Motor: Torque constant" />

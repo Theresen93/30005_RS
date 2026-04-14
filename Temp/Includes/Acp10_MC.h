@@ -36,6 +36,9 @@ extern "C"
  #define mcTUNE_V_CONSTANT 1U
  #define mcTUNE_TN 16U
  #define mcTUNE_STANDSTILL 0U
+ #define mcTUNE_MODEL_2MASS 32768U
+ #define mcTUNE_FBCTRL_MODEL_2MASS 8192U
+ #define mcTUNE_FBCTRL_MODEL_1MASS 12288U
  #define mcTRANSITION_ON 1U
  #define mcTRANSITION_OFF 0U
  #define mcTRACE_TRIGGER 3U
@@ -85,6 +88,7 @@ extern "C"
  #define mcSHIFT_FROM_EXPECTED 50U
  #define mcSET_POSITION 0U
  #define mcSET_OFFSET 34U
+ #define mcSET_GEN_ONLY 1024U
  #define mcSE 3U
  #define mcSAVE_RING_STARTIDX 4437U
  #define mcSAVE 341U
@@ -100,6 +104,7 @@ extern "C"
  #define mcPOSITIVE_DIR 0U
  #define mcPOSITION 1U
  #define mcPERIODIC 1
+ #define mcPASSIVE 4U
  #define mcP_EDGE 0U
  #define mcOVERRIDE 1000
  #define mcOUT_WINDOW 30U
@@ -209,6 +214,7 @@ extern "C"
  #define mcFLUX 1U
  #define mcFIRST_TRIGGER 2U
  #define mcFIRST_RM 0U
+ #define mcFINISH 282U
  #define mcFILE_TXT 2U
  #define mcFILE_CSV 1U
  #define mcFILE_BIN 0U
@@ -228,8 +234,14 @@ extern "C"
  #define mcENABLE_LIMIT_NEG 5
  #define mcENABLE 2U
  #define mcEDGE_SENSITIVE 4U
+ #define mcDITHER2 35U
  #define mcDITHER 32U
  #define mcDISTANCE_BASED 0U
+ #define mcDIR_INDEPENDENT_SPEED_AX_POS 260U
+ #define mcDIR_INDEPENDENT_AX_POS 259U
+ #define mcDIR_DEPENDENT_SET_POS_AX_POS 261U
+ #define mcDIR_DEPENDENT_BACKLASH_AX_POS 258U
+ #define mcDIR_DEPENDENT_AX_POS 257U
  #define mcDIR_INDEPENDENT_SPEED 4U
  #define mcDIR_INDEPENDENT 3U
  #define mcDIR_DEPENDENT_SET_POSITION 5U
@@ -316,6 +328,9 @@ extern "C"
  _GLOBAL_CONST unsigned char mcTUNE_V_CONSTANT;
  _GLOBAL_CONST unsigned short mcTUNE_TN;
  _GLOBAL_CONST unsigned char mcTUNE_STANDSTILL;
+ _GLOBAL_CONST unsigned short mcTUNE_MODEL_2MASS;
+ _GLOBAL_CONST unsigned short mcTUNE_FBCTRL_MODEL_2MASS;
+ _GLOBAL_CONST unsigned short mcTUNE_FBCTRL_MODEL_1MASS;
  _GLOBAL_CONST unsigned short mcTRANSITION_ON;
  _GLOBAL_CONST unsigned short mcTRANSITION_OFF;
  _GLOBAL_CONST unsigned char mcTRACE_TRIGGER;
@@ -365,6 +380,7 @@ extern "C"
  _GLOBAL_CONST unsigned short mcSHIFT_FROM_EXPECTED;
  _GLOBAL_CONST unsigned short mcSET_POSITION;
  _GLOBAL_CONST unsigned char mcSET_OFFSET;
+ _GLOBAL_CONST unsigned short mcSET_GEN_ONLY;
  _GLOBAL_CONST unsigned short mcSE;
  _GLOBAL_CONST unsigned short mcSAVE_RING_STARTIDX;
  _GLOBAL_CONST unsigned short mcSAVE;
@@ -380,6 +396,7 @@ extern "C"
  _GLOBAL_CONST unsigned char mcPOSITIVE_DIR;
  _GLOBAL_CONST unsigned char mcPOSITION;
  _GLOBAL_CONST plcbit mcPERIODIC;
+ _GLOBAL_CONST unsigned short mcPASSIVE;
  _GLOBAL_CONST unsigned char mcP_EDGE;
  _GLOBAL_CONST signed short mcOVERRIDE;
  _GLOBAL_CONST unsigned char mcOUT_WINDOW;
@@ -489,6 +506,7 @@ extern "C"
  _GLOBAL_CONST unsigned char mcFLUX;
  _GLOBAL_CONST unsigned short mcFIRST_TRIGGER;
  _GLOBAL_CONST unsigned short mcFIRST_RM;
+ _GLOBAL_CONST unsigned short mcFINISH;
  _GLOBAL_CONST unsigned short mcFILE_TXT;
  _GLOBAL_CONST unsigned short mcFILE_CSV;
  _GLOBAL_CONST unsigned short mcFILE_BIN;
@@ -508,8 +526,14 @@ extern "C"
  _GLOBAL_CONST signed short mcENABLE_LIMIT_NEG;
  _GLOBAL_CONST unsigned short mcENABLE;
  _GLOBAL_CONST unsigned char mcEDGE_SENSITIVE;
+ _GLOBAL_CONST unsigned char mcDITHER2;
  _GLOBAL_CONST unsigned char mcDITHER;
  _GLOBAL_CONST unsigned short mcDISTANCE_BASED;
+ _GLOBAL_CONST unsigned short mcDIR_INDEPENDENT_SPEED_AX_POS;
+ _GLOBAL_CONST unsigned short mcDIR_INDEPENDENT_AX_POS;
+ _GLOBAL_CONST unsigned short mcDIR_DEPENDENT_SET_POS_AX_POS;
+ _GLOBAL_CONST unsigned short mcDIR_DEPENDENT_BACKLASH_AX_POS;
+ _GLOBAL_CONST unsigned short mcDIR_DEPENDENT_AX_POS;
  _GLOBAL_CONST unsigned short mcDIR_INDEPENDENT_SPEED;
  _GLOBAL_CONST unsigned short mcDIR_INDEPENDENT;
  _GLOBAL_CONST unsigned short mcDIR_DEPENDENT_SET_POSITION;
@@ -590,9 +614,10 @@ typedef struct MC_ACP_ENCOD_PARAM_REF
 } MC_ACP_ENCOD_PARAM_REF;
 
 typedef struct MC_ADV_INFO_MPDC_REF
-{	unsigned short DataObjectIdentPos;
-	unsigned short DataObjectIdentNeg;
+{	unsigned long DataObjectIdentPos;
+	unsigned long DataObjectIdentNeg;
 	float CamStartPosition;
+	float CamStartPositionNeg;
 	plcbit CalcDone;
 	float Period;
 } MC_ADV_INFO_MPDC_REF;
@@ -654,6 +679,7 @@ typedef struct MC_ADVANCED_GEAR_PAR_REF
 typedef struct MC_ADVANCEDSHIFTPAR_REF
 {	unsigned short ShiftParID;
 	float MasterMaxVelocity;
+	unsigned char ActualShiftValueMode;
 } MC_ADVANCEDSHIFTPAR_REF;
 
 typedef struct MC_ADV_OFFSETZONE_REF
@@ -668,6 +694,7 @@ typedef struct MC_ADV_MPDC_REF
 {	plcstring DataObjectNamePos[13];
 	plcstring DataObjectNameNeg[13];
 	float CamStartPosition;
+	float CamStartPositionNeg;
 	plcbit CalcOnly;
 } MC_ADV_MPDC_REF;
 
@@ -782,6 +809,7 @@ typedef struct MC_BR_TRIGGER_REF
 	float MinWidth;
 	float MaxWidth;
 	signed long SensorDelay;
+	plcbit DisableWidthEvaluationAtStart;
 } MC_BR_TRIGGER_REF;
 
 typedef struct MC_CALC_CAM_CONFIG_REF
@@ -811,7 +839,7 @@ typedef struct MC_CAMPROFILE_TYP
 {	signed long MasterPeriod;
 	signed long SlavePeriod;
 	unsigned long PolynomialNumber;
-	struct MC_POLYNOMIAL_DATA PolynomialData[64];
+	struct MC_POLYNOMIAL_DATA PolynomialData[128];
 } MC_CAMPROFILE_TYP;
 
 typedef struct MC_CAMSWITCH_REF
@@ -832,7 +860,7 @@ typedef struct MC_CAM_SECTION_TYP
 } MC_CAM_SECTION_TYP;
 
 typedef struct MC_CAM_SECTIONS_TYP
-{	struct MC_CAM_SECTION_TYP Section[65];
+{	struct MC_CAM_SECTION_TYP Section[129];
 } MC_CAM_SECTIONS_TYP;
 
 typedef struct MC_CYCLIC_POSITION
@@ -1062,7 +1090,7 @@ typedef struct MC_RECORD_REF
 } MC_RECORD_REF;
 
 typedef struct MC_RECORD_INFO_REF
-{	struct MC_RECORD_REF Record[8];
+{	struct MC_RECORD_REF Record[16];
 } MC_RECORD_INFO_REF;
 
 typedef struct MC_SETUP_CONTROLLER_PAR_REF
@@ -1224,7 +1252,7 @@ typedef struct MC_HW_INFO_CARD_REF
 } MC_HW_INFO_CARD_REF;
 
 typedef struct MC_HW_INFO_MOTOR_REF
-{	plcstring ModelNumber[20];
+{	plcstring ModelNumber[36];
 	plcstring SerialNumber[20];
 	plcstring Revision[4];
 } MC_HW_INFO_MOTOR_REF;
@@ -1466,8 +1494,7 @@ typedef struct MC_0082_IS_TYP
 	unsigned short MnPResParIndex;
 	unsigned char LockIDMa;
 	unsigned char state;
-	unsigned char Reserve1;
-	unsigned char Reserve2;
+	unsigned short homingCount;
 } MC_0082_IS_TYP;
 
 typedef struct MC_0083_IS_TYP
@@ -2076,6 +2103,7 @@ typedef struct MC_0113_IS_TYP
 	plcbit Error;
 	unsigned char state;
 	unsigned short ErrorID;
+	unsigned short homingCount;
 	struct MC_CYCLIC_VALUE_REF CyclicValue;
 	signed long Offset;
 } MC_0113_IS_TYP;
@@ -2762,6 +2790,8 @@ typedef struct MC_0147_IS_TYP
 	unsigned short PctrlSActParID;
 	unsigned short CurveIndex;
 	signed long CamStartPosition;
+	signed long CamStartPositionNeg;
+	unsigned long CamStartPositionAdr;
 	float Data[2000];
 	unsigned short CamIndexPos;
 	unsigned short CamIndexNeg;
@@ -5025,6 +5055,7 @@ typedef struct MC_BR_Offset
 	unsigned char LockIDPar;
 	unsigned long Factor;
 	float RtN;
+	signed long C_StartShiftValue;
 	unsigned short VarIndex;
 	unsigned short MpgenIndex;
 	unsigned char C_MpgenStatus;
@@ -5191,6 +5222,7 @@ typedef struct MC_BR_Phasing
 	unsigned char LockIDPar;
 	unsigned long Factor;
 	float RtN;
+	signed long C_StartShiftValue;
 	unsigned short VarIndex;
 	unsigned short MpgenIndex;
 	unsigned char C_MpgenStatus;
@@ -6244,6 +6276,7 @@ typedef struct MC_Home
 	unsigned char state;
 	unsigned char MoveID;
 	float CC_Position;
+	unsigned long C_StatusFlags;
 	/* VAR_INPUT (digital) */
 	plcbit Execute;
 	/* VAR_OUTPUT (digital) */

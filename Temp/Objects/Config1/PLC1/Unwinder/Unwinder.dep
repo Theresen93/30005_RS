@@ -1,4 +1,4 @@
 $(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
-$(AS_PROJECT_PATH)/Logical/BagMachine_Section/Unwinder/Unwinder.var
 $(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/BagMachine_Section/Unwinder/Unwinder.var
 $(AS_PROJECT_PATH)/Logical/Global.typ

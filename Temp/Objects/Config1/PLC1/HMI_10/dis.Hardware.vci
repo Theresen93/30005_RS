@@ -1,83 +1,30 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=3.0?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <PanelMaps xmlns="http://br-automation.co.at/AS/VC/Project">
   <PanelMap>
     <PanelItems />
-    <Property Name="Type" Value="4PP420.1043-B5d" />
-    <Property Name="NumLevel" Value="6" />
+    <Property Name="Type" Value="5AP1120.1043-000" />
+    <Property Name="NumLevel" Value="0" />
     <Property Name="IsLocal" Value="True" />
     <Property Name="IsTerminal" Value="False" />
     <Property Name="IsVncSlave" Value="True" />
     <Property Name="IsVncOnly" Value="False" />
+    <Property Name="DataModule" Value="" />
     <Property Name="TerminalIP" Value="0.0.0.0" />
     <Property Name="TerminalGW" Value="0.0.0.0" />
     <Property Name="TerminalMask" Value="255.255.255.255" />
     <Property Name="TerminalMode" Value="0" />
     <Property Name="TerminalNode" Value="4294967295" />
+    <Property Name="TerminalAddress" Value="IF2" />
+    <Property Name="AnslAuthUserName" Value="" />
+    <Property Name="AnslAuthPassword" Value="" />
+    <Property Name="AnslPort" Value="0" />
+    <Property Name="AnslUseSsl" Value="False" />
     <Property Name="VNCKeyboard" Value="None" />
-    <Property Name="Platform" Value="10000" />
-    <Property Name="Ability" Value="master" />
+    <Property Name="VNCKeyboardFile" Value="" />
     <Property Name="VNCKeyLedCount" Value="False" />
     <Property Name="LedCount" Value="0" />
     <Property Name="KeyCount" Value="0" />
-    <Drivers>
-      <Driver Name="vcpdpp30.br">
-        <Property Name="Parity" Value="" />
-        <Property Name="PackageSize" Value="" />
-        <Property Name="Timeout" Value="" />
-        <Property Name="MaxClients" Value="" />
-        <Property Name="HorizontalResolution" Value="640" />
-        <Property Name="VerticalResolution" Value="480" />
-        <Property Name="Title" Value="" />
-        <Property Name="Baudrate" Value="" />
-        <Property Name="Rotation" Value="" />
-        <Property Name="Dithering" Value="0" />
-        <Property Name="Stopbits" Value="" />
-        <Property Name="ReadOnlyPassword" Value="" />
-        <Property Name="Interface" Value="" />
-        <Property Name="DestinationAddress" Value="" />
-        <Property Name="VerticalRefreshRate" Value="60" />
-        <Property Name="NodeNumber" Value="" />
-        <Property Name="Password" Value="" />
-        <Property Name="Databits" Value="" />
-        <Property Name="BitsPerPixel" Value="8" />
-      </Driver>
-      <Driver Name="vcptelo.br">
-        <Property Name="Rotation" Value="" />
-        <Property Name="EventBufferSize" Value="10" />
-        <Property Name="Interface" Value="IF2" />
-        <Property Name="DisplayX" Value="640" />
-        <Property Name="DisplayY" Value="480" />
-        <Property Name="Databits" Value="" />
-        <Property Name="MirrorY" Value="" />
-        <Property Name="ClassID" Value="" />
-        <Property Name="Baudrate" Value="" />
-        <Property Name="MirrorX" Value="" />
-        <Property Name="Parity" Value="" />
-        <Property Name="Stopbits" Value="" />
-      </Driver>
-      <Driver Name="vcpdvnc.br">
-        <Property Name="Parity" Value="" />
-        <Property Name="PackageSize" Value="" />
-        <Property Name="Timeout" Value="20" />
-        <Property Name="MaxClients" Value="4" />
-        <Property Name="HorizontalResolution" Value="640" />
-        <Property Name="VerticalResolution" Value="480" />
-        <Property Name="Title" Value="" />
-        <Property Name="Baudrate" Value="" />
-        <Property Name="Rotation" Value="" />
-        <Property Name="Dithering" Value="0" />
-        <Property Name="Stopbits" Value="" />
-        <Property Name="ReadOnlyPassword" Value="725" />
-        <Property Name="Interface" Value="" />
-        <Property Name="DestinationAddress" Value="" />
-        <Property Name="VerticalRefreshRate" Value="60" />
-        <Property Name="NodeNumber" Value="1" />
-        <Property Name="Password" Value="4444" />
-        <Property Name="Databits" Value="" />
-        <Property Name="BitsPerPixel" Value="8" />
-      </Driver>
-    </Drivers>
+    <Property Name="KeySourceTableReference" Value="5AP1120.1043-000" />
     <Palette>
       <PaletteColor Index="0" Value="#000000" />
       <PaletteColor Index="1" Value="#0000AA" />
@@ -336,5 +283,42 @@
       <PaletteColor Index="254" Value="#4D4D4D" />
       <PaletteColor Index="255" Value="#7A7A7A" />
     </Palette>
+    <Drivers>
+      <Driver Name="vcpdi815.br">
+        <Property Name="ClassID" Value="0x211" />
+        <Property Name="Interface" Value="IF2" />
+        <Property Name="BitsPerPixel" Value="8" />
+        <Property Name="VerticalResolution" Value="480" />
+        <Property Name="HorizontalResolution" Value="640" />
+        <Property Name="VerticalRefreshRate" Value="60" />
+        <Property Name="Rotation" Value="0" />
+      </Driver>
+      <Driver Name="vcptelo.br">
+        <Property Name="ClassID" Value="0x20A" />
+        <Property Name="Interface" Value="COMB" />
+        <Property Name="Rotation" Value="0" />
+        <Property Name="DisplayX" Value="640" />
+        <Property Name="DisplayY" Value="480" />
+        <Property Name="MirrorY" Value="False" />
+        <Property Name="MirrorX" Value="False" />
+        <Property Name="EnableMultitouch" Value="False" />
+      </Driver>
+      <Driver Name="vcpdvnc.br">
+        <Property Name="ClassID" Value="" />
+        <Property Name="Interface" Value="IF2" />
+        <Property Name="BitsPerPixel" Value="8" />
+        <Property Name="VerticalResolution" Value="480" />
+        <Property Name="HorizontalResolution" Value="640" />
+        <Property Name="VerticalRefreshRate" Value="200" />
+        <Property Name="Rotation" Value="0" />
+        <Property Name="Authentication" Value="True" />
+        <Property Name="Password" Value="4444" />
+        <Property Name="ReadOnlyPassword" Value="725" />
+        <Property Name="MaxClients" Value="4" />
+        <Property Name="Title" Value="" />
+        <Property Name="Timeout" Value="20" />
+        <Property Name="NodeNumber" Value="5900" />
+      </Driver>
+    </Drivers>
   </PanelMap>
 </PanelMaps>

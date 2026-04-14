@@ -60,8 +60,14 @@ VAR CONSTANT
 	mcDIR_DEPENDENT_SET_POSITION : UINT := 5; (*mode for MPDC*)
 	mcDIR_INDEPENDENT : UINT := 3; (*mode for MPDC*)
 	mcDIR_INDEPENDENT_SPEED : UINT := 4; (*mode for MPDC*)
+	mcDIR_DEPENDENT_AX_POS : UINT := 257; (*mode for MPDC*)
+	mcDIR_DEPENDENT_BACKLASH_AX_POS : UINT := 258; (*mode for MPDC*)
+	mcDIR_DEPENDENT_SET_POS_AX_POS : UINT := 261; (*mode for MPDC*)
+	mcDIR_INDEPENDENT_AX_POS : UINT := 259; (*mode for MPDC*)
+	mcDIR_INDEPENDENT_SPEED_AX_POS : UINT := 260; (*mode for MPDC*)
 	mcDISTANCE_BASED : UINT := 0; (*basis for cam movement (e.g. for MC_BR_CamTransition)*)
 	mcDITHER : USINT := 32; (*setup mode*)
+	mcDITHER2 : USINT := 35; (*setup mode*)
 	mcEDGE_SENSITIVE : USINT := 4; (*additional mode for trigger event*)
 	mcENABLE : UINT := 2;
 	mcENABLE_LIMIT_NEG : INT := 5; (*PLCopen motion parameter*)
@@ -81,6 +87,7 @@ VAR CONSTANT
 	mcFILE_BIN : UINT := 0; (*binary format*)
 	mcFILE_CSV : UINT := 1; (*CSV format*)
 	mcFILE_TXT : UINT := 2; (*text format*)
+    mcFINISH : UINT := 282; 
 	mcFIRST_RM : UINT := 0;
 	mcFIRST_TRIGGER : UINT := 2;
 	mcFLUX : USINT := 1; (*setup mode*)
@@ -190,6 +197,7 @@ VAR CONSTANT
 	mcOUT_WINDOW : USINT := 30; (*trigger event mode*)
 	mcOVERRIDE : INT := 1000; (*PLCopen motion parameter*)
 	mcP_EDGE : USINT := 0;
+    mcPASSIVE : UINT := 4; (*setup mode*)
 	mcPERIODIC : BOOL := TRUE; (*cam profile mode*)
 	mcPOSITION : USINT := 1; (*setup mode*)
 	mcPOSITIVE_DIR : USINT := 0; (*movement direction*)
@@ -205,6 +213,7 @@ VAR CONSTANT
 	mcSAVE : UINT := 341; (*trace command*)
 	mcSAVE_RING_STARTIDX : UINT := 4437; (*trace command (0x1000 + 0x0155)*)
 	mcSE : UINT := 3;
+	mcSET_GEN_ONLY : UINT := 1024; (*simulation with only set value generation*)
 	mcSET_OFFSET : USINT := 34; (*setup mode*)
 	mcSET_POSITION : UINT := 0; (*position source for MPDC*)
 	mcSHIFT_FROM_EXPECTED : UINT := 50; (*input for MC_BR_TouchProbe*)
@@ -254,6 +263,9 @@ VAR CONSTANT
 	mcTRACE_TRIGGER : USINT := 3; (*trace status*)
 	mcTRANSITION_OFF : UINT := 0;
 	mcTRANSITION_ON : UINT := 1;
+	mcTUNE_FBCTRL_MODEL_1MASS : UINT := 12288; (*setup mode*)
+    mcTUNE_FBCTRL_MODEL_2MASS : UINT := 8192; (*setup mode*)
+    mcTUNE_MODEL_2MASS : UINT := 32768; (*setup mode*)
 	mcTUNE_STANDSTILL : USINT := 0; (*constant for OperatingPoint*)
     mcTUNE_TN : UINT := 16; (*setup mode*)
 	mcTUNE_V_CONSTANT : USINT := 1; (*constant for OperatingPoint*)

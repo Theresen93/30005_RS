@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=?>
+<AcoposParameterTable>
+  <Root Name="Parameters">
+    <Group Name="SS2" Description="8BAC0123.000-1" StructureEdit="FALSE">
+      <Parameter Name="ENCOD_TYPE" ID="97" Value="ncSSI" />
+      <Parameter Name="SCALE_ENCOD_INCR" ID="109" Value="32768" />
+      <Parameter Name="ENCOD_SSI_ZERO_BITS" ID="237" Value="0" />
+      <Parameter Name="ENCOD_SSI_BITS" ID="238" Value="15" />
+      <Parameter Name="ENCOD_SSI_CODE" ID="239" Value="ncGRAY" />
+      <Parameter Name="ENCOD_SSI_PARITY_CHK" ID="240" Value="ncOFF" />
+    </Group>
+  </Root>
+</AcoposParameterTable>

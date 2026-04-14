@@ -3,16 +3,17 @@
 <Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
   <Folder Name="Drivers">
     <Folder Name="POBJ">
-      <Object Name="DisplayCx300" ClsId="0x216" Version="1" Type="DRV" RefString="Source[local].Driver[DisplayCx300]">
+      <Object Name="Displayi815" ClsId="0x211" Version="1" Type="DRV" RefString="Source[local].Driver[Displayi815]">
         <UInt16 Name="ResolutionX">640</UInt16>
         <UInt16 Name="ResolutionY">480</UInt16>
         <UInt16 Name="StrideX">640</UInt16>
         <UInt16 Name="StrideY">480</UInt16>
         <UInt32 Name="Rotation">0</UInt32>
         <Byte Name="BitPerPixel">8</Byte>
+        <Byte Name="RefreshRate">60</Byte>
         <Byte Name="Dither">0</Byte>
         <Byte Name="HardwareAcceleration">1</Byte>
-        <Byte Name="RefreshRate">60</Byte>
+        <UInt32 Name="ForceChipVersion">0</UInt32>
         <Group Name="PaletteData">
           <UInt32 Name="Palettem_entriesCount">256</UInt32>
           <Group Name="ColorIndex 0">
@@ -1564,9 +1565,9 @@
         <Byte Name="DataBits">8</Byte>
         <Byte Name="StopBits">1</Byte>
         <Byte Name="Parity">110</Byte>
-        <Byte Name="Reserved">0</Byte>
+        <Byte Name="EnableMultitouch">0</Byte>
         <UInt16 Name="BaudRate">9600</UInt16>
-        <String Name="INADevice" Encoding="ASCII">IF2</String>
+        <String Name="INADevice" Encoding="ASCII">COMB</String>
       </Object>
     </Folder>
   </Folder>
@@ -1578,9 +1579,10 @@
         <UInt16 Name="ResolutionX">640</UInt16>
         <UInt16 Name="ResolutionY">480</UInt16>
         <UInt16 Name="Port">5900</UInt16>
-        <UInt16 Name="RefreshRate">60</UInt16>
+        <UInt16 Name="RefreshRate">200</UInt16>
         <UInt16 Name="MaxClients">4</UInt16>
-        <UInt16 Name="Reserved">0</UInt16>
+        <Byte Name="AuthenticationDisable">0</Byte>
+        <Byte Name="Reserved">0</Byte>
         <Binary Name="Password" Encoding="Base64">M93ViKwn4MI=</Binary>
         <Binary Name="Password" Encoding="Base64">n9PhJoaQhm4=</Binary>
         <UInt16 Name="Timeout">20</UInt16>
@@ -3136,16 +3138,16 @@
   <Folder Name="Drivers">
     <Folder Name="POBJ">
       <Object Name="KeyMatrixMgr" ClsId="0x103" Version="1" Type="KS" RefString="Source[local].KS[default]">
-        <Reference Name="KSTID" Type="KSTable">Source[local].KSTable[4PP420.1043-B5d]</Reference>
+        <Reference Name="KSTID" Type="KSTable">Source[local].KSTable[5AP1120.1043-000]</Reference>
       </Object>
     </Folder>
   </Folder>
   <Folder Name="KeyHandling">
     <Folder Name="KeySourceTables">
       <Folder Name="POBJ">
-        <Object Name="4PP420.1043-B5d" ClsId="0x307" Version="1" Type="KSTable" RefString="Source[local].KSTable[4PP420.1043-B5d]">
+        <Object Name="5AP1120.1043-000" ClsId="0x307" Version="1" Type="KSTable" RefString="Source[local].KSTable[5AP1120.1043-000]">
           <UInt16 Name="KeyCount">0</UInt16>
-          <UInt16 Name="LevelCount">6</UInt16>
+          <UInt16 Name="LevelCount">0</UInt16>
         </Object>
       </Folder>
     </Folder>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Cpu xmlns="http://br-automation.co.at/AS/Cpu">
+  <Objects>
+    <Object Type="File" Description="Software configuration">Cpu.sw</Object>
+    <Object Type="File" Description="Declaration of permanent variables">Cpu.per</Object>
+    <Object Type="File" Description="IO mapping file">IoMap.iom</Object>
+    <Object Type="File" Description="PV mapping file">PvMap.vvm</Object>
+    <Object Type="Package">Motion</Object>
+    <Object Type="Package">VC</Object>
+  </Objects>
+  <Configuration ClassID="4PP420.1043-B5" GeneratePPCode="false" HasNcOperatingSystem="true" LocalVariablesMemory="MemoryPool" ModuleID="PP400" OnlineConfigurationName="NewTCPIPConnection_5" Target="SG4" ModuleId="5PPC2200.AL14-000">
+    <AutomationRuntime Version="H4.91" />
+    <Build GccVersion="6.3.0" />
+    <DefaultTargetMemory DataObjects="UserROM" Libraries="UserROM" Tasks="UserROM" />
+    <Io ArConfigDataModule="false" ArConfigDataModulePath="$(AS_CPU_PATH)\AS\CfgData.br" IoMapDataModule="false" IoMapDataModulePath="$(AS_CPU_PATH)\AS\IomData.br" />
+    <Safety SafetyRelease="0.0" />
+    <TaskClasses DefaultIoTaskClass="Automatic" DefaultTaskClass="Cyclic4" />
+    <Transfer AllowWarmRestart="true" DownloadMode="Overload" GeneratePviTransferList="true" IgnoreBrDependencies="false" IgnoreTargetOnlyObjects="false" PackedArConfig="false" PackedIoMap="false" PromptBeforeProject="true" PromptBeforeTask="false" SavedOfflineInstallationFolder="" SavedPipDestinationFolder="" SavedRuntimeUtilityCenterPackagePath="" TransferOnlyRelevantChanges="false" />
+    <Vc FirmwareVersion="V4.73.2" />
+    <OnlineConfiguration Name="NewTCPIPConnection_5" DeviceType="TCPIP" DeviceParameters="/IF=tcpip /LOPO=11159 /SA=98" ConnectionParameters="/COMT=2500 /RT=3000 /SP=C:\Job_Files\Monitor /CKDA=0 /AM=* /DAIP=35.130.56.104 /REPO=11159 /ANSL=1" Description="" />
+  </Configuration>
+</Cpu>

@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="Config1.Hardware.hw" LastWriteTime="03/05/2026 15:34:30" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="A2_Par" Type="MotorSynchronous_any" X="450.2" Y="743.9" />
+    <Module Name="Drum" Type="8BVIxxxxxxSx.xxx-x" X="-23.0999756" Y="472" />
+    <Module Name="8BAC0120.000-1f" Type="8BAC0120.000-1" X="-20.2999763" Y="647" />
+    <Module Name="5AP1120.1043-000" Type="5AP1120.1043-000" X="-94.0999756" Y="90" />
+    <Module Name="PLC1" Type="5PPC2200.AL14-000" X="100.000015" Y="100" />
+    <Module Name="5ACCIF01.FPLK-000" Type="5ACCIF01.FPLK-000" X="105.000015" Y="113" />
+    <Module Name="Perf" Type="8BVIxxxxxxSx.xxx-x" X="238.200012" Y="472" />
+    <Module Name="8BAC0120.000-1" Type="8BAC0120.000-1" X="241.000015" Y="647" />
+    <Module Name="PowerSupply" Type="8BVPxxxxxxxx.xxx-x" X="325.300018" Y="472" />
+    <Module Name="Printer" Type="8BVIxxxxxxSx.xxx-x" X="450.2" Y="472" />
+    <Module Name="8BAC0120.000-1a" Type="8BAC0120.000-1" X="453" Y="647" />
+    <Module Name="X20BC0083_MainEnclosureREM_IO_E1" Type="X20BB80" X="537.300049" Y="472" />
+    <Module Name="X20BM11" Type="X20BM11" X="575.300049" Y="472" />
+    <Module Name="X20DI9371d" Type="X20DI9371" X="575.300049" Y="472" />
+    <Module Name="X20TB12" Type="X20TB12" X="575.300049" Y="499" />
+    <Module Name="X20BM11a" Type="X20BM11" X="588.300049" Y="472" />
+    <Module Name="X20DI9371e" Type="X20DI9371" X="588.300049" Y="472" />
+    <Module Name="X20TB12a" Type="X20TB12" X="588.300049" Y="499" />
+    <Module Name="X20BM11b" Type="X20BM11" X="601.300049" Y="472" />
+    <Module Name="X20DI9371f" Type="X20DI9371" X="601.300049" Y="472" />
+    <Module Name="X20TB12b" Type="X20TB12" X="601.300049" Y="499" />
+    <Module Name="X20BM11c" Type="X20BM11" X="614.300049" Y="472" />
+    <Module Name="X20AT2222" Type="X20AT2222" X="614.300049" Y="472" />
+    <Module Name="X20TB12c" Type="X20TB12" X="614.300049" Y="499" />
+    <Module Name="X20BM01" Type="X20BM01" X="627.300049" Y="472" />
+    <Module Name="X20PS3300a" Type="X20PS3300" X="627.300049" Y="472" />
+    <Module Name="X20TB12d" Type="X20TB12" X="627.300049" Y="499" />
+    <Module Name="X20BM11d" Type="X20BM11" X="640.300049" Y="472" />
+    <Module Name="X20DO9322a" Type="X20DO9322" X="640.300049" Y="472" />
+    <Module Name="X20TB12e" Type="X20TB12" X="640.300049" Y="499" />
+    <Module Name="X20BM11e" Type="X20BM11" X="653.300049" Y="472" />
+    <Module Name="X20DO9322b" Type="X20DO9322" X="653.300049" Y="472" />
+    <Module Name="X20TB12f" Type="X20TB12" X="653.300049" Y="499" />
+    <Module Name="X20BM11f" Type="X20BM11" X="666.300049" Y="472" />
+    <Module Name="X20AO2622a" Type="X20AO2622" X="666.300049" Y="472" />
+    <Module Name="X20TB12g" Type="X20TB12" X="666.300049" Y="499" />
+    <Module Name="X20BM11m" Type="X20BM11" X="679.300049" Y="472" />
+    <Module Name="X20BT9100" Type="X20BT9100" X="679.300049" Y="472" />
+    <Module Name="X20TB12q" Type="X20TB12" X="679.300049" Y="499" />
+    <Module Name="X20PS9400" Type="X20PS9400" X="562.300049" Y="472" />
+    <Module Name="X20TB12h" Type="X20TB12" X="562.300049" Y="499" />
+    <Module Name="X20BC0083" Type="X20BC0083" X="537.300049" Y="472" />
+    <Module Name="X20BM01a" Type="X20BM01" X="729.300049" Y="472" />
+    <Module Name="X20BR9300_REM_IO_L3" Type="X20BR9300" X="729.300049" Y="472" />
+    <Module Name="X20TB12p" Type="X20TB12" X="729.300049" Y="499" />
+    <Module Name="X20BM11g" Type="X20BM11" X="742.300049" Y="472" />
+    <Module Name="X20DI9371" Type="X20DI9371" X="742.300049" Y="472" />
+    <Module Name="X20TB12i" Type="X20TB12" X="742.300049" Y="499" />
+    <Module Name="X20BM11h" Type="X20BM11" X="755.300049" Y="472" />
+    <Module Name="X20DI9371a" Type="X20DI9371" X="755.300049" Y="472" />
+    <Module Name="X20TB12j" Type="X20TB12" X="755.300049" Y="499" />
+    <Module Name="X20BM11i" Type="X20BM11" X="768.300049" Y="472" />
+    <Module Name="X20DI9371b" Type="X20DI9371" X="768.300049" Y="472" />
+    <Module Name="X20TB12k" Type="X20TB12" X="768.300049" Y="499" />
+    <Module Name="X20BM11j" Type="X20BM11" X="781.300049" Y="472" />
+    <Module Name="X20DI9371c" Type="X20DI9371" X="781.300049" Y="472" />
+    <Module Name="X20TB12l" Type="X20TB12" X="781.300049" Y="499" />
+    <Module Name="X20BM01b" Type="X20BM01" X="794.300049" Y="472" />
+    <Module Name="X20PS3300" Type="X20PS3300" X="794.300049" Y="472" />
+    <Module Name="X20TB12m" Type="X20TB12" X="794.300049" Y="499" />
+    <Module Name="X20BM11k" Type="X20BM11" X="807.300049" Y="472" />
+    <Module Name="X20DO9322" Type="X20DO9322" X="807.300049" Y="472" />
+    <Module Name="X20TB12n" Type="X20TB12" X="807.300049" Y="499" />
+    <Module Name="X20BM11l" Type="X20BM11" X="820.300049" Y="472" />
+    <Module Name="X20AO2622" Type="X20AO2622" X="820.300049" Y="472" />
+    <Module Name="X20TB12o" Type="X20TB12" X="820.300049" Y="499" />
+    <Module Name="Holding_Tearing" Type="8BVIxxxxxxDx.xxx-1" X="151.100037" Y="472" />
+    <Module Name="8BAC0120.000-1c" Type="8BAC0120.000-1" X="170.700043" Y="647" />
+    <Module Name="8BAC0120.000-1b" Type="8BAC0120.000-1" X="153.90004" Y="647" />
+    <Module Name="EntryPull_ExitPull" Type="8BVIxxxxxxDx.xxx-1" X="64.00003" Y="472" />
+    <Module Name="8BAC0120.000-1e" Type="8BAC0120.000-1" X="83.60004" Y="647" />
+    <Module Name="8BAC0120.000-1d" Type="8BAC0120.000-1" X="66.80002" Y="647" />
+  </Modules>
+  <Links>
+    <Link From="A2_Par" To="Printer" FromPort="MT" ToPort="MT1" IsRoutedByUser="False">
+      <Point X="499.7" Y="750" />
+      <Point X="499.7" Y="750" />
+      <Point X="499.7" Y="743" />
+      <Point X="499.7" Y="735" />
+      <Point X="466.300018" Y="735" />
+      <Point X="466.300018" Y="694.9" />
+      <Point X="466.300018" Y="686.9" />
+      <Point X="466.300018" Y="686.9" />
+    </Link>
+    <Link From="Drum" To="PowerSupply" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="0.700023651" Y="479" />
+      <Point X="0.700023651" Y="479" />
+      <Point X="14.7000237" Y="479" />
+      <Point X="25" Y="479" />
+      <Point X="25" Y="465" />
+      <Point X="285" Y="465" />
+      <Point X="285" Y="479" />
+      <Point X="325.2" Y="479" />
+      <Point X="337.2" Y="479" />
+      <Point X="337.2" Y="479" />
+    </Link>
+    <Link From="Perf" To="Printer" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="262" Y="479" />
+      <Point X="262" Y="479" />
+      <Point X="276" Y="479" />
+      <Point X="276" Y="451" />
+      <Point X="415" Y="451" />
+      <Point X="415" Y="479" />
+      <Point X="450.1" Y="479" />
+      <Point X="462.1" Y="479" />
+      <Point X="462.1" Y="479" />
+    </Link>
+    <Link From="PowerSupply" To="X20BC0083" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="349.100037" Y="479" />
+      <Point X="349.100037" Y="479" />
+      <Point X="349.100037" Y="471" />
+      <Point X="349.100037" Y="465" />
+      <Point X="495" Y="465" />
+      <Point X="495" Y="547" />
+      <Point X="536.300049" Y="547" />
+      <Point X="551.300049" Y="547" />
+      <Point X="551.300049" Y="547" />
+    </Link>
+    <Link From="5ACCIF01.FPLK-000" To="X20BC0083" FromPort="PLK2" ToPort="PLK2" IsRoutedByUser="False">
+      <Point X="146.000015" Y="133" />
+      <Point X="146.000015" Y="133" />
+      <Point X="156.000015" Y="133" />
+      <Point X="502" Y="133" />
+      <Point X="502" Y="585" />
+      <Point X="551.300049" Y="585" />
+      <Point X="551.300049" Y="572" />
+      <Point X="551.300049" Y="562" />
+      <Point X="551.300049" Y="562" />
+    </Link>
+    <Link From="X20BT9100" To="X20BR9300_REM_IO_L3" FromPort="X2X1" ToPort="X2X1" IsRoutedByUser="False">
+      <Point X="686.300049" Y="516" />
+      <Point X="686.300049" Y="516" />
+      <Point X="693.300049" Y="516" />
+      <Point X="728.300049" Y="516" />
+      <Point X="735.300049" Y="516" />
+      <Point X="735.300049" Y="516" />
+    </Link>
+    <Link From="Holding_Tearing" To="Printer" FromPort="PLK1" ToPort="PLK2" IsRoutedByUser="False">
+      <Point X="163.000031" Y="479" />
+      <Point X="163.000031" Y="479" />
+      <Point X="163.000031" Y="471" />
+      <Point X="163.000031" Y="444" />
+      <Point X="474" Y="444" />
+      <Point X="474" Y="471" />
+      <Point X="474" Y="479" />
+      <Point X="474" Y="479" />
+    </Link>
+    <Link From="Drum" To="EntryPull_ExitPull" FromPort="PLK1" ToPort="PLK2" IsRoutedByUser="False">
+      <Point X="-11.199976" Y="479" />
+      <Point X="-11.199976" Y="479" />
+      <Point X="-11.199976" Y="471" />
+      <Point X="-11.199976" Y="458" />
+      <Point X="87.80002" Y="458" />
+      <Point X="87.80002" Y="471" />
+      <Point X="87.80002" Y="479" />
+      <Point X="87.80002" Y="479" />
+    </Link>
+    <Link From="EntryPull_ExitPull" To="Holding_Tearing" FromPort="PLK1" ToPort="PLK2" IsRoutedByUser="False">
+      <Point X="75.9000244" Y="479" />
+      <Point X="75.9000244" Y="479" />
+      <Point X="75.9000244" Y="471" />
+      <Point X="75.9000244" Y="451" />
+      <Point X="174.90004" Y="451" />
+      <Point X="174.90004" Y="471" />
+      <Point X="174.90004" Y="479" />
+      <Point X="174.90004" Y="479" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>

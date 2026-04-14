@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Crossref Scope="SupervisoryControl_Section.Revision">
+<Crossref Scope="SupervisoryControl_Section.Revision" AppMod="">
 	<Vars>
 		<Var Name="Revision.CurrentSoftwareRevision" Scope="Local" Type="REAL">
-			<File Name="B:/Holweg/RX_Systems_RS15_30005/AS_3090/Rev_1/RS15_RX_30005_r1/Logical/SupervisoryControl_Section/Revision/RevisionCyclic.st">
+			<File Name="C:\HolwegWeber\Holweg\RS15_RX_30005_r00\Logical\SupervisoryControl_Section\Revision\RevisionCyclic.st">
 				<Pos L="14" C="2" PS="Ln:14, Col:2" A="W"/>
 			</File>
 		</Var>

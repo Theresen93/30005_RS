@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=3.0.90.32 SP14?>
+<?AutomationStudio Version="4.10.6.39 SP"?>
 <SymbolsOptions>
-  <Flags>4136</Flags>
+  <Flags>IecConventions, AcceptEmptyFiles, ConstantsAsArrayLength</Flags>
 </SymbolsOptions>

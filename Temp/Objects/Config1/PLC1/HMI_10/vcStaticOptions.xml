@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Options>
   <WindowsTerminal>False</WindowsTerminal>
+  <IsArmTarget>False</IsArmTarget>
   <Bitmap32bit>
     <Bitmap>Source[local].Bitmap[Logo_150]</Bitmap>
     <Bitmap>Source[local].Bitmap[login_16x16]</Bitmap>

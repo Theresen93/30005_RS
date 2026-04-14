@@ -1713,11 +1713,11 @@
   <Symbol Name="\Projects\HMI_10\TextGroupBase\ShowHide" Index="47" Type="TG" RefString="Source[local].TextGroup[ShowHide]" />
   <Symbol Name="\Projects\HMI_10\TextGroupBase\DropDown_StatusScreenV2" Index="48" Type="TG" RefString="Source[local].TextGroup[DropDown_StatusScreenV2]" />
   <Symbol Name="\Projects\HMI_10\TextGroupBase\DropDown_MaintenanceScreenV3" Index="49" Type="TG" RefString="Source[local].TextGroup[DropDown_MaintenanceScreenV3]" />
-  <Symbol Name="Source[local].Driver[DisplayCx300]" Index="1073741824" Type="DRV" RefString="Source[local].Driver[DisplayCx300]" />
+  <Symbol Name="Source[local].Driver[Displayi815]" Index="1073741824" Type="DRV" RefString="Source[local].Driver[Displayi815]" />
   <Symbol Name="Source[local].Driver[EloTouch]" Index="1073741825" Type="DRV" RefString="Source[local].Driver[EloTouch]" />
   <Symbol Name="Source[local].KS[default]" Index="1073741824" Type="KS" RefString="Source[local].KS[default]" />
   <Symbol Name="Source[local].KeySource[VNCServer]" Index="1073741825" Type="KS" RefString="Source[local].KeySource[VNCServer]" />
-  <Symbol Name="Source[local].KSTable[4PP420.1043-B5d]" Index="1073741824" Type="KSTable" RefString="Source[local].KSTable[4PP420.1043-B5d]" />
+  <Symbol Name="Source[local].KSTable[5AP1120.1043-000]" Index="1073741824" Type="KSTable" RefString="Source[local].KSTable[5AP1120.1043-000]" />
   <Symbol Name="Source[local].Page[P1_Main_BagMachine].Layer[Default].Control[Shape_2]" Index="1073741824" Type="CTRL" RefString="Source[local].Page[P1_Main_BagMachine].Layer[Default].Control[Shape_2]" />
   <Symbol Name="Source[local].Page[P1_Main_BagMachine].Layer[Default].Control[Bitmap_1]" Index="1073741825" Type="CTRL" RefString="Source[local].Page[P1_Main_BagMachine].Layer[Default].Control[Bitmap_1]" />
   <Symbol Name="Source[local].Page[P1_Main_BagMachine].Layer[Default].Control[Shape_1]" Index="1073741826" Type="CTRL" RefString="Source[local].Page[P1_Main_BagMachine].Layer[Default].Control[Shape_1]" />

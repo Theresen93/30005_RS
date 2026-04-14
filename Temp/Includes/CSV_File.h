@@ -1,5 +1,6 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
+/* CSV_File 2.01.7 */
 
 #ifndef _CSV_FILE_
 #define _CSV_FILE_
@@ -7,10 +8,16 @@
 extern "C" 
 {
 #endif
+#ifndef _CSV_File_VERSION
+#define _CSV_File_VERSION 2.01.7
+#endif
 
 #include <bur/plctypes.h>
 
-#ifdef _SG4
+#ifndef _BUR_PUBLIC
+#define _BUR_PUBLIC
+#endif
+#ifdef _SG3
 		#include "Runtime.h"
 		#include "AsMath.h"
 		#include "asstring.h"
@@ -20,7 +27,7 @@ extern "C"
 		#include "standard.h"
 		#include "sys_lib.h"
 #endif
-#ifdef _SG3
+#ifdef _SG4
 		#include "Runtime.h"
 		#include "AsMath.h"
 		#include "asstring.h"
@@ -39,7 +46,8 @@ extern "C"
 		#include "AsMem.h"
 		#include "standard.h"
 		#include "sys_lib.h"
-#endif
+#endif
+
 
 /* Constants */
 #ifdef _REPLACE_CONST
@@ -81,9 +89,6 @@ extern "C"
  #define NO_FILENAME 5001U
  #define NO_HEADER 0
 #else
- #ifndef _GLOBAL_CONST
-   #define _GLOBAL_CONST _WEAK const
- #endif
  _GLOBAL_CONST unsigned short ARRAY_TO_LESS;
  _GLOBAL_CONST unsigned short DATATYP_ERROR;
  _GLOBAL_CONST unsigned short ERRF_NO_ERROR;
@@ -582,15 +587,15 @@ typedef struct CSV_WriteFile
 
 
 /* Prototyping of functions and function blocks */
-void CSV_CheckFile(struct CSV_CheckFile* inst);
-void CSV_InitCheckFile(struct CSV_InitCheckFile* inst);
-void CSV_Search(struct CSV_Search* inst);
-void CSV_Init(struct CSV_Init* inst);
-void CSV_ListFile(struct CSV_ListFile* inst);
-void SearchFileName(struct SearchFileName* inst);
-void CSV_ReadFile(struct CSV_ReadFile* inst);
-void ExListFile(struct ExListFile* inst);
-void CSV_WriteFile(struct CSV_WriteFile* inst);
+_BUR_PUBLIC void CSV_CheckFile(struct CSV_CheckFile* inst);
+_BUR_PUBLIC void CSV_InitCheckFile(struct CSV_InitCheckFile* inst);
+_BUR_PUBLIC void CSV_Search(struct CSV_Search* inst);
+_BUR_PUBLIC void CSV_Init(struct CSV_Init* inst);
+_BUR_PUBLIC void CSV_ListFile(struct CSV_ListFile* inst);
+_BUR_PUBLIC void SearchFileName(struct SearchFileName* inst);
+_BUR_PUBLIC void CSV_ReadFile(struct CSV_ReadFile* inst);
+_BUR_PUBLIC void ExListFile(struct ExListFile* inst);
+_BUR_PUBLIC void CSV_WriteFile(struct CSV_WriteFile* inst);
 
 
 #ifdef __cplusplus

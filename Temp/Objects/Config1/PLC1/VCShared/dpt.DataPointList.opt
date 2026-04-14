@@ -1,6 +1,6 @@
 <BuildOptions>
   <BuildOption>
-    <SourceFile Value="B:\Holweg\RX_Systems_RS15_30005\AS_3090\Rev_1\RS15_RX_30005_r1\Physical\Config1\PLC1\Cpu.sw" />
+    <SourceFile Value="C:/HolwegWeber/Holweg/RS15_RX_30005_r00/Physical/Config1/PLC1/Cpu.sw" />
     <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
     <Xml>
       <Task Name="GlobProgCa" Source="BagMachine_Section.GlobProgCalc.prg" />

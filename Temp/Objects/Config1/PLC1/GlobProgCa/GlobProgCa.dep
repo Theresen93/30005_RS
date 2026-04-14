@@ -1,5 +1,5 @@
+$(AS_PROJECT_PATH)/Logical/Global.var
 $(AS_PROJECT_PATH)/Logical/BagMachine_Section/GlobProgCalc/GlobProgCalc.var
+$(AS_PROJECT_PATH)/Logical/Global.typ
 $(AS_PROJECT_PATH)/Logical/Cycles/GenCycles.var
 $(AS_PROJECT_PATH)/Logical/Cycles/GenCycles.typ
-$(AS_PROJECT_PATH)/Logical/Global.var
-$(AS_PROJECT_PATH)/Logical/Global.typ

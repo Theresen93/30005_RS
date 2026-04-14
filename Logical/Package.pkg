@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=3.0.90.22 SP04?>
+<?AutomationStudio Version=4.2.14.119 SP?>
 <Package xmlns="http://br-automation.co.at/AS/Package">
   <Objects>
     <Object Type="Program" Language="IEC" Description="A new program">Information</Object>
@@ -11,5 +11,7 @@
     <Object Type="Package" Description="HMI Related Code">HMI</Object>
     <Object Type="Package">BagMachine_Section</Object>
     <Object Type="Package">SupervisoryControl_Section</Object>
+    <Object Type="DataObject" Language="Apt">Config1_SL1_SS1_IF2_ST2_M1</Object>
+    <Object Type="DataObject" Language="Apt">Config1_SL1_SS1_IF2_ST10_SS2</Object>
   </Objects>
 </Package>

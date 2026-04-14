@@ -759,7 +759,7 @@
       </Folder>
       <Folder Name="0x00001007" TargetIndex="4103">
         <Object Name="Gray.Output" ClsId="0x411" Version="1" TargetIndex="Source[local].StyleGroup[0x00001007].StyleClass[Output]" Type="SC" RefString="Source[local].StyleGroup[0x00001007].StyleClass[Gray.Output]">
-          <UInt16 Name="Size">80</UInt16>
+          <UInt16 Name="Size">84</UInt16>
           <UInt16 Name="ControlVersion">1</UInt16>
           <Reference Name="Border" Type="BRD">Source[local].Border[Sunken]</Reference>
           <UInt32 Name="StatusDatapoint">4294967295</UInt32>
@@ -793,9 +793,12 @@
           <UInt32 Name="AddFractionDigitsDatapoint">4294967295</UInt32>
           <UInt32 Name="ColorMap">4294967295</UInt32>
           <UInt32 Name="ColorMapIndexOffset">0</UInt32>
+          <Byte Name="MinMaxViolation">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
         </Object>
         <Object Name="Gray.Input" ClsId="0x411" Version="1" TargetIndex="Source[local].StyleGroup[0x00001007].StyleClass[Input]" Type="SC" RefString="Source[local].StyleGroup[0x00001007].StyleClass[Gray.Input]">
-          <UInt16 Name="Size">80</UInt16>
+          <UInt16 Name="Size">84</UInt16>
           <UInt16 Name="ControlVersion">1</UInt16>
           <Reference Name="Border" Type="BRD">Source[local].Border[Sunken]</Reference>
           <UInt32 Name="StatusDatapoint">4294967295</UInt32>
@@ -829,9 +832,12 @@
           <UInt32 Name="AddFractionDigitsDatapoint">4294967295</UInt32>
           <UInt32 Name="ColorMap">4294967295</UInt32>
           <UInt32 Name="ColorMapIndexOffset">0</UInt32>
+          <Byte Name="MinMaxViolation">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
         </Object>
         <Object Name="Gray.OutputFrameless" ClsId="0x411" Version="1" TargetIndex="Source[local].StyleGroup[0x00001007].StyleClass[OutputFrameless]" Type="SC" RefString="Source[local].StyleGroup[0x00001007].StyleClass[Gray.OutputFrameless]">
-          <UInt16 Name="Size">80</UInt16>
+          <UInt16 Name="Size">84</UInt16>
           <UInt16 Name="ControlVersion">1</UInt16>
           <Reference Name="Border" Type="BRD">Source[local].Border[Flat_grey]</Reference>
           <UInt32 Name="StatusDatapoint">4294967295</UInt32>
@@ -865,6 +871,9 @@
           <UInt32 Name="AddFractionDigitsDatapoint">4294967295</UInt32>
           <UInt32 Name="ColorMap">4294967295</UInt32>
           <UInt32 Name="ColorMapIndexOffset">0</UInt32>
+          <Byte Name="MinMaxViolation">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
         </Object>
       </Folder>
       <Folder Name="0x00001008" TargetIndex="4104">
@@ -1200,7 +1209,7 @@
           <Byte Name="InputNext">1</Byte>
           <Byte Name="Reserved">0</Byte>
           <Byte Name="AlignmentHorizontal">0</Byte>
-          <Byte Name="Reserved">0</Byte>
+          <Byte Name="AlignmentVertical">4</Byte>
           <UInt16 Name="Reserved">0</UInt16>
           <UInt16 Name="SpacingHorizontal">0</UInt16>
           <UInt16 Name="SpacingVertical">0</UInt16>
@@ -1329,7 +1338,7 @@
           <Byte Name="InputNext">1</Byte>
           <Byte Name="Reserved">0</Byte>
           <Byte Name="AlignmentHorizontal">0</Byte>
-          <Byte Name="Reserved">0</Byte>
+          <Byte Name="AlignmentVertical">4</Byte>
           <UInt16 Name="Reserved">0</UInt16>
           <UInt16 Name="SpacingHorizontal">0</UInt16>
           <UInt16 Name="SpacingVertical">0</UInt16>
@@ -1655,7 +1664,7 @@
       </Folder>
       <Folder Name="0x00001015" TargetIndex="4117">
         <Object Name="Gray.TrendGrid" ClsId="0x411" Version="1" TargetIndex="Source[local].StyleGroup[0x00001015].StyleClass[TrendGrid]" Type="SC" RefString="Source[local].StyleGroup[0x00001015].StyleClass[Gray.TrendGrid]">
-          <UInt16 Name="Size">32</UInt16>
+          <UInt16 Name="Size">34</UInt16>
           <UInt16 Name="ControlVersion">1</UInt16>
           <UInt32 Name="ForeColor">0</UInt32>
           <UInt32 Name="BackColor">252</UInt32>
@@ -1665,6 +1674,8 @@
           <UInt32 Name="StatusDatapoint">4294967295</UInt32>
           <UInt32 Name="ColorMap">4294967295</UInt32>
           <UInt32 Name="ColorMapIndexOffset">0</UInt32>
+          <Byte Name="GridMode">2</Byte>
+          <Byte Name="Reserved">0</Byte>
         </Object>
       </Folder>
       <Folder Name="0x00001016" TargetIndex="4118">

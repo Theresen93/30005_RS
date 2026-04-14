@@ -3,6 +3,16 @@
   <Property Name="VCPDAR00" Value="False" />
   <Property Name="VCWXPRT" Value="False" />
   <Module>
+    <Property Name="Name" Value="AsHW.br" />
+    <Property Name="Version" Value="Core" />
+    <Property Name="Platform" Value="" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vcpfmtcx.br" />
+    <Property Name="Version" Value="Core" />
+    <Property Name="Platform" Value="" />
+  </Module>
+  <Module>
     <Property Name="Name" Value="FileIO.br" />
     <Property Name="Version" Value="Core" />
     <Property Name="Platform" Value="" />
@@ -113,11 +123,6 @@
     <Property Name="Platform" Value="Platform.x86.Generic" />
   </Module>
   <Module>
-    <Property Name="Name" Value="vcpdvnc.br" />
-    <Property Name="Version" Value="Core" />
-    <Property Name="Platform" Value="Platform.x86.Generic" />
-  </Module>
-  <Module>
     <Property Name="Name" Value="vctcal.br" />
     <Property Name="Version" Value="Core" />
     <Property Name="Platform" Value="Platform.x86.Generic" />
@@ -133,22 +138,37 @@
     <Property Name="Platform" Value="Platform.x86.Generic" />
   </Module>
   <Module>
-    <Property Name="Name" Value="vcpfpp30.br" />
+    <Property Name="Name" Value="vcpdvnc.br" />
     <Property Name="Version" Value="Core" />
     <Property Name="Platform" Value="Platform.x86.Generic" />
   </Module>
   <Module>
-    <Property Name="Name" Value="vcpfmtcx.br" />
-    <Property Name="Version" Value="Core" />
-    <Property Name="Platform" Value="Platform.x86.Generic" />
-  </Module>
-  <Module>
-    <Property Name="Name" Value="vcpdpp30.br" />
+    <Property Name="Name" Value="vcpdi815.br" />
     <Property Name="Version" Value="Core" />
     <Property Name="Platform" Value="Platform.x86.Generic" />
   </Module>
   <Module>
     <Property Name="Name" Value="vcptelo.br" />
+    <Property Name="Version" Value="Core" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vcpfar10.br" />
+    <Property Name="Version" Value="Core" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vcpdi855.br" />
+    <Property Name="Version" Value="Core" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vcpfapc.br" />
+    <Property Name="Version" Value="Core" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vcpdihd.br" />
     <Property Name="Version" Value="Core" />
     <Property Name="Platform" Value="Platform.x86.Generic" />
   </Module>

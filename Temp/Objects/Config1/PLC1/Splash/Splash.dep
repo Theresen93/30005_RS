@@ -1,4 +1,4 @@
 $(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/Visapi/Visapi.fun
-$(AS_PROJECT_PATH)/Logical/Global.var
 $(AS_PROJECT_PATH)/Logical/HMI/Splash/Splash.var
+$(AS_PROJECT_PATH)/Logical/Global.var

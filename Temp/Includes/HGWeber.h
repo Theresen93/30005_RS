@@ -1,5 +1,6 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
+/* HGWeber 1.00.1 */
 
 #ifndef _HGWEBER_
 #define _HGWEBER_
@@ -7,9 +8,15 @@
 extern "C" 
 {
 #endif
+#ifndef _HGWeber_VERSION
+#define _HGWeber_VERSION 1.00.1
+#endif
 
 #include <bur/plctypes.h>
 
+#ifndef _BUR_PUBLIC
+#define _BUR_PUBLIC
+#endif
 /* Datatypes and datatypes of function blocks */
 typedef struct HGW_2StatePB
 {
@@ -528,31 +535,31 @@ typedef struct H_FB_RelativeChangeLimitReal1
 
 
 /* Prototyping of functions and function blocks */
-void HGW_2StatePB(struct HGW_2StatePB* inst);
-void HGW_3StatePB(struct HGW_3StatePB* inst);
-void HGW_4StatePB(struct HGW_4StatePB* inst);
-void HGW_2StateIND(struct HGW_2StateIND* inst);
-void HGW_3StateIND(struct HGW_3StateIND* inst);
-void HGW_3StateIND1(struct HGW_3StateIND1* inst);
-void HGW_4StateIND(struct HGW_4StateIND* inst);
-void HGW_Toggle(struct HGW_Toggle* inst);
-void HGW_2StepMove(struct HGW_2StepMove* inst);
-void HGW_ChangeReal(struct HGW_ChangeReal* inst);
-void HGW_ScaleReal(struct HGW_ScaleReal* inst);
-void HGW_RelativeChangeReal(struct HGW_RelativeChangeReal* inst);
-void HGW_Average(struct HGW_Average* inst);
-void HGW_RegCorrectABS(struct HGW_RegCorrectABS* inst);
-void HGW_KeyRepeat(struct HGW_KeyRepeat* inst);
-void HGW_2StateIND1(struct HGW_2StateIND1* inst);
-void HGW_2StepMove1(struct HGW_2StepMove1* inst);
-void H_FB_2StepMove(struct H_FB_2StepMove* inst);
-void H_FB_ToggleTB(struct H_FB_ToggleTB* inst);
-void H_FB_WatchSensor(struct H_FB_WatchSensor* inst);
-void H_FB_Flash(struct H_FB_Flash* inst);
-void H_FB_RelativeChangeLimitReal(struct H_FB_RelativeChangeLimitReal* inst);
-void H_FB_RelativeChangeLimitReal1(struct H_FB_RelativeChangeLimitReal1* inst);
-float H_FC_Modulus_V0(float IN_rMod, float IN_rVar);
-float H_FC_Modulus(float IN_rMod, float IN_rVar);
+_BUR_PUBLIC void HGW_2StatePB(struct HGW_2StatePB* inst);
+_BUR_PUBLIC void HGW_3StatePB(struct HGW_3StatePB* inst);
+_BUR_PUBLIC void HGW_4StatePB(struct HGW_4StatePB* inst);
+_BUR_PUBLIC void HGW_2StateIND(struct HGW_2StateIND* inst);
+_BUR_PUBLIC void HGW_3StateIND(struct HGW_3StateIND* inst);
+_BUR_PUBLIC void HGW_3StateIND1(struct HGW_3StateIND1* inst);
+_BUR_PUBLIC void HGW_4StateIND(struct HGW_4StateIND* inst);
+_BUR_PUBLIC void HGW_Toggle(struct HGW_Toggle* inst);
+_BUR_PUBLIC void HGW_2StepMove(struct HGW_2StepMove* inst);
+_BUR_PUBLIC void HGW_ChangeReal(struct HGW_ChangeReal* inst);
+_BUR_PUBLIC void HGW_ScaleReal(struct HGW_ScaleReal* inst);
+_BUR_PUBLIC void HGW_RelativeChangeReal(struct HGW_RelativeChangeReal* inst);
+_BUR_PUBLIC void HGW_Average(struct HGW_Average* inst);
+_BUR_PUBLIC void HGW_RegCorrectABS(struct HGW_RegCorrectABS* inst);
+_BUR_PUBLIC void HGW_KeyRepeat(struct HGW_KeyRepeat* inst);
+_BUR_PUBLIC void HGW_2StateIND1(struct HGW_2StateIND1* inst);
+_BUR_PUBLIC void HGW_2StepMove1(struct HGW_2StepMove1* inst);
+_BUR_PUBLIC void H_FB_2StepMove(struct H_FB_2StepMove* inst);
+_BUR_PUBLIC void H_FB_ToggleTB(struct H_FB_ToggleTB* inst);
+_BUR_PUBLIC void H_FB_WatchSensor(struct H_FB_WatchSensor* inst);
+_BUR_PUBLIC void H_FB_Flash(struct H_FB_Flash* inst);
+_BUR_PUBLIC void H_FB_RelativeChangeLimitReal(struct H_FB_RelativeChangeLimitReal* inst);
+_BUR_PUBLIC void H_FB_RelativeChangeLimitReal1(struct H_FB_RelativeChangeLimitReal1* inst);
+_BUR_PUBLIC float H_FC_Modulus_V0(float IN_rMod, float IN_rVar);
+_BUR_PUBLIC float H_FC_Modulus(float IN_rMod, float IN_rVar);
 
 
 #ifdef __cplusplus

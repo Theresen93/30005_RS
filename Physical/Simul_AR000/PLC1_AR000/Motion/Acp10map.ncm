@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=3.0.80.31 SP01?>
+<?AutomationStudio Version=?>
 <NcMapping NcSwId="acp10">
   <NcObject Name="Axis9" ModuleAddress="SDC_IF1.ST1" InterfaceType="SDC" Type="ncAXIS" Channel="1" InitParameter="A9_Init" AcoposParameter="A9_Par" Disabled="FALSE" ModuleDisabled="FALSE" />
   <NcObject Name="Axis15" ModuleAddress="SDC_IF1.ST2" InterfaceType="SDC" Type="ncAXIS" Channel="1" InitParameter="A15_Init" AcoposParameter="A15_Par" Disabled="FALSE" ModuleDisabled="FALSE" />

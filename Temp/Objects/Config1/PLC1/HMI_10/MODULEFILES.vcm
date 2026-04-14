@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <?AutomationStudio Version = "3.0"?>
 <VCFirmware>
+  <File Name="AsHW.br" />
+  <File Name="vcpfmtcx.br" />
   <File Name="vcresman.br" />
   <File Name="vccshape.br" />
   <File Name="vccbmp.br" />
@@ -22,14 +24,16 @@
   <File Name="vcgclass.br" />
   <File Name="visvc.br" />
   <File Name="vcnet.br" />
-  <File Name="vcpdvnc.br" />
   <File Name="vctcal.br" />
   <File Name="vcmgr.br" />
   <File Name="vcpdsw.br" />
-  <File Name="vcpfpp30.br" />
-  <File Name="vcpfmtcx.br" />
-  <File Name="vcpdpp30.br" />
+  <File Name="vcpdvnc.br" />
+  <File Name="vcpdi815.br" />
   <File Name="vcptelo.br" />
+  <File Name="vcpfar10.br" />
+  <File Name="vcpdi855.br" />
+  <File Name="vcpfapc.br" />
+  <File Name="vcpdihd.br" />
   <File Name="vcalarm.br" />
   <File Name="vcdsint.br" />
   <File Name="vcdsloc.br" />

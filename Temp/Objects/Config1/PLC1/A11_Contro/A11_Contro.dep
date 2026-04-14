@@ -2,5 +2,5 @@ $(AS_PROJECT_PATH)/Logical/Libraries/HGWeber/HGWeber.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/Runtime/runtime.fun
 $(AS_PROJECT_PATH)/Logical/Global.var
-$(AS_PROJECT_PATH)/Logical/Global.typ
 $(AS_PROJECT_PATH)/Logical/BagMachine_Section/Perf/Axis11_VirtualAxis/A11_Control/A11_Control.var
+$(AS_PROJECT_PATH)/Logical/Global.typ

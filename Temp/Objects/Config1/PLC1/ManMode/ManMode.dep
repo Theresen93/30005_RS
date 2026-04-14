@@ -1,4 +1,4 @@
 $(AS_PROJECT_PATH)/Logical/Libraries/HGWeber/HGWeber.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/Runtime/runtime.fun
-$(AS_PROJECT_PATH)/Logical/SupervisoryControl_Section/ManMode/ManMode.var
 $(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/SupervisoryControl_Section/ManMode/ManMode.var

@@ -1,27 +1,142 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=3.0.90.32 SP14?>
+<?AutomationStudio Version="4.10.6.39 SP"?>
 <LibraryInfos>
-  <Library Name="Acp10_MC" IsDeployed="true" IsStatic="false" />
-  <Library Name="Acp10man" IsDeployed="true" IsStatic="false" />
-  <Library Name="Acp10par" IsDeployed="true" IsStatic="false" />
-  <Library Name="Acp10sdc" IsDeployed="true" IsStatic="false" />
-  <Library Name="AsARCfg" IsDeployed="true" IsStatic="false" />
-  <Library Name="AsIOAcc" IsDeployed="true" IsStatic="false" />
-  <Library Name="AsMath" IsDeployed="true" IsStatic="false" />
-  <Library Name="AsMem" IsDeployed="true" IsStatic="false" />
-  <Library Name="asstring" IsDeployed="true" IsStatic="false" />
-  <Library Name="astime" IsDeployed="true" IsStatic="false" />
-  <Library Name="Brsystem" IsDeployed="true" IsStatic="false" />
-  <Library Name="Convert" IsDeployed="false" IsStatic="false" />
-  <Library Name="CSV_File" IsDeployed="true" IsStatic="false" />
-  <Library Name="FileIO" IsDeployed="true" IsStatic="false" />
-  <Library Name="HGWeber" IsDeployed="true" IsStatic="false" />
-  <Library Name="LoopConR" IsDeployed="true" IsStatic="false" />
-  <Library Name="NcGlobal" IsDeployed="true" IsStatic="false" />
-  <Library Name="Operator" IsDeployed="false" IsStatic="false" />
-  <Library Name="powerlnk" IsDeployed="true" IsStatic="false" />
-  <Library Name="Runtime" IsDeployed="true" IsStatic="false" />
-  <Library Name="standard" IsDeployed="true" IsStatic="false" />
-  <Library Name="sys_lib" IsDeployed="true" IsStatic="false" />
-  <Library Name="Visapi" IsDeployed="true" IsStatic="false" />
+  <Library
+    Name="Acp10_MC"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="5.24.1" />
+  <Library
+    Name="Acp10man"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="5.24.1" />
+  <Library
+    Name="Acp10par"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="5.24.1" />
+  <Library
+    Name="Acp10sdc"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="5.24.1" />
+  <Library
+    Name="AsARCfg"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="AsIOAcc"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="AsMath"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="AsMem"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="asstring"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="astime"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="Brsystem"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="Convert"
+    IsDeployed="false"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="CSV_File"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="2.01.7" />
+  <Library
+    Name="FileIO"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="HGWeber"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="1.00.1" />
+  <Library
+    Name="LoopConR"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="2.80.0" />
+  <Library
+    Name="NcGlobal"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="5.24.1" />
+  <Library
+    Name="Operator"
+    IsDeployed="false"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="powerlnk"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="Runtime"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="standard"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="sys_lib"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="Visapi"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
 </LibraryInfos>

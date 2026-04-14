@@ -2,6 +2,6 @@ $(AS_PROJECT_PATH)/Logical/Libraries/HGWeber/HGWeber.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
 $(AS_PROJECT_PATH)/Logical/BagMachine_Section/Perf/Axis1/A1_Cycle/A1_Cycle.var
 $(AS_PROJECT_PATH)/Logical/Cycles/GenCycles.var
-$(AS_PROJECT_PATH)/Logical/Cycles/GenCycles.typ
 $(AS_PROJECT_PATH)/Logical/Global.var
 $(AS_PROJECT_PATH)/Logical/Global.typ
+$(AS_PROJECT_PATH)/Logical/Cycles/GenCycles.typ

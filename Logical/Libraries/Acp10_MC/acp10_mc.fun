@@ -2234,6 +2234,7 @@ FUNCTION_BLOCK MC_BR_Offset (*adds an offset to the position of the slave axis*)
 		LockIDPar : USINT; (*internal variable*)
 		Factor : UDINT; (*internal variable*)
 		RtN : REAL; (*internal variable*)
+		C_StartShiftValue : DINT; (*internal variable*)
 		VarIndex : UINT; (*internal variable*)
 		MpgenIndex : UINT; (*internal variable*)
 		C_MpgenStatus : USINT; (*internal variable*)
@@ -2399,6 +2400,7 @@ FUNCTION_BLOCK MC_BR_Phasing (*causes a phase shift in the master position of th
 		LockIDPar : USINT; (*internal variable*)
 		Factor : UDINT; (*internal variable*)
 		RtN : REAL; (*internal variable*)
+		C_StartShiftValue : DINT; (*internal variable*)
 		VarIndex : UINT; (*internal variable*)
 		MpgenIndex : UINT; (*internal variable*)
 		C_MpgenStatus : USINT; (*internal variable*)
@@ -3426,6 +3428,7 @@ FUNCTION_BLOCK MC_Home (*starts the homing movement of an axis according to the 
 		state : USINT; (*internal variable*)
 		MoveID : USINT; (*internal variable*)
 		CC_Position : REAL; (*internal variable*)
+		C_StatusFlags : UDINT; (*internal variable*)
 	END_VAR
 END_FUNCTION_BLOCK
 

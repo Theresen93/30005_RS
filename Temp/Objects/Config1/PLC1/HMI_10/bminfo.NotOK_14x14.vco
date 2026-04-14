@@ -12,7 +12,7 @@
         <UInt16 Name="Reserved">0</UInt16>
         <Int32 Name="TransparentColor">0</Int32>
         <Int32 Name="FillAreas">0</Int32>
-        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAhSURBVDhPYwCC/2Rihv9AkiQ8qhEPHtWIB1OukXTM8B8ArmFSvLV3k+4AAAAASUVORK5CYII=</Binary>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAgSURBVDhPY2BgYPhPJmb4/59EPKoRDx7ViAdTrpEcDACuYVK8GR6yAgAAAABJRU5ErkJggg==</Binary>
       </Object>
     </Folder>
   </Folder>

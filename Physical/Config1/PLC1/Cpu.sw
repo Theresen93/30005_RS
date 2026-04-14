@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=3.0.90.32 SP14?>
+<?AutomationStudio Version=4.2.14.119 SP?>
 <SwConfiguration CpuAddress="SL0" xmlns="http://br-automation.co.at/AS/SwConfiguration">
   <TaskClass Name="Cyclic#1">
     <Task Name="GlobProgCa" Source="BagMachine_Section.GlobProgCalc.prg" Memory="UserROM" Language="IEC" Debugging="true" />
@@ -170,6 +170,8 @@
     <NcDataObject Name="Error_Engl" Source="" Memory="UserROM" Language="Binary" />
     <NcDataObject Name="A0_Init1" Source="" Memory="UserROM" Language="Binary" />
     <NcDataObject Name="A0_Par1" Source="" Memory="UserROM" Language="Binary" />
+    <NcDataObject Name="Config1_SL" Source="Config1_SL1_SS1_IF2_ST2_M1.dob" Memory="UserROM" Language="Apt" />
+    <NcDataObject Name="Config1_S1" Source="Config1_SL1_SS1_IF2_ST10_SS2.dob" Memory="UserROM" Language="Apt" />
   </NcDataObjects>
   <VcDataObjects>
     <VcDataObject Name="HMI_10" Source="HMI.HMI_10.dob" Memory="UserROM" Language="Vc" WarningLevel="2" Compress="false" />

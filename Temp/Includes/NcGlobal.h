@@ -1,14 +1,5 @@
-/****************************************************************************
-*                    B & R   P O S I T I O N I N G                          *
-*****************************************************************************
-*                                                                           *
-*            Header File for Library NCGLOBAL (Version 3182)                * 
-*                                                                           *
-**************************** COPYRIGHT (C) **********************************
-*     THIS SOFTWARE IS THE PROPERTY OF B&R AUSTRIA: ALL RIGHTS RESERVED.    *
-*     NO PART OF THIS SOFTWARE MAY BE USED OR COPIED IN ANY WAY WITHOUT     *
-*              THE PRIOR WRITTEN PERMISSION OF B&R AUSTRIA.                 *
-****************************************************************************/
+/* ncglobal.h V5.24.1 */ 
+/* COPYRIGHT (C) B&R Industrial Automation GmbH */ 
 
 /* Automation Studio generated header file */
 /* Do not edit ! */
@@ -138,6 +129,7 @@
  #define FB_MC_BR_WriteLoadSimOutputData 132U
  #define FB_MC_BR_WriteLoadSimPosition 143U
  #define FB_MC_BR_WriteLoadSimTorque 144U
+ #define FB_MC_BR_WriteLoadSimTwoEncPos 149U
  #define FB_MC_BR_WriteParID 22U
  #define FB_MC_BR_WriteParIDText 91U
  #define FB_MC_CamIn 23U
@@ -183,6 +175,7 @@
  #define nc157CAN 9U
  #define nc158CAN 7U
  #define nc20KHZ 0U
+ #define nc2ENCOD_SPEED 5U
  #define ncA_LIMIT 20U
  #define ncA_MOVE 10U
  #define ncABORT_DATA 8U
@@ -203,8 +196,10 @@
  #define ncACOPOS_SIM 129U
  #define ncACOPOSmicro 7U
  #define ncACOPOSmotor 4U
+ #define ncACOPOSmotor_C 18U
  #define ncACOPOSmulti 5U
  #define ncACOPOSmulti_PPS 6U
+ #define ncACOPOSmulti3 9U
  #define ncACOPOSmulti65 8U
  #define ncACOPOSmulti65m 4U
  #define ncACOPOSremote 8U
@@ -269,6 +264,9 @@
  #define ncCAN_IF 0U
  #define ncCLOSED 1U
  #define ncCMD_ERROR 281U
+ #define ncCMD_ERROR_A2_STOP 7U
+ #define ncCMD_ERROR_A2_STOP_CTRL_OFF 8U
+ #define ncCMD_ERROR_A2_V_STOP_CTRL_OFF 9U
  #define ncCMD_ERROR_COAST_TO_STANDSTILL 5U
  #define ncCMD_ERROR_INDUCTION_HALT 6U
  #define ncCMD_ERROR_ONLY 1U
@@ -352,9 +350,11 @@
  #define ncEND_SWITCH 4U
  #define ncENDAT 4U
  #define ncENDAT_SafeMOTION 14U
+ #define ncENDAT3 16U
  #define ncENGLISH 1U
  #define ncENTRY 4U
  #define ncEPROM 2U
+ #define ncERR_A2 60U
  #define ncERR_CL0 215U
  #define ncERROR 1U
  #define ncETEL 2U
@@ -373,6 +373,7 @@
  #define ncFILE 3U
  #define ncFILE_XL 1U
  #define ncFILEOFFSET 0U
+ #define ncFINISH 282U
  #define ncFIXRAM 5U
  #define ncFORCE 288U
  #define ncFORMAT_ADR 0U
@@ -411,6 +412,7 @@
  #define ncHIPERFACE 8U
  #define ncHIPERFACE_DSL 13U
  #define ncHOME_OFFSET 5U
+ #define ncHOME_OFFSET_INTERNAL 11U
  #define ncHOMING 106U
  #define ncHORIZONTAL 0U
  #define ncHW_END 4096U
@@ -467,8 +469,10 @@
  #define ncLOW_PASS 1U
  #define ncM_GRP_TAB 126U
  #define ncM1_STOP 203U
+ #define ncMA_IV_SL_ABS 41U
  #define ncMA_LATCHPOS 32U
  #define ncMA_S_START_I32 2048U
+ #define ncMA_SL_ABS 40U
  #define ncMA_TO_SL 16384U
  #define ncMA_V_COMP 32768U
  #define ncMAGNESCALE 12U
@@ -495,6 +499,8 @@
  #define ncMM 0U
  #define ncMOD_DIR 128U
  #define ncMOD_SYNC 303U
+ #define ncMODEL_1MASS 4U
+ #define ncMODEL_2MASS 3U
  #define ncMODULE 3U
  #define ncMOTOR 140U
  #define ncMOTOR_INDUCTION 141U
@@ -502,6 +508,7 @@
  #define ncMOTOR_PHASING 143U
  #define ncMOTOR_SYNCHRON 142U
  #define ncMOTPH_DITHER 32U
+ #define ncMOTPH_DITHER2 35U
  #define ncMOTPH_SATURATION 30U
  #define ncMOTPH_SET_OFFSET 34U
  #define ncMOTPH_STEPPER 31U
@@ -527,6 +534,7 @@
  #define ncNET_TRACE 404U
  #define ncNETWORK 403U
  #define ncNO_CHECK 30U
+ #define ncNO_NET_TRACE 32768U
  #define ncNOFEED 64U
  #define ncNOSTOP 16U
  #define ncNOTCH 2U
@@ -574,7 +582,9 @@
  #define ncPAR_TYP_UINT 6U
  #define ncPAR_TYP_USINT 5U
  #define ncPAR_TYP_VOID 65535U
+ #define ncPAR_TYP_VOID_NO_NET_TRACE 65534U
  #define ncPARID_TRACE 10U
+ #define ncPASSIVE 4U
  #define ncPATH 386U
  #define ncPATHDISTANCE 0U
  #define ncPI_PRED 0U
@@ -597,6 +607,7 @@
  #define ncQUADRATIC 2U
  #define ncQUADRATIC_NO_OVERSHOOT 4U
  #define ncQUICKSTOP 2U
+ #define ncQUICKSTOP_T_JOLT 2U
  #define ncR_PAR 23U
  #define ncR_PARAM 211U
  #define ncR_PARTAB 210U
@@ -643,7 +654,9 @@
  #define ncSERCOSIF 310U
  #define ncSERVICE 165U
  #define ncSET 264U
+ #define ncSET_GEN_ONLY 1024U
  #define ncSETUP 16384U
+ #define ncSETUP_MOVE_T_JOLT 16U
  #define ncSHORT_PATH 1U
  #define ncSIG_LINE 110U
  #define ncSIGNAL 4U
@@ -656,7 +669,9 @@
  #define ncSIGNAL4 94U
  #define ncSIM_1MASS 1U
  #define ncSIM_1MASS_AUTO 0U
+ #define ncSIM_1MASS_GEAR 3U
  #define ncSIM_2MASS 2U
+ #define ncSIM_2MASS_GEAR 4U
  #define ncSIM_START 127U
  #define ncSIMULAT 150U
  #define ncSIMULATION 150U
@@ -695,6 +710,7 @@
  #define ncSTEP_INTO 221U
  #define ncSTEP_OVER 220U
  #define ncSTOP 261U
+ #define ncSTOP_HOMING 255U
  #define ncSW_END 1U
  #define ncSW_OFF 259U
  #define ncSW_ON 258U
@@ -706,6 +722,7 @@
  #define ncSYSROM 0U
  #define ncT_FILTER 64U
  #define ncT_FILTER_2 65U
+ #define ncT_FORMAT 15U
  #define ncT_JOLT 1U
  #define ncT_TOTAL 128U
  #define ncTANGENT 2U
@@ -746,6 +763,10 @@
  #define ncTRIGGPOS 112U
  #define ncTRQ_LIMIT 30U
  #define ncTRUE 1U
+ #define ncTUNE_FBCTRL_MODEL_1MASS 12288U
+ #define ncTUNE_FBCTRL_MODEL_2MASS 8192U
+ #define ncTUNE_MODEL_2MASS 32768U
+ #define ncTUNE_MODEL_FRICTION 8192U
  #define ncTUNE_STANDSTILL 0U
  #define ncTUNE_TN 16U
  #define ncTUNE_V_CONSTANT 1U
@@ -794,8 +815,10 @@
  #define SafeMC_action_GET_CFG_PTR 1U
  #define SafeMC_action_READ_SAFEIN_DATA 3U
  #define SafeMC_action_READ_SAFEIN_DATA2 5U
+ #define SafeMC_action_READ_SAFEIN_DATA3 7U
  #define SafeMC_action_READ_SAFEOUT_DATA 2U
  #define SafeMC_action_READ_SAFEOUT_DATA2 4U
+ #define SafeMC_action_READ_SAFEOUT_DATA3 6U
 #else
  _IEC_CONST unsigned short BASIS2005 = 1U;
  _IEC_CONST unsigned short FAST_BOOT = 16384U;
@@ -911,6 +934,7 @@
  _IEC_CONST unsigned short FB_MC_BR_WriteLoadSimOutputData = 132U;
  _IEC_CONST unsigned short FB_MC_BR_WriteLoadSimPosition = 143U;
  _IEC_CONST unsigned short FB_MC_BR_WriteLoadSimTorque = 144U;
+ _IEC_CONST unsigned short FB_MC_BR_WriteLoadSimTwoEncPos = 149U;
  _IEC_CONST unsigned short FB_MC_BR_WriteParID = 22U;
  _IEC_CONST unsigned short FB_MC_BR_WriteParIDText = 91U;
  _IEC_CONST unsigned short FB_MC_CamIn = 23U;
@@ -956,6 +980,7 @@
  _IEC_CONST unsigned short nc157CAN = 9U;
  _IEC_CONST unsigned short nc158CAN = 7U;
  _IEC_CONST unsigned char nc20KHZ = 0U;
+ _IEC_CONST unsigned short nc2ENCOD_SPEED = 5U;
  _IEC_CONST unsigned char ncA_LIMIT = 20U;
  _IEC_CONST unsigned char ncA_MOVE = 10U;
  _IEC_CONST unsigned char ncABORT_DATA = 8U;
@@ -976,8 +1001,10 @@
  _IEC_CONST unsigned char ncACOPOS_SIM = 129U;
  _IEC_CONST unsigned char ncACOPOSmicro = 7U;
  _IEC_CONST unsigned char ncACOPOSmotor = 4U;
+ _IEC_CONST unsigned char ncACOPOSmotor_C = 18U;
  _IEC_CONST unsigned char ncACOPOSmulti = 5U;
  _IEC_CONST unsigned char ncACOPOSmulti_PPS = 6U;
+ _IEC_CONST unsigned char ncACOPOSmulti3 = 9U;
  _IEC_CONST unsigned char ncACOPOSmulti65 = 8U;
  _IEC_CONST unsigned char ncACOPOSmulti65m = 4U;
  _IEC_CONST unsigned char ncACOPOSremote = 8U;
@@ -1042,6 +1069,9 @@
  _IEC_CONST unsigned short ncCAN_IF = 0U;
  _IEC_CONST unsigned char ncCLOSED = 1U;
  _IEC_CONST unsigned short ncCMD_ERROR = 281U;
+ _IEC_CONST unsigned short ncCMD_ERROR_A2_STOP = 7U;
+ _IEC_CONST unsigned short ncCMD_ERROR_A2_STOP_CTRL_OFF = 8U;
+ _IEC_CONST unsigned short ncCMD_ERROR_A2_V_STOP_CTRL_OFF = 9U;
  _IEC_CONST unsigned short ncCMD_ERROR_COAST_TO_STANDSTILL = 5U;
  _IEC_CONST unsigned short ncCMD_ERROR_INDUCTION_HALT = 6U;
  _IEC_CONST unsigned short ncCMD_ERROR_ONLY = 1U;
@@ -1125,9 +1155,11 @@
  _IEC_CONST unsigned char ncEND_SWITCH = 4U;
  _IEC_CONST unsigned char ncENDAT = 4U;
  _IEC_CONST unsigned char ncENDAT_SafeMOTION = 14U;
+ _IEC_CONST unsigned char ncENDAT3 = 16U;
  _IEC_CONST unsigned short ncENGLISH = 1U;
  _IEC_CONST unsigned char ncENTRY = 4U;
  _IEC_CONST unsigned char ncEPROM = 2U;
+ _IEC_CONST unsigned char ncERR_A2 = 60U;
  _IEC_CONST unsigned short ncERR_CL0 = 215U;
  _IEC_CONST unsigned short ncERROR = 1U;
  _IEC_CONST unsigned char ncETEL = 2U;
@@ -1146,6 +1178,7 @@
  _IEC_CONST unsigned char ncFILE = 3U;
  _IEC_CONST unsigned char ncFILE_XL = 1U;
  _IEC_CONST unsigned char ncFILEOFFSET = 0U;
+ _IEC_CONST unsigned short ncFINISH = 282U;
  _IEC_CONST unsigned char ncFIXRAM = 5U;
  _IEC_CONST unsigned short ncFORCE = 288U;
  _IEC_CONST unsigned short ncFORMAT_ADR = 0U;
@@ -1184,6 +1217,7 @@
  _IEC_CONST unsigned char ncHIPERFACE = 8U;
  _IEC_CONST unsigned char ncHIPERFACE_DSL = 13U;
  _IEC_CONST unsigned char ncHOME_OFFSET = 5U;
+ _IEC_CONST unsigned char ncHOME_OFFSET_INTERNAL = 11U;
  _IEC_CONST unsigned short ncHOMING = 106U;
  _IEC_CONST unsigned char ncHORIZONTAL = 0U;
  _IEC_CONST unsigned short ncHW_END = 4096U;
@@ -1240,8 +1274,10 @@
  _IEC_CONST unsigned short ncLOW_PASS = 1U;
  _IEC_CONST unsigned short ncM_GRP_TAB = 126U;
  _IEC_CONST unsigned short ncM1_STOP = 203U;
+ _IEC_CONST unsigned char ncMA_IV_SL_ABS = 41U;
  _IEC_CONST unsigned char ncMA_LATCHPOS = 32U;
  _IEC_CONST unsigned short ncMA_S_START_I32 = 2048U;
+ _IEC_CONST unsigned char ncMA_SL_ABS = 40U;
  _IEC_CONST unsigned short ncMA_TO_SL = 16384U;
  _IEC_CONST unsigned short ncMA_V_COMP = 32768U;
  _IEC_CONST unsigned char ncMAGNESCALE = 12U;
@@ -1268,6 +1304,8 @@
  _IEC_CONST unsigned char ncMM = 0U;
  _IEC_CONST unsigned char ncMOD_DIR = 128U;
  _IEC_CONST unsigned short ncMOD_SYNC = 303U;
+ _IEC_CONST unsigned short ncMODEL_1MASS = 4U;
+ _IEC_CONST unsigned short ncMODEL_2MASS = 3U;
  _IEC_CONST unsigned short ncMODULE = 3U;
  _IEC_CONST unsigned short ncMOTOR = 140U;
  _IEC_CONST unsigned short ncMOTOR_INDUCTION = 141U;
@@ -1275,6 +1313,7 @@
  _IEC_CONST unsigned short ncMOTOR_PHASING = 143U;
  _IEC_CONST unsigned short ncMOTOR_SYNCHRON = 142U;
  _IEC_CONST unsigned short ncMOTPH_DITHER = 32U;
+ _IEC_CONST unsigned short ncMOTPH_DITHER2 = 35U;
  _IEC_CONST unsigned short ncMOTPH_SATURATION = 30U;
  _IEC_CONST unsigned short ncMOTPH_SET_OFFSET = 34U;
  _IEC_CONST unsigned short ncMOTPH_STEPPER = 31U;
@@ -1300,6 +1339,7 @@
  _IEC_CONST unsigned short ncNET_TRACE = 404U;
  _IEC_CONST unsigned short ncNETWORK = 403U;
  _IEC_CONST unsigned char ncNO_CHECK = 30U;
+ _IEC_CONST unsigned short ncNO_NET_TRACE = 32768U;
  _IEC_CONST unsigned char ncNOFEED = 64U;
  _IEC_CONST unsigned char ncNOSTOP = 16U;
  _IEC_CONST unsigned short ncNOTCH = 2U;
@@ -1347,7 +1387,9 @@
  _IEC_CONST unsigned short ncPAR_TYP_UINT = 6U;
  _IEC_CONST unsigned short ncPAR_TYP_USINT = 5U;
  _IEC_CONST unsigned short ncPAR_TYP_VOID = 65535U;
+ _IEC_CONST unsigned short ncPAR_TYP_VOID_NO_NET_TRACE = 65534U;
  _IEC_CONST unsigned short ncPARID_TRACE = 10U;
+ _IEC_CONST unsigned short ncPASSIVE = 4U;
  _IEC_CONST unsigned short ncPATH = 386U;
  _IEC_CONST unsigned char ncPATHDISTANCE = 0U;
  _IEC_CONST unsigned char ncPI_PRED = 0U;
@@ -1370,6 +1412,7 @@
  _IEC_CONST unsigned char ncQUADRATIC = 2U;
  _IEC_CONST unsigned char ncQUADRATIC_NO_OVERSHOOT = 4U;
  _IEC_CONST unsigned char ncQUICKSTOP = 2U;
+ _IEC_CONST unsigned char ncQUICKSTOP_T_JOLT = 2U;
  _IEC_CONST unsigned char ncR_PAR = 23U;
  _IEC_CONST unsigned short ncR_PARAM = 211U;
  _IEC_CONST unsigned short ncR_PARTAB = 210U;
@@ -1416,7 +1459,9 @@
  _IEC_CONST unsigned short ncSERCOSIF = 310U;
  _IEC_CONST unsigned short ncSERVICE = 165U;
  _IEC_CONST unsigned short ncSET = 264U;
+ _IEC_CONST unsigned short ncSET_GEN_ONLY = 1024U;
  _IEC_CONST unsigned short ncSETUP = 16384U;
+ _IEC_CONST unsigned short ncSETUP_MOVE_T_JOLT = 16U;
  _IEC_CONST unsigned char ncSHORT_PATH = 1U;
  _IEC_CONST unsigned short ncSIG_LINE = 110U;
  _IEC_CONST unsigned char ncSIGNAL = 4U;
@@ -1429,7 +1474,9 @@
  _IEC_CONST unsigned char ncSIGNAL4 = 94U;
  _IEC_CONST unsigned short ncSIM_1MASS = 1U;
  _IEC_CONST unsigned short ncSIM_1MASS_AUTO = 0U;
+ _IEC_CONST unsigned short ncSIM_1MASS_GEAR = 3U;
  _IEC_CONST unsigned short ncSIM_2MASS = 2U;
+ _IEC_CONST unsigned short ncSIM_2MASS_GEAR = 4U;
  _IEC_CONST unsigned char ncSIM_START = 127U;
  _IEC_CONST unsigned short ncSIMULAT = 150U;
  _IEC_CONST unsigned short ncSIMULATION = 150U;
@@ -1468,6 +1515,7 @@
  _IEC_CONST unsigned char ncSTEP_INTO = 221U;
  _IEC_CONST unsigned char ncSTEP_OVER = 220U;
  _IEC_CONST unsigned short ncSTOP = 261U;
+ _IEC_CONST unsigned char ncSTOP_HOMING = 255U;
  _IEC_CONST unsigned char ncSW_END = 1U;
  _IEC_CONST unsigned short ncSW_OFF = 259U;
  _IEC_CONST unsigned short ncSW_ON = 258U;
@@ -1479,6 +1527,7 @@
  _IEC_CONST unsigned char ncSYSROM = 0U;
  _IEC_CONST unsigned short ncT_FILTER = 64U;
  _IEC_CONST unsigned short ncT_FILTER_2 = 65U;
+ _IEC_CONST unsigned char ncT_FORMAT = 15U;
  _IEC_CONST unsigned char ncT_JOLT = 1U;
  _IEC_CONST unsigned char ncT_TOTAL = 128U;
  _IEC_CONST unsigned char ncTANGENT = 2U;
@@ -1519,6 +1568,10 @@
  _IEC_CONST unsigned short ncTRIGGPOS = 112U;
  _IEC_CONST unsigned char ncTRQ_LIMIT = 30U;
  _IEC_CONST unsigned char ncTRUE = 1U;
+ _IEC_CONST unsigned short ncTUNE_FBCTRL_MODEL_1MASS = 12288U;
+ _IEC_CONST unsigned short ncTUNE_FBCTRL_MODEL_2MASS = 8192U;
+ _IEC_CONST unsigned short ncTUNE_MODEL_2MASS = 32768U;
+ _IEC_CONST unsigned short ncTUNE_MODEL_FRICTION = 8192U;
  _IEC_CONST unsigned char ncTUNE_STANDSTILL = 0U;
  _IEC_CONST unsigned short ncTUNE_TN = 16U;
  _IEC_CONST unsigned char ncTUNE_V_CONSTANT = 1U;
@@ -1567,8 +1620,10 @@
  _IEC_CONST unsigned long SafeMC_action_GET_CFG_PTR = 1U;
  _IEC_CONST unsigned long SafeMC_action_READ_SAFEIN_DATA = 3U;
  _IEC_CONST unsigned long SafeMC_action_READ_SAFEIN_DATA2 = 5U;
+ _IEC_CONST unsigned long SafeMC_action_READ_SAFEIN_DATA3 = 7U;
  _IEC_CONST unsigned long SafeMC_action_READ_SAFEOUT_DATA = 2U;
  _IEC_CONST unsigned long SafeMC_action_READ_SAFEOUT_DATA2 = 4U;
+ _IEC_CONST unsigned long SafeMC_action_READ_SAFEOUT_DATA3 = 6U;
 #endif
 
 

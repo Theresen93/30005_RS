@@ -233,7 +233,7 @@
             <UInt32 Name="Bottom">479</UInt32>
             <UInt16 Name="KeyMatrixOffset">65535</UInt16>
             <UInt16 Name="Reserved">0</UInt16>
-            <UInt32 Name="VirtualKey">4294967295</UInt32>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[HMI_Calibrate_PB]</Reference>
             <UInt32 Name="ControlID">0</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001003].StyleClass[HotSpot]</Reference>
             <UInt16 Name="StyleTableSize">4</UInt16>
